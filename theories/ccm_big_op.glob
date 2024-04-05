@@ -1,0 +1,1914 @@
+DIGEST 47652a404ae4feda4ea4475f9f1f0e6d
+Fflows.ccm_big_op
+R50:58 stdpp.functions <> <> lib
+R60:63 stdpp.gmap <> <> lib
+R65:73 stdpp.gmultiset <> <> lib
+R91:99 flows.ccm <> <> lib
+def 141:151 <> ccm_big_opL
+R155:157 flows.ccm <> CCM class
+binder 159:159 <> M:1
+binder 155:159 <> H:2
+binder 163:163 <> A:3
+R174:178 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R171:173 Coq.Init.Datatypes <> nat ind
+R180:184 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R179:179 flows.ccm_big_op <> A:3 var
+R185:185 flows.ccm_big_op <> M:1 var
+binder 167:167 <> f:4
+R194:197 Coq.Init.Datatypes <> list ind
+R199:199 flows.ccm_big_op <> A:3 var
+binder 189:190 <> xs:5
+R204:204 flows.ccm_big_op <> M:1 var
+R217:218 flows.ccm_big_op <> xs:5 var
+R229:230 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R235:242 flows.ccm <> ccm_unit meth
+R249:252 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R259:264 flows.ccm <> ccm_op meth
+R275:285 flows.ccm_big_op <> ccm_big_opL:6 def
+R303:304 flows.ccm_big_op <> xs:5 var
+R288:290 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R292:293 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+binder 291:291 <> n:8
+R294:294 flows.ccm_big_op <> f:4 var
+R297:297 Coq.Init.Datatypes <> S constr
+R299:299 flows.ccm_big_op <> n:8 var
+R267:267 flows.ccm_big_op <> f:4 var
+R331:336 Coq.Classes.Morphisms <> Params class
+R340:350 flows.ccm_big_op <> ccm_big_opL def
+R379:389 flows.ccm_big_op <> ccm_big_opL def
+R379:389 flows.ccm_big_op <> ccm_big_opL def
+R499:509 flows.ccm_big_op <> ccm_big_opL def
+R512:514 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R518:519 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+binder 515:515 <> k:9
+binder 517:517 <> x:10
+not 460:460 <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x
+R700:710 flows.ccm_big_op <> ccm_big_opL def
+R713:715 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R719:720 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+binder 718:718 <> x:11
+not 667:667 <> ::stdpp_scope:'[^'_'+'_'list]'_x_'∈'_x_','_x
+def 865:879 <> ccm_big_opS_def
+R883:885 flows.ccm <> CCM class
+binder 887:887 <> M:12
+binder 883:887 <> H:13
+R892:900 stdpp.countable <> Countable class
+binder 902:902 <> A:14
+binder 892:902 <> H0:16
+R911:915 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R910:910 flows.ccm_big_op <> A:14 var
+R916:916 flows.ccm_big_op <> M:12 var
+binder 906:906 <> f:17
+R926:929 stdpp.gmap <> gset def
+R931:931 flows.ccm_big_op <> A:14 var
+binder 922:922 <> X:18
+R936:936 flows.ccm_big_op <> M:12 var
+R941:951 flows.ccm_big_op <> ccm_big_opL def
+R964:971 stdpp.base <> elements def
+R973:973 flows.ccm_big_op <> X:18 var
+R954:956 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R958:959 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R960:960 flows.ccm_big_op <> f:17 var
+def 988:1002 <> ccm_big_opS_aux
+R1006:1009 stdpp.base <> seal rec
+R1013:1027 flows.ccm_big_op <> ccm_big_opS_def def
+def 1066:1076 <> ccm_big_opS
+R1098:1103 stdpp.base <> unseal proj
+R1081:1095 flows.ccm_big_op <> ccm_big_opS_aux def
+R1124:1134 flows.ccm_big_op <> ccm_big_opS def
+R1124:1134 flows.ccm_big_op <> ccm_big_opS def
+def 1166:1179 <> ccm_big_opS_eq
+R1195:1197 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1184:1194 flows.ccm_big_op <> ccm_big_opS def
+R1199:1213 flows.ccm_big_op <> ccm_big_opS_def def
+R1235:1241 stdpp.base <> seal_eq proj
+R1218:1232 flows.ccm_big_op <> ccm_big_opS_aux def
+R1262:1267 Coq.Classes.Morphisms <> Params class
+R1271:1281 flows.ccm_big_op <> ccm_big_opS def
+R1334:1344 flows.ccm_big_op <> ccm_big_opS def
+R1347:1349 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R1351:1352 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+binder 1350:1350 <> x:19
+not 1302:1302 <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x
+sec 1524:1533 <> ccm_big_op
+R1546:1548 flows.ccm <> CCM class
+binder 1550:1550 <> M:20
+binder 1546:1550 <> H:21
+R1574:1577 Coq.Init.Datatypes <> list ind
+R1579:1579 flows.ccm_big_op <> ccm_big_op.M var
+sec 1642:1645 ccm_big_op list
+binder 1659:1659 <> A:22
+R1691:1694 Coq.Init.Datatypes <> list ind
+R1696:1696 flows.ccm_big_op <> ccm_big_op.list.A var
+R1725:1729 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R1722:1724 Coq.Init.Datatypes <> nat ind
+R1731:1735 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R1730:1730 flows.ccm_big_op <> ccm_big_op.list.A var
+R1736:1736 flows.ccm_big_op <> ccm_big_op.M var
+prf 1748:1762 <> ccm_big_opL_nil
+binder 1764:1764 <> f:23
+R1768:1768 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1798:1801 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1769:1778 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R1780:1782 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R1784:1788 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R1791:1792 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+binder 1779:1779 <> k:24
+binder 1783:1783 <> y:25
+R1793:1793 flows.ccm_big_op <> f:23 var
+R1795:1795 flows.ccm_big_op <> k:24 var
+R1797:1797 flows.ccm_big_op <> y:25 var
+R1789:1790 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R1802:1809 flows.ccm <> ccm_unit meth
+prf 1840:1855 <> ccm_big_opL_cons
+binder 1857:1857 <> f:26
+binder 1859:1859 <> x:27
+binder 1861:1861 <> l:28
+R1869:1869 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1903:1906 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1870:1879 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R1881:1883 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R1885:1889 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R1896:1897 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+binder 1880:1880 <> k:29
+binder 1884:1884 <> y:30
+R1898:1898 flows.ccm_big_op <> f:26 var
+R1900:1900 flows.ccm_big_op <> k:29 var
+R1902:1902 flows.ccm_big_op <> y:30 var
+R1891:1894 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1890:1890 flows.ccm_big_op <> x:27 var
+R1895:1895 flows.ccm_big_op <> l:28 var
+R1912:1914 flows.ccm <> ::ccm_scope:x_'+'_x not
+R1907:1907 flows.ccm_big_op <> f:26 var
+R1911:1911 flows.ccm_big_op <> x:27 var
+R1915:1924 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R1926:1928 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R1930:1934 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R1936:1937 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+binder 1925:1925 <> k:31
+binder 1929:1929 <> y:32
+R1938:1938 flows.ccm_big_op <> f:26 var
+R1941:1941 Coq.Init.Datatypes <> S constr
+R1943:1943 flows.ccm_big_op <> k:31 var
+R1946:1946 flows.ccm_big_op <> y:32 var
+R1935:1935 flows.ccm_big_op <> l:28 var
+prf 1977:1997 <> ccm_big_opL_singleton
+binder 1999:1999 <> f:33
+binder 2001:2001 <> x:34
+R2005:2005 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2036:2039 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2006:2015 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R2017:2019 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R2021:2025 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R2029:2030 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+binder 2016:2016 <> k:35
+binder 2020:2020 <> y:36
+R2031:2031 flows.ccm_big_op <> f:33 var
+R2033:2033 flows.ccm_big_op <> k:35 var
+R2035:2035 flows.ccm_big_op <> y:36 var
+R2026:2026 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R2028:2028 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R2027:2027 flows.ccm_big_op <> x:34 var
+R2040:2040 flows.ccm_big_op <> f:33 var
+R2048:2048 flows.ccm_big_op <> x:34 var
+R2067:2077 flows.ccm_big_op <> ccm_big_opL def
+R2086:2097 flows.ccm <> ccm_right_id thm
+R2086:2097 flows.ccm <> ccm_right_id thm
+prf 2113:2127 <> ccm_big_opL_app
+binder 2129:2129 <> f:37
+binder 2131:2132 <> l1:38
+binder 2134:2135 <> l2:39
+R2143:2143 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2179:2186 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2144:2153 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R2155:2157 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R2159:2163 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R2172:2173 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+binder 2154:2154 <> k:40
+binder 2158:2158 <> y:41
+R2174:2174 flows.ccm_big_op <> f:37 var
+R2176:2176 flows.ccm_big_op <> k:40 var
+R2178:2178 flows.ccm_big_op <> y:41 var
+R2166:2169 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R2164:2165 flows.ccm_big_op <> l1:38 var
+R2170:2171 flows.ccm_big_op <> l2:39 var
+R2187:2187 flows.ccm <> ::ccm_scope:x_'+'_x not
+R2217:2221 flows.ccm <> ::ccm_scope:x_'+'_x not
+R2269:2269 flows.ccm <> ::ccm_scope:x_'+'_x not
+R2188:2197 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R2199:2201 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R2203:2207 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R2210:2211 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+binder 2198:2198 <> k:42
+binder 2202:2202 <> y:43
+R2212:2212 flows.ccm_big_op <> f:37 var
+R2214:2214 flows.ccm_big_op <> k:42 var
+R2216:2216 flows.ccm_big_op <> y:43 var
+R2208:2209 flows.ccm_big_op <> l1:38 var
+R2222:2231 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R2233:2235 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R2237:2241 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R2244:2245 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+binder 2232:2232 <> k:44
+binder 2236:2236 <> y:45
+R2246:2246 flows.ccm_big_op <> f:37 var
+R2258:2260 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R2249:2254 stdpp.base <> length abbrev
+R2256:2257 flows.ccm_big_op <> l1:38 var
+R2261:2261 flows.ccm_big_op <> k:44 var
+R2268:2268 flows.ccm_big_op <> y:45 var
+R2242:2243 flows.ccm_big_op <> l2:39 var
+R2347:2357 flows.ccm <> ccm_left_id meth
+R2347:2357 flows.ccm <> ccm_left_id meth
+R2347:2357 flows.ccm <> ccm_left_id meth
+R2382:2390 flows.ccm <> ccm_assoc meth
+R2382:2390 flows.ccm <> ccm_assoc meth
+prf 2408:2423 <> ccm_big_opL_snoc
+binder 2425:2425 <> f:46
+binder 2427:2427 <> l:47
+binder 2429:2429 <> x:48
+R2437:2437 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2473:2476 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2438:2447 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R2449:2451 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R2453:2457 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R2466:2467 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+binder 2448:2448 <> k:49
+binder 2452:2452 <> y:50
+R2468:2468 flows.ccm_big_op <> f:46 var
+R2470:2470 flows.ccm_big_op <> k:49 var
+R2472:2472 flows.ccm_big_op <> y:50 var
+R2459:2462 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R2458:2458 flows.ccm_big_op <> l:47 var
+R2463:2463 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R2465:2465 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R2464:2464 flows.ccm_big_op <> x:48 var
+R2477:2477 flows.ccm <> ::ccm_scope:x_'+'_x not
+R2506:2509 flows.ccm <> ::ccm_scope:x_'+'_x not
+R2478:2487 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R2489:2491 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R2493:2497 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R2499:2500 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+binder 2488:2488 <> k:51
+binder 2492:2492 <> y:52
+R2501:2501 flows.ccm_big_op <> f:46 var
+R2503:2503 flows.ccm_big_op <> k:51 var
+R2505:2505 flows.ccm_big_op <> y:52 var
+R2498:2498 flows.ccm_big_op <> l:47 var
+R2510:2510 flows.ccm_big_op <> f:46 var
+R2513:2518 stdpp.base <> length abbrev
+R2520:2520 flows.ccm_big_op <> l:47 var
+R2523:2523 flows.ccm_big_op <> x:48 var
+R2546:2560 flows.ccm_big_op <> ccm_big_opL_app thm
+R2562:2582 flows.ccm_big_op <> ccm_big_opL_singleton thm
+R2584:2594 Coq.Numbers.Natural.Peano.NPeano Nat add_0_r thm
+R2546:2560 flows.ccm_big_op <> ccm_big_opL_app thm
+R2546:2560 flows.ccm_big_op <> ccm_big_opL_app thm
+R2562:2582 flows.ccm_big_op <> ccm_big_opL_singleton thm
+R2562:2582 flows.ccm_big_op <> ccm_big_opL_singleton thm
+R2584:2594 Coq.Numbers.Natural.Peano.NPeano Nat add_0_r thm
+R2584:2594 Coq.Numbers.Natural.Peano.NPeano Nat add_0_r thm
+prf 2611:2626 <> ccm_big_opL_unit
+binder 2628:2628 <> l:53
+R2632:2632 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2657:2660 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2633:2642 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R2644:2646 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R2648:2652 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R2654:2655 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+binder 2643:2643 <> k:54
+binder 2647:2647 <> y:55
+R2653:2653 flows.ccm_big_op <> l:53 var
+R2698:2708 flows.ccm <> ccm_left_id meth
+R2698:2708 flows.ccm <> ccm_left_id meth
+R2698:2708 flows.ccm <> ccm_left_id meth
+R2698:2708 flows.ccm <> ccm_left_id meth
+R2698:2708 flows.ccm <> ccm_left_id meth
+R2738:2748 flows.ccm <> ccm_left_id meth
+R2738:2748 flows.ccm <> ccm_left_id meth
+prf 2770:2790 <> ccm_big_opL_take_drop
+binder 2792:2793 <> Φ:56
+binder 2795:2795 <> l:57
+binder 2797:2797 <> n:58
+R2805:2805 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2837:2844 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2806:2815 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R2817:2821 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R2823:2827 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R2829:2830 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+binder 2816:2816 <> k:59
+binder 2822:2822 <> x:60
+R2831:2832 flows.ccm_big_op <> Φ:56 var
+R2834:2834 flows.ccm_big_op <> k:59 var
+R2836:2836 flows.ccm_big_op <> x:60 var
+R2828:2828 flows.ccm_big_op <> l:57 var
+R2845:2845 flows.ccm <> ::ccm_scope:x_'+'_x not
+R2884:2888 flows.ccm <> ::ccm_scope:x_'+'_x not
+R2933:2933 flows.ccm <> ::ccm_scope:x_'+'_x not
+R2846:2855 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R2857:2861 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R2863:2867 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R2876:2877 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+binder 2856:2856 <> k:61
+binder 2862:2862 <> x:62
+R2878:2879 flows.ccm_big_op <> Φ:56 var
+R2881:2881 flows.ccm_big_op <> k:61 var
+R2883:2883 flows.ccm_big_op <> x:62 var
+R2868:2871 stdpp.list <> take abbrev
+R2875:2875 flows.ccm_big_op <> l:57 var
+R2873:2873 flows.ccm_big_op <> n:58 var
+R2889:2898 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R2900:2904 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R2906:2910 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R2919:2920 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+binder 2899:2899 <> k:63
+binder 2905:2905 <> x:64
+R2921:2922 flows.ccm_big_op <> Φ:56 var
+R2926:2928 flows.ccm <> ::ccm_scope:x_'+'_x not
+R2925:2925 flows.ccm_big_op <> n:58 var
+R2929:2929 flows.ccm_big_op <> k:63 var
+R2932:2932 flows.ccm_big_op <> x:64 var
+R2911:2914 stdpp.list <> drop abbrev
+R2918:2918 flows.ccm_big_op <> l:57 var
+R2916:2916 flows.ccm_big_op <> n:58 var
+R2962:2970 stdpp.list <> take_drop def
+R2977:2991 flows.ccm_big_op <> ccm_big_opL_app thm
+R2993:3003 stdpp.list <> take_length thm
+R2962:2970 stdpp.list <> take_drop def
+R2962:2970 stdpp.list <> take_drop def
+R2977:2991 flows.ccm_big_op <> ccm_big_opL_app thm
+R2977:2991 flows.ccm_big_op <> ccm_big_opL_app thm
+R2993:3003 stdpp.list <> take_length thm
+R2993:3003 stdpp.list <> take_length thm
+R3020:3025 stdpp.base <> decide def
+R3036:3040 Coq.Unicode.Utf8 <> :::x_'≤'_x not
+R3028:3033 stdpp.base <> length abbrev
+R3020:3025 stdpp.base <> decide def
+R3036:3040 Coq.Unicode.Utf8 <> :::x_'≤'_x not
+R3028:3033 stdpp.base <> length abbrev
+R3060:3066 stdpp.list <> drop_ge thm
+R3060:3066 stdpp.list <> drop_ge thm
+R3060:3066 stdpp.list <> drop_ge thm
+R3087:3095 Coq.Numbers.Natural.Peano.NPeano Nat min_l thm
+R3087:3095 Coq.Numbers.Natural.Peano.NPeano Nat min_l thm
+R3087:3095 Coq.Numbers.Natural.Peano.NPeano Nat min_l thm
+prf 3125:3148 <> ccm_big_opL_gen_proper_2
+binder 3151:3151 <> B:65
+R3159:3166 Coq.Relations.Relation_Definitions <> relation def
+R3168:3168 flows.ccm_big_op <> ccm_big_op.M var
+binder 3155:3155 <> R:66
+binder 3171:3171 <> f:67
+R3181:3185 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R3178:3180 Coq.Init.Datatypes <> nat ind
+R3187:3191 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R3186:3186 flows.ccm_big_op <> B:65 var
+R3192:3192 flows.ccm_big_op <> ccm_big_op.M var
+binder 3174:3174 <> g:68
+binder 3203:3204 <> l1:69
+R3212:3215 Coq.Init.Datatypes <> list ind
+R3217:3217 flows.ccm_big_op <> B:65 var
+binder 3207:3208 <> l2:70
+R3245:3253 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R3226:3226 flows.ccm_big_op <> R:66 var
+R3228:3235 flows.ccm <> ccm_unit meth
+R3237:3244 flows.ccm <> ccm_unit meth
+R3283:3291 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R3254:3259 Coq.Classes.Morphisms <> Proper class
+R3277:3282 flows.ccm <> ccm_op meth
+R3263:3267 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R3262:3262 flows.ccm_big_op <> R:66 var
+R3269:3273 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R3268:3268 flows.ccm_big_op <> R:66 var
+R3274:3274 flows.ccm_big_op <> R:66 var
+R3292:3292 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R3440:3449 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R3293:3296 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R3298:3305 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+binder 3297:3297 <> k:71
+R3323:3326 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R3327:3327 flows.ccm_big_op <> k:71 var
+R3321:3322 flows.ccm_big_op <> l2:70 var
+R3314:3317 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R3318:3318 flows.ccm_big_op <> k:71 var
+R3312:3313 flows.ccm_big_op <> l1:69 var
+R3342:3345 Coq.Init.Datatypes <> Some constr
+R3351:3354 Coq.Init.Datatypes <> Some constr
+R3362:3362 flows.ccm_big_op <> R:66 var
+R3365:3365 flows.ccm_big_op <> f:67 var
+R3367:3367 flows.ccm_big_op <> k:71 var
+R3374:3374 flows.ccm_big_op <> g:68 var
+R3376:3376 flows.ccm_big_op <> k:71 var
+R3390:3393 Coq.Init.Datatypes <> None constr
+R3396:3399 Coq.Init.Datatypes <> None constr
+R3404:3407 stdpp.base <> ::type_scope:'True' not
+R3425:3429 stdpp.base <> ::type_scope:'False' not
+R3450:3450 flows.ccm_big_op <> R:66 var
+R3453:3462 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R3464:3468 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R3470:3474 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R3477:3478 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+binder 3463:3463 <> k:72
+binder 3469:3469 <> y:73
+R3479:3479 flows.ccm_big_op <> f:67 var
+R3481:3481 flows.ccm_big_op <> k:72 var
+R3483:3483 flows.ccm_big_op <> y:73 var
+R3475:3476 flows.ccm_big_op <> l1:69 var
+R3487:3496 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R3498:3502 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R3504:3508 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R3511:3512 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+binder 3497:3497 <> k:74
+binder 3503:3503 <> y:75
+R3513:3513 flows.ccm_big_op <> g:68 var
+R3517:3517 flows.ccm_big_op <> y:75 var
+R3515:3515 flows.ccm_big_op <> k:74 var
+R3509:3510 flows.ccm_big_op <> l2:70 var
+R3778:3778 Coq.Init.Datatypes <> S constr
+R3778:3778 Coq.Init.Datatypes <> S constr
+prf 3800:3821 <> ccm_big_opL_gen_proper
+binder 3823:3823 <> R:76
+binder 3825:3825 <> f:77
+binder 3827:3827 <> g:78
+binder 3829:3829 <> l:79
+R3848:3856 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R3837:3845 Coq.Classes.RelationClasses <> Reflexive class
+R3847:3847 flows.ccm_big_op <> R:76 var
+R3886:3894 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R3857:3862 Coq.Classes.Morphisms <> Proper class
+R3880:3885 flows.ccm <> ccm_op meth
+R3866:3870 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R3865:3865 flows.ccm_big_op <> R:76 var
+R3872:3876 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R3871:3871 flows.ccm_big_op <> R:76 var
+R3877:3877 flows.ccm_big_op <> R:76 var
+R3895:3895 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R3942:3951 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R3896:3899 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R3903:3904 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+binder 3900:3900 <> k:80
+binder 3902:3902 <> y:81
+R3920:3924 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R3911:3913 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3906:3909 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R3910:3910 flows.ccm_big_op <> k:80 var
+R3905:3905 flows.ccm_big_op <> l:79 var
+R3914:3917 Coq.Init.Datatypes <> Some constr
+R3919:3919 flows.ccm_big_op <> y:81 var
+R3925:3925 flows.ccm_big_op <> R:76 var
+R3928:3928 flows.ccm_big_op <> f:77 var
+R3930:3930 flows.ccm_big_op <> k:80 var
+R3932:3932 flows.ccm_big_op <> y:81 var
+R3936:3936 flows.ccm_big_op <> g:78 var
+R3938:3938 flows.ccm_big_op <> k:80 var
+R3940:3940 flows.ccm_big_op <> y:81 var
+R3952:3952 flows.ccm_big_op <> R:76 var
+R3955:3964 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R3966:3970 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R3972:3976 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R3978:3979 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+binder 3965:3965 <> k:82
+binder 3971:3971 <> y:83
+R3980:3980 flows.ccm_big_op <> f:77 var
+R3982:3982 flows.ccm_big_op <> k:82 var
+R3984:3984 flows.ccm_big_op <> y:83 var
+R3977:3977 flows.ccm_big_op <> l:79 var
+R3988:3997 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R3999:4003 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R4005:4009 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R4011:4012 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+binder 3998:3998 <> k:84
+binder 4004:4004 <> y:85
+R4013:4013 flows.ccm_big_op <> g:78 var
+R4015:4015 flows.ccm_big_op <> k:84 var
+R4017:4017 flows.ccm_big_op <> y:85 var
+R4010:4010 flows.ccm_big_op <> l:79 var
+R4048:4071 flows.ccm_big_op <> ccm_big_opL_gen_proper_2 thm
+R4048:4071 flows.ccm_big_op <> ccm_big_opL_gen_proper_2 thm
+R4110:4113 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R4110:4113 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+prf 4148:4162 <> ccm_big_opL_ext
+binder 4164:4164 <> f:86
+binder 4166:4166 <> g:87
+binder 4168:4168 <> l:88
+R4176:4176 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R4219:4228 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R4177:4180 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R4184:4185 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+binder 4181:4181 <> k:89
+binder 4183:4183 <> y:90
+R4201:4205 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R4192:4194 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4187:4190 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R4191:4191 flows.ccm_big_op <> k:89 var
+R4186:4186 flows.ccm_big_op <> l:88 var
+R4195:4198 Coq.Init.Datatypes <> Some constr
+R4200:4200 flows.ccm_big_op <> y:90 var
+R4211:4213 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4206:4206 flows.ccm_big_op <> f:86 var
+R4208:4208 flows.ccm_big_op <> k:89 var
+R4210:4210 flows.ccm_big_op <> y:90 var
+R4214:4214 flows.ccm_big_op <> g:87 var
+R4216:4216 flows.ccm_big_op <> k:89 var
+R4218:4218 flows.ccm_big_op <> y:90 var
+R4229:4229 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4260:4263 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4230:4239 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R4241:4245 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R4247:4251 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R4253:4254 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+binder 4240:4240 <> k:91
+binder 4246:4246 <> y:92
+R4255:4255 flows.ccm_big_op <> f:86 var
+R4257:4257 flows.ccm_big_op <> k:91 var
+R4259:4259 flows.ccm_big_op <> y:92 var
+R4252:4252 flows.ccm_big_op <> l:88 var
+R4264:4273 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R4275:4279 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R4281:4285 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R4287:4288 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+binder 4274:4274 <> k:93
+binder 4280:4280 <> y:94
+R4289:4289 flows.ccm_big_op <> g:87 var
+R4291:4291 flows.ccm_big_op <> k:93 var
+R4293:4293 flows.ccm_big_op <> y:94 var
+R4286:4286 flows.ccm_big_op <> l:88 var
+R4311:4332 flows.ccm_big_op <> ccm_big_opL_gen_proper thm
+R4311:4332 flows.ccm_big_op <> ccm_big_opL_gen_proper thm
+prf 4360:4382 <> ccm_big_opL_permutation
+R4390:4394 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R4389:4389 flows.ccm_big_op <> ccm_big_op.list.A var
+R4395:4395 flows.ccm_big_op <> ccm_big_op.M var
+binder 4385:4385 <> f:95
+binder 4398:4399 <> l1:96
+binder 4401:4402 <> l2:97
+R4422:4426 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R4412:4419 stdpp.list <> ::stdpp_scope:x_'≡ₚ'_x not
+R4410:4411 flows.ccm_big_op <> l1:96 var
+R4420:4421 flows.ccm_big_op <> l2:97 var
+R4427:4427 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4451:4455 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4479:4479 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4428:4437 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'∈'_x_','_x not
+R4439:4443 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'∈'_x_','_x not
+R4446:4447 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'∈'_x_','_x not
+binder 4438:4438 <> x:98
+R4448:4448 flows.ccm_big_op <> f:95 var
+R4450:4450 flows.ccm_big_op <> x:98 var
+R4444:4445 flows.ccm_big_op <> l1:96 var
+R4456:4465 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'∈'_x_','_x not
+R4467:4471 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'∈'_x_','_x not
+R4474:4475 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'∈'_x_','_x not
+binder 4466:4466 <> x:99
+R4476:4476 flows.ccm_big_op <> f:95 var
+R4478:4478 flows.ccm_big_op <> x:99 var
+R4472:4473 flows.ccm_big_op <> l2:97 var
+R4600:4604 stdpp.base <> assoc def
+R4607:4610 stdpp.base <> comm def
+R4600:4604 stdpp.base <> assoc def
+R4600:4604 stdpp.base <> assoc def
+R4600:4604 stdpp.base <> assoc def
+R4600:4604 stdpp.base <> assoc def
+R4607:4610 stdpp.base <> comm def
+R4607:4610 stdpp.base <> comm def
+inst 4665:4688 <> ccm_big_opL_permutation'
+R4696:4700 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R4695:4695 flows.ccm_big_op <> ccm_big_op.list.A var
+R4701:4701 flows.ccm_big_op <> ccm_big_op.M var
+binder 4691:4691 <> f:100
+R4710:4715 Coq.Classes.Morphisms <> Proper class
+R4737:4747 flows.ccm_big_op <> ccm_big_opL def
+R4750:4752 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R4754:4755 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R4756:4756 flows.ccm_big_op <> f:100 var
+R4726:4730 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R4718:4725 stdpp.list <> ::stdpp_scope:'(≡ₚ)' not
+R4731:4733 stdpp.base <> ::stdpp_scope:'(=)' not
+R4792:4814 flows.ccm_big_op <> ccm_big_opL_permutation thm
+R4792:4814 flows.ccm_big_op <> ccm_big_opL_permutation thm
+prf 4975:4992 <> ccm_big_opL_proper
+binder 4994:4994 <> f:101
+binder 4996:4996 <> g:102
+binder 4998:4998 <> l:103
+R5006:5006 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R5049:5058 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R5007:5010 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R5014:5015 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+binder 5011:5011 <> k:104
+binder 5013:5013 <> y:105
+R5031:5035 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R5022:5024 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5017:5020 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R5021:5021 flows.ccm_big_op <> k:104 var
+R5016:5016 flows.ccm_big_op <> l:103 var
+R5025:5028 Coq.Init.Datatypes <> Some constr
+R5030:5030 flows.ccm_big_op <> y:105 var
+R5041:5043 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5036:5036 flows.ccm_big_op <> f:101 var
+R5038:5038 flows.ccm_big_op <> k:104 var
+R5040:5040 flows.ccm_big_op <> y:105 var
+R5044:5044 flows.ccm_big_op <> g:102 var
+R5046:5046 flows.ccm_big_op <> k:104 var
+R5048:5048 flows.ccm_big_op <> y:105 var
+R5059:5059 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5090:5094 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5125:5125 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5060:5069 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R5071:5075 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R5077:5081 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R5083:5084 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+binder 5070:5070 <> k:106
+binder 5076:5076 <> y:107
+R5085:5085 flows.ccm_big_op <> f:101 var
+R5087:5087 flows.ccm_big_op <> k:106 var
+R5089:5089 flows.ccm_big_op <> y:107 var
+R5082:5082 flows.ccm_big_op <> l:103 var
+R5095:5104 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R5106:5110 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R5112:5116 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R5118:5119 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+binder 5105:5105 <> k:108
+binder 5111:5111 <> y:109
+R5120:5120 flows.ccm_big_op <> g:102 var
+R5122:5122 flows.ccm_big_op <> k:108 var
+R5124:5124 flows.ccm_big_op <> y:109 var
+R5117:5117 flows.ccm_big_op <> l:103 var
+R5143:5164 flows.ccm_big_op <> ccm_big_opL_gen_proper thm
+R5143:5164 flows.ccm_big_op <> ccm_big_opL_gen_proper thm
+prf 5190:5209 <> ccm_big_opL_proper_2
+binder 5211:5211 <> f:110
+binder 5213:5213 <> g:111
+binder 5215:5216 <> l1:112
+binder 5218:5219 <> l2:113
+R5234:5242 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R5229:5231 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5227:5228 flows.ccm_big_op <> l1:112 var
+R5232:5233 flows.ccm_big_op <> l2:113 var
+R5243:5243 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R5334:5343 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R5244:5247 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R5255:5262 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+binder 5248:5248 <> k:114
+binder 5250:5251 <> y1:115
+binder 5253:5254 <> y2:116
+R5280:5284 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R5270:5272 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5265:5268 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R5269:5269 flows.ccm_big_op <> k:114 var
+R5263:5264 flows.ccm_big_op <> l1:112 var
+R5273:5276 Coq.Init.Datatypes <> Some constr
+R5278:5279 flows.ccm_big_op <> y1:115 var
+R5302:5306 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R5292:5294 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5287:5290 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R5291:5291 flows.ccm_big_op <> k:114 var
+R5285:5286 flows.ccm_big_op <> l2:113 var
+R5295:5298 Coq.Init.Datatypes <> Some constr
+R5300:5301 flows.ccm_big_op <> y2:116 var
+R5314:5318 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R5309:5311 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5307:5308 flows.ccm_big_op <> y1:115 var
+R5312:5313 flows.ccm_big_op <> y2:116 var
+R5325:5327 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5319:5319 flows.ccm_big_op <> f:110 var
+R5321:5321 flows.ccm_big_op <> k:114 var
+R5323:5324 flows.ccm_big_op <> y1:115 var
+R5328:5328 flows.ccm_big_op <> g:111 var
+R5330:5330 flows.ccm_big_op <> k:114 var
+R5332:5333 flows.ccm_big_op <> y2:116 var
+R5344:5344 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5376:5380 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5412:5412 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5345:5354 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R5356:5360 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R5362:5366 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R5369:5370 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+binder 5355:5355 <> k:117
+binder 5361:5361 <> y:118
+R5371:5371 flows.ccm_big_op <> f:110 var
+R5373:5373 flows.ccm_big_op <> k:117 var
+R5375:5375 flows.ccm_big_op <> y:118 var
+R5367:5368 flows.ccm_big_op <> l1:112 var
+R5381:5390 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R5392:5396 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R5398:5402 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R5405:5406 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+binder 5391:5391 <> k:119
+binder 5397:5397 <> y:120
+R5407:5407 flows.ccm_big_op <> g:111 var
+R5409:5409 flows.ccm_big_op <> k:119 var
+R5411:5411 flows.ccm_big_op <> y:120 var
+R5403:5404 flows.ccm_big_op <> l2:113 var
+R5448:5471 flows.ccm_big_op <> ccm_big_opL_gen_proper_2 thm
+R5448:5471 flows.ccm_big_op <> ccm_big_opL_gen_proper_2 thm
+R5583:5585 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5578:5581 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R5588:5591 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R5583:5585 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5578:5581 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R5588:5591 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R5635:5638 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R5652:5655 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R5635:5638 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R5652:5655 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R5652:5655 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+inst 5721:5739 <> ccm_big_opL_proper'
+R5747:5752 Coq.Classes.Morphisms <> Proper class
+R5832:5842 flows.ccm_big_op <> ccm_big_opL def
+R5848:5848 flows.ccm_big_op <> ccm_big_op.list.A var
+R5802:5806 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R5755:5772 Coq.Classes.Morphisms <> pointwise_relation def
+R5777:5794 Coq.Classes.Morphisms <> pointwise_relation def
+R5798:5800 stdpp.base <> ::stdpp_scope:'(=)' not
+R5810:5814 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R5807:5809 stdpp.base <> ::stdpp_scope:'(=)' not
+R5815:5817 stdpp.base <> ::stdpp_scope:'(=)' not
+R5891:5908 flows.ccm_big_op <> ccm_big_opL_proper thm
+R5891:5908 flows.ccm_big_op <> ccm_big_opL_proper thm
+prf 5944:5962 <> ccm_big_opL_consZ_l
+R5970:5974 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R5969:5969 Coq.Numbers.BinNums <> Z ind
+R5976:5980 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R5975:5975 flows.ccm_big_op <> ccm_big_op.list.A var
+R5981:5981 flows.ccm_big_op <> ccm_big_op.M var
+binder 5965:5965 <> f:121
+binder 5984:5984 <> x:122
+binder 5986:5986 <> l:123
+R5994:5994 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6028:6031 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5995:6004 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R6006:6008 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R6010:6014 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R6021:6022 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+binder 6005:6005 <> k:124
+binder 6009:6009 <> y:125
+R6023:6023 flows.ccm_big_op <> f:121 var
+R6027:6027 flows.ccm_big_op <> y:125 var
+R6025:6025 flows.ccm_big_op <> k:124 var
+R6016:6019 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R6015:6015 flows.ccm_big_op <> x:122 var
+R6020:6020 flows.ccm_big_op <> l:123 var
+R6037:6039 flows.ccm <> ::ccm_scope:x_'+'_x not
+R6032:6032 flows.ccm_big_op <> f:121 var
+R6036:6036 flows.ccm_big_op <> x:122 var
+R6040:6049 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R6051:6053 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R6055:6059 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R6061:6062 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+binder 6050:6050 <> k:126
+binder 6054:6054 <> y:127
+R6063:6063 flows.ccm_big_op <> f:121 var
+R6075:6075 flows.ccm_big_op <> y:127 var
+R6067:6069 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R6070:6070 flows.ccm_big_op <> k:126 var
+R6060:6060 flows.ccm_big_op <> l:123 var
+R6095:6110 flows.ccm_big_op <> ccm_big_opL_cons thm
+R6095:6110 flows.ccm_big_op <> ccm_big_opL_cons thm
+R6095:6110 flows.ccm_big_op <> ccm_big_opL_cons thm
+R6124:6138 flows.ccm_big_op <> ccm_big_opL_ext thm
+R6124:6138 flows.ccm_big_op <> ccm_big_opL_ext thm
+prf 6171:6189 <> ccm_big_opL_consZ_r
+R6197:6201 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R6196:6196 Coq.Numbers.BinNums <> Z ind
+R6203:6207 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R6202:6202 flows.ccm_big_op <> ccm_big_op.list.A var
+R6208:6208 flows.ccm_big_op <> ccm_big_op.M var
+binder 6192:6192 <> f:128
+binder 6211:6211 <> x:129
+binder 6213:6213 <> l:130
+R6221:6221 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6255:6258 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6222:6231 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R6233:6235 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R6237:6241 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R6248:6249 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+binder 6232:6232 <> k:131
+binder 6236:6236 <> y:132
+R6250:6250 flows.ccm_big_op <> f:128 var
+R6254:6254 flows.ccm_big_op <> y:132 var
+R6252:6252 flows.ccm_big_op <> k:131 var
+R6243:6246 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R6242:6242 flows.ccm_big_op <> x:129 var
+R6247:6247 flows.ccm_big_op <> l:130 var
+R6264:6266 flows.ccm <> ::ccm_scope:x_'+'_x not
+R6259:6259 flows.ccm_big_op <> f:128 var
+R6263:6263 flows.ccm_big_op <> x:129 var
+R6267:6276 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R6278:6280 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R6282:6286 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R6288:6289 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+binder 6277:6277 <> k:133
+binder 6281:6281 <> y:134
+R6290:6290 flows.ccm_big_op <> f:128 var
+R6302:6302 flows.ccm_big_op <> y:134 var
+R6294:6296 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R6293:6293 flows.ccm_big_op <> k:133 var
+R6287:6287 flows.ccm_big_op <> l:130 var
+R6322:6337 flows.ccm_big_op <> ccm_big_opL_cons thm
+R6322:6337 flows.ccm_big_op <> ccm_big_opL_cons thm
+R6322:6337 flows.ccm_big_op <> ccm_big_opL_cons thm
+R6351:6365 flows.ccm_big_op <> ccm_big_opL_ext thm
+R6351:6365 flows.ccm_big_op <> ccm_big_opL_ext thm
+prf 6399:6414 <> ccm_big_opL_fmap
+binder 6417:6417 <> B:135
+R6426:6430 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R6425:6425 flows.ccm_big_op <> ccm_big_op.list.A var
+R6431:6431 flows.ccm_big_op <> B:135 var
+binder 6421:6421 <> h:136
+R6442:6446 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R6439:6441 Coq.Init.Datatypes <> nat ind
+R6448:6452 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R6447:6447 flows.ccm_big_op <> B:135 var
+R6453:6453 flows.ccm_big_op <> ccm_big_op.M var
+binder 6435:6435 <> f:137
+binder 6456:6456 <> l:138
+R6464:6464 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6499:6503 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6536:6536 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6465:6474 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R6476:6478 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R6480:6484 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R6492:6493 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+binder 6475:6475 <> k:139
+binder 6479:6479 <> y:140
+R6494:6494 flows.ccm_big_op <> f:137 var
+R6498:6498 flows.ccm_big_op <> y:140 var
+R6496:6496 flows.ccm_big_op <> k:139 var
+R6486:6490 stdpp.base <> ::stdpp_scope:x_'<$>'_x not
+R6485:6485 flows.ccm_big_op <> h:136 var
+R6491:6491 flows.ccm_big_op <> l:138 var
+R6504:6513 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R6515:6517 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R6519:6523 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R6525:6526 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+binder 6514:6514 <> k:141
+binder 6518:6518 <> y:142
+R6527:6527 flows.ccm_big_op <> f:137 var
+R6532:6532 flows.ccm_big_op <> h:136 var
+R6534:6534 flows.ccm_big_op <> y:142 var
+R6529:6529 flows.ccm_big_op <> k:141 var
+R6524:6524 flows.ccm_big_op <> l:138 var
+prf 6630:6645 <> ccm_big_opL_omap
+binder 6648:6648 <> B:143
+R6657:6661 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R6656:6656 flows.ccm_big_op <> ccm_big_op.list.A var
+R6662:6667 Coq.Init.Datatypes <> option ind
+R6669:6669 flows.ccm_big_op <> B:143 var
+binder 6652:6652 <> h:144
+R6678:6682 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R6677:6677 flows.ccm_big_op <> B:143 var
+R6683:6683 flows.ccm_big_op <> ccm_big_op.M var
+binder 6673:6673 <> f:145
+binder 6686:6686 <> l:146
+R6694:6694 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6724:6728 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6776:6776 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6695:6704 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'∈'_x_','_x not
+R6706:6710 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'∈'_x_','_x not
+R6719:6720 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'∈'_x_','_x not
+binder 6705:6705 <> y:147
+R6721:6721 flows.ccm_big_op <> f:145 var
+R6723:6723 flows.ccm_big_op <> y:147 var
+R6711:6714 stdpp.base <> omap def
+R6718:6718 flows.ccm_big_op <> l:146 var
+R6716:6716 flows.ccm_big_op <> h:144 var
+R6729:6738 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'∈'_x_','_x not
+R6740:6744 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'∈'_x_','_x not
+R6746:6747 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'∈'_x_','_x not
+binder 6739:6739 <> y:148
+R6748:6758 stdpp.option <> from_option def
+R6772:6772 flows.ccm_big_op <> h:144 var
+R6774:6774 flows.ccm_big_op <> y:148 var
+R6762:6769 flows.ccm <> ccm_unit meth
+R6760:6760 flows.ccm_big_op <> f:145 var
+R6745:6745 flows.ccm_big_op <> l:146 var
+R6884:6890 stdpp.base <> left_id def
+R6884:6890 stdpp.base <> left_id def
+R6884:6890 stdpp.base <> left_id def
+prf 6909:6922 <> ccm_big_opL_op
+binder 6924:6924 <> f:149
+binder 6926:6926 <> g:150
+binder 6928:6928 <> l:151
+R6936:6936 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6973:6980 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6937:6946 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R6948:6950 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R6952:6956 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R6958:6959 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+binder 6947:6947 <> k:152
+binder 6951:6951 <> x:153
+R6965:6967 flows.ccm <> ::ccm_scope:x_'+'_x not
+R6960:6960 flows.ccm_big_op <> f:149 var
+R6962:6962 flows.ccm_big_op <> k:152 var
+R6964:6964 flows.ccm_big_op <> x:153 var
+R6968:6968 flows.ccm_big_op <> g:150 var
+R6970:6970 flows.ccm_big_op <> k:152 var
+R6972:6972 flows.ccm_big_op <> x:153 var
+R6957:6957 flows.ccm_big_op <> l:151 var
+R6981:6981 flows.ccm <> ::ccm_scope:x_'+'_x not
+R7010:7014 flows.ccm <> ::ccm_scope:x_'+'_x not
+R7043:7043 flows.ccm <> ::ccm_scope:x_'+'_x not
+R6982:6991 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R6993:6995 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R6997:7001 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R7003:7004 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+binder 6992:6992 <> k:154
+binder 6996:6996 <> x:155
+R7005:7005 flows.ccm_big_op <> f:149 var
+R7007:7007 flows.ccm_big_op <> k:154 var
+R7009:7009 flows.ccm_big_op <> x:155 var
+R7002:7002 flows.ccm_big_op <> l:151 var
+R7015:7024 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R7026:7028 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R7030:7034 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R7036:7037 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+binder 7025:7025 <> k:156
+binder 7029:7029 <> x:157
+R7038:7038 flows.ccm_big_op <> g:150 var
+R7040:7040 flows.ccm_big_op <> k:156 var
+R7042:7042 flows.ccm_big_op <> x:157 var
+R7035:7035 flows.ccm_big_op <> l:151 var
+R7123:7129 stdpp.base <> left_id def
+R7123:7129 stdpp.base <> left_id def
+R7123:7129 stdpp.base <> left_id def
+R7152:7156 stdpp.base <> assoc def
+R7159:7163 stdpp.base <> assoc def
+R7178:7183 flows.ccm <> ccm_op meth
+R7196:7199 stdpp.base <> comm def
+R7203:7207 stdpp.base <> assoc def
+R7152:7156 stdpp.base <> assoc def
+R7152:7156 stdpp.base <> assoc def
+R7152:7156 stdpp.base <> assoc def
+R7152:7156 stdpp.base <> assoc def
+R7159:7163 stdpp.base <> assoc def
+R7159:7163 stdpp.base <> assoc def
+R7196:7199 stdpp.base <> comm def
+R7178:7183 flows.ccm <> ccm_op meth
+R7178:7183 flows.ccm <> ccm_op meth
+R7196:7199 stdpp.base <> comm def
+R7203:7207 stdpp.base <> assoc def
+R7203:7207 stdpp.base <> assoc def
+R7203:7207 stdpp.base <> assoc def
+R7221:7224 flows.ccm_big_op ccm_big_op.list <> sec
+prf 7234:7249 <> ccm_big_opL_bind
+binder 7252:7252 <> A:158
+binder 7254:7254 <> B:159
+R7263:7267 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R7262:7262 flows.ccm_big_op <> A:158 var
+R7268:7271 Coq.Init.Datatypes <> list ind
+R7273:7273 flows.ccm_big_op <> B:159 var
+binder 7258:7258 <> h:160
+R7282:7286 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R7281:7281 flows.ccm_big_op <> B:159 var
+R7287:7287 flows.ccm_big_op <> ccm_big_op.M var
+binder 7277:7277 <> f:161
+binder 7290:7290 <> l:162
+R7296:7296 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7326:7330 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7374:7374 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7297:7306 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'∈'_x_','_x not
+R7308:7312 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'∈'_x_','_x not
+R7321:7322 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'∈'_x_','_x not
+binder 7307:7307 <> y:163
+R7323:7323 flows.ccm_big_op <> f:161 var
+R7325:7325 flows.ccm_big_op <> y:163 var
+R7314:7319 stdpp.base <> ::stdpp_scope:x_'≫='_x not
+R7320:7320 flows.ccm_big_op <> h:160 var
+R7313:7313 flows.ccm_big_op <> l:162 var
+R7331:7340 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'∈'_x_','_x not
+R7342:7346 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'∈'_x_','_x not
+R7348:7349 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'∈'_x_','_x not
+binder 7341:7341 <> x:164
+R7350:7359 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'∈'_x_','_x not
+R7361:7365 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'∈'_x_','_x not
+R7369:7370 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'∈'_x_','_x not
+binder 7360:7360 <> y:165
+R7371:7371 flows.ccm_big_op <> f:161 var
+R7373:7373 flows.ccm_big_op <> y:165 var
+R7366:7366 flows.ccm_big_op <> h:160 var
+R7368:7368 flows.ccm_big_op <> x:164 var
+R7347:7347 flows.ccm_big_op <> l:162 var
+R7450:7464 flows.ccm_big_op <> ccm_big_opL_app thm
+R7450:7464 flows.ccm_big_op <> ccm_big_opL_app thm
+R7450:7464 flows.ccm_big_op <> ccm_big_opL_app thm
+prf 7482:7505 <> ccm_big_opL_sep_zip_with
+binder 7508:7508 <> A:166
+binder 7510:7510 <> B:167
+binder 7512:7512 <> C:168
+R7521:7525 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R7520:7520 flows.ccm_big_op <> A:166 var
+R7527:7531 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R7526:7526 flows.ccm_big_op <> B:167 var
+R7532:7532 flows.ccm_big_op <> C:168 var
+binder 7516:7516 <> f:169
+R7542:7546 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R7541:7541 flows.ccm_big_op <> C:168 var
+R7547:7547 flows.ccm_big_op <> A:166 var
+binder 7536:7537 <> g1:170
+R7557:7561 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R7556:7556 flows.ccm_big_op <> C:168 var
+R7562:7562 flows.ccm_big_op <> B:167 var
+binder 7551:7552 <> g2:171
+R7578:7582 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R7575:7577 Coq.Init.Datatypes <> nat ind
+R7584:7588 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R7583:7583 flows.ccm_big_op <> A:166 var
+R7589:7589 flows.ccm_big_op <> ccm_big_op.M var
+binder 7570:7571 <> h1:172
+R7601:7605 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R7598:7600 Coq.Init.Datatypes <> nat ind
+R7607:7611 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R7606:7606 flows.ccm_big_op <> B:167 var
+R7612:7612 flows.ccm_big_op <> ccm_big_op.M var
+binder 7593:7594 <> h2:173
+binder 7615:7616 <> l1:174
+binder 7618:7619 <> l2:175
+R7625:7625 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R7649:7656 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R7626:7629 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R7633:7634 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+binder 7630:7630 <> x:176
+binder 7632:7632 <> y:177
+R7645:7647 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7635:7636 flows.ccm_big_op <> g1:170 var
+R7639:7639 flows.ccm_big_op <> f:169 var
+R7643:7643 flows.ccm_big_op <> y:177 var
+R7641:7641 flows.ccm_big_op <> x:176 var
+R7648:7648 flows.ccm_big_op <> x:176 var
+R7657:7657 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R7681:7688 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R7658:7661 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R7665:7666 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+binder 7662:7662 <> x:178
+binder 7664:7664 <> y:179
+R7677:7679 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7667:7668 flows.ccm_big_op <> g2:171 var
+R7671:7671 flows.ccm_big_op <> f:169 var
+R7675:7675 flows.ccm_big_op <> y:179 var
+R7673:7673 flows.ccm_big_op <> x:178 var
+R7680:7680 flows.ccm_big_op <> y:179 var
+R7710:7716 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R7698:7700 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7689:7694 stdpp.base <> length abbrev
+R7696:7697 flows.ccm_big_op <> l1:174 var
+R7701:7706 stdpp.base <> length abbrev
+R7708:7709 flows.ccm_big_op <> l2:175 var
+R7717:7717 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7784:7789 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7718:7727 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R7729:7731 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R7734:7738 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R7755:7756 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+binder 7728:7728 <> k:180
+binder 7732:7733 <> xy:181
+R7769:7771 flows.ccm <> ::ccm_scope:x_'+'_x not
+R7757:7758 flows.ccm_big_op <> h1:172 var
+R7763:7764 flows.ccm_big_op <> g1:170 var
+R7766:7767 flows.ccm_big_op <> xy:181 var
+R7760:7760 flows.ccm_big_op <> k:180 var
+R7772:7773 flows.ccm_big_op <> h2:173 var
+R7778:7779 flows.ccm_big_op <> g2:171 var
+R7781:7782 flows.ccm_big_op <> xy:181 var
+R7775:7775 flows.ccm_big_op <> k:180 var
+R7739:7746 stdpp.base <> zip_with def
+R7753:7754 flows.ccm_big_op <> l2:175 var
+R7750:7751 flows.ccm_big_op <> l1:174 var
+R7748:7748 flows.ccm_big_op <> f:169 var
+R7790:7790 flows.ccm <> ::ccm_scope:x_'+'_x not
+R7821:7825 flows.ccm <> ::ccm_scope:x_'+'_x not
+R7856:7856 flows.ccm <> ::ccm_scope:x_'+'_x not
+R7791:7800 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R7802:7804 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R7806:7810 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R7813:7814 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+binder 7801:7801 <> k:182
+binder 7805:7805 <> x:183
+R7815:7816 flows.ccm_big_op <> h1:172 var
+R7820:7820 flows.ccm_big_op <> x:183 var
+R7818:7818 flows.ccm_big_op <> k:182 var
+R7811:7812 flows.ccm_big_op <> l1:174 var
+R7826:7835 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R7837:7839 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R7841:7845 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R7848:7849 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+binder 7836:7836 <> k:184
+binder 7840:7840 <> y:185
+R7850:7851 flows.ccm_big_op <> h2:173 var
+R7855:7855 flows.ccm_big_op <> y:185 var
+R7853:7853 flows.ccm_big_op <> k:184 var
+R7846:7847 flows.ccm_big_op <> l2:175 var
+R7897:7910 flows.ccm_big_op <> ccm_big_opL_op thm
+R7897:7910 flows.ccm_big_op <> ccm_big_opL_op thm
+R7897:7910 flows.ccm_big_op <> ccm_big_opL_op thm
+R7925:7940 flows.ccm_big_op <> ccm_big_opL_fmap thm
+R7948:7963 flows.ccm_big_op <> ccm_big_opL_fmap thm
+R7925:7940 flows.ccm_big_op <> ccm_big_opL_fmap thm
+R7925:7940 flows.ccm_big_op <> ccm_big_opL_fmap thm
+R7948:7963 flows.ccm_big_op <> ccm_big_opL_fmap thm
+R7948:7963 flows.ccm_big_op <> ccm_big_opL_fmap thm
+R7980:7994 stdpp.list <> fmap_zip_with_r thm
+R7980:7994 stdpp.list <> fmap_zip_with_r thm
+R7980:7994 stdpp.list <> fmap_zip_with_r thm
+R8030:8044 stdpp.list <> fmap_zip_with_l thm
+R8030:8044 stdpp.list <> fmap_zip_with_l thm
+R8030:8044 stdpp.list <> fmap_zip_with_l thm
+prf 8079:8097 <> ccm_big_opL_sep_zip
+binder 8100:8100 <> A:186
+binder 8102:8102 <> B:187
+R8114:8118 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R8111:8113 Coq.Init.Datatypes <> nat ind
+R8120:8124 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R8119:8119 flows.ccm_big_op <> A:186 var
+R8125:8125 flows.ccm_big_op <> ccm_big_op.M var
+binder 8106:8107 <> h1:188
+R8137:8141 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R8134:8136 Coq.Init.Datatypes <> nat ind
+R8143:8147 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R8142:8142 flows.ccm_big_op <> B:187 var
+R8148:8148 flows.ccm_big_op <> ccm_big_op.M var
+binder 8129:8130 <> h2:189
+binder 8151:8152 <> l1:190
+binder 8154:8155 <> l2:191
+R8182:8188 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R8170:8172 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8161:8166 stdpp.base <> length abbrev
+R8168:8169 flows.ccm_big_op <> l1:190 var
+R8173:8178 stdpp.base <> length abbrev
+R8180:8181 flows.ccm_big_op <> l2:191 var
+R8189:8189 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8243:8248 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8190:8199 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R8201:8203 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R8206:8210 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R8220:8221 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+binder 8200:8200 <> k:192
+binder 8204:8205 <> xy:193
+R8231:8233 flows.ccm <> ::ccm_scope:x_'+'_x not
+R8222:8223 flows.ccm_big_op <> h1:188 var
+R8229:8230 stdpp.base <> :::x_'.1' not
+R8227:8228 flows.ccm_big_op <> xy:193 var
+R8225:8225 flows.ccm_big_op <> k:192 var
+R8234:8235 flows.ccm_big_op <> h2:189 var
+R8241:8242 stdpp.base <> :::x_'.2' not
+R8239:8240 flows.ccm_big_op <> xy:193 var
+R8237:8237 flows.ccm_big_op <> k:192 var
+R8211:8213 stdpp.base <> zip abbrev
+R8218:8219 flows.ccm_big_op <> l2:191 var
+R8215:8216 flows.ccm_big_op <> l1:190 var
+R8249:8249 flows.ccm <> ::ccm_scope:x_'+'_x not
+R8280:8284 flows.ccm <> ::ccm_scope:x_'+'_x not
+R8315:8315 flows.ccm <> ::ccm_scope:x_'+'_x not
+R8250:8259 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R8261:8263 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R8265:8269 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R8272:8273 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+binder 8260:8260 <> k:194
+binder 8264:8264 <> x:195
+R8274:8275 flows.ccm_big_op <> h1:188 var
+R8279:8279 flows.ccm_big_op <> x:195 var
+R8277:8277 flows.ccm_big_op <> k:194 var
+R8270:8271 flows.ccm_big_op <> l1:190 var
+R8285:8294 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R8296:8298 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R8300:8304 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+R8307:8308 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'↦'_x_'∈'_x_','_x not
+binder 8295:8295 <> k:196
+binder 8299:8299 <> y:197
+R8309:8310 flows.ccm_big_op <> h2:189 var
+R8314:8314 flows.ccm_big_op <> y:197 var
+R8312:8312 flows.ccm_big_op <> k:196 var
+R8305:8306 flows.ccm_big_op <> l2:191 var
+R8334:8357 flows.ccm_big_op <> ccm_big_opL_sep_zip_with thm
+R8334:8357 flows.ccm_big_op <> ccm_big_opL_sep_zip_with thm
+sec 8409:8412 ccm_big_op gset
+R8427:8435 stdpp.countable <> Countable class
+binder 8437:8437 <> A:198
+binder 8427:8437 <> H0:200
+R8462:8465 stdpp.gmap <> gset def
+R8467:8467 flows.ccm_big_op <> ccm_big_op.gset.A var
+R8492:8496 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R8491:8491 flows.ccm_big_op <> ccm_big_op.gset.A var
+R8497:8497 flows.ccm_big_op <> ccm_big_op.M var
+prf 8507:8528 <> ccm_big_opS_gen_proper
+binder 8530:8530 <> R:201
+binder 8532:8532 <> f:202
+binder 8534:8534 <> g:203
+binder 8536:8536 <> X:204
+R8555:8559 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R8544:8552 Coq.Classes.RelationClasses <> Reflexive class
+R8554:8554 flows.ccm_big_op <> R:201 var
+R8586:8594 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R8560:8565 Coq.Classes.Morphisms <> Proper class
+R8583:8585 flows.ccm <> ::ccm_scope:'(+)' not
+R8569:8573 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R8568:8568 flows.ccm_big_op <> R:201 var
+R8575:8579 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R8574:8574 flows.ccm_big_op <> R:201 var
+R8580:8580 flows.ccm_big_op <> R:201 var
+R8595:8595 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R8628:8637 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R8596:8599 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R8601:8602 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+binder 8600:8600 <> x:205
+R8610:8614 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R8604:8608 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R8603:8603 flows.ccm_big_op <> x:205 var
+R8609:8609 flows.ccm_big_op <> X:204 var
+R8615:8615 flows.ccm_big_op <> R:201 var
+R8618:8618 flows.ccm_big_op <> f:202 var
+R8620:8620 flows.ccm_big_op <> x:205 var
+R8624:8624 flows.ccm_big_op <> g:203 var
+R8626:8626 flows.ccm_big_op <> x:205 var
+R8638:8638 flows.ccm_big_op <> R:201 var
+R8641:8649 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+R8651:8655 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+R8657:8658 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+binder 8650:8650 <> x:206
+R8659:8659 flows.ccm_big_op <> f:202 var
+R8661:8661 flows.ccm_big_op <> x:206 var
+R8656:8656 flows.ccm_big_op <> X:204 var
+R8665:8673 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+R8675:8679 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+R8681:8682 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+binder 8674:8674 <> x:207
+R8683:8683 flows.ccm_big_op <> g:203 var
+R8685:8685 flows.ccm_big_op <> x:207 var
+R8680:8680 flows.ccm_big_op <> X:204 var
+R8710:8723 flows.ccm_big_op <> ccm_big_opS_eq def
+R8710:8723 flows.ccm_big_op <> ccm_big_opS_eq def
+R8710:8723 flows.ccm_big_op <> ccm_big_opS_eq def
+R8747:8768 flows.ccm_big_op <> ccm_big_opL_gen_proper thm
+R8747:8768 flows.ccm_big_op <> ccm_big_opL_gen_proper thm
+R8797:8817 stdpp.list <> elem_of_list_lookup_2 thm
+R8797:8817 stdpp.list <> elem_of_list_lookup_2 thm
+R8833:8848 stdpp.base <> elem_of_elements meth
+R8833:8848 stdpp.base <> elem_of_elements meth
+prf 8867:8881 <> ccm_big_opS_ext
+binder 8883:8883 <> f:208
+binder 8885:8885 <> g:209
+binder 8887:8887 <> X:210
+R8895:8895 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R8924:8933 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R8896:8899 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R8901:8902 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+binder 8900:8900 <> x:211
+R8910:8914 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R8904:8908 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R8903:8903 flows.ccm_big_op <> x:211 var
+R8909:8909 flows.ccm_big_op <> X:210 var
+R8918:8920 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8915:8915 flows.ccm_big_op <> f:208 var
+R8917:8917 flows.ccm_big_op <> x:211 var
+R8921:8921 flows.ccm_big_op <> g:209 var
+R8923:8923 flows.ccm_big_op <> x:211 var
+R8934:8934 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8956:8960 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8982:8982 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8935:8943 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+R8945:8949 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+R8951:8952 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+binder 8944:8944 <> x:212
+R8953:8953 flows.ccm_big_op <> f:208 var
+R8955:8955 flows.ccm_big_op <> x:212 var
+R8950:8950 flows.ccm_big_op <> X:210 var
+R8961:8969 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+R8971:8975 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+R8977:8978 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+binder 8970:8970 <> x:213
+R8979:8979 flows.ccm_big_op <> g:209 var
+R8981:8981 flows.ccm_big_op <> x:213 var
+R8976:8976 flows.ccm_big_op <> X:210 var
+R9000:9021 flows.ccm_big_op <> ccm_big_opS_gen_proper thm
+R9000:9021 flows.ccm_big_op <> ccm_big_opS_gen_proper thm
+prf 9183:9200 <> ccm_big_opS_proper
+binder 9202:9202 <> f:214
+binder 9204:9204 <> g:215
+binder 9206:9206 <> X:216
+R9214:9214 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R9243:9252 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R9215:9218 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R9220:9221 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+binder 9219:9219 <> x:217
+R9229:9233 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R9223:9227 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R9222:9222 flows.ccm_big_op <> x:217 var
+R9228:9228 flows.ccm_big_op <> X:216 var
+R9237:9239 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9234:9234 flows.ccm_big_op <> f:214 var
+R9236:9236 flows.ccm_big_op <> x:217 var
+R9240:9240 flows.ccm_big_op <> g:215 var
+R9242:9242 flows.ccm_big_op <> x:217 var
+R9253:9253 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9275:9279 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9301:9301 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9254:9262 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+R9264:9268 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+R9270:9271 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+binder 9263:9263 <> x:218
+R9272:9272 flows.ccm_big_op <> f:214 var
+R9274:9274 flows.ccm_big_op <> x:218 var
+R9269:9269 flows.ccm_big_op <> X:216 var
+R9280:9288 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+R9290:9294 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+R9296:9297 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+binder 9289:9289 <> x:219
+R9298:9298 flows.ccm_big_op <> g:215 var
+R9300:9300 flows.ccm_big_op <> x:219 var
+R9295:9295 flows.ccm_big_op <> X:216 var
+R9319:9340 flows.ccm_big_op <> ccm_big_opS_gen_proper thm
+R9319:9340 flows.ccm_big_op <> ccm_big_opS_gen_proper thm
+inst 9376:9394 <> ccm_big_opS_proper'
+R9402:9407 Coq.Classes.Morphisms <> Proper class
+R9453:9463 flows.ccm_big_op <> ccm_big_opS def
+R9469:9469 flows.ccm_big_op <> ccm_big_op.gset.A var
+R9434:9438 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R9410:9427 Coq.Classes.Morphisms <> pointwise_relation def
+R9431:9433 stdpp.base <> ::stdpp_scope:'(=)' not
+R9442:9446 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R9439:9441 stdpp.base <> ::stdpp_scope:'(=)' not
+R9447:9449 stdpp.base <> ::stdpp_scope:'(=)' not
+R9511:9528 flows.ccm_big_op <> ccm_big_opS_proper thm
+R9511:9528 flows.ccm_big_op <> ccm_big_opS_proper thm
+prf 9719:9738 <> ccm_big_opS_elements
+binder 9740:9740 <> f:220
+binder 9742:9742 <> X:221
+R9750:9750 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9772:9775 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9751:9759 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+R9761:9765 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+R9767:9768 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+binder 9760:9760 <> x:222
+R9769:9769 flows.ccm_big_op <> f:220 var
+R9771:9771 flows.ccm_big_op <> x:222 var
+R9766:9766 flows.ccm_big_op <> X:221 var
+R9776:9785 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'∈'_x_','_x not
+R9787:9791 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'∈'_x_','_x not
+R9802:9803 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'∈'_x_','_x not
+binder 9786:9786 <> x:223
+R9804:9804 flows.ccm_big_op <> f:220 var
+R9806:9806 flows.ccm_big_op <> x:223 var
+R9792:9799 stdpp.base <> elements def
+R9801:9801 flows.ccm_big_op <> X:221 var
+R9829:9842 flows.ccm_big_op <> ccm_big_opS_eq def
+R9829:9842 flows.ccm_big_op <> ccm_big_opS_eq def
+R9829:9842 flows.ccm_big_op <> ccm_big_opS_eq def
+prf 9859:9875 <> ccm_big_opS_empty
+binder 9877:9877 <> f:224
+R9881:9881 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9905:9908 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9882:9890 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+R9892:9896 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+R9900:9901 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+binder 9891:9891 <> x:225
+R9902:9902 flows.ccm_big_op <> f:224 var
+R9904:9904 flows.ccm_big_op <> x:225 var
+R9897:9899 stdpp.base <> ::stdpp_scope:'∅' not
+R9909:9916 flows.ccm <> ccm_unit meth
+R9939:9952 flows.ccm_big_op <> ccm_big_opS_eq def
+R9955:9969 flows.ccm_big_op <> ccm_big_opS_def def
+R9971:9984 stdpp.fin_sets <> elements_empty thm
+R9939:9952 flows.ccm_big_op <> ccm_big_opS_eq def
+R9939:9952 flows.ccm_big_op <> ccm_big_opS_eq def
+R9955:9969 flows.ccm_big_op <> ccm_big_opS_def def
+R9955:9969 flows.ccm_big_op <> ccm_big_opS_def def
+R9971:9984 stdpp.fin_sets <> elements_empty thm
+R9971:9984 stdpp.fin_sets <> elements_empty thm
+prf 10001:10018 <> ccm_big_opS_insert
+binder 10020:10020 <> f:226
+binder 10022:10022 <> X:227
+binder 10024:10024 <> x:228
+R10039:10043 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R10033:10037 stdpp.base <> ::stdpp_scope:x_'∉'_x not
+R10032:10032 flows.ccm_big_op <> x:228 var
+R10038:10038 flows.ccm_big_op <> X:227 var
+R10044:10044 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10078:10082 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10110:10110 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10045:10053 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+R10055:10059 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+R10073:10074 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+binder 10054:10054 <> y:229
+R10075:10075 flows.ccm_big_op <> f:226 var
+R10077:10077 flows.ccm_big_op <> y:229 var
+R10067:10071 stdpp.base <> ::stdpp_scope:x_'∪'_x not
+R10060:10062 stdpp.base <> ::stdpp_scope:'{['_x_']}' not
+R10064:10066 stdpp.base <> ::stdpp_scope:'{['_x_']}' not
+R10063:10063 flows.ccm_big_op <> x:228 var
+R10072:10072 flows.ccm_big_op <> X:227 var
+R10086:10088 flows.ccm <> ::ccm_scope:x_'+'_x not
+R10083:10083 flows.ccm_big_op <> f:226 var
+R10085:10085 flows.ccm_big_op <> x:228 var
+R10089:10097 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+R10099:10103 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+R10105:10106 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+binder 10098:10098 <> y:230
+R10107:10107 flows.ccm_big_op <> f:226 var
+R10109:10109 flows.ccm_big_op <> y:230 var
+R10104:10104 flows.ccm_big_op <> X:227 var
+R10142:10161 flows.ccm_big_op <> ccm_big_opS_elements thm
+R10163:10186 stdpp.fin_sets <> elements_union_singleton thm
+R10142:10161 flows.ccm_big_op <> ccm_big_opS_elements thm
+R10142:10161 flows.ccm_big_op <> ccm_big_opS_elements thm
+R10142:10161 flows.ccm_big_op <> ccm_big_opS_elements thm
+R10142:10161 flows.ccm_big_op <> ccm_big_opS_elements thm
+R10163:10186 stdpp.fin_sets <> elements_union_singleton thm
+R10163:10186 stdpp.fin_sets <> elements_union_singleton thm
+prf 10202:10222 <> ccm_big_opS_fn_insert
+binder 10225:10225 <> B:231
+R10234:10238 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R10233:10233 flows.ccm_big_op <> ccm_big_op.gset.A var
+R10240:10244 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R10239:10239 flows.ccm_big_op <> B:231 var
+R10245:10245 flows.ccm_big_op <> ccm_big_op.M var
+binder 10229:10229 <> f:232
+binder 10248:10248 <> h:233
+binder 10250:10250 <> X:234
+binder 10252:10252 <> x:235
+binder 10254:10254 <> b:236
+R10269:10277 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R10263:10267 stdpp.base <> ::stdpp_scope:x_'∉'_x not
+R10262:10262 flows.ccm_big_op <> x:235 var
+R10268:10268 flows.ccm_big_op <> X:234 var
+R10278:10278 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10327:10334 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10279:10287 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+R10289:10293 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+R10307:10308 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+binder 10288:10288 <> y:237
+R10309:10309 flows.ccm_big_op <> f:232 var
+R10314:10315 stdpp.base <> ::stdpp_scope:'<['_x_':='_x_']>' not
+R10317:10318 stdpp.base <> ::stdpp_scope:'<['_x_':='_x_']>' not
+R10320:10325 stdpp.base <> ::stdpp_scope:'<['_x_':='_x_']>' not
+R10316:10316 flows.ccm_big_op <> x:235 var
+R10319:10319 flows.ccm_big_op <> b:236 var
+R10325:10325 flows.ccm_big_op <> y:237 var
+R10323:10323 flows.ccm_big_op <> h:233 var
+R10311:10311 flows.ccm_big_op <> y:237 var
+R10301:10305 stdpp.base <> ::stdpp_scope:x_'∪'_x not
+R10294:10296 stdpp.base <> ::stdpp_scope:'{['_x_']}' not
+R10298:10300 stdpp.base <> ::stdpp_scope:'{['_x_']}' not
+R10297:10297 flows.ccm_big_op <> x:235 var
+R10306:10306 flows.ccm_big_op <> X:234 var
+R10340:10342 flows.ccm <> ::ccm_scope:x_'+'_x not
+R10335:10335 flows.ccm_big_op <> f:232 var
+R10339:10339 flows.ccm_big_op <> b:236 var
+R10337:10337 flows.ccm_big_op <> x:235 var
+R10343:10351 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+R10353:10357 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+R10359:10360 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+binder 10352:10352 <> y:238
+R10361:10361 flows.ccm_big_op <> f:232 var
+R10366:10366 flows.ccm_big_op <> h:233 var
+R10368:10368 flows.ccm_big_op <> y:238 var
+R10363:10363 flows.ccm_big_op <> y:238 var
+R10358:10358 flows.ccm_big_op <> X:234 var
+R10401:10418 flows.ccm_big_op <> ccm_big_opS_insert thm
+R10423:10438 stdpp.functions <> fn_lookup_insert thm
+R10401:10418 flows.ccm_big_op <> ccm_big_opS_insert thm
+R10401:10418 flows.ccm_big_op <> ccm_big_opS_insert thm
+R10423:10438 stdpp.functions <> fn_lookup_insert thm
+R10423:10438 stdpp.functions <> fn_lookup_insert thm
+R10460:10477 flows.ccm_big_op <> ccm_big_opS_proper thm
+R10460:10477 flows.ccm_big_op <> ccm_big_opS_proper thm
+R10507:10525 stdpp.functions <> fn_lookup_insert_ne thm
+R10507:10525 stdpp.functions <> fn_lookup_insert_ne thm
+R10507:10525 stdpp.functions <> fn_lookup_insert_ne thm
+prf 10560:10581 <> ccm_big_opS_fn_insert'
+binder 10583:10583 <> f:239
+binder 10585:10585 <> X:240
+binder 10587:10587 <> x:241
+binder 10589:10589 <> P:242
+R10604:10608 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R10598:10602 stdpp.base <> ::stdpp_scope:x_'∉'_x not
+R10597:10597 flows.ccm_big_op <> x:241 var
+R10603:10603 flows.ccm_big_op <> X:240 var
+R10609:10609 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10652:10656 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10682:10682 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10610:10618 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+R10620:10624 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+R10638:10639 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+binder 10619:10619 <> y:243
+R10640:10641 stdpp.base <> ::stdpp_scope:'<['_x_':='_x_']>' not
+R10643:10644 stdpp.base <> ::stdpp_scope:'<['_x_':='_x_']>' not
+R10646:10651 stdpp.base <> ::stdpp_scope:'<['_x_':='_x_']>' not
+R10642:10642 flows.ccm_big_op <> x:241 var
+R10645:10645 flows.ccm_big_op <> P:242 var
+R10651:10651 flows.ccm_big_op <> y:243 var
+R10649:10649 flows.ccm_big_op <> f:239 var
+R10632:10636 stdpp.base <> ::stdpp_scope:x_'∪'_x not
+R10625:10627 stdpp.base <> ::stdpp_scope:'{['_x_']}' not
+R10629:10631 stdpp.base <> ::stdpp_scope:'{['_x_']}' not
+R10628:10628 flows.ccm_big_op <> x:241 var
+R10637:10637 flows.ccm_big_op <> X:240 var
+R10658:10660 flows.ccm <> ::ccm_scope:x_'+'_x not
+R10657:10657 flows.ccm_big_op <> P:242 var
+R10661:10669 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+R10671:10675 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+R10677:10678 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+binder 10670:10670 <> y:244
+R10679:10679 flows.ccm_big_op <> f:239 var
+R10681:10681 flows.ccm_big_op <> y:244 var
+R10676:10676 flows.ccm_big_op <> X:240 var
+R10701:10721 flows.ccm_big_op <> ccm_big_opS_fn_insert thm
+R10724:10726 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R10728:10729 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+binder 10727:10727 <> y:245
+R10730:10731 Coq.Init.Datatypes <> id def
+R10701:10721 flows.ccm_big_op <> ccm_big_opS_fn_insert thm
+R10724:10726 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R10728:10729 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+binder 10727:10727 <> y:246
+R10730:10731 Coq.Init.Datatypes <> id def
+prf 10750:10766 <> ccm_big_opS_union
+binder 10768:10768 <> f:247
+binder 10770:10770 <> X:248
+binder 10772:10772 <> Y:249
+R10786:10794 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R10781:10784 stdpp.base <> ::stdpp_scope:x_'##'_x not
+R10780:10780 flows.ccm_big_op <> X:248 var
+R10785:10785 flows.ccm_big_op <> Y:249 var
+R10795:10795 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10823:10826 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10796:10804 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+R10806:10810 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+R10818:10819 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+binder 10805:10805 <> y:250
+R10820:10820 flows.ccm_big_op <> f:247 var
+R10822:10822 flows.ccm_big_op <> y:250 var
+R10812:10816 stdpp.base <> ::stdpp_scope:x_'∪'_x not
+R10811:10811 flows.ccm_big_op <> X:248 var
+R10817:10817 flows.ccm_big_op <> Y:249 var
+R10827:10827 flows.ccm <> ::ccm_scope:x_'+'_x not
+R10849:10853 flows.ccm <> ::ccm_scope:x_'+'_x not
+R10875:10875 flows.ccm <> ::ccm_scope:x_'+'_x not
+R10828:10836 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+R10838:10842 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+R10844:10845 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+binder 10837:10837 <> y:251
+R10846:10846 flows.ccm_big_op <> f:247 var
+R10848:10848 flows.ccm_big_op <> y:251 var
+R10843:10843 flows.ccm_big_op <> X:248 var
+R10854:10862 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+R10864:10868 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+R10870:10871 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+binder 10863:10863 <> y:252
+R10872:10872 flows.ccm_big_op <> f:247 var
+R10874:10874 flows.ccm_big_op <> y:252 var
+R10869:10869 flows.ccm_big_op <> Y:249 var
+R10932:10940 stdpp.fin_sets <> set_ind_L thm
+R10932:10940 stdpp.fin_sets <> set_ind_L thm
+R10960:10968 stdpp.base <> left_id_L thm
+R10970:10986 flows.ccm_big_op <> ccm_big_opS_empty thm
+R10988:10994 stdpp.base <> left_id def
+R10960:10968 stdpp.base <> left_id_L thm
+R10960:10968 stdpp.base <> left_id_L thm
+R10970:10986 flows.ccm_big_op <> ccm_big_opS_empty thm
+R10970:10986 flows.ccm_big_op <> ccm_big_opS_empty thm
+R10988:10994 stdpp.base <> left_id def
+R10988:10994 stdpp.base <> left_id def
+R11012:11018 stdpp.base <> assoc_L thm
+R11021:11038 flows.ccm_big_op <> ccm_big_opS_insert thm
+R11012:11018 stdpp.base <> assoc_L thm
+R11012:11018 stdpp.base <> assoc_L thm
+R11021:11038 flows.ccm_big_op <> ccm_big_opS_insert thm
+R11021:11038 flows.ccm_big_op <> ccm_big_opS_insert thm
+R11021:11038 flows.ccm_big_op <> ccm_big_opS_insert thm
+R11021:11038 flows.ccm_big_op <> ccm_big_opS_insert thm
+R11021:11038 flows.ccm_big_op <> ccm_big_opS_insert thm
+R11021:11038 flows.ccm_big_op <> ccm_big_opS_insert thm
+R11074:11078 stdpp.base <> assoc def
+R11074:11078 stdpp.base <> assoc def
+R11074:11078 stdpp.base <> assoc def
+prf 11117:11134 <> ccm_big_opS_delete
+binder 11136:11136 <> f:253
+binder 11138:11138 <> X:254
+binder 11140:11140 <> x:255
+R11155:11159 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R11149:11153 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R11148:11148 flows.ccm_big_op <> x:255 var
+R11154:11154 flows.ccm_big_op <> X:254 var
+R11160:11160 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11182:11185 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11161:11169 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+R11171:11175 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+R11177:11178 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+binder 11170:11170 <> y:256
+R11179:11179 flows.ccm_big_op <> f:253 var
+R11181:11181 flows.ccm_big_op <> y:256 var
+R11176:11176 flows.ccm_big_op <> X:254 var
+R11189:11191 flows.ccm <> ::ccm_scope:x_'+'_x not
+R11186:11186 flows.ccm_big_op <> f:253 var
+R11188:11188 flows.ccm_big_op <> x:255 var
+R11192:11200 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+R11202:11206 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+R11220:11221 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+binder 11201:11201 <> y:257
+R11222:11222 flows.ccm_big_op <> f:253 var
+R11224:11224 flows.ccm_big_op <> y:257 var
+R11208:11212 stdpp.base <> ::stdpp_scope:x_'∖'_x not
+R11207:11207 flows.ccm_big_op <> X:254 var
+R11213:11215 stdpp.base <> ::stdpp_scope:'{['_x_']}' not
+R11217:11219 stdpp.base <> ::stdpp_scope:'{['_x_']}' not
+R11216:11216 flows.ccm_big_op <> x:255 var
+R11257:11274 flows.ccm_big_op <> ccm_big_opS_insert thm
+R11257:11274 flows.ccm_big_op <> ccm_big_opS_insert thm
+R11257:11274 flows.ccm_big_op <> ccm_big_opS_insert thm
+R11310:11327 stdpp.sets <> union_difference_L thm
+R11310:11327 stdpp.sets <> union_difference_L thm
+R11310:11327 stdpp.sets <> union_difference_L thm
+prf 11363:11383 <> ccm_big_opS_singleton
+binder 11385:11385 <> f:258
+binder 11387:11387 <> x:259
+R11391:11391 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11419:11422 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11392:11400 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+R11402:11406 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+R11414:11415 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+binder 11401:11401 <> y:260
+R11416:11416 flows.ccm_big_op <> f:258 var
+R11418:11418 flows.ccm_big_op <> y:260 var
+R11407:11409 stdpp.base <> ::stdpp_scope:'{['_x_']}' not
+R11411:11413 stdpp.base <> ::stdpp_scope:'{['_x_']}' not
+R11410:11410 flows.ccm_big_op <> x:259 var
+R11423:11423 flows.ccm_big_op <> f:258 var
+R11425:11425 flows.ccm_big_op <> x:259 var
+R11453:11472 flows.ccm_big_op <> ccm_big_opS_elements thm
+R11474:11491 stdpp.fin_sets <> elements_singleton thm
+R11453:11472 flows.ccm_big_op <> ccm_big_opS_elements thm
+R11453:11472 flows.ccm_big_op <> ccm_big_opS_elements thm
+R11474:11491 stdpp.fin_sets <> elements_singleton thm
+R11474:11491 stdpp.fin_sets <> elements_singleton thm
+R11508:11519 flows.ccm <> ccm_right_id thm
+R11508:11519 flows.ccm <> ccm_right_id thm
+prf 11536:11551 <> ccm_big_opS_unit
+binder 11553:11553 <> X:261
+R11557:11557 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11587:11591 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11604:11604 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11558:11566 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+R11568:11572 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+R11574:11575 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+binder 11567:11567 <> y:262
+R11584:11585 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R11586:11586 flows.ccm_big_op <> ccm_big_op.M var
+R11576:11583 flows.ccm <> ccm_unit meth
+R11573:11573 flows.ccm_big_op <> X:261 var
+R11600:11602 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R11603:11603 flows.ccm_big_op <> ccm_big_op.M var
+R11592:11599 flows.ccm <> ccm_unit meth
+R11641:11649 stdpp.fin_sets <> set_ind_L thm
+R11664:11681 flows.ccm_big_op <> ccm_big_opS_insert thm
+R11684:11690 stdpp.base <> left_id def
+R11695:11708 flows.ccm_big_op <> ccm_big_opS_eq def
+R11641:11649 stdpp.fin_sets <> set_ind_L thm
+R11664:11681 flows.ccm_big_op <> ccm_big_opS_insert thm
+R11664:11681 flows.ccm_big_op <> ccm_big_opS_insert thm
+R11684:11690 stdpp.base <> left_id def
+R11684:11690 stdpp.base <> left_id def
+R11695:11708 flows.ccm_big_op <> ccm_big_opS_eq def
+R11695:11708 flows.ccm_big_op <> ccm_big_opS_eq def
+R11664:11681 flows.ccm_big_op <> ccm_big_opS_insert thm
+R11664:11681 flows.ccm_big_op <> ccm_big_opS_insert thm
+R11664:11681 flows.ccm_big_op <> ccm_big_opS_insert thm
+R11664:11681 flows.ccm_big_op <> ccm_big_opS_insert thm
+R11684:11690 stdpp.base <> left_id def
+R11684:11690 stdpp.base <> left_id def
+R11684:11690 stdpp.base <> left_id def
+R11684:11690 stdpp.base <> left_id def
+R11684:11690 stdpp.base <> left_id def
+prf 11727:11745 <> ccm_big_opS_filter'
+R11754:11758 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R11753:11753 flows.ccm_big_op <> ccm_big_op.gset.A var
+binder 11748:11749 <> φ:263
+R11767:11770 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R11772:11773 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+binder 11771:11771 <> x:264
+R11774:11781 stdpp.base <> Decision class
+R11784:11785 flows.ccm_big_op <> φ:263 var
+R11787:11787 flows.ccm_big_op <> x:264 var
+binder 11767:11788 <> H1:265
+binder 11791:11791 <> f:266
+binder 11793:11793 <> X:267
+R11801:11801 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11833:11841 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11899:11899 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11802:11810 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+R11812:11816 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+R11828:11829 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+binder 11811:11811 <> y:268
+R11830:11830 flows.ccm_big_op <> f:266 var
+R11832:11832 flows.ccm_big_op <> y:268 var
+R11817:11822 stdpp.base <> filter def
+R11827:11827 flows.ccm_big_op <> X:267 var
+R11824:11825 flows.ccm_big_op <> φ:263 var
+R11842:11850 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+R11852:11856 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+R11858:11859 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+binder 11851:11851 <> y:269
+R11860:11862 Coq.ssr.ssreflect <> ::general_if_scope:'if'_x_'then'_x_'else'_x not
+R11876:11881 Coq.ssr.ssreflect <> ::general_if_scope:'if'_x_'then'_x_'else'_x not
+R11885:11890 Coq.ssr.ssreflect <> ::general_if_scope:'if'_x_'then'_x_'else'_x not
+R11891:11898 flows.ccm <> ccm_unit meth
+R11882:11882 flows.ccm_big_op <> f:266 var
+R11884:11884 flows.ccm_big_op <> y:269 var
+R11863:11868 stdpp.base <> decide def
+R11871:11872 flows.ccm_big_op <> φ:263 var
+R11874:11874 flows.ccm_big_op <> y:269 var
+R11857:11857 flows.ccm_big_op <> X:267 var
+R11948:11956 stdpp.fin_sets <> set_ind_L thm
+R11948:11956 stdpp.fin_sets <> set_ind_L thm
+R11976:11989 stdpp.fin_sets <> filter_empty_L thm
+R11992:12008 flows.ccm_big_op <> ccm_big_opS_empty thm
+R11976:11989 stdpp.fin_sets <> filter_empty_L thm
+R11976:11989 stdpp.fin_sets <> filter_empty_L thm
+R11992:12008 flows.ccm_big_op <> ccm_big_opS_empty thm
+R11992:12008 flows.ccm_big_op <> ccm_big_opS_empty thm
+R11992:12008 flows.ccm_big_op <> ccm_big_opS_empty thm
+R11992:12008 flows.ccm_big_op <> ccm_big_opS_empty thm
+R12027:12032 stdpp.base <> decide def
+R12027:12032 stdpp.base <> decide def
+R12057:12070 stdpp.fin_sets <> filter_union_L thm
+R12072:12089 stdpp.fin_sets <> filter_singleton_L thm
+R12057:12070 stdpp.fin_sets <> filter_union_L thm
+R12057:12070 stdpp.fin_sets <> filter_union_L thm
+R12072:12089 stdpp.fin_sets <> filter_singleton_L thm
+R12072:12089 stdpp.fin_sets <> filter_singleton_L thm
+R12110:12127 flows.ccm_big_op <> ccm_big_opS_insert thm
+R12110:12127 flows.ccm_big_op <> ccm_big_opS_insert thm
+R12110:12127 flows.ccm_big_op <> ccm_big_opS_insert thm
+R12110:12127 flows.ccm_big_op <> ccm_big_opS_insert thm
+R12110:12127 flows.ccm_big_op <> ccm_big_opS_insert thm
+R12110:12127 flows.ccm_big_op <> ccm_big_opS_insert thm
+R12110:12127 flows.ccm_big_op <> ccm_big_opS_insert thm
+R12167:12177 stdpp.decidable <> decide_True thm
+R12167:12177 stdpp.decidable <> decide_True thm
+R12167:12177 stdpp.decidable <> decide_True thm
+R12200:12213 stdpp.fin_sets <> filter_union_L thm
+R12215:12236 stdpp.fin_sets <> filter_singleton_not_L thm
+R12241:12249 stdpp.base <> left_id_L thm
+R12200:12213 stdpp.fin_sets <> filter_union_L thm
+R12200:12213 stdpp.fin_sets <> filter_union_L thm
+R12215:12236 stdpp.fin_sets <> filter_singleton_not_L thm
+R12215:12236 stdpp.fin_sets <> filter_singleton_not_L thm
+R12241:12249 stdpp.base <> left_id_L thm
+R12241:12249 stdpp.base <> left_id_L thm
+R12270:12287 flows.ccm_big_op <> ccm_big_opS_insert thm
+R12292:12303 stdpp.decidable <> decide_False thm
+R12311:12317 stdpp.base <> left_id def
+R12270:12287 flows.ccm_big_op <> ccm_big_opS_insert thm
+R12270:12287 flows.ccm_big_op <> ccm_big_opS_insert thm
+R12270:12287 flows.ccm_big_op <> ccm_big_opS_insert thm
+R12270:12287 flows.ccm_big_op <> ccm_big_opS_insert thm
+R12292:12303 stdpp.decidable <> decide_False thm
+R12292:12303 stdpp.decidable <> decide_False thm
+R12311:12317 stdpp.base <> left_id def
+R12311:12317 stdpp.base <> left_id def
+prf 12336:12349 <> ccm_big_opS_op
+binder 12351:12351 <> f:270
+binder 12353:12353 <> g:271
+binder 12355:12355 <> X:272
+R12363:12363 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12391:12394 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12364:12372 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+R12374:12378 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+R12380:12381 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+binder 12373:12373 <> y:273
+R12385:12387 flows.ccm <> ::ccm_scope:x_'+'_x not
+R12382:12382 flows.ccm_big_op <> f:270 var
+R12384:12384 flows.ccm_big_op <> y:273 var
+R12388:12388 flows.ccm_big_op <> g:271 var
+R12390:12390 flows.ccm_big_op <> y:273 var
+R12379:12379 flows.ccm_big_op <> X:272 var
+R12395:12395 flows.ccm <> ::ccm_scope:x_'+'_x not
+R12417:12421 flows.ccm <> ::ccm_scope:x_'+'_x not
+R12443:12443 flows.ccm <> ::ccm_scope:x_'+'_x not
+R12396:12404 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+R12406:12410 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+R12412:12413 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+binder 12405:12405 <> y:274
+R12414:12414 flows.ccm_big_op <> f:270 var
+R12416:12416 flows.ccm_big_op <> y:274 var
+R12411:12411 flows.ccm_big_op <> X:272 var
+R12422:12430 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+R12432:12436 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+R12438:12439 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+binder 12431:12431 <> y:275
+R12440:12440 flows.ccm_big_op <> g:271 var
+R12442:12442 flows.ccm_big_op <> y:275 var
+R12437:12437 flows.ccm_big_op <> X:272 var
+R12467:12486 flows.ccm_big_op <> ccm_big_opS_elements thm
+R12489:12502 flows.ccm_big_op <> ccm_big_opL_op thm
+R12467:12486 flows.ccm_big_op <> ccm_big_opS_elements thm
+R12467:12486 flows.ccm_big_op <> ccm_big_opS_elements thm
+R12467:12486 flows.ccm_big_op <> ccm_big_opS_elements thm
+R12467:12486 flows.ccm_big_op <> ccm_big_opS_elements thm
+R12467:12486 flows.ccm_big_op <> ccm_big_opS_elements thm
+R12489:12502 flows.ccm_big_op <> ccm_big_opL_op thm
+R12489:12502 flows.ccm_big_op <> ccm_big_opL_op thm
+prf 12519:12541 <> ccm_big_opS_list_to_set
+binder 12543:12543 <> f:276
+R12550:12553 Coq.Init.Datatypes <> list ind
+R12555:12555 flows.ccm_big_op <> ccm_big_op.gset.A var
+binder 12546:12546 <> l:277
+R12571:12579 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R12564:12568 stdpp.base <> NoDup ind
+R12570:12570 flows.ccm_big_op <> l:277 var
+R12580:12580 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12614:12617 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12581:12589 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+R12591:12595 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+R12609:12610 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+binder 12590:12590 <> x:278
+R12611:12611 flows.ccm_big_op <> f:276 var
+R12613:12613 flows.ccm_big_op <> x:278 var
+R12596:12606 stdpp.base <> list_to_set def
+R12608:12608 flows.ccm_big_op <> l:277 var
+R12618:12627 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'∈'_x_','_x not
+R12629:12633 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'∈'_x_','_x not
+R12635:12636 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'list]'_x_'∈'_x_','_x not
+binder 12628:12628 <> x:279
+R12637:12637 flows.ccm_big_op <> f:276 var
+R12639:12639 flows.ccm_big_op <> x:279 var
+R12634:12634 flows.ccm_big_op <> l:277 var
+R12699:12715 flows.ccm_big_op <> ccm_big_opS_empty thm
+R12699:12715 flows.ccm_big_op <> ccm_big_opS_empty thm
+R12699:12715 flows.ccm_big_op <> ccm_big_opS_empty thm
+R12738:12754 flows.ccm_big_op <> ccm_big_opS_union thm
+R12738:12754 flows.ccm_big_op <> ccm_big_opS_union thm
+R12738:12754 flows.ccm_big_op <> ccm_big_opS_union thm
+R12791:12811 flows.ccm_big_op <> ccm_big_opS_singleton thm
+R12791:12811 flows.ccm_big_op <> ccm_big_opS_singleton thm
+R12791:12811 flows.ccm_big_op <> ccm_big_opS_singleton thm
+R12829:12832 flows.ccm_big_op ccm_big_op.gset <> sec
+prf 12842:12860 <> ccm_big_opS_set_map
+R12864:12872 stdpp.countable <> Countable class
+binder 12874:12874 <> A:280
+binder 12864:12874 <> H0:282
+R12877:12885 stdpp.countable <> Countable class
+binder 12887:12887 <> B:283
+binder 12877:12887 <> H1:285
+R12896:12900 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R12895:12895 flows.ccm_big_op <> A:280 var
+R12901:12901 flows.ccm_big_op <> B:283 var
+binder 12891:12891 <> h:286
+R12909:12912 stdpp.gmap <> gset def
+R12914:12914 flows.ccm_big_op <> A:280 var
+binder 12905:12905 <> X:287
+R12923:12927 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R12922:12922 flows.ccm_big_op <> B:283 var
+R12928:12928 flows.ccm_big_op <> ccm_big_op.M var
+binder 12918:12918 <> f:288
+R12948:12954 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R12935:12937 stdpp.base <> Inj class
+R12947:12947 flows.ccm_big_op <> h:286 var
+R12943:12945 stdpp.base <> ::stdpp_scope:'(=)' not
+R12939:12941 stdpp.base <> ::stdpp_scope:'(=)' not
+R12955:12955 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12987:12991 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13017:13017 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12956:12964 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+R12966:12970 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+R12982:12983 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+binder 12965:12965 <> x:289
+R12984:12984 flows.ccm_big_op <> f:288 var
+R12986:12986 flows.ccm_big_op <> x:289 var
+R12971:12977 stdpp.fin_sets <> set_map def
+R12981:12981 flows.ccm_big_op <> X:287 var
+R12979:12979 flows.ccm_big_op <> h:286 var
+R12992:13000 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+R13002:13006 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+R13008:13009 flows.ccm_big_op <> ::stdpp_scope:'[^'_'+'_'set]'_x_'∈'_x_','_x not
+binder 13001:13001 <> x:290
+R13010:13010 flows.ccm_big_op <> f:288 var
+R13013:13013 flows.ccm_big_op <> h:286 var
+R13015:13015 flows.ccm_big_op <> x:290 var
+R13007:13007 flows.ccm_big_op <> X:287 var
+R13077:13085 stdpp.fin_sets <> set_ind_L thm
+R13077:13085 stdpp.fin_sets <> set_ind_L thm
+R13103:13115 stdpp.fin_sets <> set_map_empty thm
+R13118:13134 flows.ccm_big_op <> ccm_big_opS_empty thm
+R13103:13115 stdpp.fin_sets <> set_map_empty thm
+R13103:13115 stdpp.fin_sets <> set_map_empty thm
+R13118:13134 flows.ccm_big_op <> ccm_big_opS_empty thm
+R13118:13134 flows.ccm_big_op <> ccm_big_opS_empty thm
+R13118:13134 flows.ccm_big_op <> ccm_big_opS_empty thm
+R13118:13134 flows.ccm_big_op <> ccm_big_opS_empty thm
+R13149:13163 stdpp.fin_sets <> set_map_union_L thm
+R13165:13183 stdpp.fin_sets <> set_map_singleton_L thm
+R13149:13163 stdpp.fin_sets <> set_map_union_L thm
+R13149:13163 stdpp.fin_sets <> set_map_union_L thm
+R13165:13183 stdpp.fin_sets <> set_map_singleton_L thm
+R13165:13183 stdpp.fin_sets <> set_map_singleton_L thm
+R13197:13213 flows.ccm_big_op <> ccm_big_opS_union thm
+R13197:13213 flows.ccm_big_op <> ccm_big_opS_union thm
+R13197:13213 flows.ccm_big_op <> ccm_big_opS_union thm
+R13197:13213 flows.ccm_big_op <> ccm_big_opS_union thm
+R13197:13213 flows.ccm_big_op <> ccm_big_opS_union thm
+R13197:13213 flows.ccm_big_op <> ccm_big_opS_union thm
+R13197:13213 flows.ccm_big_op <> ccm_big_opS_union thm
+R13244:13264 flows.ccm_big_op <> ccm_big_opS_singleton thm
+R13244:13264 flows.ccm_big_op <> ccm_big_opS_singleton thm
+R13244:13264 flows.ccm_big_op <> ccm_big_opS_singleton thm
+R13244:13264 flows.ccm_big_op <> ccm_big_opS_singleton thm
+R13244:13264 flows.ccm_big_op <> ccm_big_opS_singleton thm
+R13283:13292 flows.ccm_big_op ccm_big_op <> sec

@@ -1,0 +1,4049 @@
+DIGEST bc5b9c5a32ab7a74a808652d0268029c
+Fflows.multiset_flows
+R15:43 Coq.Numbers.NatInt.NZAddOrder <> <> lib
+R79:82 iris.algebra.gset <> <> lib
+R131:141 flows.flows <> <> lib
+R143:151 flows.ccm <> <> lib
+R169:186 Coq.Setoids.Setoid <> <> lib
+sec 349:362 <> multiset_flows
+R377:385 stdpp.countable <> Countable class
+R387:390 flows.flows <> Node def
+binder 377:390 <> H:2
+R395:403 stdpp.countable <> Countable class
+binder 405:405 <> K:3
+binder 395:405 <> H0:5
+def 476:485 <> K_multiset
+R490:494 flows.ccm <> nzmap rec
+R498:500 Coq.Init.Datatypes <> nat ind
+R496:496 flows.multiset_flows <> multiset_flows.K var
+inst 520:533 <> K_multiset_ccm
+R537:539 flows.ccm <> CCM class
+R541:550 flows.multiset_flows <> K_multiset def
+R555:562 flows.ccm <> lift_ccm inst
+R566:568 Coq.Init.Datatypes <> nat ind
+R564:564 flows.multiset_flows <> multiset_flows.K var
+def 599:617 <> multiset_flowint_ur
+R621:625 iris.algebra.cmra <> ucmra rec
+R630:638 flows.flows <> flowintUR canonstruc
+R640:649 flows.multiset_flows <> K_multiset def
+R671:689 flows.multiset_flows <> multiset_flowint_ur canonstruc
+def 750:754 <> inset
+binder 756:756 <> I:6
+binder 758:758 <> n:7
+R763:765 stdpp.base <> dom def
+R768:770 flows.flows <> inf def
+R772:772 flows.multiset_flows <> I:6 var
+R774:774 flows.multiset_flows <> n:7 var
+def 790:795 <> outset
+binder 797:797 <> I:8
+binder 799:799 <> n:9
+R804:806 stdpp.base <> dom def
+R809:811 flows.flows <> out def
+R813:813 flows.multiset_flows <> I:8 var
+R815:815 flows.multiset_flows <> n:9 var
+def 831:838 <> in_inset
+binder 840:840 <> k:10
+binder 842:842 <> I:11
+binder 844:844 <> n:12
+R850:854 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R849:849 flows.multiset_flows <> k:10 var
+R855:857 stdpp.base <> dom def
+R860:862 flows.flows <> inf def
+R864:864 flows.multiset_flows <> I:11 var
+R866:866 flows.multiset_flows <> n:12 var
+def 882:890 <> in_outset
+binder 892:892 <> k:13
+binder 894:894 <> I:14
+binder 896:896 <> n:15
+R902:906 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R901:901 flows.multiset_flows <> k:13 var
+R907:909 stdpp.base <> dom def
+R912:914 flows.flows <> out def
+R916:916 flows.multiset_flows <> I:14 var
+R918:918 flows.multiset_flows <> n:15 var
+def 934:943 <> in_outsets
+binder 945:945 <> k:16
+binder 947:948 <> In:17
+R953:956 Coq.Unicode.Utf8_core <> ::type_scope:'∃'_x_'..'_x_','_x not
+R958:959 Coq.Unicode.Utf8_core <> ::type_scope:'∃'_x_'..'_x_','_x not
+binder 957:957 <> n:18
+R960:968 flows.multiset_flows <> in_outset def
+R970:970 flows.multiset_flows <> k:16 var
+R972:973 flows.multiset_flows <> In:17 var
+R975:975 flows.multiset_flows <> n:18 var
+def 990:995 <> closed
+binder 997:997 <> I:19
+R1002:1005 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R1009:1010 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+binder 1006:1006 <> k:20
+binder 1008:1008 <> n:21
+R1012:1016 stdpp.base <> ::stdpp_scope:x_'∉'_x not
+R1011:1011 flows.multiset_flows <> k:20 var
+R1017:1022 flows.multiset_flows <> outset def
+R1024:1024 flows.multiset_flows <> I:19 var
+R1026:1026 flows.multiset_flows <> n:21 var
+def 1041:1049 <> set_union
+R1059:1063 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R1056:1058 Coq.Init.Datatypes <> nat ind
+R1064:1067 stdpp.gmap <> gset def
+R1069:1071 Coq.Init.Datatypes <> nat ind
+binder 1052:1052 <> f:22
+R1078:1081 stdpp.gmap <> gset def
+R1083:1085 Coq.Init.Datatypes <> nat ind
+binder 1075:1075 <> S:23
+R1094:1095 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R1098:1103 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R1105:1109 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R1111:1112 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R1096:1097 iris.algebra.cmra <> op def
+binder 1104:1104 <> x:24
+R1113:1113 flows.multiset_flows <> f:22 var
+R1115:1115 flows.multiset_flows <> x:24 var
+R1110:1110 flows.multiset_flows <> S:23 var
+def 1132:1137 <> insets
+binder 1139:1139 <> I:25
+R1145:1146 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R1152:1157 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R1159:1163 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R1169:1170 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R1147:1151 stdpp.base <> union def
+binder 1158:1158 <> x:26
+R1171:1175 flows.multiset_flows <> inset def
+R1177:1177 flows.multiset_flows <> I:25 var
+R1179:1179 flows.multiset_flows <> x:26 var
+R1164:1166 stdpp.base <> dom def
+R1168:1168 flows.multiset_flows <> I:25 var
+def 1195:1201 <> outsets
+binder 1203:1203 <> I:27
+R1209:1210 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R1216:1221 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R1223:1227 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R1243:1244 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R1211:1215 stdpp.base <> union def
+binder 1222:1222 <> x:28
+R1245:1250 flows.multiset_flows <> outset def
+R1252:1252 flows.multiset_flows <> I:27 var
+R1254:1254 flows.multiset_flows <> x:28 var
+R1228:1230 stdpp.base <> dom def
+R1233:1239 flows.flows <> out_map def
+R1241:1241 flows.multiset_flows <> I:27 var
+prf 1603:1617 <> inset_in_insets
+binder 1619:1619 <> I:29
+binder 1621:1621 <> n:30
+binder 1623:1623 <> k:31
+R1644:1648 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R1630:1634 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R1629:1629 flows.multiset_flows <> k:31 var
+R1635:1639 flows.multiset_flows <> inset def
+R1641:1641 flows.multiset_flows <> I:29 var
+R1643:1643 flows.multiset_flows <> n:30 var
+R1650:1654 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R1649:1649 flows.multiset_flows <> k:31 var
+R1655:1660 flows.multiset_flows <> insets def
+R1662:1662 flows.multiset_flows <> I:29 var
+R1696:1700 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R1701:1703 stdpp.base <> dom def
+R1696:1700 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R1701:1703 stdpp.base <> dom def
+R1730:1734 flows.multiset_flows <> inset def
+R1750:1752 flows.flows <> inf def
+R1784:1787 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R1775:1781 flows.flows <> inf_map def
+R1784:1787 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R1775:1781 flows.flows <> inf_map def
+R1813:1815 stdpp.base <> dom def
+R1818:1828 flows.flows <> flowint_dom inst
+R1845:1855 stdpp.fin_map_dom <> elem_of_dom meth
+R1845:1855 stdpp.fin_map_dom <> elem_of_dom meth
+R1845:1855 stdpp.fin_map_dom <> elem_of_dom meth
+R1905:1913 flows.ccm <> nzmap_dom inst
+R1964:1966 stdpp.base <> dom def
+R1969:1979 flows.flows <> flowint_dom inst
+R2001:2006 flows.multiset_flows <> insets def
+R2020:2033 iris.algebra.big_op <> big_opS_delete thm
+R2020:2033 iris.algebra.big_op <> big_opS_delete thm
+R2020:2033 iris.algebra.big_op <> big_opS_delete thm
+prf 2081:2097 <> outset_in_outsets
+binder 2099:2099 <> I:32
+binder 2101:2101 <> n:33
+binder 2103:2103 <> k:34
+R2125:2129 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R2110:2114 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R2109:2109 flows.multiset_flows <> k:34 var
+R2115:2120 flows.multiset_flows <> outset def
+R2122:2122 flows.multiset_flows <> I:32 var
+R2124:2124 flows.multiset_flows <> n:33 var
+R2131:2135 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R2130:2130 flows.multiset_flows <> k:34 var
+R2136:2142 flows.multiset_flows <> outsets def
+R2144:2144 flows.multiset_flows <> I:32 var
+R2178:2182 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R2183:2185 stdpp.base <> dom def
+R2188:2194 flows.flows <> out_map def
+R2178:2182 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R2183:2185 stdpp.base <> dom def
+R2188:2194 flows.flows <> out_map def
+R2219:2235 flows.ccm <> nzmap_elem_of_dom thm
+R2219:2235 flows.ccm <> nzmap_elem_of_dom thm
+R2219:2235 flows.ccm <> nzmap_elem_of_dom thm
+R2261:2264 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R2252:2258 flows.flows <> out_map def
+R2261:2264 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R2252:2258 flows.flows <> out_map def
+R2298:2303 flows.multiset_flows <> outset def
+R2306:2308 flows.flows <> out def
+R2329:2350 flows.ccm <> nzmap_lookup_total_alt thm
+R2329:2350 flows.ccm <> nzmap_lookup_total_alt thm
+R2329:2350 flows.ccm <> nzmap_lookup_total_alt thm
+R2427:2433 flows.multiset_flows <> outsets def
+R2447:2460 iris.algebra.big_op <> big_opS_delete thm
+R2447:2460 iris.algebra.big_op <> big_opS_delete thm
+R2447:2460 iris.algebra.big_op <> big_opS_delete thm
+prf 2559:2587 <> composable_outflow_leq_inflow
+binder 2589:2590 <> I1:35
+binder 2592:2593 <> I2:36
+binder 2595:2595 <> k:37
+binder 2597:2597 <> n:38
+R2615:2621 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R2604:2608 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R2603:2603 flows.multiset_flows <> n:38 var
+R2609:2611 stdpp.base <> dom def
+R2613:2614 flows.multiset_flows <> I2:36 var
+R2641:2647 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R2622:2634 flows.flows <> intComposable def
+R2636:2637 flows.multiset_flows <> I1:35 var
+R2639:2640 flows.multiset_flows <> I2:36 var
+R2662:2666 Coq.Unicode.Utf8 <> :::x_'≤'_x not
+R2656:2660 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R2661:2661 flows.multiset_flows <> k:37 var
+R2648:2650 flows.flows <> out def
+R2652:2653 flows.multiset_flows <> I1:35 var
+R2655:2655 flows.multiset_flows <> n:38 var
+R2675:2679 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R2680:2680 flows.multiset_flows <> k:37 var
+R2667:2669 flows.flows <> inf def
+R2671:2672 flows.multiset_flows <> I2:36 var
+R2674:2674 flows.multiset_flows <> n:38 var
+R2722:2734 flows.flows <> intComposable def
+R2800:2809 stdpp.fin_maps <> map_Forall def
+R2830:2839 stdpp.fin_maps <> map_Forall def
+R2874:2876 flows.flows <> inf def
+R2874:2876 flows.flows <> inf def
+R2909:2913 flows.ccm <> ccmop def
+R2916:2921 flows.ccm <> ccm_op meth
+R2924:2930 flows.ccm <> lift_op inst
+R2949:2955 flows.ccm <> lift_op inst
+R2968:2985 flows.ccm <> nzmap_lookup_merge thm
+R2968:2985 flows.ccm <> nzmap_lookup_merge thm
+R2968:2985 flows.ccm <> nzmap_lookup_merge thm
+R2997:3001 flows.ccm <> ccmop def
+R3004:3009 flows.ccm <> ccm_op meth
+R3012:3018 flows.ccm <> nat_ccm inst
+R3021:3026 flows.ccm <> nat_op inst
+R3038:3046 flows.ccm <> ccmop_inv def
+R3049:3057 flows.ccm <> ccm_opinv meth
+R3076:3085 flows.ccm <> lift_opinv inst
+R3098:3115 flows.ccm <> nzmap_lookup_merge thm
+R3098:3115 flows.ccm <> nzmap_lookup_merge thm
+R3098:3115 flows.ccm <> nzmap_lookup_merge thm
+R3127:3135 flows.ccm <> ccmop_inv def
+R3138:3146 flows.ccm <> ccm_opinv meth
+R3165:3173 flows.ccm <> nat_opinv inst
+R3184:3195 Coq.Numbers.Natural.Peano.NPeano Nat le_add_r thm
+R3184:3195 Coq.Numbers.Natural.Peano.NPeano Nat le_add_r thm
+R3207:3209 stdpp.base <> dom def
+R3212:3222 flows.flows <> flowint_dom inst
+R3245:3255 stdpp.fin_map_dom <> elem_of_dom meth
+R3245:3255 stdpp.fin_map_dom <> elem_of_dom meth
+R3279:3285 stdpp.option <> is_Some def
+R3330:3332 flows.flows <> inf def
+prf 3369:3382 <> inset_monotone
+binder 3384:3384 <> I:39
+binder 3386:3387 <> I1:40
+binder 3389:3390 <> I2:41
+binder 3392:3392 <> k:42
+binder 3394:3394 <> n:43
+R3407:3411 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R3402:3405 iris.algebra.cmra <> ::stdpp_scope:'✓'_x not
+R3406:3406 flows.multiset_flows <> I:39 var
+R3425:3429 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R3413:3415 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3412:3412 flows.multiset_flows <> I:39 var
+R3418:3422 iris.algebra.cmra <> ::stdpp_scope:x_'⋅'_x not
+R3416:3417 flows.multiset_flows <> I1:40 var
+R3423:3424 flows.multiset_flows <> I2:41 var
+R3445:3449 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R3431:3435 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R3430:3430 flows.multiset_flows <> k:42 var
+R3436:3440 flows.multiset_flows <> inset def
+R3442:3442 flows.multiset_flows <> I:39 var
+R3444:3444 flows.multiset_flows <> n:43 var
+R3462:3466 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R3451:3455 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R3450:3450 flows.multiset_flows <> n:43 var
+R3456:3458 stdpp.base <> dom def
+R3460:3461 flows.multiset_flows <> I1:40 var
+R3468:3472 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R3467:3467 flows.multiset_flows <> k:42 var
+R3473:3477 flows.multiset_flows <> inset def
+R3479:3480 flows.multiset_flows <> I1:40 var
+R3482:3482 flows.multiset_flows <> n:43 var
+R3552:3571 flows.flows <> intComp_unfold_inf_1 thm
+R3552:3571 flows.flows <> intComp_unfold_inf_1 thm
+R3635:3639 flows.multiset_flows <> inset def
+R3661:3683 flows.ccm <> nzmap_elem_of_dom_total thm
+R3661:3683 flows.ccm <> nzmap_elem_of_dom_total thm
+R3661:3683 flows.ccm <> nzmap_elem_of_dom_total thm
+R3704:3708 flows.multiset_flows <> inset def
+R3719:3741 flows.ccm <> nzmap_elem_of_dom_total thm
+R3719:3741 flows.ccm <> nzmap_elem_of_dom_total thm
+R3719:3741 flows.ccm <> nzmap_elem_of_dom_total thm
+R3776:3782 flows.ccm <> ccmunit def
+R3776:3782 flows.ccm <> ccmunit def
+R3776:3782 flows.ccm <> ccmunit def
+R3799:3805 flows.ccm <> ccmunit def
+R3799:3805 flows.ccm <> ccmunit def
+R3799:3805 flows.ccm <> ccmunit def
+R3831:3835 flows.ccm <> ccmop def
+R3831:3835 flows.ccm <> ccmop def
+R3831:3835 flows.ccm <> ccmop def
+R3851:3858 flows.ccm <> nat_unit inst
+R3868:3875 flows.ccm <> nat_unit inst
+R3898:3903 flows.ccm <> ccm_op meth
+R3898:3903 flows.ccm <> ccm_op meth
+R3898:3903 flows.ccm <> ccm_op meth
+R3918:3924 flows.ccm <> lift_op inst
+R3918:3924 flows.ccm <> lift_op inst
+R3918:3924 flows.ccm <> lift_op inst
+R3940:3959 flows.ccm <> lookup_total_lifting thm
+R3940:3959 flows.ccm <> lookup_total_lifting thm
+R3940:3959 flows.ccm <> lookup_total_lifting thm
+R3973:3977 flows.ccm <> ccmop def
+R3973:3977 flows.ccm <> ccmop def
+R3973:3977 flows.ccm <> ccmop def
+R3992:3997 flows.ccm <> ccm_op meth
+R3992:3997 flows.ccm <> ccm_op meth
+R3992:3997 flows.ccm <> ccm_op meth
+R4014:4019 flows.ccm <> nat_op inst
+R4014:4019 flows.ccm <> nat_op inst
+R4014:4019 flows.ccm <> nat_op inst
+prf 4046:4061 <> intComp_out_zero
+R4071:4089 flows.multiset_flows <> multiset_flowint_ur canonstruc
+binder 4064:4065 <> I1:44
+binder 4067:4068 <> I2:45
+binder 4092:4092 <> n:46
+R4120:4124 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R4105:4109 iris.algebra.cmra <> ::stdpp_scope:'✓'_x not
+R4119:4119 iris.algebra.cmra <> ::stdpp_scope:'✓'_x not
+R4112:4116 iris.algebra.cmra <> ::stdpp_scope:x_'⋅'_x not
+R4110:4111 flows.multiset_flows <> I1:44 var
+R4117:4118 flows.multiset_flows <> I2:45 var
+R4146:4161 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R4126:4130 stdpp.base <> ::stdpp_scope:x_'∉'_x not
+R4125:4125 flows.multiset_flows <> n:46 var
+R4131:4133 stdpp.base <> dom def
+R4138:4142 iris.algebra.cmra <> ::stdpp_scope:x_'⋅'_x not
+R4136:4137 flows.multiset_flows <> I1:44 var
+R4143:4144 flows.multiset_flows <> I2:45 var
+R4187:4191 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R4179:4181 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4162:4164 flows.flows <> out def
+R4169:4173 iris.algebra.cmra <> ::stdpp_scope:x_'⋅'_x not
+R4167:4168 flows.multiset_flows <> I1:44 var
+R4174:4175 flows.multiset_flows <> I2:45 var
+R4178:4178 flows.multiset_flows <> n:46 var
+R4200:4202 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4192:4194 flows.flows <> out def
+R4196:4197 flows.multiset_flows <> I2:45 var
+R4199:4199 flows.multiset_flows <> n:46 var
+R4246:4253 flows.ccm <> nzmap_eq thm
+R4246:4253 flows.ccm <> nzmap_eq thm
+R4300:4302 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4283:4285 flows.flows <> out def
+R4290:4294 iris.algebra.cmra <> ::stdpp_scope:x_'⋅'_x not
+R4303:4303 flows.ccm <> ::ccm_scope:x_'+'_x not
+R4314:4318 flows.ccm <> ::ccm_scope:x_'+'_x not
+R4327:4327 flows.ccm <> ::ccm_scope:x_'+'_x not
+R4304:4306 flows.flows <> out def
+R4319:4321 flows.flows <> out def
+R4300:4302 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4283:4285 flows.flows <> out def
+R4290:4294 iris.algebra.cmra <> ::stdpp_scope:x_'⋅'_x not
+R4303:4303 flows.ccm <> ::ccm_scope:x_'+'_x not
+R4314:4318 flows.ccm <> ::ccm_scope:x_'+'_x not
+R4327:4327 flows.ccm <> ::ccm_scope:x_'+'_x not
+R4304:4306 flows.flows <> out def
+R4319:4321 flows.flows <> out def
+R4347:4364 flows.flows <> intComp_unfold_out thm
+R4347:4364 flows.flows <> intComp_unfold_out thm
+R4347:4364 flows.flows <> intComp_unfold_out thm
+R4412:4414 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4406:4410 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R4389:4391 flows.flows <> out def
+R4396:4400 iris.algebra.cmra <> ::stdpp_scope:x_'⋅'_x not
+R4433:4435 flows.ccm <> ::ccm_scope:x_'+'_x not
+R4415:4415 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R4426:4431 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R4416:4418 flows.flows <> out def
+R4436:4436 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R4445:4450 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R4437:4439 flows.flows <> out def
+R4412:4414 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4406:4410 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R4389:4391 flows.flows <> out def
+R4396:4400 iris.algebra.cmra <> ::stdpp_scope:x_'⋅'_x not
+R4433:4435 flows.ccm <> ::ccm_scope:x_'+'_x not
+R4415:4415 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R4426:4431 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R4416:4418 flows.flows <> out def
+R4436:4436 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R4445:4450 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R4437:4439 flows.flows <> out def
+R4486:4505 flows.ccm <> lookup_total_lifting thm
+R4486:4505 flows.ccm <> lookup_total_lifting thm
+R4486:4505 flows.ccm <> lookup_total_lifting thm
+R4525:4542 flows.ccm <> nzmap_lookup_empty thm
+R4525:4542 flows.ccm <> nzmap_lookup_empty thm
+R4525:4542 flows.ccm <> nzmap_lookup_empty thm
+R4560:4566 flows.ccm <> ccmunit def
+R4569:4576 flows.ccm <> ccm_unit meth
+R4607:4614 flows.ccm <> nat_unit inst
+R4617:4621 flows.ccm <> ccmop def
+R4624:4629 flows.ccm <> nat_op inst
+R4662:4664 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4656:4660 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R4648:4650 flows.flows <> out def
+R4662:4664 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4656:4660 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R4648:4650 flows.flows <> out def
+R4696:4713 flows.ccm <> nzmap_lookup_empty thm
+R4696:4713 flows.ccm <> nzmap_lookup_empty thm
+R4696:4713 flows.ccm <> nzmap_lookup_empty thm
+prf 4736:4747 <> flowint_step
+R4753:4756 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R4768:4773 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+binder 4757:4757 <> I:47
+binder 4759:4760 <> I1:48
+binder 4762:4763 <> I2:49
+binder 4765:4765 <> k:50
+binder 4767:4767 <> n:51
+R4779:4787 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R4774:4777 iris.algebra.cmra <> ::stdpp_scope:'✓'_x not
+R4778:4778 flows.multiset_flows <> I:47 var
+R4796:4804 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R4788:4793 flows.multiset_flows <> closed def
+R4795:4795 flows.multiset_flows <> I:47 var
+R4818:4822 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R4806:4808 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4805:4805 flows.multiset_flows <> I:47 var
+R4811:4815 iris.algebra.cmra <> ::stdpp_scope:x_'⋅'_x not
+R4809:4810 flows.multiset_flows <> I1:48 var
+R4816:4817 flows.multiset_flows <> I2:49 var
+R4840:4844 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R4824:4828 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R4823:4823 flows.multiset_flows <> k:50 var
+R4829:4834 flows.multiset_flows <> outset def
+R4836:4837 flows.multiset_flows <> I1:48 var
+R4839:4839 flows.multiset_flows <> n:51 var
+R4846:4850 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R4845:4845 flows.multiset_flows <> n:51 var
+R4851:4853 stdpp.base <> dom def
+R4855:4856 flows.multiset_flows <> I2:49 var
+R4940:4942 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4935:4937 stdpp.base <> dom def
+R4949:4953 stdpp.base <> ::stdpp_scope:x_'∪'_x not
+R4943:4945 stdpp.base <> dom def
+R4954:4956 stdpp.base <> dom def
+R4940:4942 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4935:4937 stdpp.base <> dom def
+R4949:4953 stdpp.base <> ::stdpp_scope:x_'∪'_x not
+R4943:4945 stdpp.base <> dom def
+R4954:4956 stdpp.base <> dom def
+R4985:4995 flows.flows <> intComp_dom thm
+R4985:4995 flows.flows <> intComp_dom thm
+R5079:5084 stdpp.base <> decide def
+R5088:5092 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R5093:5095 stdpp.base <> dom def
+R5079:5084 stdpp.base <> decide def
+R5088:5092 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R5093:5095 stdpp.base <> dom def
+R5117:5135 flows.flows <> intComp_valid_proj1 thm
+R5117:5135 flows.flows <> intComp_valid_proj1 thm
+R5169:5191 flows.flows <> intValid_in_dom_not_out thm
+R5169:5191 flows.flows <> intValid_in_dom_not_out thm
+R5215:5220 flows.multiset_flows <> outset def
+R5223:5225 stdpp.base <> dom def
+R5246:5268 flows.ccm <> nzmap_elem_of_dom_total thm
+R5246:5268 flows.ccm <> nzmap_elem_of_dom_total thm
+R5246:5268 flows.ccm <> nzmap_elem_of_dom_total thm
+R5288:5294 flows.ccm <> ccmunit def
+R5297:5304 flows.ccm <> ccm_unit meth
+R5307:5320 flows.multiset_flows <> K_multiset_ccm inst
+R5323:5330 flows.ccm <> lift_ccm inst
+R5333:5341 flows.ccm <> lift_unit inst
+R5382:5399 flows.ccm <> nzmap_lookup_empty thm
+R5382:5399 flows.ccm <> nzmap_lookup_empty thm
+R5382:5399 flows.ccm <> nzmap_lookup_empty thm
+R5474:5478 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R5479:5481 stdpp.base <> dom def
+R5486:5490 iris.algebra.cmra <> ::stdpp_scope:x_'⋅'_x not
+R5474:5478 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R5479:5481 stdpp.base <> dom def
+R5486:5490 iris.algebra.cmra <> ::stdpp_scope:x_'⋅'_x not
+R5523:5540 flows.flows <> intComp_unfold_out thm
+R5523:5540 flows.flows <> intComp_unfold_out thm
+R5567:5572 stdpp.base <> decide def
+R5576:5580 stdpp.base <> ::stdpp_scope:x_'∉'_x not
+R5581:5583 stdpp.base <> dom def
+R5588:5592 iris.algebra.cmra <> ::stdpp_scope:x_'⋅'_x not
+R5567:5572 stdpp.base <> decide def
+R5576:5580 stdpp.base <> ::stdpp_scope:x_'∉'_x not
+R5581:5583 stdpp.base <> dom def
+R5588:5592 iris.algebra.cmra <> ::stdpp_scope:x_'⋅'_x not
+R5663:5668 flows.multiset_flows <> outset def
+R5671:5673 stdpp.base <> dom def
+R5699:5721 flows.ccm <> nzmap_elem_of_dom_total thm
+R5699:5721 flows.ccm <> nzmap_elem_of_dom_total thm
+R5699:5721 flows.ccm <> nzmap_elem_of_dom_total thm
+R5745:5754 stdpp.decidable <> dec_stable thm
+R5745:5754 stdpp.decidable <> dec_stable thm
+R5779:5784 flows.multiset_flows <> outset def
+R5787:5789 stdpp.base <> dom def
+R5810:5832 flows.ccm <> nzmap_elem_of_dom_total thm
+R5810:5832 flows.ccm <> nzmap_elem_of_dom_total thm
+R5810:5832 flows.ccm <> nzmap_elem_of_dom_total thm
+R5866:5868 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5860:5864 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R5853:5855 flows.flows <> out def
+R5886:5890 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R5869:5871 flows.flows <> out def
+R5876:5880 iris.algebra.cmra <> ::stdpp_scope:x_'⋅'_x not
+R5866:5868 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5860:5864 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R5853:5855 flows.flows <> out def
+R5886:5890 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R5869:5871 flows.flows <> out def
+R5876:5880 iris.algebra.cmra <> ::stdpp_scope:x_'⋅'_x not
+R5952:5971 flows.ccm <> lookup_total_lifting thm
+R5952:5971 flows.ccm <> lookup_total_lifting thm
+R5952:5971 flows.ccm <> lookup_total_lifting thm
+R5989:5993 flows.ccm <> ccmop def
+R5996:6001 flows.ccm <> ccm_op meth
+R6019:6032 flows.multiset_flows <> K_multiset_ccm inst
+R6034:6040 flows.ccm <> ccmunit def
+R6042:6049 flows.ccm <> ccm_unit meth
+R6051:6057 flows.ccm <> nat_ccm inst
+R6064:6071 flows.ccm <> nat_unit inst
+R6073:6078 flows.ccm <> nat_op inst
+R6148:6157 stdpp.decidable <> dec_stable thm
+R6148:6157 stdpp.decidable <> dec_stable thm
+R6225:6235 flows.flows <> intComp_dom thm
+R6225:6235 flows.flows <> intComp_dom thm
+prf 6296:6310 <> outset_distinct
+R6314:6317 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R6321:6322 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+binder 6318:6318 <> I:52
+binder 6320:6320 <> n:53
+R6358:6362 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R6328:6333 Coq.Unicode.Utf8_core <> ::type_scope:x_'∧'_x not
+R6357:6357 Coq.Unicode.Utf8_core <> ::type_scope:x_'∧'_x not
+R6323:6326 iris.algebra.cmra <> ::stdpp_scope:'✓'_x not
+R6327:6327 flows.multiset_flows <> I:52 var
+R6334:6337 Coq.Unicode.Utf8_core <> ::type_scope:'∃'_x_'..'_x_','_x not
+R6339:6340 Coq.Unicode.Utf8_core <> ::type_scope:'∃'_x_'..'_x_','_x not
+binder 6338:6338 <> k:54
+R6342:6346 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R6341:6341 flows.multiset_flows <> k:54 var
+R6347:6352 flows.multiset_flows <> outset def
+R6354:6354 flows.multiset_flows <> I:52 var
+R6356:6356 flows.multiset_flows <> n:53 var
+R6364:6368 stdpp.base <> ::stdpp_scope:x_'∉'_x not
+R6363:6363 flows.multiset_flows <> n:53 var
+R6369:6371 stdpp.base <> dom def
+R6373:6373 flows.multiset_flows <> I:52 var
+R6458:6477 flows.flows <> flowint_valid_unfold thm
+R6458:6477 flows.flows <> flowint_valid_unfold thm
+R6535:6540 flows.multiset_flows <> outset def
+R6543:6545 stdpp.base <> dom def
+R6548:6556 flows.ccm <> nzmap_dom inst
+R6559:6561 flows.flows <> out def
+R6564:6570 flows.flows <> out_map def
+R6611:6633 flows.ccm <> nzmap_elem_of_dom_total thm
+R6611:6633 flows.ccm <> nzmap_elem_of_dom_total thm
+R6611:6633 flows.ccm <> nzmap_elem_of_dom_total thm
+R6655:6660 stdpp.base <> decide def
+R6676:6678 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6670:6674 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R6663:6666 flows.flows <> outR proj
+R6679:6681 stdpp.base <> ::stdpp_scope:'∅' not
+R6655:6660 stdpp.base <> decide def
+R6676:6678 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6670:6674 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R6663:6666 flows.flows <> outR proj
+R6679:6681 stdpp.base <> ::stdpp_scope:'∅' not
+R6716:6733 flows.ccm <> nzmap_lookup_empty thm
+R6716:6733 flows.ccm <> nzmap_lookup_empty thm
+R6716:6733 flows.ccm <> nzmap_lookup_empty thm
+R6773:6795 flows.ccm <> nzmap_elem_of_dom_total thm
+R6773:6795 flows.ccm <> nzmap_elem_of_dom_total thm
+R6773:6795 flows.ccm <> nzmap_elem_of_dom_total thm
+R6813:6815 stdpp.base <> dom def
+R6818:6826 flows.ccm <> nzmap_dom inst
+R6847:6849 stdpp.base <> dom def
+R6852:6862 flows.flows <> flowint_dom inst
+R6865:6871 flows.flows <> inf_map def
+prf 6914:6931 <> flowint_inset_step
+R6935:6938 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R6948:6953 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+binder 6939:6940 <> I1:55
+binder 6942:6943 <> I2:56
+binder 6945:6945 <> k:57
+binder 6947:6947 <> n:58
+R6969:6973 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R6954:6958 iris.algebra.cmra <> ::stdpp_scope:'✓'_x not
+R6968:6968 iris.algebra.cmra <> ::stdpp_scope:'✓'_x not
+R6961:6965 iris.algebra.cmra <> ::stdpp_scope:x_'⋅'_x not
+R6959:6960 flows.multiset_flows <> I1:55 var
+R6966:6967 flows.multiset_flows <> I2:56 var
+R6986:6990 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R6975:6979 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R6974:6974 flows.multiset_flows <> n:58 var
+R6980:6982 stdpp.base <> dom def
+R6984:6985 flows.multiset_flows <> I2:56 var
+R7008:7012 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R6992:6996 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R6991:6991 flows.multiset_flows <> k:57 var
+R6997:7002 flows.multiset_flows <> outset def
+R7004:7005 flows.multiset_flows <> I1:55 var
+R7007:7007 flows.multiset_flows <> n:58 var
+R7014:7018 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R7013:7013 flows.multiset_flows <> k:57 var
+R7019:7023 flows.multiset_flows <> inset def
+R7025:7026 flows.multiset_flows <> I2:56 var
+R7028:7028 flows.multiset_flows <> n:58 var
+R7079:7097 flows.flows <> intComposable_valid thm
+R7079:7097 flows.flows <> intComposable_valid thm
+R7122:7150 flows.multiset_flows <> composable_outflow_leq_inflow thm
+R7122:7150 flows.multiset_flows <> composable_outflow_leq_inflow thm
+R7182:7187 flows.multiset_flows <> outset def
+R7190:7192 stdpp.base <> dom def
+R7214:7236 flows.ccm <> nzmap_elem_of_dom_total thm
+R7214:7236 flows.ccm <> nzmap_elem_of_dom_total thm
+R7214:7236 flows.ccm <> nzmap_elem_of_dom_total thm
+R7257:7261 flows.multiset_flows <> inset def
+R7264:7266 stdpp.base <> dom def
+R7279:7301 flows.ccm <> nzmap_elem_of_dom_total thm
+R7279:7301 flows.ccm <> nzmap_elem_of_dom_total thm
+R7279:7301 flows.ccm <> nzmap_elem_of_dom_total thm
+R7313:7319 flows.ccm <> ccmunit def
+R7322:7329 flows.ccm <> ccm_unit meth
+R7332:7338 flows.ccm <> nat_ccm inst
+R7341:7348 flows.ccm <> nat_unit inst
+R7369:7375 flows.ccm <> ccmunit def
+R7378:7385 flows.ccm <> ccm_unit meth
+R7388:7394 flows.ccm <> nat_ccm inst
+R7397:7404 flows.ccm <> nat_unit inst
+R7435:7439 Coq.Unicode.Utf8_core <> ::type_scope:x_'∨'_x not
+R7431:7433 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R7425:7429 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R7417:7419 flows.flows <> out def
+R7454:7456 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7448:7452 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R7440:7442 flows.flows <> out def
+R7435:7439 Coq.Unicode.Utf8_core <> ::type_scope:x_'∨'_x not
+R7431:7433 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R7425:7429 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R7417:7419 flows.flows <> out def
+R7454:7456 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7448:7452 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R7440:7442 flows.flows <> out def
+R7505:7509 Coq.Unicode.Utf8_core <> ::type_scope:x_'≠'_x not
+R7499:7503 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R7491:7493 flows.flows <> inf def
+R7505:7509 Coq.Unicode.Utf8_core <> ::type_scope:x_'≠'_x not
+R7499:7503 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R7491:7493 flows.flows <> inf def
+def 7637:7651 <> outflow_map_set
+binder 7653:7653 <> f:59
+binder 7655:7655 <> I:60
+R7661:7664 flows.flows <> Node def
+binder 7658:7658 <> n:61
+R7671:7674 stdpp.gmap <> gset def
+R7676:7676 flows.multiset_flows <> multiset_flows.K var
+binder 7668:7668 <> s:62
+R7681:7699 flows.multiset_flows <> multiset_flowint_ur canonstruc
+R7723:7735 flows.ccm <> nzmap_map_set def
+R7742:7744 flows.flows <> out def
+R7746:7746 flows.multiset_flows <> I:60 var
+R7748:7748 flows.multiset_flows <> n:61 var
+R7739:7739 flows.multiset_flows <> s:62 var
+R7737:7737 flows.multiset_flows <> f:59 var
+binder 7711:7717 <> I_out_n:63
+R7772:7774 flows.ccm <> :::'<<['_x_':='_x_']>>'_x not
+R7776:7779 flows.ccm <> :::'<<['_x_':='_x_']>>'_x not
+R7787:7791 flows.ccm <> :::'<<['_x_':='_x_']>>'_x not
+R7801:7801 flows.ccm <> :::'<<['_x_':='_x_']>>'_x not
+R7775:7775 flows.multiset_flows <> n:61 var
+R7780:7786 flows.multiset_flows <> I_out_n:63 var
+R7792:7798 flows.flows <> out_map def
+R7800:7800 flows.multiset_flows <> I:60 var
+binder 7761:7766 <> I'_out:64
+R7810:7812 flows.flows <> int constr
+R7817:7820 flows.flows <> infR proj
+R7817:7820 flows.flows <> infR proj
+R7817:7820 flows.flows <> infR proj
+R7837:7840 flows.flows <> outR proj
+R7837:7840 flows.flows <> outR proj
+R7825:7831 flows.flows <> inf_map def
+R7833:7833 flows.multiset_flows <> I:60 var
+R7845:7850 flows.multiset_flows <> I'_out:64 var
+def 7869:7882 <> inflow_map_set
+binder 7884:7884 <> f:65
+binder 7886:7886 <> I:66
+R7892:7895 flows.flows <> Node def
+binder 7889:7889 <> n:67
+R7902:7905 stdpp.gmap <> gset def
+R7907:7907 flows.multiset_flows <> multiset_flows.K var
+binder 7899:7899 <> s:68
+R7912:7930 flows.multiset_flows <> multiset_flowint_ur canonstruc
+R7954:7966 flows.ccm <> nzmap_map_set def
+R7973:7975 flows.flows <> inf def
+R7977:7977 flows.multiset_flows <> I:66 var
+R7979:7979 flows.multiset_flows <> n:67 var
+R7970:7970 flows.multiset_flows <> s:68 var
+R7968:7968 flows.multiset_flows <> f:65 var
+binder 7942:7948 <> I_inf_n:69
+R8003:8005 stdpp.base <> ::stdpp_scope:'<['_x_':='_x_']>' not
+R8007:8010 stdpp.base <> ::stdpp_scope:'<['_x_':='_x_']>' not
+R8018:8031 stdpp.base <> ::stdpp_scope:'<['_x_':='_x_']>' not
+R8006:8006 flows.multiset_flows <> n:67 var
+R8011:8017 flows.multiset_flows <> I_inf_n:69 var
+R8022:8028 flows.flows <> inf_map def
+R8030:8030 flows.multiset_flows <> I:66 var
+binder 7992:7997 <> I'_inf:70
+R8040:8042 flows.flows <> int constr
+R8047:8050 flows.flows <> infR proj
+R8047:8050 flows.flows <> infR proj
+R8047:8050 flows.flows <> infR proj
+R8064:8067 flows.flows <> outR proj
+R8064:8067 flows.flows <> outR proj
+R8055:8060 flows.multiset_flows <> I'_inf:70 var
+R8072:8078 flows.flows <> out_map def
+R8080:8080 flows.multiset_flows <> I:66 var
+prf 8094:8121 <> outflow_lookup_total_map_set
+binder 8123:8123 <> f:71
+binder 8125:8125 <> I:72
+binder 8127:8127 <> n:73
+binder 8129:8129 <> k:74
+binder 8131:8131 <> s:75
+R8148:8152 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R8142:8146 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R8141:8141 flows.multiset_flows <> k:74 var
+R8147:8147 flows.multiset_flows <> s:75 var
+R8190:8192 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8184:8188 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R8189:8189 flows.multiset_flows <> k:74 var
+R8153:8155 flows.flows <> out def
+R8158:8172 flows.multiset_flows <> outflow_map_set def
+R8174:8174 flows.multiset_flows <> f:71 var
+R8176:8176 flows.multiset_flows <> I:72 var
+R8178:8178 flows.multiset_flows <> n:73 var
+R8180:8180 flows.multiset_flows <> s:75 var
+R8183:8183 flows.multiset_flows <> n:73 var
+R8193:8193 flows.multiset_flows <> f:71 var
+R8195:8195 flows.multiset_flows <> k:74 var
+R8205:8209 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R8210:8210 flows.multiset_flows <> k:74 var
+R8198:8200 flows.flows <> out def
+R8202:8202 flows.multiset_flows <> I:72 var
+R8204:8204 flows.multiset_flows <> n:73 var
+R8242:8244 flows.flows <> out def
+R8256:8270 flows.multiset_flows <> outflow_map_set def
+R8282:8284 flows.flows <> out def
+R8302:8314 stdpp.base <> leibniz_equiv def
+R8302:8314 stdpp.base <> leibniz_equiv def
+R8327:8351 flows.ccm <> nzmap_lookup_total_insert thm
+R8327:8351 flows.ccm <> nzmap_lookup_total_insert thm
+R8327:8351 flows.ccm <> nzmap_lookup_total_insert thm
+R8364:8389 flows.ccm <> nzmap_lookup_total_map_set thm
+R8364:8389 flows.ccm <> nzmap_lookup_total_map_set thm
+R8364:8389 flows.ccm <> nzmap_lookup_total_map_set thm
+prf 8424:8454 <> outflow_lookup_total_map_set_ne
+binder 8456:8456 <> f:76
+binder 8458:8458 <> I:77
+binder 8460:8460 <> n:78
+binder 8462:8462 <> k:79
+binder 8464:8464 <> s:80
+R8481:8485 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R8475:8479 stdpp.base <> ::stdpp_scope:x_'∉'_x not
+R8474:8474 flows.multiset_flows <> k:79 var
+R8480:8480 flows.multiset_flows <> s:80 var
+R8523:8525 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8517:8521 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R8522:8522 flows.multiset_flows <> k:79 var
+R8486:8488 flows.flows <> out def
+R8491:8505 flows.multiset_flows <> outflow_map_set def
+R8507:8507 flows.multiset_flows <> f:76 var
+R8509:8509 flows.multiset_flows <> I:77 var
+R8511:8511 flows.multiset_flows <> n:78 var
+R8513:8513 flows.multiset_flows <> s:80 var
+R8516:8516 flows.multiset_flows <> n:78 var
+R8533:8537 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R8538:8538 flows.multiset_flows <> k:79 var
+R8526:8528 flows.flows <> out def
+R8530:8530 flows.multiset_flows <> I:77 var
+R8532:8532 flows.multiset_flows <> n:78 var
+R8570:8572 flows.flows <> out def
+R8584:8598 flows.multiset_flows <> outflow_map_set def
+R8610:8612 flows.flows <> out def
+R8630:8642 stdpp.base <> leibniz_equiv def
+R8630:8642 stdpp.base <> leibniz_equiv def
+R8655:8679 flows.ccm <> nzmap_lookup_total_insert thm
+R8655:8679 flows.ccm <> nzmap_lookup_total_insert thm
+R8655:8679 flows.ccm <> nzmap_lookup_total_insert thm
+R8692:8720 flows.ccm <> nzmap_lookup_total_map_set_ne thm
+R8692:8720 flows.ccm <> nzmap_lookup_total_map_set_ne thm
+R8692:8720 flows.ccm <> nzmap_lookup_total_map_set_ne thm
+prf 8757:8783 <> inflow_lookup_total_map_set
+binder 8785:8785 <> f:81
+binder 8787:8787 <> I:82
+binder 8789:8789 <> n:83
+binder 8791:8791 <> k:84
+binder 8793:8793 <> s:85
+R8810:8814 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R8804:8808 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R8803:8803 flows.multiset_flows <> k:84 var
+R8809:8809 flows.multiset_flows <> s:85 var
+R8851:8853 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8845:8849 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R8850:8850 flows.multiset_flows <> k:84 var
+R8815:8817 flows.flows <> inf def
+R8820:8833 flows.multiset_flows <> inflow_map_set def
+R8835:8835 flows.multiset_flows <> f:81 var
+R8837:8837 flows.multiset_flows <> I:82 var
+R8839:8839 flows.multiset_flows <> n:83 var
+R8841:8841 flows.multiset_flows <> s:85 var
+R8844:8844 flows.multiset_flows <> n:83 var
+R8854:8854 flows.multiset_flows <> f:81 var
+R8856:8856 flows.multiset_flows <> k:84 var
+R8866:8870 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R8871:8871 flows.multiset_flows <> k:84 var
+R8859:8861 flows.flows <> inf def
+R8863:8863 flows.multiset_flows <> I:82 var
+R8865:8865 flows.multiset_flows <> n:83 var
+R8903:8905 flows.flows <> inf def
+R8917:8930 flows.multiset_flows <> inflow_map_set def
+R8942:8944 flows.flows <> inf def
+R8962:8974 stdpp.base <> leibniz_equiv def
+R8962:8974 stdpp.base <> leibniz_equiv def
+R8987:9006 stdpp.fin_maps <> lookup_partial_alter meth
+R8987:9006 stdpp.fin_maps <> lookup_partial_alter meth
+R8987:9006 stdpp.fin_maps <> lookup_partial_alter meth
+R9028:9053 flows.ccm <> nzmap_lookup_total_map_set thm
+R9028:9053 flows.ccm <> nzmap_lookup_total_map_set thm
+R9028:9053 flows.ccm <> nzmap_lookup_total_map_set thm
+prf 9088:9117 <> inflow_lookup_total_map_set_ne
+binder 9119:9119 <> f:86
+binder 9121:9121 <> I:87
+binder 9123:9123 <> n:88
+binder 9125:9125 <> k:89
+binder 9127:9127 <> s:90
+R9144:9148 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R9138:9142 stdpp.base <> ::stdpp_scope:x_'∉'_x not
+R9137:9137 flows.multiset_flows <> k:89 var
+R9143:9143 flows.multiset_flows <> s:90 var
+R9185:9187 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9179:9183 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R9184:9184 flows.multiset_flows <> k:89 var
+R9149:9151 flows.flows <> inf def
+R9154:9167 flows.multiset_flows <> inflow_map_set def
+R9169:9169 flows.multiset_flows <> f:86 var
+R9171:9171 flows.multiset_flows <> I:87 var
+R9173:9173 flows.multiset_flows <> n:88 var
+R9175:9175 flows.multiset_flows <> s:90 var
+R9178:9178 flows.multiset_flows <> n:88 var
+R9195:9199 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R9200:9200 flows.multiset_flows <> k:89 var
+R9188:9190 flows.flows <> inf def
+R9192:9192 flows.multiset_flows <> I:87 var
+R9194:9194 flows.multiset_flows <> n:88 var
+R9231:9233 flows.flows <> inf def
+R9245:9258 flows.multiset_flows <> inflow_map_set def
+R9270:9272 flows.flows <> inf def
+R9290:9302 stdpp.base <> leibniz_equiv def
+R9290:9302 stdpp.base <> leibniz_equiv def
+R9315:9334 stdpp.fin_maps <> lookup_partial_alter meth
+R9315:9334 stdpp.fin_maps <> lookup_partial_alter meth
+R9315:9334 stdpp.fin_maps <> lookup_partial_alter meth
+R9356:9384 flows.ccm <> nzmap_lookup_total_map_set_ne thm
+R9356:9384 flows.ccm <> nzmap_lookup_total_map_set_ne thm
+R9356:9384 flows.ccm <> nzmap_lookup_total_map_set_ne thm
+prf 9419:9444 <> outflow_map_set_out_map_ne
+binder 9446:9446 <> f:91
+binder 9448:9448 <> I:92
+binder 9450:9450 <> n:93
+binder 9452:9452 <> S:94
+binder 9454:9455 <> n':95
+R9473:9489 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R9467:9471 Coq.Unicode.Utf8_core <> ::type_scope:x_'≠'_x not
+R9465:9466 flows.multiset_flows <> n':95 var
+R9472:9472 flows.multiset_flows <> n:93 var
+R9530:9532 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9523:9527 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R9528:9529 flows.multiset_flows <> n':95 var
+R9490:9496 flows.flows <> out_map def
+R9499:9513 flows.multiset_flows <> outflow_map_set def
+R9515:9515 flows.multiset_flows <> f:91 var
+R9517:9517 flows.multiset_flows <> I:92 var
+R9519:9519 flows.multiset_flows <> n:93 var
+R9521:9521 flows.multiset_flows <> S:94 var
+R9542:9546 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R9547:9548 flows.multiset_flows <> n':95 var
+R9533:9539 flows.flows <> out_map def
+R9541:9541 flows.multiset_flows <> I:92 var
+R9582:9596 flows.multiset_flows <> outflow_map_set def
+R9616:9643 flows.ccm <> nzmap_lookup_total_insert_ne thm
+R9616:9643 flows.ccm <> nzmap_lookup_total_insert_ne thm
+R9616:9643 flows.ccm <> nzmap_lookup_total_insert_ne thm
+prf 9675:9699 <> outflow_map_set_outset_ne
+binder 9701:9701 <> f:96
+binder 9703:9703 <> I:97
+binder 9705:9705 <> n:98
+binder 9707:9707 <> S:99
+binder 9709:9710 <> n':100
+R9728:9744 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R9722:9726 Coq.Unicode.Utf8_core <> ::type_scope:x_'≠'_x not
+R9720:9721 flows.multiset_flows <> n':100 var
+R9727:9727 flows.multiset_flows <> n:98 var
+R9780:9782 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9745:9750 flows.multiset_flows <> outset def
+R9753:9767 flows.multiset_flows <> outflow_map_set def
+R9769:9769 flows.multiset_flows <> f:96 var
+R9771:9771 flows.multiset_flows <> I:97 var
+R9773:9773 flows.multiset_flows <> n:98 var
+R9775:9775 flows.multiset_flows <> S:99 var
+R9778:9779 flows.multiset_flows <> n':100 var
+R9783:9788 flows.multiset_flows <> outset def
+R9790:9790 flows.multiset_flows <> I:97 var
+R9792:9793 flows.multiset_flows <> n':100 var
+R9825:9830 flows.multiset_flows <> outset def
+R9842:9844 flows.flows <> out def
+R9858:9883 flows.multiset_flows <> outflow_map_set_out_map_ne thm
+R9858:9883 flows.multiset_flows <> outflow_map_set_out_map_ne thm
+R9858:9883 flows.multiset_flows <> outflow_map_set_out_map_ne thm
+prf 9929:9947 <> outflow_map_set_inf
+binder 9949:9949 <> f:101
+binder 9951:9951 <> I:102
+binder 9953:9953 <> n:103
+binder 9955:9955 <> S:104
+R10002:10004 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9969:9975 flows.flows <> inf_map def
+R9978:9992 flows.multiset_flows <> outflow_map_set def
+R9994:9994 flows.multiset_flows <> f:101 var
+R9996:9996 flows.multiset_flows <> I:102 var
+R9998:9998 flows.multiset_flows <> n:103 var
+R10000:10000 flows.multiset_flows <> S:104 var
+R10005:10011 flows.flows <> inf_map def
+R10013:10013 flows.multiset_flows <> I:102 var
+R10032:10046 flows.multiset_flows <> outflow_map_set def
+prf 10072:10092 <> outflow_map_set_inset
+binder 10094:10094 <> f:105
+binder 10096:10096 <> I:106
+binder 10098:10098 <> n:107
+binder 10100:10100 <> S:108
+binder 10102:10103 <> n':109
+R10152:10154 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10118:10122 flows.multiset_flows <> inset def
+R10125:10139 flows.multiset_flows <> outflow_map_set def
+R10141:10141 flows.multiset_flows <> f:105 var
+R10143:10143 flows.multiset_flows <> I:106 var
+R10145:10145 flows.multiset_flows <> n:107 var
+R10147:10147 flows.multiset_flows <> S:108 var
+R10150:10151 flows.multiset_flows <> n':109 var
+R10155:10159 flows.multiset_flows <> inset def
+R10161:10161 flows.multiset_flows <> I:106 var
+R10163:10164 flows.multiset_flows <> n':109 var
+R10188:10192 flows.multiset_flows <> inset def
+R10195:10209 flows.multiset_flows <> outflow_map_set def
+R10212:10214 flows.flows <> inf def
+R10220:10226 flows.flows <> inf_map def
+R10188:10192 flows.multiset_flows <> inset def
+R10188:10192 flows.multiset_flows <> inset def
+R10195:10209 flows.multiset_flows <> outflow_map_set def
+R10195:10209 flows.multiset_flows <> outflow_map_set def
+R10212:10214 flows.flows <> inf def
+R10212:10214 flows.flows <> inf def
+R10220:10226 flows.flows <> inf_map def
+R10220:10226 flows.flows <> inf_map def
+prf 10244:10260 <> inflow_map_set_ne
+binder 10262:10262 <> f:110
+binder 10264:10264 <> I:111
+binder 10266:10266 <> n:112
+binder 10268:10268 <> S:113
+binder 10270:10271 <> n':114
+R10289:10305 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R10283:10287 Coq.Unicode.Utf8_core <> ::type_scope:x_'≠'_x not
+R10281:10282 flows.multiset_flows <> n':114 var
+R10288:10288 flows.multiset_flows <> n:112 var
+R10344:10346 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10338:10341 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R10342:10343 flows.multiset_flows <> n':114 var
+R10306:10312 flows.flows <> inf_map def
+R10315:10328 flows.multiset_flows <> inflow_map_set def
+R10330:10330 flows.multiset_flows <> f:110 var
+R10332:10332 flows.multiset_flows <> I:111 var
+R10334:10334 flows.multiset_flows <> n:112 var
+R10336:10336 flows.multiset_flows <> S:113 var
+R10356:10359 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R10360:10361 flows.multiset_flows <> n':114 var
+R10347:10353 flows.flows <> inf_map def
+R10355:10355 flows.multiset_flows <> I:111 var
+R10395:10397 flows.flows <> inf def
+R10417:10439 stdpp.fin_maps <> lookup_partial_alter_ne meth
+R10417:10439 stdpp.fin_maps <> lookup_partial_alter_ne meth
+R10417:10439 stdpp.fin_maps <> lookup_partial_alter_ne meth
+prf 10468:10488 <> inflow_map_set_out_eq
+binder 10490:10490 <> f:115
+binder 10492:10492 <> I:116
+binder 10494:10494 <> n:117
+binder 10496:10496 <> S:118
+R10542:10544 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10510:10516 flows.flows <> out_map def
+R10519:10532 flows.multiset_flows <> inflow_map_set def
+R10534:10534 flows.multiset_flows <> f:115 var
+R10536:10536 flows.multiset_flows <> I:116 var
+R10538:10538 flows.multiset_flows <> n:117 var
+R10540:10540 flows.multiset_flows <> S:118 var
+R10545:10551 flows.flows <> out_map def
+R10553:10553 flows.multiset_flows <> I:116 var
+R10572:10585 flows.multiset_flows <> inflow_map_set def
+R10597:10602 flows.multiset_flows <> outset def
+R10614:10616 flows.flows <> inf def
+prf 10651:10674 <> inflow_map_set_outset_ne
+binder 10676:10676 <> f:119
+binder 10678:10678 <> I:120
+binder 10680:10680 <> n:121
+binder 10682:10682 <> S:122
+binder 10684:10685 <> n':123
+R10734:10736 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10700:10705 flows.multiset_flows <> outset def
+R10708:10721 flows.multiset_flows <> inflow_map_set def
+R10723:10723 flows.multiset_flows <> f:119 var
+R10725:10725 flows.multiset_flows <> I:120 var
+R10727:10727 flows.multiset_flows <> n:121 var
+R10729:10729 flows.multiset_flows <> S:122 var
+R10732:10733 flows.multiset_flows <> n':123 var
+R10737:10742 flows.multiset_flows <> outset def
+R10744:10744 flows.multiset_flows <> I:120 var
+R10746:10747 flows.multiset_flows <> n':123 var
+R10766:10771 flows.multiset_flows <> outset def
+R10788:10808 flows.multiset_flows <> inflow_map_set_out_eq thm
+R10788:10808 flows.multiset_flows <> inflow_map_set_out_eq thm
+R10829:10831 flows.flows <> out def
+def 10868:10882 <> nzmap_decrement
+R10888:10888 flows.multiset_flows <> multiset_flows.K var
+binder 10885:10885 <> k:124
+R10896:10900 flows.ccm <> nzmap rec
+R10904:10906 Coq.Init.Datatypes <> nat ind
+R10902:10902 flows.multiset_flows <> multiset_flows.K var
+binder 10892:10892 <> m:125
+R10914:10922 flows.ccm <> nzmap_map def
+R10942:10942 flows.multiset_flows <> m:125 var
+R10940:10940 flows.multiset_flows <> k:124 var
+R10925:10927 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R10931:10932 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+binder 10930:10930 <> n:126
+R10934:10936 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R10933:10933 flows.multiset_flows <> n:126 var
+def 10957:10971 <> nzmap_increment
+R10977:10977 flows.multiset_flows <> multiset_flows.K var
+binder 10974:10974 <> k:127
+R10985:10989 flows.ccm <> nzmap rec
+R10993:10995 Coq.Init.Datatypes <> nat ind
+R10991:10991 flows.multiset_flows <> multiset_flows.K var
+binder 10981:10981 <> m:128
+R11003:11011 flows.ccm <> nzmap_map def
+R11031:11031 flows.multiset_flows <> m:128 var
+R11029:11029 flows.multiset_flows <> k:127 var
+R11014:11016 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R11020:11021 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+binder 11019:11019 <> n:129
+R11023:11025 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R11022:11022 flows.multiset_flows <> n:129 var
+def 11046:11064 <> nzmap_decrement_set
+R11070:11073 stdpp.gmap <> gset def
+R11075:11075 flows.multiset_flows <> multiset_flows.K var
+binder 11067:11067 <> s:130
+R11083:11087 flows.ccm <> nzmap rec
+R11091:11093 Coq.Init.Datatypes <> nat ind
+R11089:11089 flows.multiset_flows <> multiset_flows.K var
+binder 11079:11079 <> m:131
+R11098:11102 flows.ccm <> nzmap rec
+R11106:11108 Coq.Init.Datatypes <> nat ind
+R11104:11104 flows.multiset_flows <> multiset_flows.K var
+R11116:11128 flows.ccm <> nzmap_map_set def
+R11148:11148 flows.multiset_flows <> m:131 var
+R11146:11146 flows.multiset_flows <> s:130 var
+R11131:11133 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R11137:11138 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+binder 11136:11136 <> n:132
+R11140:11142 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R11139:11139 flows.multiset_flows <> n:132 var
+def 11163:11181 <> nzmap_increment_set
+R11187:11190 stdpp.gmap <> gset def
+R11192:11192 flows.multiset_flows <> multiset_flows.K var
+binder 11184:11184 <> s:133
+R11200:11204 flows.ccm <> nzmap rec
+R11208:11210 Coq.Init.Datatypes <> nat ind
+R11206:11206 flows.multiset_flows <> multiset_flows.K var
+binder 11196:11196 <> m:134
+R11215:11219 flows.ccm <> nzmap rec
+R11223:11225 Coq.Init.Datatypes <> nat ind
+R11221:11221 flows.multiset_flows <> multiset_flows.K var
+R11233:11245 flows.ccm <> nzmap_map_set def
+R11265:11265 flows.multiset_flows <> m:134 var
+R11263:11263 flows.multiset_flows <> s:133 var
+R11248:11250 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R11254:11255 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+binder 11253:11253 <> n:135
+R11257:11259 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R11256:11256 flows.multiset_flows <> n:135 var
+def 11281:11298 <> outflow_insert_set
+binder 11300:11300 <> I:136
+R11306:11309 flows.flows <> Node def
+binder 11303:11303 <> n:137
+R11316:11319 stdpp.gmap <> gset def
+R11321:11321 flows.multiset_flows <> multiset_flows.K var
+binder 11313:11313 <> s:138
+R11326:11344 flows.multiset_flows <> multiset_flowint_ur canonstruc
+R11351:11365 flows.multiset_flows <> outflow_map_set def
+R11368:11370 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R11374:11375 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+binder 11373:11373 <> n:139
+R11377:11379 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R11376:11376 flows.multiset_flows <> n:139 var
+R11383:11383 flows.multiset_flows <> I:136 var
+R11385:11385 flows.multiset_flows <> n:137 var
+R11387:11387 flows.multiset_flows <> s:138 var
+def 11402:11419 <> outflow_delete_set
+binder 11421:11421 <> I:140
+R11427:11430 flows.flows <> Node def
+binder 11424:11424 <> n:141
+R11437:11440 stdpp.gmap <> gset def
+R11442:11442 flows.multiset_flows <> multiset_flows.K var
+binder 11434:11434 <> s:142
+R11447:11465 flows.multiset_flows <> multiset_flowint_ur canonstruc
+R11473:11487 flows.multiset_flows <> outflow_map_set def
+R11490:11492 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R11496:11497 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+binder 11495:11495 <> n:143
+R11499:11501 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R11498:11498 flows.multiset_flows <> n:143 var
+R11505:11505 flows.multiset_flows <> I:140 var
+R11507:11507 flows.multiset_flows <> n:141 var
+R11509:11509 flows.multiset_flows <> s:142 var
+def 11563:11579 <> inflow_insert_set
+binder 11581:11581 <> I:144
+R11587:11590 flows.flows <> Node def
+binder 11584:11584 <> n:145
+R11597:11600 stdpp.gmap <> gset def
+R11602:11602 flows.multiset_flows <> multiset_flows.K var
+binder 11594:11594 <> s:146
+R11607:11625 flows.multiset_flows <> multiset_flowint_ur canonstruc
+R11632:11645 flows.multiset_flows <> inflow_map_set def
+R11648:11650 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R11654:11655 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+binder 11653:11653 <> n:147
+R11657:11659 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R11656:11656 flows.multiset_flows <> n:147 var
+R11663:11663 flows.multiset_flows <> I:144 var
+R11665:11665 flows.multiset_flows <> n:145 var
+R11667:11667 flows.multiset_flows <> s:146 var
+def 11710:11726 <> inflow_delete_set
+binder 11728:11728 <> I:148
+R11734:11737 flows.flows <> Node def
+binder 11731:11731 <> n:149
+R11744:11747 stdpp.gmap <> gset def
+R11749:11749 flows.multiset_flows <> multiset_flows.K var
+binder 11741:11741 <> s:150
+R11754:11772 flows.multiset_flows <> multiset_flowint_ur canonstruc
+R11780:11793 flows.multiset_flows <> inflow_map_set def
+R11796:11798 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R11802:11803 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+binder 11801:11801 <> n:151
+R11805:11807 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R11804:11804 flows.multiset_flows <> n:151 var
+R11811:11811 flows.multiset_flows <> I:148 var
+R11813:11813 flows.multiset_flows <> n:149 var
+R11815:11815 flows.multiset_flows <> s:150 var
+prf 11825:11849 <> outflow_insert_set_outset
+binder 11851:11851 <> I:152
+binder 11853:11853 <> n:153
+binder 11855:11855 <> S:154
+R11905:11907 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11870:11875 flows.multiset_flows <> outset def
+R11878:11895 flows.multiset_flows <> outflow_insert_set def
+R11897:11897 flows.multiset_flows <> I:152 var
+R11899:11899 flows.multiset_flows <> n:153 var
+R11901:11901 flows.multiset_flows <> S:154 var
+R11904:11904 flows.multiset_flows <> n:153 var
+R11908:11908 stdpp.base <> ::stdpp_scope:x_'∪'_x not
+R11919:11924 stdpp.base <> ::stdpp_scope:x_'∪'_x not
+R11909:11914 flows.multiset_flows <> outset def
+R11916:11916 flows.multiset_flows <> I:152 var
+R11918:11918 flows.multiset_flows <> n:153 var
+R11925:11925 flows.multiset_flows <> S:154 var
+R11944:11949 flows.multiset_flows <> outset def
+R11959:11976 flows.multiset_flows <> outflow_insert_set def
+R11988:11990 flows.flows <> out def
+R12010:12034 flows.ccm <> nzmap_lookup_total_insert thm
+R12010:12034 flows.ccm <> nzmap_lookup_total_insert thm
+R12010:12034 flows.ccm <> nzmap_lookup_total_insert thm
+R12045:12057 stdpp.base <> leibniz_equiv def
+R12045:12057 stdpp.base <> leibniz_equiv def
+R12068:12076 stdpp.sets <> set_equiv thm
+R12068:12076 stdpp.sets <> set_equiv thm
+R12101:12123 flows.ccm <> nzmap_elem_of_dom_total thm
+R12101:12123 flows.ccm <> nzmap_elem_of_dom_total thm
+R12101:12123 flows.ccm <> nzmap_elem_of_dom_total thm
+R12101:12123 flows.ccm <> nzmap_elem_of_dom_total thm
+R12138:12143 stdpp.base <> decide def
+R12147:12151 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R12138:12143 stdpp.base <> decide def
+R12147:12151 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R12192:12217 flows.ccm <> nzmap_lookup_total_map_set thm
+R12192:12217 flows.ccm <> nzmap_lookup_total_map_set thm
+R12192:12217 flows.ccm <> nzmap_lookup_total_map_set thm
+R12232:12244 stdpp.base <> elem_of_union meth
+R12232:12244 stdpp.base <> elem_of_union meth
+R12232:12244 stdpp.base <> elem_of_union meth
+R12260:12282 flows.ccm <> nzmap_elem_of_dom_total thm
+R12260:12282 flows.ccm <> nzmap_elem_of_dom_total thm
+R12260:12282 flows.ccm <> nzmap_elem_of_dom_total thm
+R12260:12282 flows.ccm <> nzmap_elem_of_dom_total thm
+R12296:12302 flows.ccm <> ccmunit def
+R12305:12312 flows.ccm <> ccm_unit meth
+R12333:12340 flows.ccm <> nat_unit inst
+R12366:12394 flows.ccm <> nzmap_lookup_total_map_set_ne thm
+R12366:12394 flows.ccm <> nzmap_lookup_total_map_set_ne thm
+R12366:12394 flows.ccm <> nzmap_lookup_total_map_set_ne thm
+R12409:12421 stdpp.base <> elem_of_union meth
+R12409:12421 stdpp.base <> elem_of_union meth
+R12409:12421 stdpp.base <> elem_of_union meth
+R12437:12459 flows.ccm <> nzmap_elem_of_dom_total thm
+R12437:12459 flows.ccm <> nzmap_elem_of_dom_total thm
+R12437:12459 flows.ccm <> nzmap_elem_of_dom_total thm
+R12437:12459 flows.ccm <> nzmap_elem_of_dom_total thm
+R12517:12529 stdpp.base <> elem_of_union meth
+R12517:12529 stdpp.base <> elem_of_union meth
+R12517:12529 stdpp.base <> elem_of_union meth
+R12572:12600 flows.ccm <> nzmap_lookup_total_map_set_ne thm
+R12572:12600 flows.ccm <> nzmap_lookup_total_map_set_ne thm
+R12572:12600 flows.ccm <> nzmap_lookup_total_map_set_ne thm
+R12615:12637 flows.ccm <> nzmap_elem_of_dom_total thm
+R12615:12637 flows.ccm <> nzmap_elem_of_dom_total thm
+R12615:12637 flows.ccm <> nzmap_elem_of_dom_total thm
+prf 12701:12725 <> outflow_delete_set_outset
+binder 12727:12727 <> I:155
+binder 12729:12729 <> n:156
+binder 12731:12731 <> S:157
+R12741:12741 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R12780:12796 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R12742:12745 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R12747:12748 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+binder 12746:12746 <> k:158
+R12756:12760 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R12750:12754 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R12749:12749 flows.multiset_flows <> k:158 var
+R12755:12755 flows.multiset_flows <> S:157 var
+R12774:12778 Coq.Unicode.Utf8 <> :::x_'≤'_x not
+R12768:12772 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R12773:12773 flows.multiset_flows <> k:158 var
+R12761:12763 flows.flows <> out def
+R12765:12765 flows.multiset_flows <> I:155 var
+R12767:12767 flows.multiset_flows <> n:156 var
+R12832:12834 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12797:12802 flows.multiset_flows <> outset def
+R12805:12822 flows.multiset_flows <> outflow_delete_set def
+R12824:12824 flows.multiset_flows <> I:155 var
+R12826:12826 flows.multiset_flows <> n:156 var
+R12828:12828 flows.multiset_flows <> S:157 var
+R12831:12831 flows.multiset_flows <> n:156 var
+R12835:12835 stdpp.base <> ::stdpp_scope:x_'∖'_x not
+R12846:12851 stdpp.base <> ::stdpp_scope:x_'∖'_x not
+R12836:12841 flows.multiset_flows <> outset def
+R12843:12843 flows.multiset_flows <> I:155 var
+R12845:12845 flows.multiset_flows <> n:156 var
+R12852:12852 flows.multiset_flows <> S:157 var
+R12883:12888 flows.multiset_flows <> outset def
+R12900:12917 flows.multiset_flows <> outflow_delete_set def
+R12929:12931 flows.flows <> out def
+R12951:12975 flows.ccm <> nzmap_lookup_total_insert thm
+R12951:12975 flows.ccm <> nzmap_lookup_total_insert thm
+R12951:12975 flows.ccm <> nzmap_lookup_total_insert thm
+R12986:12998 stdpp.base <> leibniz_equiv def
+R12986:12998 stdpp.base <> leibniz_equiv def
+R13009:13017 stdpp.sets <> set_equiv thm
+R13009:13017 stdpp.sets <> set_equiv thm
+R13042:13064 flows.ccm <> nzmap_elem_of_dom_total thm
+R13042:13064 flows.ccm <> nzmap_elem_of_dom_total thm
+R13042:13064 flows.ccm <> nzmap_elem_of_dom_total thm
+R13042:13064 flows.ccm <> nzmap_elem_of_dom_total thm
+R13079:13084 stdpp.base <> decide def
+R13088:13092 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R13079:13084 stdpp.base <> decide def
+R13088:13092 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R13152:13177 flows.ccm <> nzmap_lookup_total_map_set thm
+R13152:13177 flows.ccm <> nzmap_lookup_total_map_set thm
+R13152:13177 flows.ccm <> nzmap_lookup_total_map_set thm
+R13197:13203 flows.ccm <> ccmunit def
+R13206:13213 flows.ccm <> ccm_unit meth
+R13216:13222 flows.ccm <> nat_ccm inst
+R13225:13232 flows.ccm <> nat_unit inst
+R13277:13279 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13273:13275 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R13267:13271 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R13260:13262 flows.flows <> out def
+R13277:13279 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13273:13275 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R13267:13271 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R13260:13262 flows.flows <> out def
+R13358:13386 flows.ccm <> nzmap_lookup_total_map_set_ne thm
+R13358:13386 flows.ccm <> nzmap_lookup_total_map_set_ne thm
+R13358:13386 flows.ccm <> nzmap_lookup_total_map_set_ne thm
+R13407:13424 stdpp.base <> elem_of_difference meth
+R13407:13424 stdpp.base <> elem_of_difference meth
+R13407:13424 stdpp.base <> elem_of_difference meth
+R13450:13472 flows.ccm <> nzmap_elem_of_dom_total thm
+R13450:13472 flows.ccm <> nzmap_elem_of_dom_total thm
+R13450:13472 flows.ccm <> nzmap_elem_of_dom_total thm
+R13486:13488 flows.flows <> out def
+R13532:13560 flows.ccm <> nzmap_lookup_total_map_set_ne thm
+R13532:13560 flows.ccm <> nzmap_lookup_total_map_set_ne thm
+R13532:13560 flows.ccm <> nzmap_lookup_total_map_set_ne thm
+R13575:13592 stdpp.base <> elem_of_difference meth
+R13575:13592 stdpp.base <> elem_of_difference meth
+R13575:13592 stdpp.base <> elem_of_difference meth
+R13650:13672 flows.ccm <> nzmap_elem_of_dom_total thm
+R13650:13672 flows.ccm <> nzmap_elem_of_dom_total thm
+R13650:13672 flows.ccm <> nzmap_elem_of_dom_total thm
+R13702:13704 flows.flows <> out def
+prf 13734:13761 <> outflow_insert_set_outset_ne
+binder 13763:13763 <> I:159
+binder 13765:13765 <> n:160
+binder 13767:13767 <> S:161
+binder 13769:13770 <> n':162
+R13788:13804 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R13782:13786 Coq.Unicode.Utf8_core <> ::type_scope:x_'≠'_x not
+R13780:13781 flows.multiset_flows <> n':162 var
+R13787:13787 flows.multiset_flows <> n:160 var
+R13841:13843 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13805:13810 flows.multiset_flows <> outset def
+R13813:13830 flows.multiset_flows <> outflow_insert_set def
+R13832:13832 flows.multiset_flows <> I:159 var
+R13834:13834 flows.multiset_flows <> n:160 var
+R13836:13836 flows.multiset_flows <> S:161 var
+R13839:13840 flows.multiset_flows <> n':162 var
+R13844:13849 flows.multiset_flows <> outset def
+R13851:13851 flows.multiset_flows <> I:159 var
+R13853:13854 flows.multiset_flows <> n':162 var
+R13872:13896 flows.multiset_flows <> outflow_map_set_outset_ne thm
+R13872:13896 flows.multiset_flows <> outflow_map_set_outset_ne thm
+prf 13911:13938 <> outflow_delete_set_outset_ne
+binder 13940:13940 <> I:163
+binder 13942:13942 <> n:164
+binder 13944:13944 <> S:165
+binder 13946:13947 <> n':166
+R13965:13981 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R13959:13963 Coq.Unicode.Utf8_core <> ::type_scope:x_'≠'_x not
+R13957:13958 flows.multiset_flows <> n':166 var
+R13964:13964 flows.multiset_flows <> n:164 var
+R14019:14021 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13982:13987 flows.multiset_flows <> outset def
+R13990:14007 flows.multiset_flows <> outflow_delete_set def
+R14009:14009 flows.multiset_flows <> I:163 var
+R14011:14011 flows.multiset_flows <> n:164 var
+R14013:14013 flows.multiset_flows <> S:165 var
+R14017:14018 flows.multiset_flows <> n':166 var
+R14022:14027 flows.multiset_flows <> outset def
+R14029:14029 flows.multiset_flows <> I:163 var
+R14031:14032 flows.multiset_flows <> n':166 var
+R14050:14074 flows.multiset_flows <> outflow_map_set_outset_ne thm
+R14050:14074 flows.multiset_flows <> outflow_map_set_outset_ne thm
+prf 14090:14113 <> inflow_insert_set_out_eq
+binder 14115:14115 <> I:167
+binder 14117:14117 <> n:168
+binder 14119:14119 <> S:169
+binder 14121:14122 <> n':170
+R14164:14166 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14132:14134 flows.flows <> out def
+R14137:14153 flows.multiset_flows <> inflow_insert_set def
+R14155:14155 flows.multiset_flows <> I:167 var
+R14157:14157 flows.multiset_flows <> n:168 var
+R14159:14159 flows.multiset_flows <> S:169 var
+R14162:14163 flows.multiset_flows <> n':170 var
+R14167:14169 flows.flows <> out def
+R14171:14171 flows.multiset_flows <> I:167 var
+R14173:14174 flows.multiset_flows <> n':170 var
+R14193:14195 flows.flows <> out def
+R14219:14239 flows.multiset_flows <> inflow_map_set_out_eq thm
+R14242:14244 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R14248:14249 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+binder 14247:14247 <> n:171
+R14251:14253 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R14250:14250 flows.multiset_flows <> n:171 var
+R14219:14239 flows.multiset_flows <> inflow_map_set_out_eq thm
+R14242:14244 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R14248:14249 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+binder 14247:14247 <> n:172
+R14251:14253 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R14250:14250 flows.multiset_flows <> n:172 var
+R14219:14239 flows.multiset_flows <> inflow_map_set_out_eq thm
+R14242:14244 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R14248:14249 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+binder 14247:14247 <> n:173
+R14251:14253 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R14250:14250 flows.multiset_flows <> n:173 var
+prf 14288:14314 <> inflow_insert_set_outset_ne
+binder 14316:14316 <> I:174
+binder 14318:14318 <> n:175
+binder 14320:14320 <> S:176
+binder 14322:14323 <> n':177
+R14368:14370 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14333:14338 flows.multiset_flows <> outset def
+R14341:14357 flows.multiset_flows <> inflow_insert_set def
+R14359:14359 flows.multiset_flows <> I:174 var
+R14361:14361 flows.multiset_flows <> n:175 var
+R14363:14363 flows.multiset_flows <> S:176 var
+R14366:14367 flows.multiset_flows <> n':177 var
+R14371:14376 flows.multiset_flows <> outset def
+R14378:14378 flows.multiset_flows <> I:174 var
+R14380:14381 flows.multiset_flows <> n':177 var
+R14399:14422 flows.multiset_flows <> inflow_map_set_outset_ne thm
+R14399:14422 flows.multiset_flows <> inflow_map_set_outset_ne thm
+prf 14437:14460 <> outflow_insert_set_inset
+binder 14462:14462 <> I:178
+binder 14464:14464 <> n:179
+binder 14466:14466 <> S:180
+binder 14468:14469 <> n':181
+R14516:14518 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14481:14485 flows.multiset_flows <> inset def
+R14488:14505 flows.multiset_flows <> outflow_insert_set def
+R14507:14507 flows.multiset_flows <> I:178 var
+R14509:14509 flows.multiset_flows <> n:179 var
+R14511:14511 flows.multiset_flows <> S:180 var
+R14514:14515 flows.multiset_flows <> n':181 var
+R14519:14523 flows.multiset_flows <> inset def
+R14525:14525 flows.multiset_flows <> I:178 var
+R14527:14528 flows.multiset_flows <> n':181 var
+R14547:14551 flows.multiset_flows <> inset def
+R14568:14586 flows.multiset_flows <> outflow_map_set_inf thm
+R14589:14591 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R14595:14596 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+binder 14594:14594 <> n:182
+R14598:14600 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R14597:14597 flows.multiset_flows <> n:182 var
+R14568:14586 flows.multiset_flows <> outflow_map_set_inf thm
+R14589:14591 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R14595:14596 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+binder 14594:14594 <> n:183
+R14598:14600 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R14597:14597 flows.multiset_flows <> n:183 var
+R14621:14638 flows.multiset_flows <> outflow_insert_set def
+R14660:14662 flows.flows <> inf def
+prf 14684:14709 <> inflow_insert_set_inset_ne
+binder 14711:14711 <> I:184
+binder 14713:14713 <> n:185
+binder 14715:14715 <> S:186
+binder 14717:14718 <> n':187
+R14736:14752 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R14730:14734 Coq.Unicode.Utf8_core <> ::type_scope:x_'≠'_x not
+R14728:14729 flows.multiset_flows <> n':187 var
+R14735:14735 flows.multiset_flows <> n:185 var
+R14787:14789 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14753:14757 flows.multiset_flows <> inset def
+R14760:14776 flows.multiset_flows <> inflow_insert_set def
+R14778:14778 flows.multiset_flows <> I:184 var
+R14780:14780 flows.multiset_flows <> n:185 var
+R14782:14782 flows.multiset_flows <> S:186 var
+R14785:14786 flows.multiset_flows <> n':187 var
+R14790:14794 flows.multiset_flows <> inset def
+R14796:14796 flows.multiset_flows <> I:184 var
+R14798:14799 flows.multiset_flows <> n':187 var
+R14818:14822 flows.multiset_flows <> inset def
+R14839:14855 flows.multiset_flows <> inflow_map_set_ne thm
+R14858:14860 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R14864:14865 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+binder 14863:14863 <> n:188
+R14867:14869 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R14866:14866 flows.multiset_flows <> n:188 var
+R14839:14855 flows.multiset_flows <> inflow_map_set_ne thm
+R14858:14860 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R14864:14865 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+binder 14863:14863 <> n:189
+R14867:14869 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R14866:14866 flows.multiset_flows <> n:189 var
+R14904:14906 flows.flows <> inf def
+prf 14941:14967 <> flowint_outflow_map_set_dom
+binder 14969:14969 <> f:190
+binder 14971:14971 <> I:191
+binder 14973:14973 <> n:192
+binder 14975:14975 <> S:193
+R15025:15029 stdpp.base <> ::stdpp_scope:x_'⊆'_x not
+R14986:14988 stdpp.base <> dom def
+R14991:14997 flows.flows <> out_map def
+R15000:15014 flows.multiset_flows <> outflow_map_set def
+R15016:15016 flows.multiset_flows <> f:190 var
+R15018:15018 flows.multiset_flows <> I:191 var
+R15020:15020 flows.multiset_flows <> n:192 var
+R15022:15022 flows.multiset_flows <> S:193 var
+R15045:15049 stdpp.base <> ::stdpp_scope:x_'∪'_x not
+R15030:15032 stdpp.base <> dom def
+R15035:15041 flows.flows <> out_map def
+R15043:15043 flows.multiset_flows <> I:191 var
+R15050:15051 stdpp.base <> ::stdpp_scope:'{['_x_']}' not
+R15053:15054 stdpp.base <> ::stdpp_scope:'{['_x_']}' not
+R15052:15052 flows.multiset_flows <> n:192 var
+R15073:15088 stdpp.sets <> elem_of_subseteq thm
+R15073:15088 stdpp.sets <> elem_of_subseteq thm
+R15118:15130 stdpp.base <> elem_of_union meth
+R15118:15130 stdpp.base <> elem_of_union meth
+R15145:15150 stdpp.base <> decide def
+R15154:15156 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15145:15150 stdpp.base <> decide def
+R15154:15156 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15200:15214 flows.multiset_flows <> outflow_map_set def
+R15217:15223 flows.flows <> out_map def
+R15266:15288 flows.ccm <> nzmap_elem_of_dom_total thm
+R15266:15288 flows.ccm <> nzmap_elem_of_dom_total thm
+R15312:15339 flows.ccm <> nzmap_lookup_total_insert_ne thm
+R15312:15339 flows.ccm <> nzmap_lookup_total_insert_ne thm
+R15312:15339 flows.ccm <> nzmap_lookup_total_insert_ne thm
+R15363:15385 flows.ccm <> nzmap_elem_of_dom_total thm
+R15363:15385 flows.ccm <> nzmap_elem_of_dom_total thm
+R15363:15385 flows.ccm <> nzmap_elem_of_dom_total thm
+prf 15430:15455 <> flowint_inflow_map_set_dom
+binder 15457:15457 <> f:194
+R15463:15481 flows.multiset_flows <> multiset_flowint_ur canonstruc
+binder 15460:15460 <> I:195
+binder 15484:15484 <> n:196
+binder 15486:15486 <> S:197
+R15525:15527 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15497:15499 stdpp.base <> dom def
+R15502:15515 flows.multiset_flows <> inflow_map_set def
+R15517:15517 flows.multiset_flows <> f:194 var
+R15519:15519 flows.multiset_flows <> I:195 var
+R15521:15521 flows.multiset_flows <> n:196 var
+R15523:15523 flows.multiset_flows <> S:197 var
+R15533:15537 stdpp.base <> ::stdpp_scope:x_'∪'_x not
+R15528:15530 stdpp.base <> dom def
+R15532:15532 flows.multiset_flows <> I:195 var
+R15538:15539 stdpp.base <> ::stdpp_scope:'{['_x_']}' not
+R15541:15542 stdpp.base <> ::stdpp_scope:'{['_x_']}' not
+R15540:15540 flows.multiset_flows <> n:196 var
+R15561:15563 stdpp.base <> dom def
+R15566:15576 flows.flows <> flowint_dom inst
+R15587:15599 stdpp.base <> leibniz_equiv def
+R15587:15599 stdpp.base <> leibniz_equiv def
+R15610:15618 stdpp.sets <> set_equiv thm
+R15610:15618 stdpp.sets <> set_equiv thm
+R15648:15664 flows.multiset_flows <> inflow_map_set_ne thm
+R15648:15664 flows.multiset_flows <> inflow_map_set_ne thm
+R15688:15692 flows.multiset_flows <> inset def
+R15695:15697 flows.flows <> inf def
+R15718:15723 stdpp.base <> decide def
+R15727:15729 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15718:15723 stdpp.base <> decide def
+R15727:15729 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15783:15795 stdpp.base <> elem_of_union meth
+R15783:15795 stdpp.base <> elem_of_union meth
+R15783:15795 stdpp.base <> elem_of_union meth
+R15831:15841 stdpp.fin_map_dom <> elem_of_dom meth
+R15831:15841 stdpp.fin_map_dom <> elem_of_dom meth
+R15831:15841 stdpp.fin_map_dom <> elem_of_dom meth
+R15871:15884 flows.multiset_flows <> inflow_map_set def
+R15914:15933 stdpp.fin_maps <> lookup_partial_alter meth
+R15914:15933 stdpp.fin_maps <> lookup_partial_alter meth
+R15914:15933 stdpp.fin_maps <> lookup_partial_alter meth
+R15953:15968 stdpp.option <> not_eq_None_Some thm
+R15953:15968 stdpp.option <> not_eq_None_Some thm
+R15953:15968 stdpp.option <> not_eq_None_Some thm
+R16016:16028 stdpp.base <> elem_of_union meth
+R16016:16028 stdpp.base <> elem_of_union meth
+R16016:16028 stdpp.base <> elem_of_union meth
+R16052:16062 stdpp.fin_map_dom <> elem_of_dom meth
+R16052:16062 stdpp.fin_map_dom <> elem_of_dom meth
+R16052:16062 stdpp.fin_map_dom <> elem_of_dom meth
+R16052:16062 stdpp.fin_map_dom <> elem_of_dom meth
+R16052:16062 stdpp.fin_map_dom <> elem_of_dom meth
+R16052:16062 stdpp.fin_map_dom <> elem_of_dom meth
+R16052:16062 stdpp.fin_map_dom <> elem_of_dom meth
+R16103:16115 stdpp.base <> elem_of_union meth
+R16103:16115 stdpp.base <> elem_of_union meth
+R16103:16115 stdpp.base <> elem_of_union meth
+R16139:16149 stdpp.fin_map_dom <> elem_of_dom meth
+R16139:16149 stdpp.fin_map_dom <> elem_of_dom meth
+R16139:16149 stdpp.fin_map_dom <> elem_of_dom meth
+R16139:16149 stdpp.fin_map_dom <> elem_of_dom meth
+R16139:16149 stdpp.fin_map_dom <> elem_of_dom meth
+R16139:16149 stdpp.fin_map_dom <> elem_of_dom meth
+R16139:16149 stdpp.fin_map_dom <> elem_of_dom meth
+prf 16245:16272 <> flowint_outflow_map_set_domm
+binder 16274:16274 <> f:198
+R16280:16298 flows.multiset_flows <> multiset_flowint_ur canonstruc
+binder 16277:16277 <> I:199
+binder 16301:16301 <> n:200
+binder 16303:16303 <> S:201
+R16343:16345 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16314:16316 stdpp.base <> dom def
+R16319:16333 flows.multiset_flows <> outflow_map_set def
+R16335:16335 flows.multiset_flows <> f:198 var
+R16337:16337 flows.multiset_flows <> I:199 var
+R16339:16339 flows.multiset_flows <> n:200 var
+R16341:16341 flows.multiset_flows <> S:201 var
+R16346:16348 stdpp.base <> dom def
+R16350:16350 flows.multiset_flows <> I:199 var
+R16369:16383 flows.multiset_flows <> outflow_map_set def
+R16395:16397 stdpp.base <> dom def
+R16400:16410 flows.flows <> flowint_dom inst
+prf 16434:16456 <> flowint_map_set_infComp
+binder 16458:16458 <> f:202
+binder 16460:16461 <> I1:203
+binder 16463:16465 <> I1':204
+binder 16467:16468 <> I2:205
+binder 16470:16472 <> I2':206
+binder 16474:16474 <> n:207
+binder 16476:16476 <> S:208
+R16486:16486 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R16602:16613 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R16487:16490 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R16492:16493 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+binder 16491:16491 <> k:209
+R16501:16505 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R16495:16499 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R16494:16494 flows.multiset_flows <> k:209 var
+R16500:16500 flows.multiset_flows <> S:208 var
+R16541:16558 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16506:16506 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R16521:16525 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R16540:16540 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R16515:16519 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R16520:16520 flows.multiset_flows <> k:209 var
+R16507:16509 flows.flows <> inf def
+R16511:16512 flows.multiset_flows <> I2:205 var
+R16514:16514 flows.multiset_flows <> n:207 var
+R16534:16538 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R16539:16539 flows.multiset_flows <> k:209 var
+R16526:16528 flows.flows <> out def
+R16530:16531 flows.multiset_flows <> I1:203 var
+R16533:16533 flows.multiset_flows <> n:207 var
+R16579:16581 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R16559:16559 flows.multiset_flows <> f:202 var
+R16561:16561 flows.multiset_flows <> k:209 var
+R16572:16576 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R16577:16577 flows.multiset_flows <> k:209 var
+R16564:16566 flows.flows <> inf def
+R16568:16569 flows.multiset_flows <> I2:205 var
+R16571:16571 flows.multiset_flows <> n:207 var
+R16582:16582 flows.multiset_flows <> f:202 var
+R16584:16584 flows.multiset_flows <> k:209 var
+R16595:16599 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R16600:16600 flows.multiset_flows <> k:209 var
+R16587:16589 flows.flows <> out def
+R16591:16592 flows.multiset_flows <> I1:203 var
+R16594:16594 flows.multiset_flows <> n:207 var
+R16626:16639 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R16615:16619 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R16614:16614 flows.multiset_flows <> n:207 var
+R16620:16622 stdpp.base <> dom def
+R16624:16625 flows.multiset_flows <> I2:205 var
+R16670:16682 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R16643:16645 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16640:16642 flows.multiset_flows <> I1':204 var
+R16646:16660 flows.multiset_flows <> outflow_map_set def
+R16662:16662 flows.multiset_flows <> f:202 var
+R16664:16665 flows.multiset_flows <> I1:203 var
+R16667:16667 flows.multiset_flows <> n:207 var
+R16669:16669 flows.multiset_flows <> S:208 var
+R16712:16726 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R16686:16688 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16683:16685 flows.multiset_flows <> I2':206 var
+R16689:16702 flows.multiset_flows <> inflow_map_set def
+R16704:16704 flows.multiset_flows <> f:202 var
+R16706:16707 flows.multiset_flows <> I2:205 var
+R16709:16709 flows.multiset_flows <> n:207 var
+R16711:16711 flows.multiset_flows <> S:208 var
+R16740:16742 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16727:16733 flows.flows <> infComp def
+R16735:16736 flows.multiset_flows <> I1:203 var
+R16738:16739 flows.multiset_flows <> I2:205 var
+R16743:16749 flows.flows <> infComp def
+R16751:16753 flows.multiset_flows <> I1':204 var
+R16755:16757 flows.multiset_flows <> I2':206 var
+R16802:16807 stdpp.fin_maps <> map_eq meth
+R16802:16807 stdpp.fin_maps <> map_eq meth
+R16830:16836 flows.flows <> infComp def
+R16848:16865 flows.gmap_more <> gmap_imerge_lookup thm
+R16848:16865 flows.gmap_more <> gmap_imerge_lookup thm
+R16848:16865 flows.gmap_more <> gmap_imerge_lookup thm
+R16848:16865 flows.gmap_more <> gmap_imerge_lookup thm
+R16848:16865 flows.gmap_more <> gmap_imerge_lookup thm
+R16848:16865 flows.gmap_more <> gmap_imerge_lookup thm
+R16848:16865 flows.gmap_more <> gmap_imerge_lookup thm
+R16877:16886 flows.flows <> infComp_op def
+R16901:16906 stdpp.base <> decide def
+R16911:16913 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16901:16906 stdpp.base <> decide def
+R16911:16913 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16962:16964 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16957:16960 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R16947:16953 flows.flows <> inf_map def
+R16976:16979 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R16965:16971 flows.flows <> inf_map def
+R16962:16964 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16957:16960 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R16947:16953 flows.flows <> inf_map def
+R16976:16979 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R16965:16971 flows.flows <> inf_map def
+R17020:17026 flows.flows <> inf_map def
+R17061:17063 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17053:17055 flows.flows <> out def
+R17064:17066 flows.flows <> out def
+R17061:17063 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17053:17055 flows.flows <> out def
+R17064:17066 flows.flows <> out def
+R17112:17128 flows.multiset_flows <> inflow_insert_set def
+R17144:17146 flows.flows <> out def
+R17149:17155 flows.flows <> out_map def
+R17196:17199 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R17186:17192 flows.flows <> inf_map def
+R17196:17199 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R17186:17192 flows.flows <> inf_map def
+R17274:17277 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R17263:17269 flows.flows <> inf_map def
+R17274:17277 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R17263:17269 flows.flows <> inf_map def
+R17330:17333 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R17319:17325 flows.flows <> inf_map def
+R17330:17333 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R17319:17325 flows.flows <> inf_map def
+R17382:17385 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R17372:17378 flows.flows <> inf_map def
+R17382:17385 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R17372:17378 flows.flows <> inf_map def
+R17447:17459 stdpp.fin_maps <> lookup_insert thm
+R17447:17459 stdpp.fin_maps <> lookup_insert thm
+R17447:17459 stdpp.fin_maps <> lookup_insert thm
+R17476:17482 Coq.Init.Logic <> f_equal thm
+R17476:17482 Coq.Init.Logic <> f_equal thm
+R17500:17502 flows.flows <> inf def
+R17554:17570 flows.multiset_flows <> inflow_insert_set def
+R17589:17591 flows.flows <> out def
+R17594:17600 flows.flows <> out_map def
+R17631:17655 flows.ccm <> nzmap_lookup_total_insert thm
+R17631:17655 flows.ccm <> nzmap_lookup_total_insert thm
+R17631:17655 flows.ccm <> nzmap_lookup_total_insert thm
+R17673:17681 flows.ccm <> ccmop_inv def
+R17684:17692 flows.ccm <> ccm_opinv meth
+R17717:17726 flows.ccm <> lift_opinv inst
+R17736:17744 flows.ccm <> ccmop_inv def
+R17747:17755 flows.ccm <> ccm_opinv meth
+R17780:17788 flows.ccm <> nat_opinv inst
+R17805:17812 flows.ccm <> nzmap_eq thm
+R17805:17812 flows.ccm <> nzmap_eq thm
+R17842:17859 flows.ccm <> nzmap_lookup_merge thm
+R17842:17859 flows.ccm <> nzmap_lookup_merge thm
+R17842:17859 flows.ccm <> nzmap_lookup_merge thm
+R17842:17859 flows.ccm <> nzmap_lookup_merge thm
+R17842:17859 flows.ccm <> nzmap_lookup_merge thm
+R17880:17885 stdpp.base <> decide def
+R17889:17893 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R17880:17885 stdpp.base <> decide def
+R17889:17893 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R17919:17944 flows.ccm <> nzmap_lookup_total_map_set thm
+R17919:17944 flows.ccm <> nzmap_lookup_total_map_set thm
+R17919:17944 flows.ccm <> nzmap_lookup_total_map_set thm
+R17919:17944 flows.ccm <> nzmap_lookup_total_map_set thm
+R17919:17944 flows.ccm <> nzmap_lookup_total_map_set thm
+R17919:17944 flows.ccm <> nzmap_lookup_total_map_set thm
+R17919:17944 flows.ccm <> nzmap_lookup_total_map_set thm
+R17996:17998 flows.flows <> inf def
+R18001:18003 flows.flows <> out def
+R18113:18141 flows.ccm <> nzmap_lookup_total_map_set_ne thm
+R18113:18141 flows.ccm <> nzmap_lookup_total_map_set_ne thm
+R18113:18141 flows.ccm <> nzmap_lookup_total_map_set_ne thm
+R18113:18141 flows.ccm <> nzmap_lookup_total_map_set_ne thm
+R18113:18141 flows.ccm <> nzmap_lookup_total_map_set_ne thm
+R18113:18141 flows.ccm <> nzmap_lookup_total_map_set_ne thm
+R18113:18141 flows.ccm <> nzmap_lookup_total_map_set_ne thm
+R18169:18171 stdpp.base <> dom def
+R18174:18184 flows.flows <> flowint_dom inst
+R18214:18224 stdpp.fin_map_dom <> elem_of_dom meth
+R18214:18224 stdpp.fin_map_dom <> elem_of_dom meth
+R18214:18224 stdpp.fin_map_dom <> elem_of_dom meth
+R18379:18381 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18373:18376 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R18363:18369 flows.flows <> inf_map def
+R18393:18396 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R18382:18388 flows.flows <> inf_map def
+R18379:18381 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18373:18376 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R18363:18369 flows.flows <> inf_map def
+R18393:18396 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R18382:18388 flows.flows <> inf_map def
+R18435:18452 flows.multiset_flows <> outflow_insert_set def
+R18468:18474 flows.flows <> inf_map def
+R18515:18517 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18506:18508 flows.flows <> out def
+R18518:18520 flows.flows <> out def
+R18515:18517 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18506:18508 flows.flows <> out def
+R18518:18520 flows.flows <> out def
+R18564:18580 flows.multiset_flows <> inflow_insert_set def
+R18597:18599 flows.flows <> out def
+R18602:18608 flows.flows <> out_map def
+R18656:18658 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18650:18653 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R18640:18646 flows.flows <> inf_map def
+R18670:18673 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R18659:18665 flows.flows <> inf_map def
+R18656:18658 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18650:18653 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R18640:18646 flows.flows <> inf_map def
+R18670:18673 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R18659:18665 flows.flows <> inf_map def
+R18713:18729 flows.multiset_flows <> inflow_insert_set def
+R18745:18751 flows.flows <> inf_map def
+R18780:18795 stdpp.fin_maps <> lookup_insert_ne thm
+R18780:18795 stdpp.fin_maps <> lookup_insert_ne thm
+R18780:18795 stdpp.fin_maps <> lookup_insert_ne thm
+R18831:18833 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18822:18824 flows.flows <> out def
+R18834:18836 flows.flows <> out def
+R18831:18833 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18822:18824 flows.flows <> out def
+R18834:18836 flows.flows <> out def
+R18880:18894 flows.multiset_flows <> outflow_map_set def
+R18910:18912 flows.flows <> out def
+R18915:18921 flows.flows <> out_map def
+R18950:18977 flows.ccm <> nzmap_lookup_total_insert_ne thm
+R18950:18977 flows.ccm <> nzmap_lookup_total_insert_ne thm
+R18950:18977 flows.ccm <> nzmap_lookup_total_insert_ne thm
+prf 19064:19086 <> flowint_map_set_outComp
+binder 19088:19088 <> f:210
+binder 19090:19091 <> I1:211
+binder 19093:19095 <> I1':212
+binder 19097:19098 <> I2:213
+binder 19100:19102 <> I2':214
+binder 19104:19104 <> n:215
+binder 19106:19106 <> S:216
+R19128:19141 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R19117:19121 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R19116:19116 flows.multiset_flows <> n:215 var
+R19122:19124 stdpp.base <> dom def
+R19126:19127 flows.multiset_flows <> I2:213 var
+R19172:19186 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R19145:19147 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19142:19144 flows.multiset_flows <> I1':212 var
+R19148:19162 flows.multiset_flows <> outflow_map_set def
+R19164:19164 flows.multiset_flows <> f:210 var
+R19166:19167 flows.multiset_flows <> I1:211 var
+R19169:19169 flows.multiset_flows <> n:215 var
+R19171:19171 flows.multiset_flows <> S:216 var
+R19216:19232 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R19190:19192 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19187:19189 flows.multiset_flows <> I2':214 var
+R19193:19206 flows.multiset_flows <> inflow_map_set def
+R19208:19208 flows.multiset_flows <> f:210 var
+R19210:19211 flows.multiset_flows <> I2:213 var
+R19213:19213 flows.multiset_flows <> n:215 var
+R19215:19215 flows.multiset_flows <> S:216 var
+R19246:19248 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19233:19239 flows.flows <> outComp def
+R19241:19242 flows.multiset_flows <> I1:211 var
+R19244:19245 flows.multiset_flows <> I2:213 var
+R19249:19255 flows.flows <> outComp def
+R19257:19259 flows.multiset_flows <> I1':212 var
+R19261:19263 flows.multiset_flows <> I2':214 var
+R19305:19312 flows.ccm <> nzmap_eq thm
+R19305:19312 flows.ccm <> nzmap_eq thm
+R19335:19341 flows.flows <> outComp def
+R19353:19371 flows.ccm <> nzmap_lookup_imerge thm
+R19353:19371 flows.ccm <> nzmap_lookup_imerge thm
+R19353:19371 flows.ccm <> nzmap_lookup_imerge thm
+R19353:19371 flows.ccm <> nzmap_lookup_imerge thm
+R19353:19371 flows.ccm <> nzmap_lookup_imerge thm
+R19383:19392 flows.flows <> outComp_op def
+R19409:19434 flows.multiset_flows <> flowint_inflow_map_set_dom thm
+R19409:19434 flows.multiset_flows <> flowint_inflow_map_set_dom thm
+R19469:19474 stdpp.base <> decide def
+R19479:19481 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19469:19474 stdpp.base <> decide def
+R19479:19481 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19516:19520 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R19521:19523 stdpp.base <> dom def
+R19516:19520 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R19521:19523 stdpp.base <> dom def
+R19573:19583 stdpp.decidable <> decide_True thm
+R19573:19583 stdpp.decidable <> decide_True thm
+R19573:19583 stdpp.decidable <> decide_True thm
+R19573:19583 stdpp.decidable <> decide_True thm
+R19573:19583 stdpp.decidable <> decide_True thm
+R19573:19583 stdpp.decidable <> decide_True thm
+R19573:19583 stdpp.decidable <> decide_True thm
+R19617:19622 stdpp.base <> decide def
+R19627:19631 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R19638:19642 stdpp.base <> ::stdpp_scope:x_'∪'_x not
+R19632:19634 stdpp.base <> dom def
+R19643:19645 stdpp.base <> dom def
+R19617:19622 stdpp.base <> decide def
+R19627:19631 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R19638:19642 stdpp.base <> ::stdpp_scope:x_'∪'_x not
+R19632:19634 stdpp.base <> dom def
+R19643:19645 stdpp.base <> dom def
+R19669:19673 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R19681:19685 stdpp.base <> ::stdpp_scope:x_'∪'_x not
+R19674:19676 stdpp.base <> dom def
+R19686:19688 stdpp.base <> dom def
+R19669:19673 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R19681:19685 stdpp.base <> ::stdpp_scope:x_'∪'_x not
+R19674:19676 stdpp.base <> dom def
+R19686:19688 stdpp.base <> dom def
+R19742:19752 stdpp.decidable <> decide_True thm
+R19742:19752 stdpp.decidable <> decide_True thm
+R19742:19752 stdpp.decidable <> decide_True thm
+R19742:19752 stdpp.decidable <> decide_True thm
+R19742:19752 stdpp.decidable <> decide_True thm
+R19742:19752 stdpp.decidable <> decide_True thm
+R19742:19752 stdpp.decidable <> decide_True thm
+R19786:19797 stdpp.decidable <> decide_False thm
+R19786:19797 stdpp.decidable <> decide_False thm
+R19786:19797 stdpp.decidable <> decide_False thm
+R19838:19842 stdpp.base <> ::stdpp_scope:x_'∉'_x not
+R19850:19854 stdpp.base <> ::stdpp_scope:x_'∪'_x not
+R19843:19845 stdpp.base <> dom def
+R19855:19857 stdpp.base <> dom def
+R19838:19842 stdpp.base <> ::stdpp_scope:x_'∉'_x not
+R19850:19854 stdpp.base <> ::stdpp_scope:x_'∪'_x not
+R19843:19845 stdpp.base <> dom def
+R19855:19857 stdpp.base <> dom def
+R19909:19920 stdpp.decidable <> decide_False thm
+R19909:19920 stdpp.decidable <> decide_False thm
+R19909:19920 stdpp.decidable <> decide_False thm
+R19956:19960 flows.ccm <> ccmop def
+R19963:19968 flows.ccm <> ccm_op meth
+R19985:19991 flows.ccm <> lift_op inst
+R19994:19998 flows.ccm <> ccmop def
+R20001:20006 flows.ccm <> ccm_op meth
+R20028:20035 flows.ccm <> nzmap_eq thm
+R20028:20035 flows.ccm <> nzmap_eq thm
+R20065:20082 flows.ccm <> nzmap_lookup_merge thm
+R20065:20082 flows.ccm <> nzmap_lookup_merge thm
+R20065:20082 flows.ccm <> nzmap_lookup_merge thm
+R20065:20082 flows.ccm <> nzmap_lookup_merge thm
+R20065:20082 flows.ccm <> nzmap_lookup_merge thm
+R20092:20097 flows.ccm <> nat_op inst
+R20136:20161 flows.multiset_flows <> outflow_map_set_out_map_ne thm
+R20136:20161 flows.multiset_flows <> outflow_map_set_out_map_ne thm
+R20136:20161 flows.multiset_flows <> outflow_map_set_out_map_ne thm
+R20192:20212 flows.multiset_flows <> inflow_map_set_out_eq thm
+R20192:20212 flows.multiset_flows <> inflow_map_set_out_eq thm
+R20192:20212 flows.multiset_flows <> inflow_map_set_out_eq thm
+prf 20255:20274 <> inflow_map_set_valid
+binder 20276:20276 <> f:217
+binder 20278:20279 <> I1:218
+binder 20281:20281 <> n:219
+binder 20283:20283 <> S:220
+R20305:20319 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R20294:20298 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R20293:20293 flows.multiset_flows <> n:219 var
+R20299:20301 stdpp.base <> dom def
+R20303:20304 flows.multiset_flows <> I1:218 var
+R20326:20330 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R20320:20323 iris.algebra.cmra <> ::stdpp_scope:'✓'_x not
+R20324:20325 flows.multiset_flows <> I1:218 var
+R20331:20335 iris.algebra.cmra <> ::stdpp_scope:'✓'_x not
+R20359:20359 iris.algebra.cmra <> ::stdpp_scope:'✓'_x not
+R20336:20349 flows.multiset_flows <> inflow_map_set def
+R20351:20351 flows.multiset_flows <> f:217 var
+R20353:20354 flows.multiset_flows <> I1:218 var
+R20356:20356 flows.multiset_flows <> n:219 var
+R20358:20358 flows.multiset_flows <> S:220 var
+R20404:20408 iris.algebra.cmra <> valid def
+R20411:20423 flows.flows <> flowint_valid inst
+R20435:20448 flows.multiset_flows <> inflow_map_set def
+R20525:20529 iris.algebra.cmra <> valid def
+R20532:20544 flows.flows <> flowint_valid inst
+R20641:20666 flows.multiset_flows <> flowint_inflow_map_set_dom thm
+R20641:20666 flows.multiset_flows <> flowint_inflow_map_set_dom thm
+R20758:20760 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20729:20731 stdpp.base <> dom def
+R20734:20747 flows.multiset_flows <> inflow_map_set def
+R20761:20763 stdpp.base <> dom def
+R20758:20760 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20729:20731 stdpp.base <> dom def
+R20734:20747 flows.multiset_flows <> inflow_map_set def
+R20761:20763 stdpp.base <> dom def
+R20802:20804 stdpp.base <> dom def
+R20807:20817 flows.flows <> flowint_dom inst
+R20838:20851 flows.multiset_flows <> inflow_map_set def
+R20945:20961 stdpp.base <> leibniz_equiv_iff thm
+R20945:20961 stdpp.base <> leibniz_equiv_iff thm
+R20984:20993 stdpp.fin_map_dom <> dom_insert thm
+R20984:20993 stdpp.fin_map_dom <> dom_insert thm
+R20984:20993 stdpp.fin_map_dom <> dom_insert thm
+R21017:21019 stdpp.base <> dom def
+R21022:21032 flows.flows <> flowint_dom inst
+R21100:21109 stdpp.fin_map_dom <> dom_insert thm
+R21100:21109 stdpp.fin_map_dom <> dom_insert thm
+R21100:21109 stdpp.fin_map_dom <> dom_insert thm
+R21176:21183 flows.ccm <> nzmap_eq thm
+R21176:21183 flows.ccm <> nzmap_eq thm
+R21277:21279 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21272:21275 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R21235:21236 stdpp.base <> ::stdpp_scope:'<['_x_':='_x_']>' not
+R21238:21239 stdpp.base <> ::stdpp_scope:'<['_x_':='_x_']>' not
+R21268:21271 stdpp.base <> ::stdpp_scope:'<['_x_':='_x_']>' not
+R21240:21252 flows.ccm <> nzmap_map_set def
+R21259:21261 flows.flows <> inf def
+R21280:21283 Coq.Init.Datatypes <> None constr
+R21277:21279 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21272:21275 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R21235:21236 stdpp.base <> ::stdpp_scope:'<['_x_':='_x_']>' not
+R21238:21239 stdpp.base <> ::stdpp_scope:'<['_x_':='_x_']>' not
+R21268:21271 stdpp.base <> ::stdpp_scope:'<['_x_':='_x_']>' not
+R21240:21252 flows.ccm <> nzmap_map_set def
+R21259:21261 flows.flows <> inf def
+R21280:21283 Coq.Init.Datatypes <> None constr
+R21323:21334 stdpp.fin_maps <> lookup_empty meth
+R21323:21334 stdpp.fin_maps <> lookup_empty meth
+R21323:21334 stdpp.fin_maps <> lookup_empty meth
+R21351:21363 stdpp.fin_maps <> lookup_insert thm
+R21351:21363 stdpp.fin_maps <> lookup_insert thm
+R21351:21363 stdpp.fin_maps <> lookup_insert thm
+prf 21409:21429 <> outflow_map_set_valid
+binder 21431:21431 <> f:221
+binder 21433:21434 <> I1:222
+binder 21436:21436 <> n:223
+binder 21438:21438 <> S:224
+R21460:21473 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R21449:21453 stdpp.base <> ::stdpp_scope:x_'∉'_x not
+R21448:21448 flows.multiset_flows <> n:223 var
+R21454:21456 stdpp.base <> dom def
+R21458:21459 flows.multiset_flows <> I1:222 var
+R21488:21504 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R21480:21484 Coq.Unicode.Utf8_core <> ::type_scope:x_'≠'_x not
+R21474:21476 stdpp.base <> dom def
+R21478:21479 flows.multiset_flows <> I1:222 var
+R21485:21487 stdpp.base <> ::stdpp_scope:'∅' not
+R21511:21515 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R21505:21508 iris.algebra.cmra <> ::stdpp_scope:'✓'_x not
+R21509:21510 flows.multiset_flows <> I1:222 var
+R21516:21520 iris.algebra.cmra <> ::stdpp_scope:'✓'_x not
+R21545:21545 iris.algebra.cmra <> ::stdpp_scope:'✓'_x not
+R21521:21535 flows.multiset_flows <> outflow_map_set def
+R21537:21537 flows.multiset_flows <> f:221 var
+R21539:21540 flows.multiset_flows <> I1:222 var
+R21542:21542 flows.multiset_flows <> n:223 var
+R21544:21544 flows.multiset_flows <> S:224 var
+R21595:21609 flows.flows <> intValid_unfold thm
+R21595:21609 flows.flows <> intValid_unfold thm
+R21632:21646 flows.multiset_flows <> outflow_map_set def
+R21649:21663 flows.multiset_flows <> outflow_map_set def
+R21696:21710 flows.flows <> intValid_unfold thm
+R21696:21710 flows.flows <> intValid_unfold thm
+R21696:21710 flows.flows <> intValid_unfold thm
+R21738:21764 flows.multiset_flows <> flowint_outflow_map_set_dom thm
+R21738:21764 flows.multiset_flows <> flowint_outflow_map_set_dom thm
+R21816:21834 flows.multiset_flows <> outflow_map_set_inf thm
+R21816:21834 flows.multiset_flows <> outflow_map_set_inf thm
+R21891:21893 stdpp.base <> dom def
+R21896:21906 flows.flows <> flowint_dom inst
+R21935:21950 stdpp.sets <> elem_of_subseteq thm
+R21935:21950 stdpp.sets <> elem_of_subseteq thm
+R21935:21950 stdpp.sets <> elem_of_subseteq thm
+R21979:21994 stdpp.sets <> elem_of_disjoint thm
+R21979:21994 stdpp.sets <> elem_of_disjoint thm
+R21979:21994 stdpp.sets <> elem_of_disjoint thm
+R22045:22050 stdpp.base <> decide def
+R22054:22056 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22045:22050 stdpp.base <> decide def
+R22054:22056 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22078:22080 stdpp.base <> dom def
+R22083:22093 flows.flows <> flowint_dom inst
+R22207:22219 stdpp.base <> elem_of_union meth
+R22207:22219 stdpp.base <> elem_of_union meth
+R22308:22323 stdpp.sets <> elem_of_disjoint thm
+R22308:22323 stdpp.sets <> elem_of_disjoint thm
+R22308:22323 stdpp.sets <> elem_of_disjoint thm
+R22491:22493 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22461:22463 stdpp.base <> dom def
+R22466:22480 flows.multiset_flows <> outflow_map_set def
+R22494:22496 stdpp.base <> ::stdpp_scope:'∅' not
+R22491:22493 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22461:22463 stdpp.base <> dom def
+R22466:22480 flows.multiset_flows <> outflow_map_set def
+R22494:22496 stdpp.base <> ::stdpp_scope:'∅' not
+R22527:22529 stdpp.base <> dom def
+R22532:22542 flows.flows <> flowint_dom inst
+R22615:22617 stdpp.base <> dom def
+R22620:22630 flows.flows <> flowint_dom inst
+R22660:22678 flows.multiset_flows <> outflow_map_set_inf thm
+R22660:22678 flows.multiset_flows <> outflow_map_set_inf thm
+R22660:22678 flows.multiset_flows <> outflow_map_set_inf thm
+R22716:22718 stdpp.base <> dom def
+R22721:22731 flows.flows <> flowint_dom inst
+prf 22778:22806 <> flowint_map_set_intComposable
+binder 22808:22808 <> f:225
+binder 22810:22811 <> I1:226
+binder 22813:22815 <> I1':227
+binder 22817:22818 <> I2:228
+binder 22820:22822 <> I2':229
+binder 22824:22824 <> n:230
+binder 22826:22826 <> S:231
+R22837:22837 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R22876:22888 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R22838:22841 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R22847:22848 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+binder 22842:22842 <> k:232
+binder 22844:22844 <> x:233
+binder 22846:22846 <> y:234
+R22856:22860 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R22850:22854 Coq.Unicode.Utf8 <> :::x_'≤'_x not
+R22849:22849 flows.multiset_flows <> x:233 var
+R22855:22855 flows.multiset_flows <> y:234 var
+R22866:22870 Coq.Unicode.Utf8 <> :::x_'≤'_x not
+R22861:22861 flows.multiset_flows <> f:225 var
+R22863:22863 flows.multiset_flows <> k:232 var
+R22865:22865 flows.multiset_flows <> x:233 var
+R22871:22871 flows.multiset_flows <> f:225 var
+R22873:22873 flows.multiset_flows <> k:232 var
+R22875:22875 flows.multiset_flows <> y:234 var
+R22889:22889 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R23015:23027 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R22890:22893 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R22895:22896 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+binder 22894:22894 <> k:235
+R22904:22908 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R22898:22902 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R22897:22897 flows.multiset_flows <> k:235 var
+R22903:22903 flows.multiset_flows <> S:231 var
+R22944:22971 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22909:22909 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R22924:22928 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R22943:22943 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R22918:22922 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R22923:22923 flows.multiset_flows <> k:235 var
+R22910:22912 flows.flows <> inf def
+R22914:22915 flows.multiset_flows <> I2:228 var
+R22917:22917 flows.multiset_flows <> n:230 var
+R22937:22941 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R22942:22942 flows.multiset_flows <> k:235 var
+R22929:22931 flows.flows <> out def
+R22933:22934 flows.multiset_flows <> I1:226 var
+R22936:22936 flows.multiset_flows <> n:230 var
+R22992:22994 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R22972:22972 flows.multiset_flows <> f:225 var
+R22974:22974 flows.multiset_flows <> k:235 var
+R22985:22989 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R22990:22990 flows.multiset_flows <> k:235 var
+R22977:22979 flows.flows <> inf def
+R22981:22982 flows.multiset_flows <> I2:228 var
+R22984:22984 flows.multiset_flows <> n:230 var
+R22995:22995 flows.multiset_flows <> f:225 var
+R22997:22997 flows.multiset_flows <> k:235 var
+R23008:23012 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R23013:23013 flows.multiset_flows <> k:235 var
+R23000:23002 flows.flows <> out def
+R23004:23005 flows.multiset_flows <> I1:226 var
+R23007:23007 flows.multiset_flows <> n:230 var
+R23040:23044 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R23029:23033 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R23028:23028 flows.multiset_flows <> n:230 var
+R23034:23036 stdpp.base <> dom def
+R23038:23039 flows.multiset_flows <> I2:228 var
+R23059:23073 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R23051:23055 Coq.Unicode.Utf8_core <> ::type_scope:x_'≠'_x not
+R23045:23047 stdpp.base <> dom def
+R23049:23050 flows.multiset_flows <> I1:226 var
+R23056:23058 stdpp.base <> ::stdpp_scope:'∅' not
+R23104:23120 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R23077:23079 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23074:23076 flows.multiset_flows <> I1':227 var
+R23080:23094 flows.multiset_flows <> outflow_map_set def
+R23096:23096 flows.multiset_flows <> f:225 var
+R23098:23099 flows.multiset_flows <> I1:226 var
+R23101:23101 flows.multiset_flows <> n:230 var
+R23103:23103 flows.multiset_flows <> S:231 var
+R23150:23166 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R23124:23126 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23121:23123 flows.multiset_flows <> I2':229 var
+R23127:23140 flows.multiset_flows <> inflow_map_set def
+R23142:23142 flows.multiset_flows <> f:225 var
+R23144:23145 flows.multiset_flows <> I2:228 var
+R23147:23147 flows.multiset_flows <> n:230 var
+R23149:23149 flows.multiset_flows <> S:231 var
+R23186:23203 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R23167:23179 flows.flows <> intComposable def
+R23181:23182 flows.multiset_flows <> I1:226 var
+R23184:23185 flows.multiset_flows <> I2:228 var
+R23204:23216 flows.flows <> intComposable def
+R23218:23220 flows.multiset_flows <> I1':227 var
+R23222:23224 flows.multiset_flows <> I2':229 var
+R23294:23298 stdpp.base <> ::stdpp_scope:x_'∉'_x not
+R23299:23301 stdpp.base <> dom def
+R23294:23298 stdpp.base <> ::stdpp_scope:x_'∉'_x not
+R23299:23301 stdpp.base <> dom def
+R23333:23345 flows.flows <> intComposable def
+R23445:23457 flows.flows <> intComposable def
+R23496:23516 flows.multiset_flows <> outflow_map_set_valid thm
+R23496:23516 flows.multiset_flows <> outflow_map_set_valid thm
+R23596:23615 flows.multiset_flows <> inflow_map_set_valid thm
+R23596:23615 flows.multiset_flows <> inflow_map_set_valid thm
+R23693:23718 flows.multiset_flows <> flowint_inflow_map_set_dom thm
+R23693:23718 flows.multiset_flows <> flowint_inflow_map_set_dom thm
+R23760:23762 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23753:23755 stdpp.base <> dom def
+R23763:23765 stdpp.base <> dom def
+R23760:23762 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23753:23755 stdpp.base <> dom def
+R23763:23765 stdpp.base <> dom def
+R23796:23798 stdpp.base <> dom def
+R23801:23811 flows.flows <> flowint_dom inst
+R23840:23854 flows.multiset_flows <> outflow_map_set def
+R23864:23870 flows.flows <> inf_map def
+R23989:23998 stdpp.fin_maps <> map_Forall def
+R24037:24044 flows.ccm <> nzmap_eq thm
+R24037:24044 flows.ccm <> nzmap_eq thm
+R24070:24074 flows.ccm <> ccmop def
+R24077:24082 flows.ccm <> ccm_op meth
+R24099:24105 flows.ccm <> lift_op inst
+R24108:24112 flows.ccm <> ccmop def
+R24115:24120 flows.ccm <> ccm_op meth
+R24141:24149 flows.ccm <> ccmop_inv def
+R24152:24160 flows.ccm <> ccm_opinv meth
+R24181:24190 flows.ccm <> lift_opinv inst
+R24200:24208 flows.ccm <> ccmop_inv def
+R24211:24219 flows.ccm <> ccm_opinv meth
+R24242:24259 flows.ccm <> nzmap_lookup_merge thm
+R24242:24259 flows.ccm <> nzmap_lookup_merge thm
+R24242:24259 flows.ccm <> nzmap_lookup_merge thm
+R24242:24259 flows.ccm <> nzmap_lookup_merge thm
+R24242:24259 flows.ccm <> nzmap_lookup_merge thm
+R24269:24274 flows.ccm <> nat_op inst
+R24277:24285 flows.ccm <> nat_opinv inst
+R24311:24313 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24300:24306 flows.flows <> inf_map def
+R24314:24320 flows.flows <> inf_map def
+R24311:24313 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24300:24306 flows.flows <> inf_map def
+R24314:24320 flows.flows <> inf_map def
+R24363:24377 flows.multiset_flows <> outflow_map_set def
+R24393:24399 flows.flows <> inf_map def
+R24497:24506 stdpp.fin_maps <> map_Forall def
+R24559:24563 flows.ccm <> ccmop def
+R24566:24571 flows.ccm <> ccm_op meth
+R24600:24606 flows.ccm <> lift_op inst
+R24609:24613 flows.ccm <> ccmop def
+R24616:24621 flows.ccm <> ccm_op meth
+R24654:24662 flows.ccm <> ccmop_inv def
+R24665:24673 flows.ccm <> ccm_opinv meth
+R24706:24715 flows.ccm <> lift_opinv inst
+R24731:24739 flows.ccm <> ccmop_inv def
+R24742:24750 flows.ccm <> ccm_opinv meth
+R24784:24791 flows.ccm <> nzmap_eq thm
+R24784:24791 flows.ccm <> nzmap_eq thm
+R24784:24791 flows.ccm <> nzmap_eq thm
+R24838:24855 flows.ccm <> nzmap_lookup_merge thm
+R24838:24855 flows.ccm <> nzmap_lookup_merge thm
+R24838:24855 flows.ccm <> nzmap_lookup_merge thm
+R24838:24855 flows.ccm <> nzmap_lookup_merge thm
+R24838:24855 flows.ccm <> nzmap_lookup_merge thm
+R24875:24880 flows.ccm <> nat_op inst
+R24883:24891 flows.ccm <> nat_opinv inst
+R24922:24924 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24912:24914 flows.flows <> out def
+R24925:24927 flows.flows <> out def
+R24922:24924 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24912:24914 flows.flows <> out def
+R24925:24927 flows.flows <> out def
+R24971:24984 flows.multiset_flows <> inflow_map_set def
+R25000:25002 flows.flows <> out def
+R25005:25011 flows.flows <> out_map def
+R25051:25053 flows.flows <> inf def
+R25063:25065 flows.flows <> inf def
+R25108:25117 stdpp.fin_maps <> map_Forall def
+R25156:25163 flows.ccm <> nzmap_eq thm
+R25156:25163 flows.ccm <> nzmap_eq thm
+R25187:25191 flows.ccm <> ccmop def
+R25194:25199 flows.ccm <> ccm_op meth
+R25216:25222 flows.ccm <> lift_op inst
+R25225:25229 flows.ccm <> ccmop def
+R25232:25237 flows.ccm <> ccm_op meth
+R25258:25266 flows.ccm <> ccmop_inv def
+R25269:25277 flows.ccm <> ccm_opinv meth
+R25298:25307 flows.ccm <> lift_opinv inst
+R25317:25325 flows.ccm <> ccmop_inv def
+R25328:25336 flows.ccm <> ccm_opinv meth
+R25359:25376 flows.ccm <> nzmap_lookup_merge thm
+R25359:25376 flows.ccm <> nzmap_lookup_merge thm
+R25359:25376 flows.ccm <> nzmap_lookup_merge thm
+R25359:25376 flows.ccm <> nzmap_lookup_merge thm
+R25359:25376 flows.ccm <> nzmap_lookup_merge thm
+R25386:25391 flows.ccm <> nat_op inst
+R25394:25402 flows.ccm <> nat_opinv inst
+R25497:25506 stdpp.fin_maps <> map_Forall def
+R25552:25556 flows.ccm <> ccmop def
+R25559:25564 flows.ccm <> ccm_op meth
+R25593:25599 flows.ccm <> lift_op inst
+R25602:25606 flows.ccm <> ccmop def
+R25609:25614 flows.ccm <> ccm_op meth
+R25647:25655 flows.ccm <> ccmop_inv def
+R25658:25666 flows.ccm <> ccm_opinv meth
+R25699:25708 flows.ccm <> lift_opinv inst
+R25724:25732 flows.ccm <> ccmop_inv def
+R25735:25743 flows.ccm <> ccm_opinv meth
+R25779:25784 stdpp.base <> decide def
+R25789:25791 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25779:25784 stdpp.base <> decide def
+R25789:25791 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25836:25850 flows.multiset_flows <> outflow_map_set def
+R25866:25868 flows.flows <> out def
+R25876:25882 flows.flows <> out_map def
+R25910:25912 flows.flows <> out def
+R25920:25926 flows.flows <> out_map def
+R25956:25980 flows.ccm <> nzmap_lookup_total_insert thm
+R25956:25980 flows.ccm <> nzmap_lookup_total_insert thm
+R25956:25980 flows.ccm <> nzmap_lookup_total_insert thm
+R25956:25980 flows.ccm <> nzmap_lookup_total_insert thm
+R25999:26004 stdpp.base <> decide def
+R26008:26012 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R25999:26004 stdpp.base <> decide def
+R26008:26012 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R26035:26060 flows.ccm <> nzmap_lookup_total_map_set thm
+R26035:26060 flows.ccm <> nzmap_lookup_total_map_set thm
+R26035:26060 flows.ccm <> nzmap_lookup_total_map_set thm
+R26035:26060 flows.ccm <> nzmap_lookup_total_map_set thm
+R26035:26060 flows.ccm <> nzmap_lookup_total_map_set thm
+R26099:26115 flows.multiset_flows <> inflow_insert_set def
+R26141:26147 flows.flows <> inf_map def
+R26213:26225 stdpp.fin_maps <> lookup_insert thm
+R26213:26225 stdpp.fin_maps <> lookup_insert thm
+R26213:26225 stdpp.fin_maps <> lookup_insert thm
+R26331:26347 flows.multiset_flows <> inflow_insert_set def
+R26365:26367 flows.flows <> inf def
+R26382:26388 flows.flows <> inf_map def
+R26419:26431 stdpp.fin_maps <> lookup_insert thm
+R26419:26431 stdpp.fin_maps <> lookup_insert thm
+R26419:26431 stdpp.fin_maps <> lookup_insert thm
+R26457:26482 flows.ccm <> nzmap_lookup_total_map_set thm
+R26457:26482 flows.ccm <> nzmap_lookup_total_map_set thm
+R26457:26482 flows.ccm <> nzmap_lookup_total_map_set thm
+R26504:26532 flows.multiset_flows <> composable_outflow_leq_inflow thm
+R26504:26532 flows.multiset_flows <> composable_outflow_leq_inflow thm
+R26604:26608 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R26596:26598 flows.flows <> out def
+R26621:26625 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R26613:26615 flows.flows <> inf def
+R26604:26608 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R26596:26598 flows.flows <> out def
+R26621:26625 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R26613:26615 flows.flows <> inf def
+R26689:26693 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R26681:26683 flows.flows <> out def
+R26689:26693 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R26681:26683 flows.flows <> out def
+R26689:26693 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R26681:26683 flows.flows <> out def
+R26722:26726 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R26714:26716 flows.flows <> inf def
+R26722:26726 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R26714:26716 flows.flows <> inf def
+R26722:26726 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R26714:26716 flows.flows <> inf def
+R26812:26814 flows.flows <> inf def
+R26893:26906 flows.multiset_flows <> inflow_map_set def
+R26933:26939 flows.flows <> inf_map def
+R26987:26999 stdpp.fin_maps <> lookup_insert thm
+R26987:26999 stdpp.fin_maps <> lookup_insert thm
+R26987:26999 stdpp.fin_maps <> lookup_insert thm
+R27072:27100 flows.ccm <> nzmap_lookup_total_map_set_ne thm
+R27072:27100 flows.ccm <> nzmap_lookup_total_map_set_ne thm
+R27072:27100 flows.ccm <> nzmap_lookup_total_map_set_ne thm
+R27072:27100 flows.ccm <> nzmap_lookup_total_map_set_ne thm
+R27072:27100 flows.ccm <> nzmap_lookup_total_map_set_ne thm
+R27072:27100 flows.ccm <> nzmap_lookup_total_map_set_ne thm
+R27072:27100 flows.ccm <> nzmap_lookup_total_map_set_ne thm
+R27169:27171 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27164:27167 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R27154:27160 flows.flows <> inf_map def
+R27172:27175 Coq.Init.Datatypes <> Some constr
+R27178:27180 flows.flows <> inf def
+R27169:27171 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27164:27167 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R27154:27160 flows.flows <> inf_map def
+R27172:27175 Coq.Init.Datatypes <> Some constr
+R27178:27180 flows.flows <> inf def
+R27214:27216 flows.flows <> inf def
+R27239:27242 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R27229:27235 flows.flows <> inf_map def
+R27239:27242 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R27229:27235 flows.flows <> inf_map def
+R27284:27286 stdpp.base <> dom def
+R27289:27299 flows.flows <> flowint_dom inst
+R27331:27341 stdpp.fin_map_dom <> elem_of_dom meth
+R27331:27341 stdpp.fin_map_dom <> elem_of_dom meth
+R27331:27341 stdpp.fin_map_dom <> elem_of_dom meth
+R27469:27471 flows.flows <> inf def
+R27469:27471 flows.flows <> inf def
+R27507:27514 flows.ccm <> nzmap_eq thm
+R27507:27514 flows.ccm <> nzmap_eq thm
+R27507:27514 flows.ccm <> nzmap_eq thm
+R27575:27592 flows.ccm <> nzmap_lookup_merge thm
+R27575:27592 flows.ccm <> nzmap_lookup_merge thm
+R27575:27592 flows.ccm <> nzmap_lookup_merge thm
+R27575:27592 flows.ccm <> nzmap_lookup_merge thm
+R27575:27592 flows.ccm <> nzmap_lookup_merge thm
+R27620:27625 flows.ccm <> nat_op inst
+R27628:27636 flows.ccm <> nat_opinv inst
+R27670:27672 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27660:27662 flows.flows <> inf def
+R27673:27675 flows.flows <> inf def
+R27670:27672 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27660:27662 flows.flows <> inf def
+R27673:27675 flows.flows <> inf def
+R27721:27737 flows.multiset_flows <> inflow_insert_set def
+R27753:27755 flows.flows <> inf def
+R27763:27769 flows.flows <> inf_map def
+R27798:27813 stdpp.fin_maps <> lookup_insert_ne thm
+R27798:27813 stdpp.fin_maps <> lookup_insert_ne thm
+R27798:27813 stdpp.fin_maps <> lookup_insert_ne thm
+R27881:27897 flows.multiset_flows <> inflow_insert_set def
+R27900:27913 flows.multiset_flows <> inflow_map_set def
+R27937:27939 flows.flows <> inf def
+R27947:27953 flows.flows <> inf_map def
+R27998:28013 stdpp.fin_maps <> lookup_insert_ne thm
+R27998:28013 stdpp.fin_maps <> lookup_insert_ne thm
+R27998:28013 stdpp.fin_maps <> lookup_insert_ne thm
+R28083:28090 flows.ccm <> nzmap_eq thm
+R28083:28090 flows.ccm <> nzmap_eq thm
+R28083:28090 flows.ccm <> nzmap_eq thm
+R28143:28160 flows.ccm <> nzmap_lookup_merge thm
+R28143:28160 flows.ccm <> nzmap_lookup_merge thm
+R28143:28160 flows.ccm <> nzmap_lookup_merge thm
+R28143:28160 flows.ccm <> nzmap_lookup_merge thm
+R28143:28160 flows.ccm <> nzmap_lookup_merge thm
+R28182:28187 flows.ccm <> nat_op inst
+R28190:28198 flows.ccm <> nat_opinv inst
+R28231:28233 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28221:28223 flows.flows <> out def
+R28234:28236 flows.flows <> out def
+R28231:28233 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28221:28223 flows.flows <> out def
+R28234:28236 flows.flows <> out def
+R28282:28296 flows.multiset_flows <> outflow_map_set def
+R28314:28316 flows.flows <> out def
+R28324:28330 flows.flows <> out_map def
+R28361:28388 flows.ccm <> nzmap_lookup_total_insert_ne thm
+R28361:28388 flows.ccm <> nzmap_lookup_total_insert_ne thm
+R28361:28388 flows.ccm <> nzmap_lookup_total_insert_ne thm
+prf 28441:28461 <> flowint_map_set_valid
+binder 28463:28463 <> f:236
+binder 28465:28466 <> I1:237
+binder 28468:28470 <> I1':238
+binder 28472:28473 <> I2:239
+binder 28475:28477 <> I2':240
+binder 28479:28479 <> n:241
+binder 28481:28481 <> S:242
+R28487:28487 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R28526:28533 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R28488:28491 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R28497:28498 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+binder 28492:28492 <> k:243
+binder 28494:28494 <> x:244
+binder 28496:28496 <> y:245
+R28506:28510 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R28500:28504 Coq.Unicode.Utf8 <> :::x_'≤'_x not
+R28499:28499 flows.multiset_flows <> x:244 var
+R28505:28505 flows.multiset_flows <> y:245 var
+R28516:28520 Coq.Unicode.Utf8 <> :::x_'≤'_x not
+R28511:28511 flows.multiset_flows <> f:236 var
+R28513:28513 flows.multiset_flows <> k:243 var
+R28515:28515 flows.multiset_flows <> x:244 var
+R28521:28521 flows.multiset_flows <> f:236 var
+R28523:28523 flows.multiset_flows <> k:243 var
+R28525:28525 flows.multiset_flows <> y:245 var
+R28534:28534 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R28654:28665 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R28535:28538 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R28540:28541 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+binder 28539:28539 <> k:246
+R28549:28553 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R28543:28547 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R28542:28542 flows.multiset_flows <> k:246 var
+R28548:28548 flows.multiset_flows <> S:242 var
+R28589:28610 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28554:28554 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R28569:28573 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R28588:28588 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R28563:28567 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R28568:28568 flows.multiset_flows <> k:246 var
+R28555:28557 flows.flows <> inf def
+R28559:28560 flows.multiset_flows <> I2:239 var
+R28562:28562 flows.multiset_flows <> n:241 var
+R28582:28586 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R28587:28587 flows.multiset_flows <> k:246 var
+R28574:28576 flows.flows <> out def
+R28578:28579 flows.multiset_flows <> I1:237 var
+R28581:28581 flows.multiset_flows <> n:241 var
+R28631:28633 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R28611:28611 flows.multiset_flows <> f:236 var
+R28613:28613 flows.multiset_flows <> k:246 var
+R28624:28628 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R28629:28629 flows.multiset_flows <> k:246 var
+R28616:28618 flows.flows <> inf def
+R28620:28621 flows.multiset_flows <> I2:239 var
+R28623:28623 flows.multiset_flows <> n:241 var
+R28634:28634 flows.multiset_flows <> f:236 var
+R28636:28636 flows.multiset_flows <> k:246 var
+R28647:28651 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R28652:28652 flows.multiset_flows <> k:246 var
+R28639:28641 flows.flows <> out def
+R28643:28644 flows.multiset_flows <> I1:237 var
+R28646:28646 flows.multiset_flows <> n:241 var
+R28678:28682 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R28667:28671 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R28666:28666 flows.multiset_flows <> n:241 var
+R28672:28674 stdpp.base <> dom def
+R28676:28677 flows.multiset_flows <> I2:239 var
+R28697:28709 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R28689:28693 Coq.Unicode.Utf8_core <> ::type_scope:x_'≠'_x not
+R28683:28685 stdpp.base <> dom def
+R28687:28688 flows.multiset_flows <> I1:237 var
+R28694:28696 stdpp.base <> ::stdpp_scope:'∅' not
+R28740:28754 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R28713:28715 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28710:28712 flows.multiset_flows <> I1':238 var
+R28716:28730 flows.multiset_flows <> outflow_map_set def
+R28732:28732 flows.multiset_flows <> f:236 var
+R28734:28735 flows.multiset_flows <> I1:237 var
+R28737:28737 flows.multiset_flows <> n:241 var
+R28739:28739 flows.multiset_flows <> S:242 var
+R28784:28800 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R28758:28760 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28755:28757 flows.multiset_flows <> I2':240 var
+R28761:28774 flows.multiset_flows <> inflow_map_set def
+R28776:28776 flows.multiset_flows <> f:236 var
+R28778:28779 flows.multiset_flows <> I2:239 var
+R28781:28781 flows.multiset_flows <> n:241 var
+R28783:28783 flows.multiset_flows <> S:242 var
+R28816:28820 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R28801:28805 iris.algebra.cmra <> ::stdpp_scope:'✓'_x not
+R28815:28815 iris.algebra.cmra <> ::stdpp_scope:'✓'_x not
+R28808:28812 iris.algebra.cmra <> ::stdpp_scope:x_'⋅'_x not
+R28806:28807 flows.multiset_flows <> I1:237 var
+R28813:28814 flows.multiset_flows <> I2:239 var
+R28821:28825 iris.algebra.cmra <> ::stdpp_scope:'✓'_x not
+R28837:28837 iris.algebra.cmra <> ::stdpp_scope:'✓'_x not
+R28829:28833 iris.algebra.cmra <> ::stdpp_scope:x_'⋅'_x not
+R28826:28828 flows.multiset_flows <> I1':238 var
+R28834:28836 flows.multiset_flows <> I2':240 var
+R28910:28928 flows.flows <> intComposable_valid thm
+R28910:28928 flows.flows <> intComposable_valid thm
+R28968:28986 flows.flows <> intValid_composable thm
+R28968:28986 flows.flows <> intValid_composable thm
+R28999:29027 flows.multiset_flows <> flowint_map_set_intComposable thm
+R28999:29027 flows.multiset_flows <> flowint_map_set_intComposable thm
+prf 29074:29091 <> flowint_map_set_eq
+binder 29093:29093 <> f:247
+R29111:29129 flows.multiset_flows <> multiset_flowint_ur canonstruc
+binder 29096:29097 <> I1:248
+binder 29099:29101 <> I1':249
+binder 29103:29104 <> I2:250
+binder 29106:29108 <> I2':251
+binder 29132:29132 <> n:252
+binder 29134:29134 <> S:253
+R29140:29140 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R29179:29186 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R29141:29144 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R29150:29151 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+binder 29145:29145 <> k:254
+binder 29147:29147 <> x:255
+binder 29149:29149 <> y:256
+R29159:29163 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R29153:29157 Coq.Unicode.Utf8 <> :::x_'≤'_x not
+R29152:29152 flows.multiset_flows <> x:255 var
+R29158:29158 flows.multiset_flows <> y:256 var
+R29169:29173 Coq.Unicode.Utf8 <> :::x_'≤'_x not
+R29164:29164 flows.multiset_flows <> f:247 var
+R29166:29166 flows.multiset_flows <> k:254 var
+R29168:29168 flows.multiset_flows <> x:255 var
+R29174:29174 flows.multiset_flows <> f:247 var
+R29176:29176 flows.multiset_flows <> k:254 var
+R29178:29178 flows.multiset_flows <> y:256 var
+R29187:29187 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R29309:29316 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R29188:29191 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R29193:29194 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+binder 29192:29192 <> k:257
+R29202:29206 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R29196:29200 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R29195:29195 flows.multiset_flows <> k:257 var
+R29201:29201 flows.multiset_flows <> S:253 var
+R29242:29265 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29207:29207 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R29222:29226 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R29241:29241 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R29216:29220 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R29221:29221 flows.multiset_flows <> k:257 var
+R29208:29210 flows.flows <> inf def
+R29212:29213 flows.multiset_flows <> I2:250 var
+R29215:29215 flows.multiset_flows <> n:252 var
+R29235:29239 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R29240:29240 flows.multiset_flows <> k:257 var
+R29227:29229 flows.flows <> out def
+R29231:29232 flows.multiset_flows <> I1:248 var
+R29234:29234 flows.multiset_flows <> n:252 var
+R29286:29288 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R29266:29266 flows.multiset_flows <> f:247 var
+R29268:29268 flows.multiset_flows <> k:257 var
+R29279:29283 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R29284:29284 flows.multiset_flows <> k:257 var
+R29271:29273 flows.flows <> inf def
+R29275:29276 flows.multiset_flows <> I2:250 var
+R29278:29278 flows.multiset_flows <> n:252 var
+R29289:29289 flows.multiset_flows <> f:247 var
+R29291:29291 flows.multiset_flows <> k:257 var
+R29302:29306 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R29307:29307 flows.multiset_flows <> k:257 var
+R29294:29296 flows.flows <> out def
+R29298:29299 flows.multiset_flows <> I1:248 var
+R29301:29301 flows.multiset_flows <> n:252 var
+R29329:29333 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R29318:29322 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R29317:29317 flows.multiset_flows <> n:252 var
+R29323:29325 stdpp.base <> dom def
+R29327:29328 flows.multiset_flows <> I2:250 var
+R29348:29354 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R29340:29344 Coq.Unicode.Utf8_core <> ::type_scope:x_'≠'_x not
+R29334:29336 stdpp.base <> dom def
+R29338:29339 flows.multiset_flows <> I1:248 var
+R29345:29347 stdpp.base <> ::stdpp_scope:'∅' not
+R29385:29391 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R29358:29360 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29355:29357 flows.multiset_flows <> I1':249 var
+R29361:29375 flows.multiset_flows <> outflow_map_set def
+R29377:29377 flows.multiset_flows <> f:247 var
+R29379:29380 flows.multiset_flows <> I1:248 var
+R29382:29382 flows.multiset_flows <> n:252 var
+R29384:29384 flows.multiset_flows <> S:253 var
+R29421:29427 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R29395:29397 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29392:29394 flows.multiset_flows <> I2':251 var
+R29398:29411 flows.multiset_flows <> inflow_map_set def
+R29413:29413 flows.multiset_flows <> f:247 var
+R29415:29416 flows.multiset_flows <> I2:250 var
+R29418:29418 flows.multiset_flows <> n:252 var
+R29420:29420 flows.multiset_flows <> S:253 var
+R29443:29447 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R29428:29432 iris.algebra.cmra <> ::stdpp_scope:'✓'_x not
+R29442:29442 iris.algebra.cmra <> ::stdpp_scope:'✓'_x not
+R29435:29439 iris.algebra.cmra <> ::stdpp_scope:x_'⋅'_x not
+R29433:29434 flows.multiset_flows <> I1:248 var
+R29440:29441 flows.multiset_flows <> I2:250 var
+R29457:29459 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29450:29454 iris.algebra.cmra <> ::stdpp_scope:x_'⋅'_x not
+R29448:29449 flows.multiset_flows <> I1:248 var
+R29455:29456 flows.multiset_flows <> I2:250 var
+R29463:29467 iris.algebra.cmra <> ::stdpp_scope:x_'⋅'_x not
+R29460:29462 flows.multiset_flows <> I1':249 var
+R29468:29470 flows.multiset_flows <> I2':251 var
+R29544:29562 flows.flows <> intComposable_valid thm
+R29544:29562 flows.flows <> intComposable_valid thm
+R29605:29625 flows.multiset_flows <> flowint_map_set_valid thm
+R29605:29625 flows.multiset_flows <> flowint_map_set_valid thm
+R29733:29751 flows.flows <> intComposable_valid thm
+R29733:29751 flows.flows <> intComposable_valid thm
+R29799:29801 iris.algebra.cmra <> ::stdpp_scope:x_'⋅'_x not
+R29799:29801 iris.algebra.cmra <> ::stdpp_scope:x_'⋅'_x not
+R29864:29865 iris.algebra.cmra <> op def
+R29868:29874 flows.flows <> intComp inst
+R29897:29902 stdpp.base <> decide def
+R29905:29917 flows.flows <> intComposable def
+R29897:29902 stdpp.base <> decide def
+R29905:29917 flows.flows <> intComposable def
+R29972:29974 iris.algebra.cmra <> ::stdpp_scope:x_'⋅'_x not
+R29972:29974 iris.algebra.cmra <> ::stdpp_scope:x_'⋅'_x not
+R30045:30046 iris.algebra.cmra <> op def
+R30049:30055 flows.flows <> intComp inst
+R30079:30084 stdpp.base <> decide def
+R30087:30099 flows.flows <> intComposable def
+R30079:30084 stdpp.base <> decide def
+R30087:30099 flows.flows <> intComposable def
+R30150:30168 flows.flows <> intValid_composable thm
+R30150:30168 flows.flows <> intValid_composable thm
+R30206:30208 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30193:30199 flows.flows <> infComp def
+R30209:30215 flows.flows <> infComp def
+R30206:30208 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30193:30199 flows.flows <> infComp def
+R30209:30215 flows.flows <> infComp def
+R30250:30272 flows.multiset_flows <> flowint_map_set_infComp thm
+R30250:30272 flows.multiset_flows <> flowint_map_set_infComp thm
+R30322:30344 flows.multiset_flows <> flowint_map_set_outComp thm
+R30322:30344 flows.multiset_flows <> flowint_map_set_outComp thm
+prf 30442:30458 <> flowint_insert_eq
+R30476:30494 flows.multiset_flows <> multiset_flowint_ur canonstruc
+binder 30461:30462 <> I1:258
+binder 30464:30466 <> I1':259
+binder 30468:30469 <> I2:260
+binder 30471:30473 <> I2':261
+binder 30497:30497 <> n:262
+binder 30499:30499 <> S:263
+R30517:30521 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R30506:30510 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R30505:30505 flows.multiset_flows <> n:262 var
+R30511:30513 stdpp.base <> dom def
+R30515:30516 flows.multiset_flows <> I2:260 var
+R30536:30542 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R30528:30532 Coq.Unicode.Utf8_core <> ::type_scope:x_'≠'_x not
+R30522:30524 stdpp.base <> dom def
+R30526:30527 flows.multiset_flows <> I1:258 var
+R30533:30535 stdpp.base <> ::stdpp_scope:'∅' not
+R30574:30580 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R30546:30548 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30543:30545 flows.multiset_flows <> I1':259 var
+R30549:30566 flows.multiset_flows <> outflow_insert_set def
+R30568:30569 flows.multiset_flows <> I1:258 var
+R30571:30571 flows.multiset_flows <> n:262 var
+R30573:30573 flows.multiset_flows <> S:263 var
+R30611:30617 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R30584:30586 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30581:30583 flows.multiset_flows <> I2':261 var
+R30587:30603 flows.multiset_flows <> inflow_insert_set def
+R30605:30606 flows.multiset_flows <> I2:260 var
+R30608:30608 flows.multiset_flows <> n:262 var
+R30610:30610 flows.multiset_flows <> S:263 var
+R30633:30637 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R30618:30622 iris.algebra.cmra <> ::stdpp_scope:'✓'_x not
+R30632:30632 iris.algebra.cmra <> ::stdpp_scope:'✓'_x not
+R30625:30629 iris.algebra.cmra <> ::stdpp_scope:x_'⋅'_x not
+R30623:30624 flows.multiset_flows <> I1:258 var
+R30630:30631 flows.multiset_flows <> I2:260 var
+R30647:30649 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30640:30644 iris.algebra.cmra <> ::stdpp_scope:x_'⋅'_x not
+R30638:30639 flows.multiset_flows <> I1:258 var
+R30645:30646 flows.multiset_flows <> I2:260 var
+R30653:30657 iris.algebra.cmra <> ::stdpp_scope:x_'⋅'_x not
+R30650:30652 flows.multiset_flows <> I1':259 var
+R30658:30660 flows.multiset_flows <> I2':261 var
+R30678:30695 flows.multiset_flows <> flowint_map_set_eq thm
+R30678:30695 flows.multiset_flows <> flowint_map_set_eq thm
+prf 30722:30738 <> flowint_delete_eq
+R30756:30774 flows.multiset_flows <> multiset_flowint_ur canonstruc
+binder 30741:30742 <> I1:264
+binder 30744:30746 <> I1':265
+binder 30748:30749 <> I2:266
+binder 30751:30753 <> I2':267
+binder 30777:30777 <> n:268
+binder 30779:30779 <> S:269
+R30785:30785 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R30825:30832 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R30786:30789 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R30791:30792 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+binder 30790:30790 <> k:270
+R30800:30804 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R30794:30798 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R30793:30793 flows.multiset_flows <> k:270 var
+R30799:30799 flows.multiset_flows <> S:269 var
+R30806:30810 Coq.Unicode.Utf8 <> :::x_'≤'_x not
+R30819:30823 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R30824:30824 flows.multiset_flows <> k:270 var
+R30811:30813 flows.flows <> out def
+R30815:30816 flows.multiset_flows <> I1:264 var
+R30818:30818 flows.multiset_flows <> n:268 var
+R30845:30849 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R30834:30838 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R30833:30833 flows.multiset_flows <> n:268 var
+R30839:30841 stdpp.base <> dom def
+R30843:30844 flows.multiset_flows <> I2:266 var
+R30864:30870 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R30856:30860 Coq.Unicode.Utf8_core <> ::type_scope:x_'≠'_x not
+R30850:30852 stdpp.base <> dom def
+R30854:30855 flows.multiset_flows <> I1:264 var
+R30861:30863 stdpp.base <> ::stdpp_scope:'∅' not
+R30902:30908 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R30874:30876 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30871:30873 flows.multiset_flows <> I1':265 var
+R30877:30894 flows.multiset_flows <> outflow_delete_set def
+R30896:30897 flows.multiset_flows <> I1:264 var
+R30899:30899 flows.multiset_flows <> n:268 var
+R30901:30901 flows.multiset_flows <> S:269 var
+R30939:30945 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R30912:30914 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30909:30911 flows.multiset_flows <> I2':267 var
+R30915:30931 flows.multiset_flows <> inflow_delete_set def
+R30933:30934 flows.multiset_flows <> I2:266 var
+R30936:30936 flows.multiset_flows <> n:268 var
+R30938:30938 flows.multiset_flows <> S:269 var
+R30961:30965 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R30946:30950 iris.algebra.cmra <> ::stdpp_scope:'✓'_x not
+R30960:30960 iris.algebra.cmra <> ::stdpp_scope:'✓'_x not
+R30953:30957 iris.algebra.cmra <> ::stdpp_scope:x_'⋅'_x not
+R30951:30952 flows.multiset_flows <> I1:264 var
+R30958:30959 flows.multiset_flows <> I2:266 var
+R30975:30977 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30968:30972 iris.algebra.cmra <> ::stdpp_scope:x_'⋅'_x not
+R30966:30967 flows.multiset_flows <> I1:264 var
+R30973:30974 flows.multiset_flows <> I2:266 var
+R30981:30985 iris.algebra.cmra <> ::stdpp_scope:x_'⋅'_x not
+R30978:30980 flows.multiset_flows <> I1':265 var
+R30986:30988 flows.multiset_flows <> I2':267 var
+R31017:31034 flows.multiset_flows <> flowint_map_set_eq thm
+R31037:31039 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R31043:31044 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+binder 31042:31042 <> n:271
+R31046:31048 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R31045:31045 flows.multiset_flows <> n:271 var
+R31017:31034 flows.multiset_flows <> flowint_map_set_eq thm
+R31037:31039 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R31043:31044 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+binder 31042:31042 <> n:272
+R31046:31048 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R31045:31045 flows.multiset_flows <> n:272 var
+prf 31143:31165 <> inflow_insert_set_inset
+binder 31167:31167 <> I:273
+binder 31169:31169 <> n:274
+binder 31171:31171 <> S:275
+R31219:31221 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31186:31190 flows.multiset_flows <> inset def
+R31193:31209 flows.multiset_flows <> inflow_insert_set def
+R31211:31211 flows.multiset_flows <> I:273 var
+R31213:31213 flows.multiset_flows <> n:274 var
+R31215:31215 flows.multiset_flows <> S:275 var
+R31218:31218 flows.multiset_flows <> n:274 var
+R31231:31235 stdpp.base <> ::stdpp_scope:x_'∪'_x not
+R31222:31226 flows.multiset_flows <> inset def
+R31228:31228 flows.multiset_flows <> I:273 var
+R31230:31230 flows.multiset_flows <> n:274 var
+R31236:31236 flows.multiset_flows <> S:275 var
+R31255:31259 flows.multiset_flows <> inset def
+R31269:31285 flows.multiset_flows <> inflow_insert_set def
+R31297:31310 flows.multiset_flows <> inflow_map_set def
+R31320:31322 flows.flows <> inf def
+R31347:31359 stdpp.fin_maps <> lookup_insert thm
+R31347:31359 stdpp.fin_maps <> lookup_insert thm
+R31347:31359 stdpp.fin_maps <> lookup_insert thm
+R31377:31389 stdpp.base <> leibniz_equiv def
+R31377:31389 stdpp.base <> leibniz_equiv def
+R31400:31408 stdpp.sets <> set_equiv thm
+R31400:31408 stdpp.sets <> set_equiv thm
+R31433:31455 flows.ccm <> nzmap_elem_of_dom_total thm
+R31433:31455 flows.ccm <> nzmap_elem_of_dom_total thm
+R31433:31455 flows.ccm <> nzmap_elem_of_dom_total thm
+R31433:31455 flows.ccm <> nzmap_elem_of_dom_total thm
+R31470:31475 stdpp.base <> decide def
+R31479:31483 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R31470:31475 stdpp.base <> decide def
+R31479:31483 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R31524:31549 flows.ccm <> nzmap_lookup_total_map_set thm
+R31524:31549 flows.ccm <> nzmap_lookup_total_map_set thm
+R31524:31549 flows.ccm <> nzmap_lookup_total_map_set thm
+R31564:31576 stdpp.base <> elem_of_union meth
+R31564:31576 stdpp.base <> elem_of_union meth
+R31564:31576 stdpp.base <> elem_of_union meth
+R31592:31614 flows.ccm <> nzmap_elem_of_dom_total thm
+R31592:31614 flows.ccm <> nzmap_elem_of_dom_total thm
+R31592:31614 flows.ccm <> nzmap_elem_of_dom_total thm
+R31592:31614 flows.ccm <> nzmap_elem_of_dom_total thm
+R31628:31634 flows.ccm <> ccmunit def
+R31637:31644 flows.ccm <> ccm_unit meth
+R31665:31672 flows.ccm <> nat_unit inst
+R31698:31726 flows.ccm <> nzmap_lookup_total_map_set_ne thm
+R31698:31726 flows.ccm <> nzmap_lookup_total_map_set_ne thm
+R31698:31726 flows.ccm <> nzmap_lookup_total_map_set_ne thm
+R31741:31753 stdpp.base <> elem_of_union meth
+R31741:31753 stdpp.base <> elem_of_union meth
+R31741:31753 stdpp.base <> elem_of_union meth
+R31769:31791 flows.ccm <> nzmap_elem_of_dom_total thm
+R31769:31791 flows.ccm <> nzmap_elem_of_dom_total thm
+R31769:31791 flows.ccm <> nzmap_elem_of_dom_total thm
+R31769:31791 flows.ccm <> nzmap_elem_of_dom_total thm
+R31849:31861 stdpp.base <> elem_of_union meth
+R31849:31861 stdpp.base <> elem_of_union meth
+R31849:31861 stdpp.base <> elem_of_union meth
+R31904:31932 flows.ccm <> nzmap_lookup_total_map_set_ne thm
+R31947:31969 flows.ccm <> nzmap_elem_of_dom_total thm
+R31904:31932 flows.ccm <> nzmap_lookup_total_map_set_ne thm
+R31904:31932 flows.ccm <> nzmap_lookup_total_map_set_ne thm
+R31947:31969 flows.ccm <> nzmap_elem_of_dom_total thm
+R31947:31969 flows.ccm <> nzmap_elem_of_dom_total thm
+R31947:31969 flows.ccm <> nzmap_elem_of_dom_total thm
+R31947:31969 flows.ccm <> nzmap_elem_of_dom_total thm
+prf 32019:32041 <> inflow_delete_set_inset
+binder 32043:32043 <> I:276
+binder 32045:32045 <> n:277
+binder 32047:32047 <> S:278
+R32057:32057 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R32096:32112 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R32058:32061 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R32063:32064 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+binder 32062:32062 <> k:279
+R32072:32076 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R32066:32070 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R32065:32065 flows.multiset_flows <> k:279 var
+R32071:32071 flows.multiset_flows <> S:278 var
+R32090:32094 Coq.Unicode.Utf8 <> :::x_'≤'_x not
+R32084:32088 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R32089:32089 flows.multiset_flows <> k:279 var
+R32077:32079 flows.flows <> inf def
+R32081:32081 flows.multiset_flows <> I:276 var
+R32083:32083 flows.multiset_flows <> n:277 var
+R32146:32148 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32113:32117 flows.multiset_flows <> inset def
+R32120:32136 flows.multiset_flows <> inflow_delete_set def
+R32138:32138 flows.multiset_flows <> I:276 var
+R32140:32140 flows.multiset_flows <> n:277 var
+R32142:32142 flows.multiset_flows <> S:278 var
+R32145:32145 flows.multiset_flows <> n:277 var
+R32158:32162 stdpp.base <> ::stdpp_scope:x_'∖'_x not
+R32149:32153 flows.multiset_flows <> inset def
+R32155:32155 flows.multiset_flows <> I:276 var
+R32157:32157 flows.multiset_flows <> n:277 var
+R32163:32163 flows.multiset_flows <> S:278 var
+R32194:32198 flows.multiset_flows <> inset def
+R32208:32224 flows.multiset_flows <> inflow_delete_set def
+R32236:32238 flows.flows <> inf def
+R32263:32275 stdpp.fin_maps <> lookup_insert thm
+R32263:32275 stdpp.fin_maps <> lookup_insert thm
+R32263:32275 stdpp.fin_maps <> lookup_insert thm
+R32293:32305 stdpp.base <> leibniz_equiv def
+R32293:32305 stdpp.base <> leibniz_equiv def
+R32316:32324 stdpp.sets <> set_equiv thm
+R32316:32324 stdpp.sets <> set_equiv thm
+R32349:32371 flows.ccm <> nzmap_elem_of_dom_total thm
+R32349:32371 flows.ccm <> nzmap_elem_of_dom_total thm
+R32349:32371 flows.ccm <> nzmap_elem_of_dom_total thm
+R32349:32371 flows.ccm <> nzmap_elem_of_dom_total thm
+R32386:32391 stdpp.base <> decide def
+R32395:32399 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R32386:32391 stdpp.base <> decide def
+R32395:32399 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R32459:32484 flows.ccm <> nzmap_lookup_total_map_set thm
+R32459:32484 flows.ccm <> nzmap_lookup_total_map_set thm
+R32459:32484 flows.ccm <> nzmap_lookup_total_map_set thm
+R32504:32510 flows.ccm <> ccmunit def
+R32513:32520 flows.ccm <> ccm_unit meth
+R32523:32529 flows.ccm <> nat_ccm inst
+R32532:32539 flows.ccm <> nat_unit inst
+R32578:32580 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32574:32576 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R32568:32572 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R32561:32563 flows.flows <> inf def
+R32578:32580 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32574:32576 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R32568:32572 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R32561:32563 flows.flows <> inf def
+R32659:32687 flows.ccm <> nzmap_lookup_total_map_set_ne thm
+R32659:32687 flows.ccm <> nzmap_lookup_total_map_set_ne thm
+R32659:32687 flows.ccm <> nzmap_lookup_total_map_set_ne thm
+R32708:32725 stdpp.base <> elem_of_difference meth
+R32708:32725 stdpp.base <> elem_of_difference meth
+R32708:32725 stdpp.base <> elem_of_difference meth
+R32751:32773 flows.ccm <> nzmap_elem_of_dom_total thm
+R32751:32773 flows.ccm <> nzmap_elem_of_dom_total thm
+R32751:32773 flows.ccm <> nzmap_elem_of_dom_total thm
+R32811:32839 flows.ccm <> nzmap_lookup_total_map_set_ne thm
+R32811:32839 flows.ccm <> nzmap_lookup_total_map_set_ne thm
+R32811:32839 flows.ccm <> nzmap_lookup_total_map_set_ne thm
+R32854:32871 stdpp.base <> elem_of_difference meth
+R32854:32871 stdpp.base <> elem_of_difference meth
+R32854:32871 stdpp.base <> elem_of_difference meth
+R32929:32951 flows.ccm <> nzmap_elem_of_dom_total thm
+R32929:32951 flows.ccm <> nzmap_elem_of_dom_total thm
+R32929:32951 flows.ccm <> nzmap_elem_of_dom_total thm
+R32981:32983 flows.flows <> out def
+prf 33009:33034 <> inflow_delete_set_inset_ne
+binder 33036:33036 <> I:280
+binder 33038:33038 <> n:281
+binder 33040:33040 <> S:282
+binder 33042:33043 <> n':283
+R33061:33077 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R33055:33059 Coq.Unicode.Utf8_core <> ::type_scope:x_'≠'_x not
+R33053:33054 flows.multiset_flows <> n':283 var
+R33060:33060 flows.multiset_flows <> n:281 var
+R33112:33114 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33078:33082 flows.multiset_flows <> inset def
+R33085:33101 flows.multiset_flows <> inflow_delete_set def
+R33103:33103 flows.multiset_flows <> I:280 var
+R33105:33105 flows.multiset_flows <> n:281 var
+R33107:33107 flows.multiset_flows <> S:282 var
+R33110:33111 flows.multiset_flows <> n':283 var
+R33115:33119 flows.multiset_flows <> inset def
+R33121:33121 flows.multiset_flows <> I:280 var
+R33123:33124 flows.multiset_flows <> n':283 var
+R33143:33147 flows.multiset_flows <> inset def
+R33164:33180 flows.multiset_flows <> inflow_map_set_ne thm
+R33183:33185 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R33189:33190 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+binder 33188:33188 <> n:284
+R33192:33194 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R33191:33191 flows.multiset_flows <> n:284 var
+R33164:33180 flows.multiset_flows <> inflow_map_set_ne thm
+R33183:33185 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R33189:33190 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+binder 33188:33188 <> n:285
+R33192:33194 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R33191:33191 flows.multiset_flows <> n:285 var
+R33228:33230 flows.flows <> inf def
+prf 33266:33294 <> flowint_inflow_delete_set_dom
+R33300:33318 flows.multiset_flows <> multiset_flowint_ur canonstruc
+binder 33297:33297 <> I:286
+binder 33321:33321 <> n:287
+binder 33323:33323 <> S:288
+R33361:33363 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33332:33334 stdpp.base <> dom def
+R33337:33353 flows.multiset_flows <> inflow_delete_set def
+R33355:33355 flows.multiset_flows <> I:286 var
+R33357:33357 flows.multiset_flows <> n:287 var
+R33359:33359 flows.multiset_flows <> S:288 var
+R33369:33373 stdpp.base <> ::stdpp_scope:x_'∪'_x not
+R33364:33366 stdpp.base <> dom def
+R33368:33368 flows.multiset_flows <> I:286 var
+R33374:33375 stdpp.base <> ::stdpp_scope:'{['_x_']}' not
+R33377:33378 stdpp.base <> ::stdpp_scope:'{['_x_']}' not
+R33376:33376 flows.multiset_flows <> n:287 var
+R33397:33399 stdpp.base <> dom def
+R33402:33412 flows.flows <> flowint_dom inst
+R33423:33435 stdpp.base <> leibniz_equiv def
+R33423:33435 stdpp.base <> leibniz_equiv def
+R33446:33454 stdpp.sets <> set_equiv thm
+R33446:33454 stdpp.sets <> set_equiv thm
+R33484:33500 flows.multiset_flows <> inflow_map_set_ne thm
+R33503:33505 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R33509:33510 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+binder 33508:33508 <> n:289
+R33512:33514 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R33511:33511 flows.multiset_flows <> n:289 var
+R33484:33500 flows.multiset_flows <> inflow_map_set_ne thm
+R33503:33505 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R33509:33510 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+binder 33508:33508 <> n:290
+R33512:33514 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R33511:33511 flows.multiset_flows <> n:290 var
+R33538:33542 flows.multiset_flows <> inset def
+R33545:33547 flows.flows <> inf def
+R33568:33573 stdpp.base <> decide def
+R33577:33579 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33568:33573 stdpp.base <> decide def
+R33577:33579 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33633:33645 stdpp.base <> elem_of_union meth
+R33633:33645 stdpp.base <> elem_of_union meth
+R33633:33645 stdpp.base <> elem_of_union meth
+R33681:33691 stdpp.fin_map_dom <> elem_of_dom meth
+R33681:33691 stdpp.fin_map_dom <> elem_of_dom meth
+R33681:33691 stdpp.fin_map_dom <> elem_of_dom meth
+R33721:33737 flows.multiset_flows <> inflow_insert_set def
+R33753:33766 flows.multiset_flows <> inflow_map_set def
+R33796:33815 stdpp.fin_maps <> lookup_partial_alter meth
+R33796:33815 stdpp.fin_maps <> lookup_partial_alter meth
+R33796:33815 stdpp.fin_maps <> lookup_partial_alter meth
+R33835:33850 stdpp.option <> not_eq_None_Some thm
+R33835:33850 stdpp.option <> not_eq_None_Some thm
+R33835:33850 stdpp.option <> not_eq_None_Some thm
+R33898:33910 stdpp.base <> elem_of_union meth
+R33898:33910 stdpp.base <> elem_of_union meth
+R33898:33910 stdpp.base <> elem_of_union meth
+R33934:33944 stdpp.fin_map_dom <> elem_of_dom meth
+R33934:33944 stdpp.fin_map_dom <> elem_of_dom meth
+R33934:33944 stdpp.fin_map_dom <> elem_of_dom meth
+R33934:33944 stdpp.fin_map_dom <> elem_of_dom meth
+R33934:33944 stdpp.fin_map_dom <> elem_of_dom meth
+R33934:33944 stdpp.fin_map_dom <> elem_of_dom meth
+R33934:33944 stdpp.fin_map_dom <> elem_of_dom meth
+R33997:34009 stdpp.base <> elem_of_union meth
+R33997:34009 stdpp.base <> elem_of_union meth
+R33997:34009 stdpp.base <> elem_of_union meth
+R34033:34043 stdpp.fin_map_dom <> elem_of_dom meth
+R34033:34043 stdpp.fin_map_dom <> elem_of_dom meth
+R34033:34043 stdpp.fin_map_dom <> elem_of_dom meth
+R34033:34043 stdpp.fin_map_dom <> elem_of_dom meth
+R34033:34043 stdpp.fin_map_dom <> elem_of_dom meth
+R34033:34043 stdpp.fin_map_dom <> elem_of_dom meth
+R34033:34043 stdpp.fin_map_dom <> elem_of_dom meth
+prf 34139:34167 <> flowint_inflow_insert_set_dom
+R34173:34191 flows.multiset_flows <> multiset_flowint_ur canonstruc
+binder 34170:34170 <> I:291
+binder 34194:34194 <> n:292
+binder 34196:34196 <> S:293
+R34236:34238 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R34207:34209 stdpp.base <> dom def
+R34212:34228 flows.multiset_flows <> inflow_insert_set def
+R34230:34230 flows.multiset_flows <> I:291 var
+R34232:34232 flows.multiset_flows <> n:292 var
+R34234:34234 flows.multiset_flows <> S:293 var
+R34244:34248 stdpp.base <> ::stdpp_scope:x_'∪'_x not
+R34239:34241 stdpp.base <> dom def
+R34243:34243 flows.multiset_flows <> I:291 var
+R34249:34250 stdpp.base <> ::stdpp_scope:'{['_x_']}' not
+R34252:34253 stdpp.base <> ::stdpp_scope:'{['_x_']}' not
+R34251:34251 flows.multiset_flows <> n:292 var
+R34272:34274 stdpp.base <> dom def
+R34277:34287 flows.flows <> flowint_dom inst
+R34298:34310 stdpp.base <> leibniz_equiv def
+R34298:34310 stdpp.base <> leibniz_equiv def
+R34321:34329 stdpp.sets <> set_equiv thm
+R34321:34329 stdpp.sets <> set_equiv thm
+R34359:34375 flows.multiset_flows <> inflow_map_set_ne thm
+R34378:34380 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R34384:34385 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+binder 34383:34383 <> n:294
+R34387:34389 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R34386:34386 flows.multiset_flows <> n:294 var
+R34359:34375 flows.multiset_flows <> inflow_map_set_ne thm
+R34378:34380 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R34384:34385 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+binder 34383:34383 <> n:295
+R34387:34389 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R34386:34386 flows.multiset_flows <> n:295 var
+R34413:34417 flows.multiset_flows <> inset def
+R34420:34422 flows.flows <> inf def
+R34443:34448 stdpp.base <> decide def
+R34452:34454 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R34443:34448 stdpp.base <> decide def
+R34452:34454 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R34508:34520 stdpp.base <> elem_of_union meth
+R34508:34520 stdpp.base <> elem_of_union meth
+R34508:34520 stdpp.base <> elem_of_union meth
+R34556:34566 stdpp.fin_map_dom <> elem_of_dom meth
+R34556:34566 stdpp.fin_map_dom <> elem_of_dom meth
+R34556:34566 stdpp.fin_map_dom <> elem_of_dom meth
+R34596:34612 flows.multiset_flows <> inflow_insert_set def
+R34628:34641 flows.multiset_flows <> inflow_map_set def
+R34671:34690 stdpp.fin_maps <> lookup_partial_alter meth
+R34671:34690 stdpp.fin_maps <> lookup_partial_alter meth
+R34671:34690 stdpp.fin_maps <> lookup_partial_alter meth
+R34710:34725 stdpp.option <> not_eq_None_Some thm
+R34710:34725 stdpp.option <> not_eq_None_Some thm
+R34710:34725 stdpp.option <> not_eq_None_Some thm
+R34773:34785 stdpp.base <> elem_of_union meth
+R34773:34785 stdpp.base <> elem_of_union meth
+R34773:34785 stdpp.base <> elem_of_union meth
+R34809:34819 stdpp.fin_map_dom <> elem_of_dom meth
+R34809:34819 stdpp.fin_map_dom <> elem_of_dom meth
+R34809:34819 stdpp.fin_map_dom <> elem_of_dom meth
+R34809:34819 stdpp.fin_map_dom <> elem_of_dom meth
+R34809:34819 stdpp.fin_map_dom <> elem_of_dom meth
+R34809:34819 stdpp.fin_map_dom <> elem_of_dom meth
+R34809:34819 stdpp.fin_map_dom <> elem_of_dom meth
+R34860:34872 stdpp.base <> elem_of_union meth
+R34860:34872 stdpp.base <> elem_of_union meth
+R34860:34872 stdpp.base <> elem_of_union meth
+R34896:34906 stdpp.fin_map_dom <> elem_of_dom meth
+R34896:34906 stdpp.fin_map_dom <> elem_of_dom meth
+R34896:34906 stdpp.fin_map_dom <> elem_of_dom meth
+R34896:34906 stdpp.fin_map_dom <> elem_of_dom meth
+R34896:34906 stdpp.fin_map_dom <> elem_of_dom meth
+R34896:34906 stdpp.fin_map_dom <> elem_of_dom meth
+R34896:34906 stdpp.fin_map_dom <> elem_of_dom meth
+prf 34996:35019 <> inflow_insert_set_insets
+binder 35021:35021 <> I:296
+binder 35023:35023 <> n:297
+binder 35025:35025 <> S:298
+R35072:35074 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R35040:35045 flows.multiset_flows <> insets def
+R35048:35064 flows.multiset_flows <> inflow_insert_set def
+R35066:35066 flows.multiset_flows <> I:296 var
+R35068:35068 flows.multiset_flows <> n:297 var
+R35070:35070 flows.multiset_flows <> S:298 var
+R35083:35087 stdpp.base <> ::stdpp_scope:x_'∪'_x not
+R35075:35080 flows.multiset_flows <> insets def
+R35082:35082 flows.multiset_flows <> I:296 var
+R35088:35088 flows.multiset_flows <> S:298 var
+R35107:35112 flows.multiset_flows <> insets def
+R35125:35153 flows.multiset_flows <> flowint_inflow_insert_set_dom thm
+R35125:35153 flows.multiset_flows <> flowint_inflow_insert_set_dom thm
+R35125:35153 flows.multiset_flows <> flowint_inflow_insert_set_dom thm
+R35164:35176 stdpp.base <> leibniz_equiv def
+R35164:35176 stdpp.base <> leibniz_equiv def
+R35191:35196 stdpp.base <> decide def
+R35200:35204 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R35205:35207 stdpp.base <> dom def
+R35191:35196 stdpp.base <> decide def
+R35200:35204 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R35205:35207 stdpp.base <> dom def
+R35241:35243 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R35231:35235 stdpp.base <> ::stdpp_scope:x_'∪'_x not
+R35226:35228 stdpp.base <> dom def
+R35236:35237 stdpp.base <> ::stdpp_scope:'{['_x_']}' not
+R35239:35240 stdpp.base <> ::stdpp_scope:'{['_x_']}' not
+R35244:35246 stdpp.base <> dom def
+R35241:35243 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R35231:35235 stdpp.base <> ::stdpp_scope:x_'∪'_x not
+R35226:35228 stdpp.base <> dom def
+R35236:35237 stdpp.base <> ::stdpp_scope:'{['_x_']}' not
+R35239:35240 stdpp.base <> ::stdpp_scope:'{['_x_']}' not
+R35244:35246 stdpp.base <> dom def
+R35285:35298 iris.algebra.big_op <> big_opS_delete thm
+R35285:35298 iris.algebra.big_op <> big_opS_delete thm
+R35285:35298 iris.algebra.big_op <> big_opS_delete thm
+R35331:35344 iris.algebra.big_op <> big_opS_delete thm
+R35349:35351 stdpp.base <> dom def
+R35331:35344 iris.algebra.big_op <> big_opS_delete thm
+R35349:35351 stdpp.base <> dom def
+R35331:35344 iris.algebra.big_op <> big_opS_delete thm
+R35349:35351 stdpp.base <> dom def
+R35382:35404 flows.multiset_flows <> inflow_insert_set_inset thm
+R35382:35404 flows.multiset_flows <> inflow_insert_set_inset thm
+R35382:35404 flows.multiset_flows <> inflow_insert_set_inset thm
+R35419:35419 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R35520:35536 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R35584:35584 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R35420:35421 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R35427:35432 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R35434:35439 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R35455:35486 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R35422:35426 stdpp.base <> union def
+binder 35433:35433 <> y:299
+R35487:35491 flows.multiset_flows <> inset def
+R35494:35510 flows.multiset_flows <> inflow_insert_set def
+R35519:35519 flows.multiset_flows <> y:299 var
+R35445:35449 stdpp.base <> ::stdpp_scope:x_'∖'_x not
+R35440:35442 stdpp.base <> dom def
+R35450:35451 stdpp.base <> ::stdpp_scope:'{['_x_']}' not
+R35453:35454 stdpp.base <> ::stdpp_scope:'{['_x_']}' not
+R35537:35538 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R35544:35549 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R35551:35556 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R35572:35574 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R35539:35543 stdpp.base <> union def
+binder 35550:35550 <> y:300
+R35575:35579 flows.multiset_flows <> inset def
+R35583:35583 flows.multiset_flows <> y:300 var
+R35562:35566 stdpp.base <> ::stdpp_scope:x_'∖'_x not
+R35557:35559 stdpp.base <> dom def
+R35567:35568 stdpp.base <> ::stdpp_scope:'{['_x_']}' not
+R35570:35571 stdpp.base <> ::stdpp_scope:'{['_x_']}' not
+R35419:35419 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R35520:35536 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R35584:35584 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R35420:35421 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R35427:35432 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R35434:35439 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R35455:35486 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R35422:35426 stdpp.base <> union def
+binder 35433:35433 <> y:301
+R35487:35491 flows.multiset_flows <> inset def
+R35494:35510 flows.multiset_flows <> inflow_insert_set def
+R35519:35519 flows.multiset_flows <> y:301 var
+R35445:35449 stdpp.base <> ::stdpp_scope:x_'∖'_x not
+R35440:35442 stdpp.base <> dom def
+R35450:35451 stdpp.base <> ::stdpp_scope:'{['_x_']}' not
+R35453:35454 stdpp.base <> ::stdpp_scope:'{['_x_']}' not
+R35537:35538 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R35544:35549 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R35551:35556 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R35572:35574 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R35539:35543 stdpp.base <> union def
+binder 35550:35550 <> y:302
+R35575:35579 flows.multiset_flows <> inset def
+R35583:35583 flows.multiset_flows <> y:302 var
+R35562:35566 stdpp.base <> ::stdpp_scope:x_'∖'_x not
+R35557:35559 stdpp.base <> dom def
+R35567:35568 stdpp.base <> ::stdpp_scope:'{['_x_']}' not
+R35570:35571 stdpp.base <> ::stdpp_scope:'{['_x_']}' not
+R35606:35616 iris.algebra.big_op <> big_opS_ext thm
+R35606:35616 iris.algebra.big_op <> big_opS_ext thm
+R35647:35672 flows.multiset_flows <> inflow_insert_set_inset_ne thm
+R35647:35672 flows.multiset_flows <> inflow_insert_set_inset_ne thm
+R35647:35672 flows.multiset_flows <> inflow_insert_set_inset_ne thm
+R35733:35745 iris.algebra.big_op <> big_opS_union thm
+R35733:35745 iris.algebra.big_op <> big_opS_union thm
+R35733:35745 iris.algebra.big_op <> big_opS_union thm
+R35780:35796 iris.algebra.big_op <> big_opS_singleton thm
+R35780:35796 iris.algebra.big_op <> big_opS_singleton thm
+R35780:35796 iris.algebra.big_op <> big_opS_singleton thm
+R35811:35833 flows.multiset_flows <> inflow_insert_set_inset thm
+R35811:35833 flows.multiset_flows <> inflow_insert_set_inset thm
+R35811:35833 flows.multiset_flows <> inflow_insert_set_inset thm
+R35857:35859 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R35848:35852 flows.multiset_flows <> inset def
+R35860:35862 stdpp.base <> ::stdpp_scope:'∅' not
+R35857:35859 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R35848:35852 flows.multiset_flows <> inset def
+R35860:35862 stdpp.base <> ::stdpp_scope:'∅' not
+R35885:35889 flows.multiset_flows <> inset def
+R35892:35894 flows.flows <> inf def
+R35910:35912 stdpp.base <> dom def
+R35915:35925 flows.flows <> flowint_dom inst
+R35948:35962 stdpp.fin_map_dom <> not_elem_of_dom thm
+R35948:35962 stdpp.fin_map_dom <> not_elem_of_dom thm
+R35948:35962 stdpp.fin_map_dom <> not_elem_of_dom thm
+R36009:36017 flows.ccm <> nzmap_dom inst
+R36059:36059 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36148:36164 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36200:36200 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36060:36061 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R36067:36072 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R36074:36078 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R36084:36114 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R36062:36066 stdpp.base <> union def
+binder 36073:36073 <> y:303
+R36115:36119 flows.multiset_flows <> inset def
+R36122:36138 flows.multiset_flows <> inflow_insert_set def
+R36147:36147 flows.multiset_flows <> y:303 var
+R36079:36081 stdpp.base <> dom def
+R36165:36166 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R36172:36177 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R36179:36183 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R36189:36190 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R36167:36171 stdpp.base <> union def
+binder 36178:36178 <> y:304
+R36191:36195 flows.multiset_flows <> inset def
+R36199:36199 flows.multiset_flows <> y:304 var
+R36184:36186 stdpp.base <> dom def
+R36059:36059 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36148:36164 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36200:36200 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36060:36061 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R36067:36072 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R36074:36078 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R36084:36114 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R36062:36066 stdpp.base <> union def
+binder 36073:36073 <> y:305
+R36115:36119 flows.multiset_flows <> inset def
+R36122:36138 flows.multiset_flows <> inflow_insert_set def
+R36147:36147 flows.multiset_flows <> y:305 var
+R36079:36081 stdpp.base <> dom def
+R36165:36166 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R36172:36177 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R36179:36183 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R36189:36190 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R36167:36171 stdpp.base <> union def
+binder 36178:36178 <> y:306
+R36191:36195 flows.multiset_flows <> inset def
+R36199:36199 flows.multiset_flows <> y:306 var
+R36184:36186 stdpp.base <> dom def
+R36222:36232 iris.algebra.big_op <> big_opS_ext thm
+R36222:36232 iris.algebra.big_op <> big_opS_ext thm
+R36262:36287 flows.multiset_flows <> inflow_insert_set_inset_ne thm
+R36262:36287 flows.multiset_flows <> inflow_insert_set_inset_ne thm
+R36262:36287 flows.multiset_flows <> inflow_insert_set_inset_ne thm
+prf 36348:36372 <> inflow_insert_set_outsets
+binder 36374:36374 <> I:307
+binder 36376:36376 <> n:308
+binder 36378:36378 <> S:309
+R36426:36428 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36393:36399 flows.multiset_flows <> outsets def
+R36402:36418 flows.multiset_flows <> inflow_insert_set def
+R36420:36420 flows.multiset_flows <> I:307 var
+R36422:36422 flows.multiset_flows <> n:308 var
+R36424:36424 flows.multiset_flows <> S:309 var
+R36429:36435 flows.multiset_flows <> outsets def
+R36437:36437 flows.multiset_flows <> I:307 var
+R36456:36462 flows.multiset_flows <> outsets def
+R36514:36516 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36475:36477 stdpp.base <> dom def
+R36480:36486 flows.flows <> out_map def
+R36489:36505 flows.multiset_flows <> inflow_insert_set def
+R36517:36519 stdpp.base <> dom def
+R36522:36528 flows.flows <> out_map def
+R36514:36516 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36475:36477 stdpp.base <> dom def
+R36480:36486 flows.flows <> out_map def
+R36489:36505 flows.multiset_flows <> inflow_insert_set def
+R36517:36519 stdpp.base <> dom def
+R36522:36528 flows.flows <> out_map def
+R36552:36568 flows.multiset_flows <> inflow_insert_set def
+R36571:36584 flows.multiset_flows <> inflow_map_set def
+R36587:36593 flows.flows <> out_map def
+R36616:36626 iris.algebra.big_op <> big_opS_ext thm
+R36616:36626 iris.algebra.big_op <> big_opS_ext thm
+prf 36666:36690 <> outflow_insert_set_insets
+binder 36692:36692 <> I:310
+binder 36694:36694 <> n:311
+binder 36696:36696 <> S:312
+R36744:36746 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36711:36716 flows.multiset_flows <> insets def
+R36719:36736 flows.multiset_flows <> outflow_insert_set def
+R36738:36738 flows.multiset_flows <> I:310 var
+R36740:36740 flows.multiset_flows <> n:311 var
+R36742:36742 flows.multiset_flows <> S:312 var
+R36747:36752 flows.multiset_flows <> insets def
+R36754:36754 flows.multiset_flows <> I:310 var
+R36773:36778 flows.multiset_flows <> insets def
+R36821:36823 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36791:36793 stdpp.base <> dom def
+R36796:36813 flows.multiset_flows <> outflow_insert_set def
+R36824:36826 stdpp.base <> dom def
+R36821:36823 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36791:36793 stdpp.base <> dom def
+R36796:36813 flows.multiset_flows <> outflow_insert_set def
+R36824:36826 stdpp.base <> dom def
+R36849:36866 flows.multiset_flows <> outflow_insert_set def
+R36869:36882 flows.multiset_flows <> inflow_map_set def
+R36885:36891 flows.flows <> inf_map def
+R36914:36924 iris.algebra.big_op <> big_opS_ext thm
+R36914:36924 iris.algebra.big_op <> big_opS_ext thm
+prf 36964:36989 <> outflow_insert_set_outsets
+binder 36991:36991 <> I:313
+binder 36993:36993 <> n:314
+binder 36995:36995 <> S:315
+R37044:37046 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R37010:37016 flows.multiset_flows <> outsets def
+R37019:37036 flows.multiset_flows <> outflow_insert_set def
+R37038:37038 flows.multiset_flows <> I:313 var
+R37040:37040 flows.multiset_flows <> n:314 var
+R37042:37042 flows.multiset_flows <> S:315 var
+R37056:37060 stdpp.base <> ::stdpp_scope:x_'∪'_x not
+R37047:37053 flows.multiset_flows <> outsets def
+R37055:37055 flows.multiset_flows <> I:313 var
+R37061:37061 flows.multiset_flows <> S:315 var
+R37080:37086 flows.multiset_flows <> outsets def
+R37101:37106 stdpp.base <> decide def
+R37116:37118 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R37109:37111 flows.flows <> out def
+R37119:37121 stdpp.base <> ::stdpp_scope:'∅' not
+R37157:37162 stdpp.base <> decide def
+R37166:37168 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R37169:37171 stdpp.base <> ::stdpp_scope:'∅' not
+R37101:37106 stdpp.base <> decide def
+R37116:37118 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R37109:37111 flows.flows <> out def
+R37119:37121 stdpp.base <> ::stdpp_scope:'∅' not
+R37157:37162 stdpp.base <> decide def
+R37166:37168 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R37169:37171 stdpp.base <> ::stdpp_scope:'∅' not
+R37157:37162 stdpp.base <> decide def
+R37166:37168 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R37169:37171 stdpp.base <> ::stdpp_scope:'∅' not
+R37202:37206 stdpp.base <> ::stdpp_scope:x_'∉'_x not
+R37207:37209 stdpp.base <> dom def
+R37212:37218 flows.flows <> out_map def
+R37202:37206 stdpp.base <> ::stdpp_scope:x_'∉'_x not
+R37207:37209 stdpp.base <> dom def
+R37212:37218 flows.flows <> out_map def
+R37239:37241 flows.flows <> out def
+R37260:37282 flows.ccm <> nzmap_elem_of_dom_total thm
+R37260:37282 flows.ccm <> nzmap_elem_of_dom_total thm
+R37260:37282 flows.ccm <> nzmap_elem_of_dom_total thm
+R37298:37304 flows.ccm <> ccmunit def
+R37307:37314 flows.ccm <> ccm_unit meth
+R37331:37339 flows.ccm <> lift_unit inst
+R37425:37427 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R37383:37385 stdpp.base <> dom def
+R37388:37394 flows.flows <> out_map def
+R37397:37414 flows.multiset_flows <> outflow_insert_set def
+R37420:37422 stdpp.base <> ::stdpp_scope:'∅' not
+R37428:37430 stdpp.base <> dom def
+R37433:37439 flows.flows <> out_map def
+R37425:37427 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R37383:37385 stdpp.base <> dom def
+R37388:37394 flows.flows <> out_map def
+R37397:37414 flows.multiset_flows <> outflow_insert_set def
+R37420:37422 stdpp.base <> ::stdpp_scope:'∅' not
+R37428:37430 stdpp.base <> dom def
+R37433:37439 flows.flows <> out_map def
+R37465:37482 flows.multiset_flows <> outflow_insert_set def
+R37485:37499 flows.multiset_flows <> outflow_map_set def
+R37502:37508 flows.flows <> out_map def
+R37535:37547 stdpp.base <> leibniz_equiv def
+R37535:37547 stdpp.base <> leibniz_equiv def
+R37564:37584 flows.ccm <> nzmap_dom_insert_zero thm
+R37564:37584 flows.ccm <> nzmap_dom_insert_zero thm
+R37564:37584 flows.ccm <> nzmap_dom_insert_zero thm
+R37618:37624 flows.ccm <> ccmunit def
+R37627:37634 flows.ccm <> ccm_unit meth
+R37657:37665 flows.ccm <> lift_unit inst
+R37668:37680 flows.ccm <> nzmap_map_set def
+R37697:37710 stdpp.fin_sets <> set_fold_empty thm
+R37697:37710 stdpp.fin_sets <> set_fold_empty thm
+R37697:37710 stdpp.fin_sets <> set_fold_empty thm
+R37747:37761 stdpp.sets <> union_empty_r_L inst
+R37747:37761 stdpp.sets <> union_empty_r_L inst
+R37747:37761 stdpp.sets <> union_empty_r_L inst
+R37775:37785 iris.algebra.big_op <> big_opS_ext thm
+R37775:37785 iris.algebra.big_op <> big_opS_ext thm
+R37814:37841 flows.multiset_flows <> outflow_insert_set_outset_ne thm
+R37814:37841 flows.multiset_flows <> outflow_insert_set_outset_ne thm
+R37814:37841 flows.multiset_flows <> outflow_insert_set_outset_ne thm
+R37922:37939 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R37882:37884 stdpp.base <> dom def
+R37887:37893 flows.flows <> out_map def
+R37896:37913 flows.multiset_flows <> outflow_insert_set def
+R37955:37959 stdpp.base <> ::stdpp_scope:x_'∪'_x not
+R37940:37942 stdpp.base <> dom def
+R37945:37951 flows.flows <> out_map def
+R37960:37961 stdpp.base <> ::stdpp_scope:'{['_x_']}' not
+R37963:37964 stdpp.base <> ::stdpp_scope:'{['_x_']}' not
+R37922:37939 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R37882:37884 stdpp.base <> dom def
+R37887:37893 flows.flows <> out_map def
+R37896:37913 flows.multiset_flows <> outflow_insert_set def
+R37955:37959 stdpp.base <> ::stdpp_scope:x_'∪'_x not
+R37940:37942 stdpp.base <> dom def
+R37945:37951 flows.flows <> out_map def
+R37960:37961 stdpp.base <> ::stdpp_scope:'{['_x_']}' not
+R37963:37964 stdpp.base <> ::stdpp_scope:'{['_x_']}' not
+R37987:38004 flows.multiset_flows <> outflow_insert_set def
+R38007:38021 flows.multiset_flows <> outflow_map_set def
+R38024:38030 flows.flows <> out_map def
+R38057:38069 stdpp.base <> leibniz_equiv def
+R38057:38069 stdpp.base <> leibniz_equiv def
+R38086:38109 flows.ccm <> nzmap_dom_insert_nonzero thm
+R38086:38109 flows.ccm <> nzmap_dom_insert_nonzero thm
+R38086:38109 flows.ccm <> nzmap_dom_insert_nonzero thm
+R38157:38163 flows.ccm <> ccmunit def
+R38166:38173 flows.ccm <> ccm_unit meth
+R38190:38198 flows.ccm <> lift_unit inst
+R38226:38233 flows.ccm <> nzmap_eq thm
+R38226:38233 flows.ccm <> nzmap_eq thm
+R38226:38233 flows.ccm <> nzmap_eq thm
+R38254:38265 stdpp.fin_sets <> set_choose_L thm
+R38254:38265 stdpp.fin_sets <> set_choose_L thm
+R38346:38363 flows.ccm <> nzmap_lookup_empty thm
+R38346:38363 flows.ccm <> nzmap_lookup_empty thm
+R38346:38363 flows.ccm <> nzmap_lookup_empty thm
+R38386:38411 flows.ccm <> nzmap_lookup_total_map_set thm
+R38386:38411 flows.ccm <> nzmap_lookup_total_map_set thm
+R38386:38411 flows.ccm <> nzmap_lookup_total_map_set thm
+R38442:38454 stdpp.base <> leibniz_equiv def
+R38442:38454 stdpp.base <> leibniz_equiv def
+R38470:38474 stdpp.base <> ::stdpp_scope:x_'∉'_x not
+R38475:38477 stdpp.base <> dom def
+R38480:38486 flows.flows <> out_map def
+R38470:38474 stdpp.base <> ::stdpp_scope:x_'∉'_x not
+R38475:38477 stdpp.base <> dom def
+R38480:38486 flows.flows <> out_map def
+R38512:38514 flows.flows <> out def
+R38533:38555 flows.ccm <> nzmap_elem_of_dom_total thm
+R38533:38555 flows.ccm <> nzmap_elem_of_dom_total thm
+R38533:38555 flows.ccm <> nzmap_elem_of_dom_total thm
+R38571:38577 flows.ccm <> ccmunit def
+R38580:38587 flows.ccm <> ccm_unit meth
+R38604:38612 flows.ccm <> lift_unit inst
+R38656:38668 iris.algebra.big_op <> big_opS_union thm
+R38656:38668 iris.algebra.big_op <> big_opS_union thm
+R38656:38668 iris.algebra.big_op <> big_opS_union thm
+R38703:38719 iris.algebra.big_op <> big_opS_singleton thm
+R38703:38719 iris.algebra.big_op <> big_opS_singleton thm
+R38703:38719 iris.algebra.big_op <> big_opS_singleton thm
+R38734:38758 flows.multiset_flows <> outflow_insert_set_outset thm
+R38734:38758 flows.multiset_flows <> outflow_insert_set_outset thm
+R38734:38758 flows.multiset_flows <> outflow_insert_set_outset thm
+R38783:38785 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R38773:38778 flows.multiset_flows <> outset def
+R38786:38788 stdpp.base <> ::stdpp_scope:'∅' not
+R38783:38785 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R38773:38778 flows.multiset_flows <> outset def
+R38786:38788 stdpp.base <> ::stdpp_scope:'∅' not
+R38811:38816 flows.multiset_flows <> outset def
+R38819:38821 flows.flows <> out def
+R38838:38854 flows.ccm <> nzmap_elem_of_dom thm
+R38838:38854 flows.ccm <> nzmap_elem_of_dom thm
+R38838:38854 flows.ccm <> nzmap_elem_of_dom thm
+R38888:38891 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R38879:38885 flows.flows <> out_map def
+R38888:38891 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R38879:38885 flows.flows <> out_map def
+R38967:38988 flows.ccm <> nzmap_lookup_total_alt thm
+R38967:38988 flows.ccm <> nzmap_lookup_total_alt thm
+R38967:38988 flows.ccm <> nzmap_lookup_total_alt thm
+R39052:39052 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R39155:39171 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R39220:39220 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R39053:39054 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R39060:39065 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R39067:39072 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R39088:39119 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R39055:39059 stdpp.base <> union def
+binder 39066:39066 <> y:316
+R39120:39125 flows.multiset_flows <> outset def
+R39128:39145 flows.multiset_flows <> outflow_insert_set def
+R39154:39154 flows.multiset_flows <> y:316 var
+R39073:39075 stdpp.base <> dom def
+R39078:39084 flows.flows <> out_map def
+R39172:39173 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R39179:39184 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R39186:39191 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R39207:39209 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R39174:39178 stdpp.base <> union def
+binder 39185:39185 <> y:317
+R39210:39215 flows.multiset_flows <> outset def
+R39219:39219 flows.multiset_flows <> y:317 var
+R39192:39194 stdpp.base <> dom def
+R39197:39203 flows.flows <> out_map def
+R39052:39052 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R39155:39171 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R39220:39220 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R39053:39054 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R39060:39065 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R39067:39072 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R39088:39119 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R39055:39059 stdpp.base <> union def
+binder 39066:39066 <> y:318
+R39120:39125 flows.multiset_flows <> outset def
+R39128:39145 flows.multiset_flows <> outflow_insert_set def
+R39154:39154 flows.multiset_flows <> y:318 var
+R39073:39075 stdpp.base <> dom def
+R39078:39084 flows.flows <> out_map def
+R39172:39173 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R39179:39184 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R39186:39191 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R39207:39209 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R39174:39178 stdpp.base <> union def
+binder 39185:39185 <> y:319
+R39210:39215 flows.multiset_flows <> outset def
+R39219:39219 flows.multiset_flows <> y:319 var
+R39192:39194 stdpp.base <> dom def
+R39197:39203 flows.flows <> out_map def
+R39242:39252 iris.algebra.big_op <> big_opS_ext thm
+R39242:39252 iris.algebra.big_op <> big_opS_ext thm
+R39282:39309 flows.multiset_flows <> outflow_insert_set_outset_ne thm
+R39282:39309 flows.multiset_flows <> outflow_insert_set_outset_ne thm
+R39282:39309 flows.multiset_flows <> outflow_insert_set_outset_ne thm
+R39371:39375 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R39376:39378 stdpp.base <> dom def
+R39381:39387 flows.flows <> out_map def
+R39371:39375 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R39376:39378 stdpp.base <> dom def
+R39381:39387 flows.flows <> out_map def
+R39413:39415 flows.flows <> out def
+R39439:39461 flows.ccm <> nzmap_elem_of_dom_total thm
+R39439:39461 flows.ccm <> nzmap_elem_of_dom_total thm
+R39439:39461 flows.ccm <> nzmap_elem_of_dom_total thm
+R39529:39531 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R39487:39489 stdpp.base <> dom def
+R39492:39498 flows.flows <> out_map def
+R39501:39518 flows.multiset_flows <> outflow_insert_set def
+R39524:39526 stdpp.base <> ::stdpp_scope:'∅' not
+R39532:39534 stdpp.base <> dom def
+R39537:39543 flows.flows <> out_map def
+R39529:39531 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R39487:39489 stdpp.base <> dom def
+R39492:39498 flows.flows <> out_map def
+R39501:39518 flows.multiset_flows <> outflow_insert_set def
+R39524:39526 stdpp.base <> ::stdpp_scope:'∅' not
+R39532:39534 stdpp.base <> dom def
+R39537:39543 flows.flows <> out_map def
+R39569:39586 flows.multiset_flows <> outflow_insert_set def
+R39589:39603 flows.multiset_flows <> outflow_map_set def
+R39606:39612 flows.flows <> out_map def
+R39639:39651 stdpp.base <> leibniz_equiv def
+R39639:39651 stdpp.base <> leibniz_equiv def
+R39668:39691 flows.ccm <> nzmap_dom_insert_nonzero thm
+R39668:39691 flows.ccm <> nzmap_dom_insert_nonzero thm
+R39668:39691 flows.ccm <> nzmap_dom_insert_nonzero thm
+R39725:39731 flows.ccm <> ccmunit def
+R39734:39741 flows.ccm <> ccm_unit meth
+R39764:39772 flows.ccm <> lift_unit inst
+R39775:39787 flows.ccm <> nzmap_map_set def
+R39804:39817 stdpp.fin_sets <> set_fold_empty thm
+R39804:39817 stdpp.fin_sets <> set_fold_empty thm
+R39804:39817 stdpp.fin_sets <> set_fold_empty thm
+R39840:39854 stdpp.sets <> union_empty_r_L inst
+R39840:39854 stdpp.sets <> union_empty_r_L inst
+R39840:39854 stdpp.sets <> union_empty_r_L inst
+R39868:39878 iris.algebra.big_op <> big_opS_ext thm
+R39868:39878 iris.algebra.big_op <> big_opS_ext thm
+R39908:39913 stdpp.base <> decide def
+R39917:39919 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R39908:39913 stdpp.base <> decide def
+R39917:39919 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R39952:39976 flows.multiset_flows <> outflow_insert_set_outset thm
+R39952:39976 flows.multiset_flows <> outflow_insert_set_outset thm
+R39952:39976 flows.multiset_flows <> outflow_insert_set_outset thm
+R40005:40032 flows.multiset_flows <> outflow_insert_set_outset_ne thm
+R40005:40032 flows.multiset_flows <> outflow_insert_set_outset_ne thm
+R40005:40032 flows.multiset_flows <> outflow_insert_set_outset_ne thm
+R40097:40114 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R40057:40059 stdpp.base <> dom def
+R40062:40068 flows.flows <> out_map def
+R40071:40088 flows.multiset_flows <> outflow_insert_set def
+R40130:40134 stdpp.base <> ::stdpp_scope:x_'∪'_x not
+R40115:40117 stdpp.base <> dom def
+R40120:40126 flows.flows <> out_map def
+R40135:40136 stdpp.base <> ::stdpp_scope:'{['_x_']}' not
+R40138:40139 stdpp.base <> ::stdpp_scope:'{['_x_']}' not
+R40097:40114 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R40057:40059 stdpp.base <> dom def
+R40062:40068 flows.flows <> out_map def
+R40071:40088 flows.multiset_flows <> outflow_insert_set def
+R40130:40134 stdpp.base <> ::stdpp_scope:x_'∪'_x not
+R40115:40117 stdpp.base <> dom def
+R40120:40126 flows.flows <> out_map def
+R40135:40136 stdpp.base <> ::stdpp_scope:'{['_x_']}' not
+R40138:40139 stdpp.base <> ::stdpp_scope:'{['_x_']}' not
+R40162:40179 flows.multiset_flows <> outflow_insert_set def
+R40182:40196 flows.multiset_flows <> outflow_map_set def
+R40199:40205 flows.flows <> out_map def
+R40232:40244 stdpp.base <> leibniz_equiv def
+R40232:40244 stdpp.base <> leibniz_equiv def
+R40261:40284 flows.ccm <> nzmap_dom_insert_nonzero thm
+R40261:40284 flows.ccm <> nzmap_dom_insert_nonzero thm
+R40261:40284 flows.ccm <> nzmap_dom_insert_nonzero thm
+R40318:40324 flows.ccm <> ccmunit def
+R40327:40334 flows.ccm <> ccm_unit meth
+R40351:40359 flows.ccm <> lift_unit inst
+R40387:40394 flows.ccm <> nzmap_eq thm
+R40387:40394 flows.ccm <> nzmap_eq thm
+R40387:40394 flows.ccm <> nzmap_eq thm
+R40415:40426 stdpp.fin_sets <> set_choose_L thm
+R40415:40426 stdpp.fin_sets <> set_choose_L thm
+R40507:40524 flows.ccm <> nzmap_lookup_empty thm
+R40507:40524 flows.ccm <> nzmap_lookup_empty thm
+R40507:40524 flows.ccm <> nzmap_lookup_empty thm
+R40546:40552 flows.ccm <> ccmunit def
+R40555:40562 flows.ccm <> ccm_unit meth
+R40591:40598 flows.ccm <> nat_unit inst
+R40621:40646 flows.ccm <> nzmap_lookup_total_map_set thm
+R40621:40646 flows.ccm <> nzmap_lookup_total_map_set thm
+R40621:40646 flows.ccm <> nzmap_lookup_total_map_set thm
+R40680:40692 stdpp.base <> leibniz_equiv def
+R40680:40692 stdpp.base <> leibniz_equiv def
+R40709:40714 stdpp.base <> decide def
+R40718:40722 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R40723:40725 stdpp.base <> dom def
+R40728:40734 flows.flows <> out_map def
+R40709:40714 stdpp.base <> decide def
+R40718:40722 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R40723:40725 stdpp.base <> dom def
+R40728:40734 flows.flows <> out_map def
+R40781:40783 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R40771:40775 stdpp.base <> ::stdpp_scope:x_'∪'_x not
+R40756:40758 stdpp.base <> dom def
+R40761:40767 flows.flows <> out_map def
+R40776:40777 stdpp.base <> ::stdpp_scope:'{['_x_']}' not
+R40779:40780 stdpp.base <> ::stdpp_scope:'{['_x_']}' not
+R40784:40786 stdpp.base <> dom def
+R40789:40795 flows.flows <> out_map def
+R40781:40783 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R40771:40775 stdpp.base <> ::stdpp_scope:x_'∪'_x not
+R40756:40758 stdpp.base <> dom def
+R40761:40767 flows.flows <> out_map def
+R40776:40777 stdpp.base <> ::stdpp_scope:'{['_x_']}' not
+R40779:40780 stdpp.base <> ::stdpp_scope:'{['_x_']}' not
+R40784:40786 stdpp.base <> dom def
+R40789:40795 flows.flows <> out_map def
+R40837:40850 iris.algebra.big_op <> big_opS_delete thm
+R40837:40850 iris.algebra.big_op <> big_opS_delete thm
+R40837:40850 iris.algebra.big_op <> big_opS_delete thm
+R40885:40898 iris.algebra.big_op <> big_opS_delete thm
+R40903:40905 stdpp.base <> dom def
+R40908:40914 flows.flows <> out_map def
+R40885:40898 iris.algebra.big_op <> big_opS_delete thm
+R40903:40905 stdpp.base <> dom def
+R40908:40914 flows.flows <> out_map def
+R40885:40898 iris.algebra.big_op <> big_opS_delete thm
+R40903:40905 stdpp.base <> dom def
+R40908:40914 flows.flows <> out_map def
+R40948:40972 flows.multiset_flows <> outflow_insert_set_outset thm
+R40948:40972 flows.multiset_flows <> outflow_insert_set_outset thm
+R40948:40972 flows.multiset_flows <> outflow_insert_set_outset thm
+R40989:40989 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R41104:41122 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R41181:41181 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R40990:40991 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R40997:41002 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R41004:41009 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R41035:41068 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R40992:40996 stdpp.base <> union def
+binder 41003:41003 <> y:320
+R41069:41074 flows.multiset_flows <> outset def
+R41077:41094 flows.multiset_flows <> outflow_insert_set def
+R41103:41103 flows.multiset_flows <> y:320 var
+R41025:41029 stdpp.base <> ::stdpp_scope:x_'∖'_x not
+R41010:41012 stdpp.base <> dom def
+R41015:41021 flows.flows <> out_map def
+R41030:41031 stdpp.base <> ::stdpp_scope:'{['_x_']}' not
+R41033:41034 stdpp.base <> ::stdpp_scope:'{['_x_']}' not
+R41123:41124 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R41130:41135 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R41137:41142 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R41168:41170 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R41125:41129 stdpp.base <> union def
+binder 41136:41136 <> y:321
+R41171:41176 flows.multiset_flows <> outset def
+R41180:41180 flows.multiset_flows <> y:321 var
+R41158:41162 stdpp.base <> ::stdpp_scope:x_'∖'_x not
+R41143:41145 stdpp.base <> dom def
+R41148:41154 flows.flows <> out_map def
+R41163:41164 stdpp.base <> ::stdpp_scope:'{['_x_']}' not
+R41166:41167 stdpp.base <> ::stdpp_scope:'{['_x_']}' not
+R40989:40989 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R41104:41122 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R41181:41181 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R40990:40991 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R40997:41002 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R41004:41009 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R41035:41068 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R40992:40996 stdpp.base <> union def
+binder 41003:41003 <> y:322
+R41069:41074 flows.multiset_flows <> outset def
+R41077:41094 flows.multiset_flows <> outflow_insert_set def
+R41103:41103 flows.multiset_flows <> y:322 var
+R41025:41029 stdpp.base <> ::stdpp_scope:x_'∖'_x not
+R41010:41012 stdpp.base <> dom def
+R41015:41021 flows.flows <> out_map def
+R41030:41031 stdpp.base <> ::stdpp_scope:'{['_x_']}' not
+R41033:41034 stdpp.base <> ::stdpp_scope:'{['_x_']}' not
+R41123:41124 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R41130:41135 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R41137:41142 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R41168:41170 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R41125:41129 stdpp.base <> union def
+binder 41136:41136 <> y:323
+R41171:41176 flows.multiset_flows <> outset def
+R41180:41180 flows.multiset_flows <> y:323 var
+R41158:41162 stdpp.base <> ::stdpp_scope:x_'∖'_x not
+R41143:41145 stdpp.base <> dom def
+R41148:41154 flows.flows <> out_map def
+R41163:41164 stdpp.base <> ::stdpp_scope:'{['_x_']}' not
+R41166:41167 stdpp.base <> ::stdpp_scope:'{['_x_']}' not
+R41205:41215 iris.algebra.big_op <> big_opS_ext thm
+R41205:41215 iris.algebra.big_op <> big_opS_ext thm
+R41248:41275 flows.multiset_flows <> outflow_insert_set_outset_ne thm
+R41248:41275 flows.multiset_flows <> outflow_insert_set_outset_ne thm
+R41248:41275 flows.multiset_flows <> outflow_insert_set_outset_ne thm
+R41342:41354 iris.algebra.big_op <> big_opS_union thm
+R41342:41354 iris.algebra.big_op <> big_opS_union thm
+R41342:41354 iris.algebra.big_op <> big_opS_union thm
+R41391:41407 iris.algebra.big_op <> big_opS_singleton thm
+R41391:41407 iris.algebra.big_op <> big_opS_singleton thm
+R41391:41407 iris.algebra.big_op <> big_opS_singleton thm
+R41424:41448 flows.multiset_flows <> outflow_insert_set_outset thm
+R41424:41448 flows.multiset_flows <> outflow_insert_set_outset thm
+R41424:41448 flows.multiset_flows <> outflow_insert_set_outset thm
+R41475:41477 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R41465:41470 flows.multiset_flows <> outset def
+R41478:41480 stdpp.base <> ::stdpp_scope:'∅' not
+R41475:41477 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R41465:41470 flows.multiset_flows <> outset def
+R41478:41480 stdpp.base <> ::stdpp_scope:'∅' not
+R41505:41510 flows.multiset_flows <> outset def
+R41513:41515 flows.flows <> out def
+R41534:41550 flows.ccm <> nzmap_elem_of_dom thm
+R41534:41550 flows.ccm <> nzmap_elem_of_dom thm
+R41534:41550 flows.ccm <> nzmap_elem_of_dom thm
+R41586:41589 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R41577:41583 flows.flows <> out_map def
+R41586:41589 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R41577:41583 flows.flows <> out_map def
+R41669:41690 flows.ccm <> nzmap_lookup_total_alt thm
+R41669:41690 flows.ccm <> nzmap_lookup_total_alt thm
+R41669:41690 flows.ccm <> nzmap_lookup_total_alt thm
+R41760:41760 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R41865:41883 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R41932:41932 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R41761:41762 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R41768:41773 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R41775:41780 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R41796:41829 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R41763:41767 stdpp.base <> union def
+binder 41774:41774 <> y:324
+R41830:41835 flows.multiset_flows <> outset def
+R41838:41855 flows.multiset_flows <> outflow_insert_set def
+R41864:41864 flows.multiset_flows <> y:324 var
+R41781:41783 stdpp.base <> dom def
+R41786:41792 flows.flows <> out_map def
+R41884:41885 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R41891:41896 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R41898:41903 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R41919:41921 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R41886:41890 stdpp.base <> union def
+binder 41897:41897 <> y:325
+R41922:41927 flows.multiset_flows <> outset def
+R41931:41931 flows.multiset_flows <> y:325 var
+R41904:41906 stdpp.base <> dom def
+R41909:41915 flows.flows <> out_map def
+R41760:41760 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R41865:41883 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R41932:41932 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R41761:41762 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R41768:41773 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R41775:41780 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R41796:41829 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R41763:41767 stdpp.base <> union def
+binder 41774:41774 <> y:326
+R41830:41835 flows.multiset_flows <> outset def
+R41838:41855 flows.multiset_flows <> outflow_insert_set def
+R41864:41864 flows.multiset_flows <> y:326 var
+R41781:41783 stdpp.base <> dom def
+R41786:41792 flows.flows <> out_map def
+R41884:41885 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R41891:41896 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R41898:41903 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R41919:41921 iris.algebra.big_op <> ::stdpp_scope:'[^'_x_'set]'_x_'∈'_x_','_x not
+R41886:41890 stdpp.base <> union def
+binder 41897:41897 <> y:327
+R41922:41927 flows.multiset_flows <> outset def
+R41931:41931 flows.multiset_flows <> y:327 var
+R41904:41906 stdpp.base <> dom def
+R41909:41915 flows.flows <> out_map def
+R41956:41966 iris.algebra.big_op <> big_opS_ext thm
+R41956:41966 iris.algebra.big_op <> big_opS_ext thm
+R41998:42025 flows.multiset_flows <> outflow_insert_set_outset_ne thm
+R41998:42025 flows.multiset_flows <> outflow_insert_set_outset_ne thm
+R41998:42025 flows.multiset_flows <> outflow_insert_set_outset_ne thm
+prf 42090:42114 <> inflow_delete_set_outsets
+binder 42116:42116 <> I:328
+binder 42118:42118 <> n:329
+binder 42120:42120 <> S:330
+R42168:42170 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R42135:42141 flows.multiset_flows <> outsets def
+R42144:42160 flows.multiset_flows <> inflow_delete_set def
+R42162:42162 flows.multiset_flows <> I:328 var
+R42164:42164 flows.multiset_flows <> n:329 var
+R42166:42166 flows.multiset_flows <> S:330 var
+R42171:42177 flows.multiset_flows <> outsets def
+R42179:42179 flows.multiset_flows <> I:328 var
+R42198:42204 flows.multiset_flows <> outsets def
+R42256:42258 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R42217:42219 stdpp.base <> dom def
+R42222:42228 flows.flows <> out_map def
+R42231:42247 flows.multiset_flows <> inflow_delete_set def
+R42259:42261 stdpp.base <> dom def
+R42264:42270 flows.flows <> out_map def
+R42256:42258 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R42217:42219 stdpp.base <> dom def
+R42222:42228 flows.flows <> out_map def
+R42231:42247 flows.multiset_flows <> inflow_delete_set def
+R42259:42261 stdpp.base <> dom def
+R42264:42270 flows.flows <> out_map def
+R42294:42310 flows.multiset_flows <> inflow_delete_set def
+R42313:42326 flows.multiset_flows <> inflow_map_set def
+R42329:42335 flows.flows <> out_map def
+R42358:42368 iris.algebra.big_op <> big_opS_ext thm
+R42358:42368 iris.algebra.big_op <> big_opS_ext thm
+prf 42410:42434 <> outflow_delete_set_insets
+binder 42436:42436 <> I:331
+binder 42438:42438 <> n:332
+binder 42440:42440 <> S:333
+R42488:42490 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R42455:42460 flows.multiset_flows <> insets def
+R42463:42480 flows.multiset_flows <> outflow_delete_set def
+R42482:42482 flows.multiset_flows <> I:331 var
+R42484:42484 flows.multiset_flows <> n:332 var
+R42486:42486 flows.multiset_flows <> S:333 var
+R42491:42496 flows.multiset_flows <> insets def
+R42498:42498 flows.multiset_flows <> I:331 var
+R42517:42522 flows.multiset_flows <> insets def
+R42565:42567 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R42535:42537 stdpp.base <> dom def
+R42540:42557 flows.multiset_flows <> outflow_delete_set def
+R42568:42570 stdpp.base <> dom def
+R42565:42567 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R42535:42537 stdpp.base <> dom def
+R42540:42557 flows.multiset_flows <> outflow_delete_set def
+R42568:42570 stdpp.base <> dom def
+R42593:42610 flows.multiset_flows <> outflow_delete_set def
+R42613:42626 flows.multiset_flows <> inflow_map_set def
+R42629:42635 flows.flows <> inf_map def
+R42658:42668 iris.algebra.big_op <> big_opS_ext thm
+R42658:42668 iris.algebra.big_op <> big_opS_ext thm
+prf 42710:42731 <> outflow_map_set_valid2
+binder 42733:42734 <> I1:334
+binder 42736:42737 <> I2:335
+binder 42739:42741 <> I2':336
+binder 42743:42743 <> f:337
+binder 42745:42745 <> n:338
+binder 42747:42747 <> S:339
+R42784:42793 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R42757:42759 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R42754:42756 flows.multiset_flows <> I2':336 var
+R42760:42774 flows.multiset_flows <> outflow_map_set def
+R42776:42776 flows.multiset_flows <> f:337 var
+R42778:42779 flows.multiset_flows <> I2:335 var
+R42781:42781 flows.multiset_flows <> n:338 var
+R42783:42783 flows.multiset_flows <> S:339 var
+R42806:42810 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R42795:42799 stdpp.base <> ::stdpp_scope:x_'∉'_x not
+R42794:42794 flows.multiset_flows <> n:338 var
+R42800:42802 stdpp.base <> dom def
+R42804:42805 flows.multiset_flows <> I1:334 var
+R42823:42834 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R42812:42816 stdpp.base <> ::stdpp_scope:x_'∉'_x not
+R42811:42811 flows.multiset_flows <> n:338 var
+R42817:42819 stdpp.base <> dom def
+R42821:42822 flows.multiset_flows <> I2:335 var
+R42849:42862 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R42841:42845 Coq.Unicode.Utf8_core <> ::type_scope:x_'≠'_x not
+R42835:42837 stdpp.base <> dom def
+R42839:42840 flows.multiset_flows <> I2:335 var
+R42846:42848 stdpp.base <> ::stdpp_scope:'∅' not
+R42878:42893 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R42863:42867 iris.algebra.cmra <> ::stdpp_scope:'✓'_x not
+R42877:42877 iris.algebra.cmra <> ::stdpp_scope:'✓'_x not
+R42870:42874 iris.algebra.cmra <> ::stdpp_scope:x_'⋅'_x not
+R42868:42869 flows.multiset_flows <> I1:334 var
+R42875:42876 flows.multiset_flows <> I2:335 var
+R42894:42898 iris.algebra.cmra <> ::stdpp_scope:'✓'_x not
+R42909:42909 iris.algebra.cmra <> ::stdpp_scope:'✓'_x not
+R42901:42905 iris.algebra.cmra <> ::stdpp_scope:x_'⋅'_x not
+R42899:42900 flows.multiset_flows <> I1:334 var
+R42906:42908 flows.multiset_flows <> I2':336 var
+R43023:43041 flows.flows <> intValid_composable thm
+R43023:43041 flows.flows <> intValid_composable thm
+R43052:43070 flows.flows <> intComposable_valid thm
+R43052:43070 flows.flows <> intComposable_valid thm
+R43202:43222 flows.multiset_flows <> outflow_map_set_valid thm
+R43202:43222 flows.multiset_flows <> outflow_map_set_valid thm
+R43267:43294 flows.multiset_flows <> flowint_outflow_map_set_domm thm
+R43267:43294 flows.multiset_flows <> flowint_outflow_map_set_domm thm
+R43267:43294 flows.multiset_flows <> flowint_outflow_map_set_domm thm
+R43309:43325 stdpp.fin_maps <> map_Forall_lookup thm
+R43309:43325 stdpp.fin_maps <> map_Forall_lookup thm
+R43309:43325 stdpp.fin_maps <> map_Forall_lookup thm
+R43355:43357 flows.flows <> inf def
+R43393:43397 Coq.Unicode.Utf8_core <> ::type_scope:x_'≠'_x not
+R43393:43397 Coq.Unicode.Utf8_core <> ::type_scope:x_'≠'_x not
+R43419:43423 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R43424:43426 stdpp.base <> dom def
+R43419:43423 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R43424:43426 stdpp.base <> dom def
+R43447:43462 flows.flows <> flowint_contains thm
+R43447:43462 flows.flows <> flowint_contains thm
+R43532:43534 flows.flows <> out def
+R43550:43575 flows.multiset_flows <> outflow_map_set_out_map_ne thm
+R43550:43575 flows.multiset_flows <> outflow_map_set_out_map_ne thm
+R43550:43575 flows.multiset_flows <> outflow_map_set_out_map_ne thm
+R43598:43600 flows.flows <> out def
+R43598:43600 flows.flows <> out def
+R43622:43638 stdpp.fin_maps <> map_Forall_lookup thm
+R43622:43638 stdpp.fin_maps <> map_Forall_lookup thm
+R43622:43638 stdpp.fin_maps <> map_Forall_lookup thm
+R43694:43696 flows.flows <> inf def
+R43759:43775 stdpp.fin_maps <> map_Forall_lookup thm
+R43759:43775 stdpp.fin_maps <> map_Forall_lookup thm
+R43759:43775 stdpp.fin_maps <> map_Forall_lookup thm
+R43805:43807 flows.flows <> inf def
+R43841:43857 stdpp.fin_maps <> map_Forall_lookup thm
+R43841:43857 stdpp.fin_maps <> map_Forall_lookup thm
+R43841:43857 stdpp.fin_maps <> map_Forall_lookup thm
+R43895:43897 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R43889:43892 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R43879:43885 flows.flows <> inf_map def
+R43898:43901 Coq.Init.Datatypes <> Some constr
+R43895:43897 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R43889:43892 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R43879:43885 flows.flows <> inf_map def
+R43898:43901 Coq.Init.Datatypes <> Some constr
+R43941:43959 flows.multiset_flows <> outflow_map_set_inf thm
+R43941:43959 flows.multiset_flows <> outflow_map_set_inf thm
+R43941:43959 flows.multiset_flows <> outflow_map_set_inf thm
+R44016:44018 flows.flows <> inf def
+R44081:44094 flows.multiset_flows multiset_flows <> sec
+R44108:44126 flows.multiset_flows <> multiset_flowint_ur canonstruc
+R44108:44126 flows.multiset_flows <> multiset_flowint_ur canonstruc
+R44160:44164 flows.multiset_flows <> inset def
+R44160:44164 flows.multiset_flows <> inset def
+R44202:44207 flows.multiset_flows <> outset def
+R44202:44207 flows.multiset_flows <> outset def
+R44245:44252 flows.multiset_flows <> in_inset def
+R44245:44252 flows.multiset_flows <> in_inset def
+R44292:44300 flows.multiset_flows <> in_outset def
+R44292:44300 flows.multiset_flows <> in_outset def
+R44340:44349 flows.multiset_flows <> in_outsets def
+R44340:44349 flows.multiset_flows <> in_outsets def
+R44387:44392 flows.multiset_flows <> closed def
+R44387:44392 flows.multiset_flows <> closed def

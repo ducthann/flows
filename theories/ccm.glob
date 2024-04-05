@@ -1,0 +1,2662 @@
+DIGEST 8b4bc62b48fa6f2560a41a937bbaaecc
+Fflows.ccm
+R72:90 Coq.Logic.Decidable <> <> lib
+R117:122 Coq.QArith.QArith <> <> lib
+R124:129 Coq.QArith.Qcanon <> <> lib
+R158:166 stdpp.decidable <> <> lib
+R195:198 stdpp.gmap <> <> lib
+R227:232 stdpp.mapset <> <> lib
+R261:266 stdpp.finite <> <> lib
+R268:274 stdpp.numbers <> <> lib
+R302:305 iris.proofmode.base <> <> lib
+R341:346 iris.algebra.big_op <> <> lib
+R375:383 flows.gmap_more <> <> lib
+ind 482:492 <> Cancelative
+constr 547:552 <> cancel
+rec 482:492 <> Cancelative
+proj 547:552 <> cancel
+binder 495:495 <> A:1
+R503:510 Coq.Relations.Relation_Definitions <> relation def
+R512:512 flows.ccm <> A:1 var
+binder 499:499 <> R:2
+R521:525 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R520:520 flows.ccm <> A:1 var
+R527:531 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R526:526 flows.ccm <> A:1 var
+R532:532 flows.ccm <> A:1 var
+binder 516:516 <> f:3
+binder 554:554 <> x:5
+binder 556:556 <> y:6
+binder 558:558 <> z:7
+R579:583 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R562:562 flows.ccm <> R:2 var
+R565:565 flows.ccm <> f:3 var
+R569:569 flows.ccm <> y:6 var
+R567:567 flows.ccm <> x:5 var
+R573:573 flows.ccm <> f:3 var
+R577:577 flows.ccm <> z:7 var
+R575:575 flows.ccm <> x:5 var
+R584:584 flows.ccm <> R:2 var
+R586:586 flows.ccm <> y:6 var
+R588:588 flows.ccm <> z:7 var
+ind 643:652 <> PartialInv
+constr 726:729 <> pinv
+rec 643:652 <> PartialInv
+proj 726:729 <> pinv
+binder 655:655 <> A:9
+R662:669 Coq.Relations.Relation_Definitions <> relation def
+R671:671 flows.ccm <> A:9 var
+binder 659:659 <> R:10
+R680:684 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R679:679 flows.ccm <> A:9 var
+R686:690 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R685:685 flows.ccm <> A:9 var
+R691:691 flows.ccm <> A:9 var
+binder 675:675 <> f:11
+R700:704 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R699:699 flows.ccm <> A:9 var
+R706:710 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R705:705 flows.ccm <> A:9 var
+R711:711 flows.ccm <> A:9 var
+binder 695:695 <> g:12
+binder 731:731 <> x:14
+binder 733:733 <> y:15
+R737:737 flows.ccm <> R:10 var
+R740:740 flows.ccm <> g:12 var
+R750:750 flows.ccm <> y:15 var
+R743:743 flows.ccm <> f:11 var
+R747:747 flows.ccm <> y:15 var
+R745:745 flows.ccm <> x:14 var
+R753:753 flows.ccm <> x:14 var
+ind 763:767 <> CcmOp
+constr 783:787 <> ccmop
+rec 763:767 <> CcmOp
+proj 783:787 <> ccmop
+binder 770:770 <> A:17
+R792:796 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R791:791 flows.ccm <> A:17 var
+R798:802 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R797:797 flows.ccm <> A:17 var
+R803:803 flows.ccm <> A:17 var
+R823:827 flows.ccm <> CcmOp class
+R871:876 Coq.Classes.Morphisms <> Params class
+R880:884 flows.ccm <> ccmop def
+R909:913 flows.ccm <> ccmop def
+not 902:902 <> ::ccm_scope:x_'+'_x
+R980:984 flows.ccm <> ccmop def
+not 971:971 <> ::ccm_scope:'(+)'
+ind 1021:1028 <> CcmOpInv
+constr 1044:1052 <> ccmop_inv
+rec 1021:1028 <> CcmOpInv
+proj 1044:1052 <> ccmop_inv
+binder 1031:1031 <> A:20
+R1057:1061 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R1056:1056 flows.ccm <> A:20 var
+R1063:1067 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R1062:1062 flows.ccm <> A:20 var
+R1068:1068 flows.ccm <> A:20 var
+R1088:1095 flows.ccm <> CcmOpInv class
+R1139:1144 Coq.Classes.Morphisms <> Params class
+R1148:1156 flows.ccm <> ccmop_inv def
+R1181:1189 flows.ccm <> ccmop_inv def
+not 1174:1174 <> ::ccm_scope:x_'-'_x
+R1256:1264 flows.ccm <> ccmop_inv def
+not 1247:1247 <> ::ccm_scope:'(-)'
+ind 1301:1307 <> CcmUnit
+constr 1323:1329 <> ccmunit
+rec 1301:1307 <> CcmUnit
+proj 1323:1329 <> ccmunit
+binder 1310:1310 <> A:23
+R1333:1333 flows.ccm <> A:23 var
+R1346:1352 flows.ccm <> ccmunit def
+R1346:1352 flows.ccm <> ccmunit def
+R1377:1383 flows.ccm <> ccmunit def
+not 1370:1370 <> ::ccm_scope:'0'
+rec 1561:1563 <> CCM
+proj 1586:1591 <> ccm_eq
+proj 1613:1620 <> ccm_unit
+proj 1647:1652 <> ccm_op
+proj 1678:1686 <> ccm_opinv
+proj 1715:1723 <> ccm_assoc
+proj 1764:1771 <> ccm_comm
+proj 1811:1821 <> ccm_left_id
+proj 1847:1856 <> ccm_cancel
+proj 1903:1910 <> ccm_pinv
+binder 1566:1566 <> M:26
+R1595:1604 stdpp.base <> EqDecision abbrev
+R1606:1606 flows.ccm <> M:26 var
+R1624:1630 flows.ccm <> CcmUnit class
+R1632:1632 flows.ccm <> M:26 var
+R1655:1659 flows.ccm <> CcmOp class
+R1661:1661 flows.ccm <> M:26 var
+R1689:1696 flows.ccm <> CcmOpInv class
+R1698:1698 flows.ccm <> M:26 var
+R1727:1731 stdpp.base <> Assoc class
+R1741:1743 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R1745:1749 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R1744:1744 flows.ccm <> M:26 var
+R1751:1755 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R1750:1750 flows.ccm <> M:26 var
+R1756:1756 flows.ccm <> M:26 var
+R1738:1740 flows.ccm <> ::ccm_scope:'(+)' not
+R1733:1735 stdpp.base <> ::stdpp_scope:'(=)' not
+R1775:1778 stdpp.base <> Comm class
+R1788:1790 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R1792:1796 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R1791:1791 flows.ccm <> M:26 var
+R1798:1802 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R1797:1797 flows.ccm <> M:26 var
+R1803:1803 flows.ccm <> M:26 var
+R1785:1787 flows.ccm <> ::ccm_scope:'(+)' not
+R1780:1782 stdpp.base <> ::stdpp_scope:'(=)' not
+R1825:1830 stdpp.base <> LeftId class
+R1838:1840 flows.ccm <> ::ccm_scope:'(+)' not
+R1832:1834 stdpp.base <> ::stdpp_scope:'(=)' not
+R1860:1870 flows.ccm <> Cancelative class
+R1880:1882 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R1884:1888 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R1883:1883 flows.ccm <> M:26 var
+R1890:1894 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R1889:1889 flows.ccm <> M:26 var
+R1895:1895 flows.ccm <> M:26 var
+R1877:1879 flows.ccm <> ::ccm_scope:'(+)' not
+R1872:1874 stdpp.base <> ::stdpp_scope:'(=)' not
+R1914:1923 flows.ccm <> PartialInv class
+R1951:1953 flows.ccm <> ::ccm_scope:'(-)' not
+R1933:1935 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R1937:1941 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R1936:1936 flows.ccm <> M:26 var
+R1943:1947 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R1942:1942 flows.ccm <> M:26 var
+R1948:1948 flows.ccm <> M:26 var
+R1930:1932 flows.ccm <> ::ccm_scope:'(+)' not
+R1925:1927 stdpp.base <> ::stdpp_scope:'(=)' not
+R1971:1976 flows.ccm <> ccm_op meth
+R2003:2011 flows.ccm <> ccm_opinv meth
+R2088:2092 flows.ccm <> CcmOp class
+R2109:2114 flows.ccm <> ccm_op meth
+R2164:2171 flows.ccm <> CcmOpInv class
+R2188:2196 flows.ccm <> ccm_opinv meth
+R2246:2252 flows.ccm <> CcmUnit class
+R2269:2276 flows.ccm <> ccm_unit meth
+inst 2364:2376 <> ccm_inhabited
+R2380:2382 flows.ccm <> CCM class
+binder 2384:2384 <> A:37
+binder 2380:2384 <> H:38
+R2389:2397 stdpp.base <> Inhabited class
+R2399:2399 flows.ccm <> A:37 var
+R2404:2411 stdpp.base <> populate constr
+inst 2433:2445 <> ccm_eq_proper
+R2449:2451 flows.ccm <> CCM class
+binder 2453:2453 <> A:39
+binder 2449:2453 <> H:40
+R2458:2463 Coq.Classes.Morphisms <> Proper class
+R2484:2489 flows.ccm <> ccm_op meth
+R2468:2472 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R2466:2467 Coq.Init.Logic <> eq ind
+R2475:2479 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R2473:2474 Coq.Init.Logic <> eq ind
+R2480:2481 Coq.Init.Logic <> eq ind
+R2508:2513 Coq.Classes.Morphisms <> Proper class
+inst 2584:2593 <> ccm_assoc1
+R2597:2599 flows.ccm <> CCM class
+binder 2601:2601 <> A:41
+binder 2597:2601 <> H:42
+R2606:2610 stdpp.base <> Assoc class
+R2617:2622 flows.ccm <> ccm_op meth
+R2612:2614 stdpp.base <> ::stdpp_scope:'(=)' not
+R2641:2649 flows.ccm <> ccm_assoc meth
+R2641:2649 flows.ccm <> ccm_assoc meth
+inst 2676:2684 <> ccm_comm1
+R2688:2690 flows.ccm <> CCM class
+binder 2692:2692 <> A:43
+binder 2688:2692 <> H:44
+R2697:2700 stdpp.base <> Comm class
+R2707:2712 flows.ccm <> ccm_op meth
+R2702:2704 stdpp.base <> ::stdpp_scope:'(=)' not
+R2731:2738 flows.ccm <> ccm_comm meth
+R2731:2738 flows.ccm <> ccm_comm meth
+inst 2763:2774 <> ccm_left_id1
+R2778:2780 flows.ccm <> CCM class
+binder 2782:2782 <> A:45
+binder 2778:2782 <> H:46
+R2786:2791 stdpp.base <> LeftId class
+R2800:2805 flows.ccm <> ccm_op meth
+R2793:2795 stdpp.base <> ::stdpp_scope:'(=)' not
+R2824:2834 flows.ccm <> ccm_left_id meth
+R2824:2834 flows.ccm <> ccm_left_id meth
+inst 2864:2872 <> ccm_eq_eq
+R2876:2878 flows.ccm <> CCM class
+binder 2880:2880 <> A:47
+binder 2876:2880 <> H:48
+R2884:2893 stdpp.base <> EqDecision abbrev
+R2895:2895 flows.ccm <> A:47 var
+R2913:2918 flows.ccm <> ccm_eq meth
+R2913:2918 flows.ccm <> ccm_eq meth
+prf 2938:2949 <> ccm_right_id
+R2953:2955 flows.ccm <> CCM class
+binder 2957:2957 <> M:49
+binder 2953:2957 <> H:50
+R2962:2968 stdpp.base <> RightId class
+R2976:2978 flows.ccm <> ::ccm_scope:'(+)' not
+R2970:2972 stdpp.base <> ::stdpp_scope:'(=)' not
+R3013:3020 flows.ccm <> ccm_comm meth
+R3028:3038 flows.ccm <> ccm_left_id meth
+R3013:3020 flows.ccm <> ccm_comm meth
+R3028:3038 flows.ccm <> ccm_left_id meth
+prf 3054:3066 <> ccm_pinv_unit
+R3070:3072 flows.ccm <> CCM class
+binder 3074:3074 <> M:51
+binder 3070:3074 <> H:52
+R3081:3081 flows.ccm <> M:51 var
+binder 3078:3078 <> x:53
+R3091:3093 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3087:3089 flows.ccm <> ::ccm_scope:x_'-'_x not
+R3086:3086 flows.ccm <> x:53 var
+R3094:3094 flows.ccm <> x:53 var
+R3118:3129 flows.ccm <> ccm_right_id thm
+R3118:3129 flows.ccm <> ccm_right_id thm
+R3118:3129 flows.ccm <> ccm_right_id thm
+R3148:3155 flows.ccm <> ccm_pinv meth
+R3148:3155 flows.ccm <> ccm_pinv meth
+prf 3170:3180 <> ccm_pinv_op
+R3184:3186 flows.ccm <> CCM class
+binder 3188:3188 <> M:54
+binder 3184:3188 <> H:55
+R3199:3199 flows.ccm <> M:54 var
+binder 3192:3192 <> x:56
+binder 3194:3194 <> y:57
+binder 3196:3196 <> z:58
+R3234:3242 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R3208:3210 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3207:3207 flows.ccm <> x:56 var
+R3211:3211 flows.ccm <> ::ccm_scope:x_'+'_x not
+R3217:3221 flows.ccm <> ::ccm_scope:x_'+'_x not
+R3233:3233 flows.ccm <> ::ccm_scope:x_'+'_x not
+R3213:3215 flows.ccm <> ::ccm_scope:x_'+'_x not
+R3212:3212 flows.ccm <> y:57 var
+R3216:3216 flows.ccm <> z:58 var
+R3223:3226 flows.ccm <> ::ccm_scope:x_'-'_x not
+R3232:3232 flows.ccm <> ::ccm_scope:x_'-'_x not
+R3222:3222 flows.ccm <> x:56 var
+R3228:3230 flows.ccm <> ::ccm_scope:x_'+'_x not
+R3227:3227 flows.ccm <> y:57 var
+R3231:3231 flows.ccm <> z:58 var
+R3254:3256 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3244:3247 flows.ccm <> ::ccm_scope:x_'-'_x not
+R3253:3253 flows.ccm <> ::ccm_scope:x_'-'_x not
+R3243:3243 flows.ccm <> x:56 var
+R3249:3251 flows.ccm <> ::ccm_scope:x_'+'_x not
+R3248:3248 flows.ccm <> y:57 var
+R3252:3252 flows.ccm <> z:58 var
+R3262:3264 flows.ccm <> ::ccm_scope:x_'-'_x not
+R3258:3260 flows.ccm <> ::ccm_scope:x_'-'_x not
+R3257:3257 flows.ccm <> x:56 var
+R3261:3261 flows.ccm <> y:57 var
+R3265:3265 flows.ccm <> z:58 var
+R3317:3324 flows.ccm <> ccm_comm meth
+R3328:3330 flows.ccm <> ::ccm_scope:x_'+'_x not
+R3317:3324 flows.ccm <> ccm_comm meth
+R3328:3330 flows.ccm <> ::ccm_scope:x_'+'_x not
+R3317:3324 flows.ccm <> ccm_comm meth
+R3328:3330 flows.ccm <> ::ccm_scope:x_'+'_x not
+R3350:3353 flows.ccm <> ::ccm_scope:x_'-'_x not
+R3359:3359 flows.ccm <> ::ccm_scope:x_'-'_x not
+R3355:3357 flows.ccm <> ::ccm_scope:x_'+'_x not
+R3350:3353 flows.ccm <> ::ccm_scope:x_'-'_x not
+R3359:3359 flows.ccm <> ::ccm_scope:x_'-'_x not
+R3355:3357 flows.ccm <> ::ccm_scope:x_'+'_x not
+R3350:3353 flows.ccm <> ::ccm_scope:x_'-'_x not
+R3359:3359 flows.ccm <> ::ccm_scope:x_'-'_x not
+R3355:3357 flows.ccm <> ::ccm_scope:x_'+'_x not
+R3373:3380 flows.ccm <> ccm_comm meth
+R3373:3380 flows.ccm <> ccm_comm meth
+R3373:3380 flows.ccm <> ccm_comm meth
+R3398:3406 flows.ccm <> ccm_assoc meth
+R3398:3406 flows.ccm <> ccm_assoc meth
+R3398:3406 flows.ccm <> ccm_assoc meth
+R3423:3430 flows.ccm <> ccm_pinv meth
+R3423:3430 flows.ccm <> ccm_pinv meth
+R3423:3430 flows.ccm <> ccm_pinv meth
+R3423:3430 flows.ccm <> ccm_pinv meth
+R3423:3430 flows.ccm <> ccm_pinv meth
+prf 3445:3456 <> ccm_pinv_inv
+R3460:3462 flows.ccm <> CCM class
+binder 3464:3464 <> M:59
+binder 3460:3464 <> H:60
+R3471:3471 flows.ccm <> M:59 var
+binder 3468:3468 <> x:61
+R3481:3483 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3477:3479 flows.ccm <> ::ccm_scope:x_'-'_x not
+R3476:3476 flows.ccm <> x:61 var
+R3480:3480 flows.ccm <> x:61 var
+R3513:3515 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3509:3511 flows.ccm <> ::ccm_scope:x_'-'_x not
+R3505:3507 flows.ccm <> ::ccm_scope:x_'+'_x not
+R3517:3519 flows.ccm <> ::ccm_scope:x_'-'_x not
+R3513:3515 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3509:3511 flows.ccm <> ::ccm_scope:x_'-'_x not
+R3505:3507 flows.ccm <> ::ccm_scope:x_'+'_x not
+R3517:3519 flows.ccm <> ::ccm_scope:x_'-'_x not
+R3545:3556 flows.ccm <> ccm_right_id thm
+R3545:3556 flows.ccm <> ccm_right_id thm
+R3545:3556 flows.ccm <> ccm_right_id thm
+R3570:3577 flows.ccm <> ccm_comm meth
+R3570:3577 flows.ccm <> ccm_comm meth
+R3570:3577 flows.ccm <> ccm_comm meth
+R3588:3595 flows.ccm <> ccm_pinv meth
+R3588:3595 flows.ccm <> ccm_pinv meth
+prf 3610:3620 <> ccm_op_incl
+R3624:3626 flows.ccm <> CCM class
+binder 3628:3628 <> M:62
+binder 3624:3628 <> H:63
+R3639:3639 flows.ccm <> M:62 var
+binder 3632:3632 <> x:64
+binder 3634:3634 <> y:65
+binder 3636:3636 <> z:66
+R3674:3683 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R3648:3650 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3647:3647 flows.ccm <> x:64 var
+R3651:3651 flows.ccm <> ::ccm_scope:x_'+'_x not
+R3657:3661 flows.ccm <> ::ccm_scope:x_'+'_x not
+R3673:3673 flows.ccm <> ::ccm_scope:x_'+'_x not
+R3653:3655 flows.ccm <> ::ccm_scope:x_'+'_x not
+R3652:3652 flows.ccm <> y:65 var
+R3656:3656 flows.ccm <> z:66 var
+R3663:3666 flows.ccm <> ::ccm_scope:x_'-'_x not
+R3672:3672 flows.ccm <> ::ccm_scope:x_'-'_x not
+R3662:3662 flows.ccm <> x:64 var
+R3668:3670 flows.ccm <> ::ccm_scope:x_'+'_x not
+R3667:3667 flows.ccm <> y:65 var
+R3671:3671 flows.ccm <> z:66 var
+R3685:3687 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3684:3684 flows.ccm <> x:64 var
+R3689:3692 flows.ccm <> ::ccm_scope:x_'+'_x not
+R3698:3698 flows.ccm <> ::ccm_scope:x_'+'_x not
+R3688:3688 flows.ccm <> y:65 var
+R3694:3696 flows.ccm <> ::ccm_scope:x_'-'_x not
+R3693:3693 flows.ccm <> x:64 var
+R3697:3697 flows.ccm <> y:65 var
+R3749:3756 flows.ccm <> ccm_comm meth
+R3760:3762 flows.ccm <> ::ccm_scope:x_'+'_x not
+R3749:3756 flows.ccm <> ccm_comm meth
+R3760:3762 flows.ccm <> ::ccm_scope:x_'+'_x not
+R3749:3756 flows.ccm <> ccm_comm meth
+R3760:3762 flows.ccm <> ::ccm_scope:x_'+'_x not
+R3782:3785 flows.ccm <> ::ccm_scope:x_'-'_x not
+R3791:3791 flows.ccm <> ::ccm_scope:x_'-'_x not
+R3787:3789 flows.ccm <> ::ccm_scope:x_'+'_x not
+R3782:3785 flows.ccm <> ::ccm_scope:x_'-'_x not
+R3791:3791 flows.ccm <> ::ccm_scope:x_'-'_x not
+R3787:3789 flows.ccm <> ::ccm_scope:x_'+'_x not
+R3782:3785 flows.ccm <> ::ccm_scope:x_'-'_x not
+R3791:3791 flows.ccm <> ::ccm_scope:x_'-'_x not
+R3787:3789 flows.ccm <> ::ccm_scope:x_'+'_x not
+R3805:3812 flows.ccm <> ccm_comm meth
+R3805:3812 flows.ccm <> ccm_comm meth
+R3805:3812 flows.ccm <> ccm_comm meth
+R3830:3838 flows.ccm <> ccm_assoc meth
+R3830:3838 flows.ccm <> ccm_assoc meth
+R3830:3838 flows.ccm <> ccm_assoc meth
+R3852:3859 flows.ccm <> ccm_pinv meth
+R3852:3859 flows.ccm <> ccm_pinv meth
+R3852:3859 flows.ccm <> ccm_pinv meth
+R3852:3859 flows.ccm <> ccm_pinv meth
+R3873:3880 flows.ccm <> ccm_comm meth
+R3873:3880 flows.ccm <> ccm_comm meth
+R3873:3880 flows.ccm <> ccm_comm meth
+R3898:3906 flows.ccm <> ccm_assoc meth
+R3898:3906 flows.ccm <> ccm_assoc meth
+R3898:3906 flows.ccm <> ccm_assoc meth
+inst 4017:4022 <> nat_op
+R4026:4030 flows.ccm <> CcmOp class
+R4032:4034 Coq.Init.Datatypes <> nat ind
+R4039:4042 Coq.Init.Peano <> plus abbrev
+inst 4062:4070 <> nat_opinv
+R4074:4081 flows.ccm <> CcmOpInv class
+R4083:4085 Coq.Init.Datatypes <> nat ind
+R4090:4092 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R4096:4097 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+binder 4093:4093 <> x:67
+binder 4095:4095 <> y:68
+R4100:4102 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R4099:4099 flows.ccm <> x:67 var
+R4103:4103 flows.ccm <> y:68 var
+inst 4128:4135 <> nat_unit
+R4139:4145 flows.ccm <> CcmUnit class
+R4147:4149 Coq.Init.Datatypes <> nat ind
+inst 4174:4182 <> nat_assoc
+R4185:4189 stdpp.base <> Assoc class
+R4195:4200 flows.ccm <> nat_op inst
+R4191:4193 stdpp.base <> ::stdpp_scope:'(=)' not
+R4219:4223 stdpp.base <> Assoc class
+R4245:4250 flows.ccm <> nat_op inst
+inst 4282:4289 <> nat_comm
+R4292:4295 stdpp.base <> Comm class
+R4301:4306 flows.ccm <> nat_op inst
+R4297:4299 stdpp.base <> ::stdpp_scope:'(=)' not
+R4325:4328 stdpp.base <> Comm class
+R4350:4355 flows.ccm <> nat_op inst
+inst 4387:4396 <> nat_leftid
+R4399:4404 stdpp.base <> LeftId class
+R4412:4417 flows.ccm <> nat_op inst
+R4406:4408 stdpp.base <> ::stdpp_scope:'(=)' not
+R4436:4441 stdpp.base <> LeftId class
+R4463:4468 flows.ccm <> nat_op inst
+R4480:4487 flows.ccm <> nat_unit inst
+inst 4519:4528 <> nat_cancel
+R4531:4541 flows.ccm <> Cancelative class
+R4547:4552 flows.ccm <> nat_op inst
+R4543:4545 stdpp.base <> ::stdpp_scope:'(=)' not
+R4571:4581 flows.ccm <> Cancelative class
+R4603:4608 flows.ccm <> nat_op inst
+inst 4645:4652 <> nat_pinv
+R4655:4664 flows.ccm <> PartialInv class
+R4677:4685 flows.ccm <> nat_opinv inst
+R4670:4675 flows.ccm <> nat_op inst
+R4666:4668 stdpp.base <> ::stdpp_scope:'(=)' not
+R4704:4713 flows.ccm <> PartialInv class
+R4735:4740 flows.ccm <> nat_op inst
+R4743:4751 flows.ccm <> nat_opinv inst
+inst 4783:4789 <> nat_ccm
+R4793:4795 flows.ccm <> CCM class
+R4797:4799 Coq.Init.Datatypes <> nat ind
+inst 4869:4872 <> Z_op
+R4876:4880 flows.ccm <> CcmOp class
+R4882:4882 Coq.Numbers.BinNums <> Z ind
+R4887:4891 Coq.ZArith.BinInt Z add def
+inst 4911:4917 <> Z_opinv
+R4921:4928 flows.ccm <> CcmOpInv class
+R4930:4930 Coq.Numbers.BinNums <> Z ind
+R4935:4939 Coq.ZArith.BinInt Z sub def
+inst 4959:4964 <> Z_unit
+R4968:4974 flows.ccm <> CcmUnit class
+R4976:4976 Coq.Numbers.BinNums <> Z ind
+inst 5001:5007 <> Z_assoc
+R5010:5014 stdpp.base <> Assoc class
+R5020:5023 flows.ccm <> Z_op inst
+R5016:5018 stdpp.base <> ::stdpp_scope:'(=)' not
+R5042:5046 stdpp.base <> Assoc class
+R5068:5071 flows.ccm <> Z_op inst
+inst 5103:5108 <> Z_comm
+R5111:5114 stdpp.base <> Comm class
+R5120:5123 flows.ccm <> Z_op inst
+R5116:5118 stdpp.base <> ::stdpp_scope:'(=)' not
+R5142:5145 stdpp.base <> Comm class
+R5167:5170 flows.ccm <> Z_op inst
+inst 5202:5209 <> Z_leftid
+R5212:5217 stdpp.base <> LeftId class
+R5227:5230 flows.ccm <> Z_op inst
+R5219:5221 stdpp.base <> ::stdpp_scope:'(=)' not
+R5249:5254 stdpp.base <> LeftId class
+R5276:5279 flows.ccm <> Z_op inst
+R5291:5296 flows.ccm <> Z_unit inst
+inst 5328:5335 <> Z_cancel
+R5338:5348 flows.ccm <> Cancelative class
+R5354:5357 flows.ccm <> Z_op inst
+R5350:5352 stdpp.base <> ::stdpp_scope:'(=)' not
+R5376:5386 flows.ccm <> Cancelative class
+R5408:5411 flows.ccm <> Z_op inst
+inst 5448:5453 <> Z_pinv
+R5456:5465 flows.ccm <> PartialInv class
+R5476:5482 flows.ccm <> Z_opinv inst
+R5471:5474 flows.ccm <> Z_op inst
+R5467:5469 stdpp.base <> ::stdpp_scope:'(=)' not
+R5501:5510 flows.ccm <> PartialInv class
+R5532:5535 flows.ccm <> Z_op inst
+R5538:5544 flows.ccm <> Z_opinv inst
+inst 5576:5580 <> Z_ccm
+R5584:5586 flows.ccm <> CCM class
+R5588:5588 Coq.Numbers.BinNums <> Z ind
+inst 5666:5670 <> Qc_op
+R5674:5678 flows.ccm <> CcmOp class
+R5680:5681 Coq.QArith.Qcanon <> Qc rec
+R5686:5691 Coq.QArith.Qcanon <> Qcplus def
+inst 5711:5718 <> Qc_opinv
+R5722:5729 flows.ccm <> CcmOpInv class
+R5731:5732 Coq.QArith.Qcanon <> Qc rec
+R5737:5743 Coq.QArith.Qcanon <> Qcminus def
+inst 5763:5769 <> Qc_unit
+R5773:5779 flows.ccm <> CcmUnit class
+R5781:5782 Coq.QArith.Qcanon <> Qc rec
+inst 5810:5817 <> Qc_assoc
+R5820:5824 stdpp.base <> Assoc class
+R5830:5834 flows.ccm <> Qc_op inst
+R5826:5828 stdpp.base <> ::stdpp_scope:'(=)' not
+R5853:5857 stdpp.base <> Assoc class
+R5877:5881 flows.ccm <> Qc_op inst
+inst 5913:5919 <> Qc_comm
+R5922:5925 stdpp.base <> Comm class
+R5931:5935 flows.ccm <> Qc_op inst
+R5927:5929 stdpp.base <> ::stdpp_scope:'(=)' not
+R5954:5957 stdpp.base <> Comm class
+R5977:5981 flows.ccm <> Qc_op inst
+inst 6012:6020 <> Qc_leftid
+R6023:6028 stdpp.base <> LeftId class
+R6039:6043 flows.ccm <> Qc_op inst
+R6030:6032 stdpp.base <> ::stdpp_scope:'(=)' not
+R6062:6067 stdpp.base <> LeftId class
+R6087:6091 flows.ccm <> Qc_op inst
+inst 6122:6130 <> Qc_cancel
+R6133:6143 flows.ccm <> Cancelative class
+R6149:6153 flows.ccm <> Qc_op inst
+R6145:6147 stdpp.base <> ::stdpp_scope:'(=)' not
+R6172:6182 flows.ccm <> Cancelative class
+R6208:6212 flows.ccm <> Qc_op inst
+R6223:6234 stdpp.numbers <> Qcplus_inj_r inst
+R6223:6234 stdpp.numbers <> Qcplus_inj_r inst
+inst 6259:6265 <> Qc_pinv
+R6268:6277 flows.ccm <> PartialInv class
+R6289:6296 flows.ccm <> Qc_opinv inst
+R6283:6287 flows.ccm <> Qc_op inst
+R6279:6281 stdpp.base <> ::stdpp_scope:'(=)' not
+R6315:6324 flows.ccm <> PartialInv class
+R6344:6348 flows.ccm <> Qc_op inst
+R6351:6358 flows.ccm <> Qc_opinv inst
+inst 6391:6396 <> Qc_ccm
+R6400:6402 flows.ccm <> CCM class
+R6404:6405 Coq.QArith.Qcanon <> Qc rec
+sec 6458:6464 <> product
+binder 6477:6478 <> A1:69
+binder 6480:6481 <> A2:70
+R6485:6487 flows.ccm <> CCM class
+R6489:6490 flows.ccm <> A1:69 var
+binder 6485:6490 <> H:71
+R6495:6497 flows.ccm <> CCM class
+R6499:6500 flows.ccm <> A2:70 var
+binder 6495:6500 <> H0:72
+inst 6552:6558 <> prod_eq
+R6561:6570 stdpp.base <> EqDecision abbrev
+R6575:6577 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R6573:6574 flows.ccm <> product.A1 var
+R6578:6579 flows.ccm <> product.A2 var
+R6602:6612 stdpp.decidable <> prod_eq_dec inst
+R6602:6612 stdpp.decidable <> prod_eq_dec inst
+inst 6641:6647 <> prod_op
+R6651:6655 flows.ccm <> CcmOp class
+R6660:6662 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R6658:6659 flows.ccm <> product.A1 var
+R6663:6664 flows.ccm <> product.A2 var
+R6670:6672 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R6676:6677 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+binder 6673:6673 <> x:73
+binder 6675:6675 <> y:74
+R6678:6678 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6688:6689 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6699:6699 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6682:6684 flows.ccm <> ::ccm_scope:x_'+'_x not
+R6680:6681 stdpp.base <> :::x_'.1' not
+R6679:6679 flows.ccm <> x:73 var
+R6686:6687 stdpp.base <> :::x_'.1' not
+R6685:6685 flows.ccm <> y:74 var
+R6693:6695 flows.ccm <> ::ccm_scope:x_'+'_x not
+R6691:6692 stdpp.base <> :::x_'.2' not
+R6690:6690 flows.ccm <> x:73 var
+R6697:6698 stdpp.base <> :::x_'.2' not
+R6696:6696 flows.ccm <> y:74 var
+inst 6721:6731 <> prod_op_inv
+R6735:6742 flows.ccm <> CcmOpInv class
+R6747:6749 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R6745:6746 flows.ccm <> product.A1 var
+R6750:6751 flows.ccm <> product.A2 var
+R6757:6759 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R6763:6764 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+binder 6760:6760 <> x:75
+binder 6762:6762 <> y:76
+R6765:6765 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6775:6776 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6786:6786 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6769:6771 flows.ccm <> ::ccm_scope:x_'-'_x not
+R6767:6768 stdpp.base <> :::x_'.1' not
+R6766:6766 flows.ccm <> x:75 var
+R6773:6774 stdpp.base <> :::x_'.1' not
+R6772:6772 flows.ccm <> y:76 var
+R6780:6782 flows.ccm <> ::ccm_scope:x_'-'_x not
+R6778:6779 stdpp.base <> :::x_'.2' not
+R6777:6777 flows.ccm <> x:75 var
+R6784:6785 stdpp.base <> :::x_'.2' not
+R6783:6783 flows.ccm <> y:76 var
+inst 6808:6816 <> prod_unit
+R6819:6825 flows.ccm <> CcmUnit class
+R6830:6832 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R6828:6829 flows.ccm <> product.A1 var
+R6833:6834 flows.ccm <> product.A2 var
+R6840:6840 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6842:6843 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6845:6845 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+inst 6867:6875 <> prod_comm
+R6878:6881 stdpp.base <> Comm class
+R6887:6893 flows.ccm <> prod_op inst
+R6883:6885 stdpp.base <> ::stdpp_scope:'(=)' not
+R6916:6919 stdpp.base <> Comm class
+R6922:6928 flows.ccm <> prod_op inst
+R7025:7032 flows.ccm <> ccm_comm meth
+R7025:7032 flows.ccm <> ccm_comm meth
+R7025:7032 flows.ccm <> ccm_comm meth
+inst 7065:7074 <> prod_assoc
+R7077:7081 stdpp.base <> Assoc class
+R7087:7093 flows.ccm <> prod_op inst
+R7083:7085 stdpp.base <> ::stdpp_scope:'(=)' not
+R7116:7120 stdpp.base <> Assoc class
+R7123:7129 flows.ccm <> prod_op inst
+R7253:7261 flows.ccm <> ccm_assoc meth
+R7253:7261 flows.ccm <> ccm_assoc meth
+R7253:7261 flows.ccm <> ccm_assoc meth
+inst 7294:7304 <> prod_leftid
+R7307:7312 stdpp.base <> LeftId class
+R7320:7326 flows.ccm <> prod_op inst
+R7314:7316 stdpp.base <> ::stdpp_scope:'(=)' not
+R7349:7354 stdpp.base <> LeftId class
+R7357:7363 flows.ccm <> prod_op inst
+R7366:7374 flows.ccm <> prod_unit inst
+R7444:7454 flows.ccm <> ccm_left_id meth
+R7444:7454 flows.ccm <> ccm_left_id meth
+R7444:7454 flows.ccm <> ccm_left_id meth
+inst 7489:7499 <> prod_cancel
+R7502:7512 flows.ccm <> Cancelative class
+R7518:7524 flows.ccm <> prod_op inst
+R7514:7516 stdpp.base <> ::stdpp_scope:'(=)' not
+R7547:7557 flows.ccm <> Cancelative class
+R7560:7566 flows.ccm <> prod_op inst
+R7726:7735 flows.ccm <> ccm_cancel meth
+R7726:7735 flows.ccm <> ccm_cancel meth
+R7771:7780 flows.ccm <> ccm_cancel meth
+R7771:7780 flows.ccm <> ccm_cancel meth
+inst 7819:7827 <> prod_pinv
+R7830:7839 flows.ccm <> PartialInv class
+R7853:7863 flows.ccm <> prod_op_inv inst
+R7845:7851 flows.ccm <> prod_op inst
+R7841:7843 stdpp.base <> ::stdpp_scope:'(=)' not
+R7886:7895 flows.ccm <> PartialInv class
+R7898:7904 flows.ccm <> prod_op inst
+R7907:7917 flows.ccm <> prod_op_inv inst
+R8021:8028 flows.ccm <> ccm_pinv meth
+R8021:8028 flows.ccm <> ccm_pinv meth
+R8021:8028 flows.ccm <> ccm_pinv meth
+inst 8061:8068 <> prod_ccm
+R8072:8074 flows.ccm <> CCM class
+R8079:8081 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R8077:8078 flows.ccm <> product.A1 var
+R8082:8083 flows.ccm <> product.A2 var
+R8099:8105 flows.ccm product <> sec
+def 8201:8208 <> nzmap_wf
+R8212:8220 stdpp.countable <> Countable class
+binder 8222:8222 <> K:77
+binder 8212:8222 <> H:79
+R8227:8229 flows.ccm <> CCM class
+binder 8231:8231 <> A:80
+binder 8227:8231 <> H0:81
+R8244:8248 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R8236:8239 stdpp.gmap <> gmap rec
+R8243:8243 flows.ccm <> A:80 var
+R8241:8241 flows.ccm <> K:77 var
+R8259:8268 stdpp.fin_maps <> map_Forall def
+R8271:8273 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R8277:8278 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+binder 8276:8276 <> x:82
+R8279:8282 Coq.Unicode.Utf8_core <> ::type_scope:'¬'_x not
+R8288:8288 Coq.Unicode.Utf8_core <> ::type_scope:'¬'_x not
+R8284:8286 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8283:8283 flows.ccm <> x:82 var
+inst 8311:8327 <> nzmap_wf_decision
+binder 8329:8329 <> K:83
+R8333:8341 stdpp.countable <> Countable class
+R8343:8343 flows.ccm <> K:83 var
+binder 8333:8343 <> H:85
+R8348:8350 flows.ccm <> CCM class
+binder 8352:8352 <> A:86
+binder 8348:8352 <> H0:87
+R8359:8362 stdpp.gmap <> gmap rec
+R8366:8366 flows.ccm <> A:86 var
+R8364:8364 flows.ccm <> K:83 var
+binder 8356:8356 <> m:88
+R8374:8381 stdpp.base <> Decision class
+R8384:8391 flows.ccm <> nzmap_wf def
+R8393:8393 flows.ccm <> m:88 var
+prf 8434:8447 <> empty_nzmap_wf
+R8451:8459 stdpp.countable <> Countable class
+binder 8461:8461 <> K:89
+binder 8451:8461 <> H:91
+R8466:8468 flows.ccm <> CCM class
+binder 8470:8470 <> A:92
+binder 8466:8470 <> H0:93
+R8475:8482 flows.ccm <> nzmap_wf def
+R8488:8490 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R8491:8494 stdpp.gmap <> gmap rec
+R8498:8498 flows.ccm <> A:92 var
+R8496:8496 flows.ccm <> K:89 var
+R8485:8487 stdpp.base <> ::stdpp_scope:'∅' not
+R8518:8525 flows.ccm <> nzmap_wf def
+R8528:8537 stdpp.fin_maps <> map_Forall def
+R8560:8571 stdpp.fin_maps <> lookup_empty meth
+R8560:8571 stdpp.fin_maps <> lookup_empty meth
+R8560:8571 stdpp.fin_maps <> lookup_empty meth
+rec 8651:8655 <> nzmap
+proj 8704:8712 <> nzmap_car
+proj 8732:8740 <> nzmap_prf
+binder 8657:8657 <> K:94
+R8661:8669 stdpp.countable <> Countable class
+R8671:8671 flows.ccm <> K:94 var
+binder 8661:8671 <> H:96
+binder 8674:8674 <> A:97
+R8678:8680 flows.ccm <> CCM class
+R8682:8682 flows.ccm <> A:97 var
+binder 8678:8682 <> H0:98
+R8716:8719 stdpp.gmap <> gmap rec
+R8723:8723 flows.ccm <> A:97 var
+R8721:8721 flows.ccm <> K:94 var
+R8744:8754 stdpp.decidable <> bool_decide def
+R8757:8764 flows.ccm <> nzmap_wf def
+R8766:8774 flows.ccm <> nzmap_car:100 meth
+R8795:8799 flows.ccm <> NZMap constr
+R8795:8799 flows.ccm <> NZMap constr
+R8837:8845 flows.ccm <> nzmap_car proj
+R8837:8845 flows.ccm <> nzmap_car proj
+inst 8945:8956 <> nzmap_lookup
+R8960:8968 stdpp.countable <> Countable class
+binder 8970:8970 <> K:102
+binder 8960:8970 <> H:104
+R8975:8977 flows.ccm <> CCM class
+binder 8979:8979 <> A:105
+binder 8975:8979 <> H0:106
+R8984:8989 stdpp.base <> Lookup class
+R8996:9000 flows.ccm <> nzmap rec
+R9004:9004 flows.ccm <> A:105 var
+R9002:9002 flows.ccm <> K:102 var
+R8993:8993 flows.ccm <> A:105 var
+R8991:8991 flows.ccm <> K:102 var
+R9012:9014 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R9018:9019 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+binder 9015:9015 <> i:107
+binder 9017:9017 <> m:108
+R9034:9034 flows.ccm <> m:108 var
+binder 9025:9025 <> m:109
+R9040:9043 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R9044:9044 flows.ccm <> i:107 var
+R9039:9039 flows.ccm <> m:109 var
+inst 9065:9082 <> nzmap_lookup_total
+R9086:9094 stdpp.countable <> Countable class
+binder 9096:9096 <> K:110
+binder 9086:9096 <> H:112
+R9101:9103 flows.ccm <> CCM class
+binder 9105:9105 <> A:113
+binder 9101:9105 <> H0:114
+R9110:9120 stdpp.base <> LookupTotal class
+R9127:9131 flows.ccm <> nzmap rec
+R9135:9135 flows.ccm <> A:113 var
+R9133:9133 flows.ccm <> K:110 var
+R9124:9124 flows.ccm <> A:113 var
+R9122:9122 flows.ccm <> K:110 var
+R9143:9145 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R9149:9150 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+binder 9146:9146 <> i:115
+binder 9148:9148 <> m:116
+R9165:9165 flows.ccm <> m:116 var
+binder 9156:9156 <> m:117
+R9171:9175 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R9176:9176 flows.ccm <> i:115 var
+R9170:9170 flows.ccm <> m:117 var
+prf 9186:9207 <> nzmap_lookup_total_alt
+R9211:9219 stdpp.countable <> Countable class
+binder 9221:9221 <> K:118
+binder 9211:9221 <> H:120
+R9226:9228 flows.ccm <> CCM class
+binder 9230:9230 <> A:121
+binder 9226:9230 <> H0:122
+binder 9233:9233 <> i:123
+R9240:9244 flows.ccm <> nzmap rec
+R9248:9248 flows.ccm <> A:121 var
+R9246:9246 flows.ccm <> K:118 var
+binder 9236:9236 <> m:124
+R9262:9264 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9256:9260 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R9261:9261 flows.ccm <> i:123 var
+R9255:9255 flows.ccm <> m:124 var
+R9265:9271 stdpp.option <> default abbrev
+R9286:9289 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R9290:9290 flows.ccm <> i:123 var
+R9285:9285 flows.ccm <> m:124 var
+R9273:9282 stdpp.base <> inhabitant meth
+R9310:9321 stdpp.base <> lookup_total def
+R9324:9341 flows.ccm <> nzmap_lookup_total inst
+R9353:9364 stdpp.base <> lookup_total def
+R9367:9382 stdpp.fin_maps <> map_lookup_total inst
+inst 9502:9510 <> nzmap_dom
+binder 9512:9512 <> K:125
+R9516:9524 stdpp.countable <> Countable class
+R9526:9526 flows.ccm <> K:125 var
+binder 9516:9526 <> H:127
+binder 9529:9529 <> A:128
+R9533:9535 flows.ccm <> CCM class
+R9537:9537 flows.ccm <> A:128 var
+binder 9533:9537 <> H0:129
+R9542:9544 stdpp.base <> Dom class
+R9559:9562 stdpp.gmap <> gset def
+R9564:9564 flows.ccm <> K:125 var
+R9547:9551 flows.ccm <> nzmap rec
+R9555:9555 flows.ccm <> A:128 var
+R9553:9553 flows.ccm <> K:125 var
+R9572:9574 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R9576:9577 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+binder 9575:9575 <> m:130
+R9578:9580 stdpp.base <> dom def
+R9583:9591 flows.ccm <> nzmap_car proj
+R9593:9593 flows.ccm <> m:130 var
+def 9609:9618 <> nzmap_unit
+R9622:9630 stdpp.countable <> Countable class
+binder 9632:9632 <> K:131
+binder 9622:9632 <> H:133
+R9637:9639 flows.ccm <> CCM class
+binder 9641:9641 <> A:134
+binder 9637:9641 <> H0:135
+R9650:9654 flows.ccm <> NZMap constr
+R9674:9689 stdpp.decidable <> bool_decide_pack thm
+R9693:9706 flows.ccm <> empty_nzmap_wf thm
+R9660:9662 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R9663:9666 stdpp.gmap <> gmap rec
+R9670:9670 flows.ccm <> A:134 var
+R9668:9668 flows.ccm <> K:131 var
+R9657:9659 stdpp.base <> ::stdpp_scope:'∅' not
+inst 9729:9739 <> nzmap_empty
+R9743:9751 stdpp.countable <> Countable class
+binder 9753:9753 <> K:136
+binder 9743:9753 <> H:138
+R9758:9760 flows.ccm <> CCM class
+binder 9762:9762 <> A:139
+binder 9758:9762 <> H0:140
+R9767:9771 stdpp.base <> Empty class
+R9774:9778 flows.ccm <> nzmap rec
+R9782:9782 flows.ccm <> A:139 var
+R9780:9780 flows.ccm <> K:136 var
+R9788:9797 flows.ccm <> nzmap_unit def
+prf 9807:9817 <> nzmap_is_wf
+R9821:9829 stdpp.countable <> Countable class
+binder 9831:9831 <> K:141
+binder 9821:9831 <> H:143
+R9836:9838 flows.ccm <> CCM class
+binder 9840:9840 <> A:144
+binder 9836:9840 <> H0:145
+R9848:9852 flows.ccm <> nzmap rec
+R9856:9856 flows.ccm <> A:144 var
+R9854:9854 flows.ccm <> K:141 var
+binder 9844:9844 <> m:146
+R9861:9868 flows.ccm <> nzmap_wf def
+R9871:9879 flows.ccm <> nzmap_car proj
+R9881:9881 flows.ccm <> m:146 var
+R9924:9934 stdpp.decidable <> bool_decide def
+R9962:9978 flows.ccm <> nzmap_wf_decision inst
+prf 10020:10027 <> nzmap_eq
+R10031:10039 stdpp.countable <> Countable class
+binder 10041:10041 <> K:147
+binder 10031:10041 <> H:149
+R10046:10048 flows.ccm <> CCM class
+binder 10050:10050 <> A:150
+binder 10046:10050 <> H0:151
+R10062:10066 flows.ccm <> nzmap rec
+R10070:10070 flows.ccm <> A:150 var
+R10068:10068 flows.ccm <> K:147 var
+binder 10054:10055 <> m1:152
+binder 10057:10058 <> m2:153
+R10084:10088 Coq.Unicode.Utf8_core <> ::type_scope:x_'↔'_x not
+R10079:10081 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10077:10078 flows.ccm <> m1:152 var
+R10082:10083 flows.ccm <> m2:153 var
+R10089:10092 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R10094:10095 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+binder 10093:10093 <> k:154
+R10104:10106 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10098:10102 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R10103:10103 flows.ccm <> k:154 var
+R10096:10097 flows.ccm <> m1:152 var
+R10109:10113 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R10114:10114 flows.ccm <> k:154 var
+R10107:10108 flows.ccm <> m2:153 var
+R10178:10180 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10166:10174 flows.ccm <> nzmap_car proj
+R10181:10189 flows.ccm <> nzmap_car proj
+R10178:10180 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10166:10174 flows.ccm <> nzmap_car proj
+R10181:10189 flows.ccm <> nzmap_car proj
+R10212:10222 flows.ccm <> nzmap_is_wf thm
+R10212:10222 flows.ccm <> nzmap_is_wf thm
+R10255:10265 flows.ccm <> nzmap_is_wf thm
+R10255:10265 flows.ccm <> nzmap_is_wf thm
+R10328:10333 stdpp.fin_maps <> map_eq meth
+R10328:10333 stdpp.fin_maps <> map_eq meth
+R10390:10397 flows.ccm <> nzmap_wf def
+R10400:10409 stdpp.fin_maps <> map_Forall def
+R10515:10526 stdpp.base <> lookup_total def
+R10530:10547 flows.ccm <> nzmap_lookup_total inst
+R10556:10567 stdpp.base <> lookup_total def
+R10570:10585 stdpp.fin_maps <> map_lookup_total inst
+R10618:10621 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R10643:10646 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R10618:10621 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R10643:10646 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R10643:10646 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R10877:10887 stdpp.base <> proof_irrel def
+R10877:10887 stdpp.base <> proof_irrel def
+prf 10904:10916 <> nzmap_gmap_eq
+R10920:10928 stdpp.countable <> Countable class
+binder 10930:10930 <> K:155
+binder 10920:10930 <> H:157
+R10935:10937 flows.ccm <> CCM class
+binder 10939:10939 <> A:158
+binder 10935:10939 <> H0:159
+R10951:10955 flows.ccm <> nzmap rec
+R10959:10959 flows.ccm <> A:158 var
+R10957:10957 flows.ccm <> K:155 var
+binder 10943:10944 <> m1:160
+binder 10946:10947 <> m2:161
+R10973:10977 Coq.Unicode.Utf8_core <> ::type_scope:x_'↔'_x not
+R10968:10970 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10966:10967 flows.ccm <> m1:160 var
+R10971:10972 flows.ccm <> m2:161 var
+R10990:10992 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10978:10986 flows.ccm <> nzmap_car proj
+R10988:10989 flows.ccm <> m1:160 var
+R10993:11001 flows.ccm <> nzmap_car proj
+R11003:11004 flows.ccm <> m2:161 var
+R11095:11105 stdpp.base <> proof_irrel def
+R11095:11105 stdpp.base <> proof_irrel def
+inst 11130:11140 <> nzmap_eq_eq
+R11144:11152 stdpp.countable <> Countable class
+binder 11154:11154 <> K:162
+binder 11144:11154 <> H:164
+R11159:11161 flows.ccm <> CCM class
+binder 11163:11163 <> A:165
+binder 11159:11163 <> H0:166
+R11168:11177 stdpp.base <> EqDecision abbrev
+R11180:11184 flows.ccm <> nzmap rec
+R11188:11188 flows.ccm <> A:165 var
+R11186:11186 flows.ccm <> K:162 var
+R11209:11211 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R11217:11218 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+binder 11212:11213 <> m1:167
+binder 11215:11216 <> m2:168
+R11219:11225 stdpp.decidable <> cast_if abbrev
+R11228:11233 stdpp.base <> decide def
+R11248:11250 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11236:11244 flows.ccm <> nzmap_car proj
+R11246:11247 flows.ccm <> m1:167 var
+R11251:11259 flows.ccm <> nzmap_car proj
+R11261:11262 flows.ccm <> m2:168 var
+R11295:11307 flows.ccm <> nzmap_gmap_eq thm
+R11209:11211 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R11217:11218 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+binder 11212:11213 <> m1:169
+binder 11215:11216 <> m2:170
+R11219:11225 stdpp.decidable <> cast_if abbrev
+R11228:11233 stdpp.base <> decide def
+R11248:11250 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11236:11244 flows.ccm <> nzmap_car proj
+R11246:11247 flows.ccm <> m1:169 var
+R11251:11259 flows.ccm <> nzmap_car proj
+R11261:11262 flows.ccm <> m2:170 var
+R11295:11307 flows.ccm <> nzmap_gmap_eq thm
+R11295:11307 flows.ccm <> nzmap_gmap_eq thm
+R11295:11307 flows.ccm <> nzmap_gmap_eq thm
+R11295:11307 flows.ccm <> nzmap_gmap_eq thm
+def 11333:11346 <> nzmap_merge_op
+R11350:11352 flows.ccm <> CCM class
+binder 11354:11354 <> A:171
+binder 11350:11354 <> H:172
+R11363:11367 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R11362:11362 flows.ccm <> A:171 var
+R11369:11373 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R11368:11368 flows.ccm <> A:171 var
+R11374:11374 flows.ccm <> A:171 var
+binder 11358:11358 <> f:173
+R11382:11385 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R11402:11406 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R11394:11399 Coq.Init.Datatypes <> option ind
+R11401:11401 flows.ccm <> A:171 var
+binder 11386:11387 <> o1:174
+R11394:11399 Coq.Init.Datatypes <> option ind
+R11401:11401 flows.ccm <> A:171 var
+binder 11389:11390 <> o2:175
+R11417:11418 flows.ccm <> o2:175 var
+R11413:11414 flows.ccm <> o1:174 var
+R11429:11432 Coq.Init.Datatypes <> None constr
+R11435:11438 Coq.Init.Datatypes <> None constr
+R11443:11446 Coq.Init.Datatypes <> None constr
+R11473:11473 flows.ccm <> f:173 var
+R11491:11497 stdpp.option <> default abbrev
+R11501:11502 flows.ccm <> o2:175 var
+R11476:11482 stdpp.option <> default abbrev
+R11486:11487 flows.ccm <> o1:174 var
+binder 11468:11468 <> r:178
+R11512:11515 Coq.ssr.ssreflect <> ::general_if_scope:'if'_x_'then'_x_'else'_x not
+R11530:11536 Coq.ssr.ssreflect <> ::general_if_scope:'if'_x_'then'_x_'else'_x not
+R11541:11546 Coq.ssr.ssreflect <> ::general_if_scope:'if'_x_'then'_x_'else'_x not
+R11547:11550 Coq.Init.Datatypes <> Some constr
+R11552:11552 flows.ccm <> r:178 var
+R11537:11540 Coq.Init.Datatypes <> None constr
+R11516:11521 stdpp.base <> decide def
+R11525:11527 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11528:11528 flows.ccm <> r:178 var
+prf 11719:11732 <> nzmap_merge_wf
+R11736:11744 stdpp.countable <> Countable class
+binder 11746:11746 <> K:179
+binder 11736:11746 <> H:181
+R11751:11753 flows.ccm <> CCM class
+binder 11755:11755 <> A:182
+binder 11751:11755 <> H0:183
+R11770:11774 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R11769:11769 flows.ccm <> A:182 var
+R11776:11780 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R11775:11775 flows.ccm <> A:182 var
+R11781:11781 flows.ccm <> A:182 var
+binder 11765:11765 <> f:184
+R11793:11796 stdpp.gmap <> gmap rec
+R11800:11800 flows.ccm <> A:182 var
+R11798:11798 flows.ccm <> K:179 var
+binder 11785:11786 <> m1:185
+binder 11788:11789 <> m2:186
+R11818:11822 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R11807:11814 flows.ccm <> nzmap_wf def
+R11816:11817 flows.ccm <> m1:185 var
+R11834:11838 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R11823:11830 flows.ccm <> nzmap_wf def
+R11832:11833 flows.ccm <> m2:186 var
+R11839:11846 flows.ccm <> nzmap_wf def
+R11849:11853 stdpp.base <> merge def
+R11877:11878 flows.ccm <> m2:186 var
+R11874:11875 flows.ccm <> m1:185 var
+R11856:11869 flows.ccm <> nzmap_merge_op def
+R11871:11871 flows.ccm <> f:184 var
+R11898:11905 flows.ccm <> nzmap_wf def
+R11915:11924 stdpp.fin_maps <> map_Forall def
+R11962:11973 stdpp.fin_maps <> lookup_merge meth
+R11962:11973 stdpp.fin_maps <> lookup_merge meth
+R11962:11973 stdpp.fin_maps <> lookup_merge meth
+R11991:12004 flows.ccm <> nzmap_merge_op def
+R12027:12030 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R12038:12041 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R12027:12030 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R12038:12041 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R12038:12041 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R12087:12092 stdpp.base <> decide def
+R12096:12098 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12087:12092 stdpp.base <> decide def
+R12096:12098 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12087:12092 stdpp.base <> decide def
+R12096:12098 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12087:12092 stdpp.base <> decide def
+R12096:12098 Coq.Init.Logic <> ::type_scope:x_'='_x not
+def 12141:12151 <> nzmap_merge
+R12155:12163 stdpp.countable <> Countable class
+binder 12165:12165 <> K:187
+binder 12155:12165 <> H:189
+R12170:12172 flows.ccm <> CCM class
+binder 12174:12174 <> A:190
+binder 12170:12174 <> H0:191
+R12182:12185 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R12224:12230 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R12191:12195 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R12190:12190 flows.ccm <> A:190 var
+R12197:12201 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R12196:12196 flows.ccm <> A:190 var
+R12202:12202 flows.ccm <> A:190 var
+binder 12186:12186 <> f:192
+R12215:12219 flows.ccm <> nzmap rec
+R12223:12223 flows.ccm <> A:190 var
+R12221:12221 flows.ccm <> K:187 var
+binder 12207:12208 <> m1:193
+R12215:12219 flows.ccm <> nzmap rec
+R12223:12223 flows.ccm <> A:190 var
+R12221:12221 flows.ccm <> K:187 var
+binder 12210:12211 <> m2:194
+R12248:12249 flows.ccm <> m1:193 var
+binder 12236:12237 <> m1:195
+binder 12240:12242 <> Hm1:196
+R12275:12276 flows.ccm <> m2:194 var
+binder 12263:12264 <> m2:197
+binder 12267:12269 <> Hm2:198
+R12285:12289 flows.ccm <> NZMap constr
+R12325:12340 stdpp.decidable <> bool_decide_pack thm
+R12345:12358 flows.ccm <> nzmap_merge_wf thm
+R12398:12415 stdpp.decidable <> bool_decide_unpack thm
+R12419:12421 flows.ccm <> Hm2:198 var
+R12371:12388 stdpp.decidable <> bool_decide_unpack thm
+R12392:12394 flows.ccm <> Hm1:196 var
+R12360:12360 flows.ccm <> f:192 var
+R12292:12296 stdpp.base <> merge def
+R12320:12321 flows.ccm <> m2:197 var
+R12317:12318 flows.ccm <> m1:195 var
+R12299:12312 flows.ccm <> nzmap_merge_op def
+R12314:12314 flows.ccm <> f:192 var
+def 12440:12454 <> nzmap_imerge_op
+R12458:12466 stdpp.countable <> Countable class
+binder 12468:12468 <> K:199
+binder 12458:12468 <> H:201
+R12473:12475 flows.ccm <> CCM class
+binder 12477:12477 <> A:202
+binder 12473:12477 <> H0:203
+R12486:12490 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R12485:12485 flows.ccm <> K:199 var
+R12492:12496 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R12491:12491 flows.ccm <> A:202 var
+R12498:12502 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R12497:12497 flows.ccm <> A:202 var
+R12503:12503 flows.ccm <> A:202 var
+binder 12481:12481 <> f:204
+R12511:12513 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R12533:12537 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+binder 12514:12514 <> k:205
+R12525:12530 Coq.Init.Datatypes <> option ind
+R12532:12532 flows.ccm <> A:202 var
+binder 12517:12518 <> o1:206
+R12525:12530 Coq.Init.Datatypes <> option ind
+R12532:12532 flows.ccm <> A:202 var
+binder 12520:12521 <> o2:207
+R12548:12549 flows.ccm <> o2:207 var
+R12544:12545 flows.ccm <> o1:206 var
+R12560:12563 Coq.Init.Datatypes <> None constr
+R12566:12569 Coq.Init.Datatypes <> None constr
+R12574:12577 Coq.Init.Datatypes <> None constr
+R12604:12604 flows.ccm <> f:204 var
+R12624:12630 stdpp.option <> default abbrev
+R12634:12635 flows.ccm <> o2:207 var
+R12609:12615 stdpp.option <> default abbrev
+R12619:12620 flows.ccm <> o1:206 var
+R12606:12606 flows.ccm <> k:205 var
+binder 12599:12599 <> r:210
+R12645:12648 Coq.ssr.ssreflect <> ::general_if_scope:'if'_x_'then'_x_'else'_x not
+R12663:12669 Coq.ssr.ssreflect <> ::general_if_scope:'if'_x_'then'_x_'else'_x not
+R12674:12679 Coq.ssr.ssreflect <> ::general_if_scope:'if'_x_'then'_x_'else'_x not
+R12680:12683 Coq.Init.Datatypes <> Some constr
+R12685:12685 flows.ccm <> r:210 var
+R12670:12673 Coq.Init.Datatypes <> None constr
+R12649:12654 stdpp.base <> decide def
+R12658:12660 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12661:12661 flows.ccm <> r:210 var
+prf 12702:12716 <> nzmap_imerge_wf
+R12720:12728 stdpp.countable <> Countable class
+binder 12730:12730 <> K:211
+binder 12720:12730 <> H:213
+R12735:12737 flows.ccm <> CCM class
+binder 12739:12739 <> A:214
+binder 12735:12739 <> H0:215
+R12754:12758 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R12753:12753 flows.ccm <> K:211 var
+R12760:12764 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R12759:12759 flows.ccm <> A:214 var
+R12766:12770 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R12765:12765 flows.ccm <> A:214 var
+R12771:12771 flows.ccm <> A:214 var
+binder 12749:12749 <> f:216
+R12783:12786 stdpp.gmap <> gmap rec
+R12790:12790 flows.ccm <> A:214 var
+R12788:12788 flows.ccm <> K:211 var
+binder 12775:12776 <> m1:217
+binder 12778:12779 <> m2:218
+R12808:12812 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R12797:12804 flows.ccm <> nzmap_wf def
+R12806:12807 flows.ccm <> m1:217 var
+R12824:12828 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R12813:12820 flows.ccm <> nzmap_wf def
+R12822:12823 flows.ccm <> m2:218 var
+R12829:12836 flows.ccm <> nzmap_wf def
+R12839:12849 flows.gmap_more <> gmap_imerge def
+R12874:12875 flows.ccm <> m2:218 var
+R12871:12872 flows.ccm <> m1:217 var
+R12852:12866 flows.ccm <> nzmap_imerge_op def
+R12868:12868 flows.ccm <> f:216 var
+R12895:12902 flows.ccm <> nzmap_wf def
+R12912:12921 stdpp.fin_maps <> map_Forall def
+R12959:12976 flows.gmap_more <> gmap_imerge_lookup thm
+R12959:12976 flows.gmap_more <> gmap_imerge_lookup thm
+R12959:12976 flows.gmap_more <> gmap_imerge_lookup thm
+R12994:13008 flows.ccm <> nzmap_imerge_op def
+R13031:13034 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R13042:13045 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R13068:13073 stdpp.base <> decide def
+R13077:13079 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13031:13034 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R13042:13045 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R13042:13045 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R13068:13073 stdpp.base <> decide def
+R13077:13079 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13068:13073 stdpp.base <> decide def
+R13077:13079 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13068:13073 stdpp.base <> decide def
+R13077:13079 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13068:13073 stdpp.base <> decide def
+R13077:13079 Coq.Init.Logic <> ::type_scope:x_'='_x not
+def 13145:13156 <> nzmap_imerge
+R13160:13168 stdpp.countable <> Countable class
+binder 13170:13170 <> K:219
+binder 13160:13170 <> H:221
+R13175:13177 flows.ccm <> CCM class
+binder 13179:13179 <> A:222
+binder 13175:13179 <> H0:223
+R13187:13190 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R13235:13241 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R13196:13200 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R13195:13195 flows.ccm <> K:219 var
+R13202:13206 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R13201:13201 flows.ccm <> A:222 var
+R13208:13212 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R13207:13207 flows.ccm <> A:222 var
+R13213:13213 flows.ccm <> A:222 var
+binder 13191:13191 <> f:224
+R13226:13230 flows.ccm <> nzmap rec
+R13234:13234 flows.ccm <> A:222 var
+R13232:13232 flows.ccm <> K:219 var
+binder 13218:13219 <> m1:225
+R13226:13230 flows.ccm <> nzmap rec
+R13234:13234 flows.ccm <> A:222 var
+R13232:13232 flows.ccm <> K:219 var
+binder 13221:13222 <> m2:226
+R13259:13260 flows.ccm <> m1:225 var
+binder 13247:13248 <> m1:227
+binder 13251:13253 <> Hm1:228
+R13286:13287 flows.ccm <> m2:226 var
+binder 13274:13275 <> m2:229
+binder 13278:13280 <> Hm2:230
+R13296:13300 flows.ccm <> NZMap constr
+R13343:13358 stdpp.decidable <> bool_decide_pack thm
+R13363:13377 flows.ccm <> nzmap_imerge_wf thm
+R13417:13434 stdpp.decidable <> bool_decide_unpack thm
+R13438:13440 flows.ccm <> Hm2:230 var
+R13390:13407 stdpp.decidable <> bool_decide_unpack thm
+R13411:13413 flows.ccm <> Hm1:228 var
+R13379:13379 flows.ccm <> f:224 var
+R13303:13313 flows.gmap_more <> gmap_imerge def
+R13338:13339 flows.ccm <> m2:229 var
+R13335:13336 flows.ccm <> m1:227 var
+R13316:13330 flows.ccm <> nzmap_imerge_op def
+R13332:13332 flows.ccm <> f:224 var
+prf 13453:13467 <> nzmap_delete_wf
+R13471:13479 stdpp.countable <> Countable class
+binder 13481:13481 <> K:231
+binder 13471:13481 <> H:233
+R13486:13488 flows.ccm <> CCM class
+binder 13490:13490 <> A:234
+binder 13486:13490 <> H0:235
+R13504:13504 flows.ccm <> K:231 var
+binder 13500:13500 <> i:236
+R13512:13515 stdpp.gmap <> gmap rec
+R13519:13519 flows.ccm <> A:234 var
+R13517:13517 flows.ccm <> K:231 var
+binder 13508:13508 <> m:237
+R13536:13540 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R13526:13533 flows.ccm <> nzmap_wf def
+R13535:13535 flows.ccm <> m:237 var
+R13541:13548 flows.ccm <> nzmap_wf def
+R13551:13556 stdpp.base <> delete def
+R13560:13560 flows.ccm <> m:237 var
+R13558:13558 flows.ccm <> i:236 var
+R13580:13587 flows.ccm <> nzmap_wf def
+R13590:13599 stdpp.fin_maps <> map_Forall def
+R13638:13643 stdpp.base <> decide def
+R13647:13649 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13638:13643 stdpp.base <> decide def
+R13647:13649 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13676:13688 stdpp.fin_maps <> lookup_delete thm
+R13676:13688 stdpp.fin_maps <> lookup_delete thm
+R13676:13688 stdpp.fin_maps <> lookup_delete thm
+R13729:13744 stdpp.fin_maps <> lookup_delete_ne thm
+R13729:13744 stdpp.fin_maps <> lookup_delete_ne thm
+R13729:13744 stdpp.fin_maps <> lookup_delete_ne thm
+def 13803:13814 <> nzmap_delete
+R13818:13826 stdpp.countable <> Countable class
+binder 13828:13828 <> K:238
+binder 13818:13828 <> H:240
+R13833:13835 flows.ccm <> CCM class
+binder 13837:13837 <> A:241
+binder 13833:13837 <> H0:242
+R13845:13848 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R13870:13876 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R13853:13853 flows.ccm <> K:238 var
+binder 13849:13849 <> i:243
+R13861:13865 flows.ccm <> nzmap rec
+R13869:13869 flows.ccm <> A:241 var
+R13867:13867 flows.ccm <> K:238 var
+binder 13857:13857 <> m:244
+R13892:13892 flows.ccm <> m:244 var
+binder 13882:13882 <> m:245
+binder 13885:13886 <> Hm:246
+R13901:13905 flows.ccm <> NZMap constr
+R13921:13936 stdpp.decidable <> bool_decide_pack thm
+R13941:13955 flows.ccm <> nzmap_delete_wf thm
+R13967:13984 stdpp.decidable <> bool_decide_unpack thm
+R13988:13989 flows.ccm <> Hm:246 var
+R13959:13959 flows.ccm <> m:245 var
+R13957:13957 flows.ccm <> i:243 var
+R13908:13913 stdpp.base <> delete def
+R13917:13917 flows.ccm <> m:245 var
+R13915:13915 flows.ccm <> i:243 var
+def 14012:14027 <> nzmap_delete_set
+R14031:14039 stdpp.countable <> Countable class
+binder 14041:14041 <> K:247
+binder 14031:14041 <> H:249
+R14046:14048 flows.ccm <> CCM class
+binder 14050:14050 <> A:250
+binder 14046:14050 <> H0:251
+R14058:14061 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R14087:14093 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R14065:14068 stdpp.gmap <> gset def
+R14070:14070 flows.ccm <> K:247 var
+binder 14062:14062 <> s:252
+R14078:14082 flows.ccm <> nzmap rec
+R14086:14086 flows.ccm <> A:250 var
+R14084:14084 flows.ccm <> K:247 var
+binder 14074:14074 <> m:253
+R14103:14105 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R14110:14111 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+binder 14106:14106 <> k:254
+binder 14108:14109 <> m':255
+R14112:14123 flows.ccm <> nzmap_delete def
+R14127:14128 flows.ccm <> m':255 var
+R14125:14125 flows.ccm <> k:254 var
+binder 14098:14098 <> f:256
+R14137:14144 stdpp.fin_sets <> set_fold def
+R14150:14150 flows.ccm <> s:252 var
+R14148:14148 flows.ccm <> m:253 var
+R14146:14146 flows.ccm <> f:256 var
+prf 14161:14175 <> nzmap_insert_wf
+R14179:14187 stdpp.countable <> Countable class
+binder 14189:14189 <> K:257
+binder 14179:14189 <> H:259
+R14194:14196 flows.ccm <> CCM class
+binder 14198:14198 <> A:260
+binder 14194:14198 <> H0:261
+R14212:14212 flows.ccm <> K:257 var
+binder 14208:14208 <> i:262
+R14219:14219 flows.ccm <> A:260 var
+binder 14216:14216 <> a:263
+R14228:14231 stdpp.gmap <> gmap rec
+R14235:14235 flows.ccm <> A:260 var
+R14233:14233 flows.ccm <> K:257 var
+binder 14223:14224 <> m1:264
+R14249:14253 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R14243:14247 Coq.Unicode.Utf8_core <> ::type_scope:x_'≠'_x not
+R14242:14242 flows.ccm <> a:263 var
+R14265:14269 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R14254:14261 flows.ccm <> nzmap_wf def
+R14263:14264 flows.ccm <> m1:264 var
+R14270:14277 flows.ccm <> nzmap_wf def
+R14280:14281 stdpp.base <> ::stdpp_scope:'<['_x_':='_x_']>' not
+R14283:14286 stdpp.base <> ::stdpp_scope:'<['_x_':='_x_']>' not
+R14288:14292 stdpp.base <> ::stdpp_scope:'<['_x_':='_x_']>' not
+R14282:14282 flows.ccm <> i:262 var
+R14287:14287 flows.ccm <> a:263 var
+R14291:14292 flows.ccm <> m1:264 var
+R14312:14319 flows.ccm <> nzmap_wf def
+R14322:14331 stdpp.fin_maps <> map_Forall def
+R14373:14378 stdpp.base <> decide def
+R14382:14384 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14373:14378 stdpp.base <> decide def
+R14382:14384 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14411:14423 stdpp.fin_maps <> lookup_insert thm
+R14411:14423 stdpp.fin_maps <> lookup_insert thm
+R14411:14423 stdpp.fin_maps <> lookup_insert thm
+R14478:14493 stdpp.fin_maps <> lookup_insert_ne thm
+R14478:14493 stdpp.fin_maps <> lookup_insert_ne thm
+R14478:14493 stdpp.fin_maps <> lookup_insert_ne thm
+def 14548:14559 <> nzmap_insert
+R14563:14571 stdpp.countable <> Countable class
+binder 14573:14573 <> K:265
+binder 14563:14573 <> H:267
+R14578:14580 flows.ccm <> CCM class
+binder 14582:14582 <> A:268
+binder 14578:14582 <> H0:269
+R14593:14593 flows.ccm <> K:265 var
+binder 14589:14589 <> i:270
+R14600:14600 flows.ccm <> A:268 var
+binder 14597:14597 <> a:271
+R14608:14612 flows.ccm <> nzmap rec
+R14616:14616 flows.ccm <> A:268 var
+R14614:14614 flows.ccm <> K:265 var
+binder 14604:14604 <> m:272
+R14621:14625 flows.ccm <> nzmap rec
+R14629:14629 flows.ccm <> A:268 var
+R14627:14627 flows.ccm <> K:265 var
+R14655:14655 flows.ccm <> m:272 var
+binder 14644:14645 <> gm:273
+binder 14648:14649 <> Hm:274
+R14671:14676 stdpp.base <> decide def
+R14680:14682 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14679:14679 flows.ccm <> a:271 var
+R14702:14705 Coq.Init.Specif <> left constr
+R14713:14724 flows.ccm <> nzmap_delete def
+R14728:14728 flows.ccm <> m:272 var
+R14726:14726 flows.ccm <> i:270 var
+R14736:14740 Coq.Init.Specif <> right constr
+R14748:14752 flows.ccm <> NZMap constr
+R14796:14811 stdpp.decidable <> bool_decide_pack thm
+R14816:14830 flows.ccm <> nzmap_insert_wf thm
+R14884:14901 stdpp.decidable <> bool_decide_unpack thm
+R14905:14906 flows.ccm <> Hm:274 var
+R14836:14837 flows.ccm <> gm:273 var
+R14834:14834 flows.ccm <> a:271 var
+R14832:14832 flows.ccm <> i:270 var
+R14755:14756 stdpp.base <> ::stdpp_scope:'<['_x_':='_x_']>' not
+R14758:14761 stdpp.base <> ::stdpp_scope:'<['_x_':='_x_']>' not
+R14763:14767 stdpp.base <> ::stdpp_scope:'<['_x_':='_x_']>' not
+R14757:14757 flows.ccm <> i:270 var
+R14762:14762 flows.ccm <> a:271 var
+R14766:14767 flows.ccm <> gm:273 var
+R14950:14961 flows.ccm <> nzmap_insert def
+not 14927:14927 <> :::'<<['_x_':='_x_']>>'_x
+def 14996:15011 <> nzmap_insert_map
+R15015:15023 stdpp.countable <> Countable class
+binder 15025:15025 <> K:275
+binder 15015:15025 <> H:277
+R15030:15032 flows.ccm <> CCM class
+binder 15034:15034 <> A:278
+binder 15030:15034 <> H0:279
+R15043:15046 stdpp.gmap <> gmap rec
+R15050:15050 flows.ccm <> A:278 var
+R15048:15048 flows.ccm <> K:275 var
+binder 15040:15040 <> s:280
+R15058:15062 flows.ccm <> nzmap rec
+R15066:15066 flows.ccm <> A:278 var
+R15064:15064 flows.ccm <> K:275 var
+binder 15054:15054 <> m:281
+R15085:15087 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R15094:15095 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+binder 15088:15088 <> k:282
+binder 15090:15090 <> a:283
+binder 15092:15093 <> m':284
+R15096:15098 flows.ccm <> :::'<<['_x_':='_x_']>>'_x not
+R15100:15103 flows.ccm <> :::'<<['_x_':='_x_']>>'_x not
+R15105:15108 flows.ccm <> :::'<<['_x_':='_x_']>>'_x not
+R15099:15099 flows.ccm <> k:282 var
+R15104:15104 flows.ccm <> a:283 var
+R15109:15110 flows.ccm <> m':284 var
+binder 15080:15080 <> f:285
+R15119:15126 stdpp.fin_maps <> map_fold def
+R15132:15132 flows.ccm <> s:280 var
+R15130:15130 flows.ccm <> m:281 var
+R15128:15128 flows.ccm <> f:285 var
+prf 15142:15156 <> nzmap_lookup_wf
+R15160:15168 stdpp.countable <> Countable class
+binder 15170:15170 <> K:286
+binder 15160:15170 <> H:288
+R15175:15177 flows.ccm <> CCM class
+binder 15179:15179 <> A:289
+binder 15175:15179 <> H0:290
+R15187:15190 stdpp.gmap <> gmap rec
+R15194:15194 flows.ccm <> A:289 var
+R15192:15192 flows.ccm <> K:286 var
+binder 15183:15183 <> m:291
+binder 15197:15197 <> i:292
+R15214:15218 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R15204:15211 flows.ccm <> nzmap_wf def
+R15213:15213 flows.ccm <> m:291 var
+R15225:15228 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R15220:15223 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R15224:15224 flows.ccm <> i:292 var
+R15219:15219 flows.ccm <> m:291 var
+R15229:15232 Coq.Init.Datatypes <> Some constr
+R15263:15270 flows.ccm <> nzmap_wf def
+R15273:15282 stdpp.fin_maps <> map_Forall def
+prf 15318:15334 <> nzmap_elem_of_dom
+R15338:15346 stdpp.countable <> Countable class
+binder 15348:15348 <> K:293
+binder 15338:15348 <> H:295
+R15353:15355 flows.ccm <> CCM class
+binder 15357:15357 <> A:296
+binder 15353:15357 <> H0:297
+R15365:15369 flows.ccm <> nzmap rec
+R15373:15373 flows.ccm <> A:296 var
+R15371:15371 flows.ccm <> K:293 var
+binder 15361:15361 <> m:298
+binder 15376:15376 <> i:299
+R15394:15398 Coq.Unicode.Utf8_core <> ::type_scope:x_'↔'_x not
+R15384:15388 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R15383:15383 flows.ccm <> i:299 var
+R15389:15391 stdpp.base <> dom def
+R15393:15393 flows.ccm <> m:298 var
+R15399:15405 stdpp.option <> is_Some def
+R15409:15412 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R15413:15413 flows.ccm <> i:299 var
+R15408:15408 flows.ccm <> m:298 var
+R15433:15435 stdpp.base <> dom def
+R15438:15446 flows.ccm <> nzmap_dom inst
+R15459:15469 stdpp.fin_map_dom <> elem_of_dom meth
+R15459:15469 stdpp.fin_map_dom <> elem_of_dom meth
+R15459:15469 stdpp.fin_map_dom <> elem_of_dom meth
+R15481:15486 stdpp.base <> lookup def
+R15494:15505 flows.ccm <> nzmap_lookup inst
+R15517:15525 flows.ccm <> nzmap_car proj
+prf 15570:15594 <> nzmap_lookup_total_delete
+R15598:15606 stdpp.countable <> Countable class
+binder 15608:15608 <> K:300
+binder 15598:15608 <> H:302
+R15613:15615 flows.ccm <> CCM class
+binder 15617:15617 <> A:303
+binder 15613:15617 <> H0:304
+R15630:15630 flows.ccm <> K:300 var
+binder 15626:15626 <> i:305
+R15638:15642 flows.ccm <> nzmap rec
+R15646:15646 flows.ccm <> A:303 var
+R15644:15644 flows.ccm <> K:300 var
+binder 15634:15634 <> m:306
+R15672:15674 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15666:15670 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R15671:15671 flows.ccm <> i:305 var
+R15650:15661 flows.ccm <> nzmap_delete def
+R15665:15665 flows.ccm <> m:306 var
+R15663:15663 flows.ccm <> i:305 var
+R15694:15705 stdpp.base <> lookup_total def
+R15708:15725 flows.ccm <> nzmap_lookup_total inst
+R15773:15784 flows.ccm <> nzmap_delete def
+R15797:15815 stdpp.fin_maps <> lookup_total_delete thm
+R15797:15815 stdpp.fin_maps <> lookup_total_delete thm
+R15797:15815 stdpp.fin_maps <> lookup_total_delete thm
+prf 15840:15867 <> nzmap_lookup_total_delete_ne
+R15871:15879 stdpp.countable <> Countable class
+binder 15881:15881 <> K:307
+binder 15871:15881 <> H:309
+R15886:15888 flows.ccm <> CCM class
+binder 15890:15890 <> A:310
+binder 15886:15890 <> H0:311
+R15905:15905 flows.ccm <> K:307 var
+binder 15899:15899 <> i:312
+binder 15901:15901 <> j:313
+R15913:15917 flows.ccm <> nzmap rec
+R15921:15921 flows.ccm <> A:310 var
+R15919:15919 flows.ccm <> K:307 var
+binder 15909:15909 <> m:314
+R15941:15945 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R15935:15939 Coq.Unicode.Utf8_core <> ::type_scope:x_'≠'_x not
+R15934:15934 flows.ccm <> i:312 var
+R15940:15940 flows.ccm <> j:313 var
+R15968:15970 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15962:15966 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R15967:15967 flows.ccm <> j:313 var
+R15946:15957 flows.ccm <> nzmap_delete def
+R15961:15961 flows.ccm <> m:314 var
+R15959:15959 flows.ccm <> i:312 var
+R15972:15976 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R15977:15977 flows.ccm <> j:313 var
+R15971:15971 flows.ccm <> m:314 var
+R16011:16022 stdpp.base <> lookup_total def
+R16025:16042 flows.ccm <> nzmap_lookup_total inst
+R16090:16101 flows.ccm <> nzmap_delete def
+R16114:16135 stdpp.fin_maps <> lookup_total_delete_ne thm
+R16114:16135 stdpp.fin_maps <> lookup_total_delete_ne thm
+R16114:16135 stdpp.fin_maps <> lookup_total_delete_ne thm
+prf 16160:16184 <> nzmap_lookup_total_insert
+R16188:16196 stdpp.countable <> Countable class
+binder 16198:16198 <> K:315
+binder 16188:16198 <> H:317
+R16203:16205 flows.ccm <> CCM class
+binder 16207:16207 <> A:318
+binder 16203:16207 <> H0:319
+R16220:16220 flows.ccm <> K:315 var
+binder 16216:16216 <> i:320
+R16227:16227 flows.ccm <> A:318 var
+binder 16224:16224 <> a:321
+R16235:16239 flows.ccm <> nzmap rec
+R16243:16243 flows.ccm <> A:318 var
+R16241:16241 flows.ccm <> K:315 var
+binder 16231:16231 <> m:322
+R16264:16266 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16258:16262 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R16263:16263 flows.ccm <> i:320 var
+R16247:16249 flows.ccm <> :::'<<['_x_':='_x_']>>'_x not
+R16251:16252 flows.ccm <> :::'<<['_x_':='_x_']>>'_x not
+R16254:16256 flows.ccm <> :::'<<['_x_':='_x_']>>'_x not
+R16250:16250 flows.ccm <> i:320 var
+R16253:16253 flows.ccm <> a:321 var
+R16257:16257 flows.ccm <> m:322 var
+R16267:16267 flows.ccm <> a:321 var
+R16286:16297 stdpp.base <> lookup_total def
+R16300:16317 flows.ccm <> nzmap_lookup_total inst
+R16365:16376 flows.ccm <> nzmap_insert def
+R16391:16396 stdpp.base <> decide def
+R16400:16402 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16391:16396 stdpp.base <> decide def
+R16400:16402 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16427:16445 stdpp.fin_maps <> lookup_total_delete thm
+R16427:16445 stdpp.fin_maps <> lookup_total_delete thm
+R16427:16445 stdpp.fin_maps <> lookup_total_delete thm
+R16478:16496 stdpp.fin_maps <> lookup_total_insert thm
+R16478:16496 stdpp.fin_maps <> lookup_total_insert thm
+R16478:16496 stdpp.fin_maps <> lookup_total_insert thm
+prf 16521:16548 <> nzmap_lookup_total_insert_ne
+R16552:16560 stdpp.countable <> Countable class
+binder 16562:16562 <> K:323
+binder 16552:16562 <> H:325
+R16567:16569 flows.ccm <> CCM class
+binder 16571:16571 <> A:326
+binder 16567:16571 <> H0:327
+R16586:16586 flows.ccm <> K:323 var
+binder 16580:16580 <> i:328
+binder 16582:16582 <> j:329
+R16593:16593 flows.ccm <> A:326 var
+binder 16590:16590 <> a:330
+R16601:16605 flows.ccm <> nzmap rec
+R16609:16609 flows.ccm <> A:326 var
+R16607:16607 flows.ccm <> K:323 var
+binder 16597:16597 <> m:331
+R16629:16633 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R16623:16627 Coq.Unicode.Utf8_core <> ::type_scope:x_'≠'_x not
+R16622:16622 flows.ccm <> i:328 var
+R16628:16628 flows.ccm <> j:329 var
+R16652:16654 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16646:16650 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R16651:16651 flows.ccm <> j:329 var
+R16634:16636 flows.ccm <> :::'<<['_x_':='_x_']>>'_x not
+R16638:16639 flows.ccm <> :::'<<['_x_':='_x_']>>'_x not
+R16641:16644 flows.ccm <> :::'<<['_x_':='_x_']>>'_x not
+R16637:16637 flows.ccm <> i:328 var
+R16640:16640 flows.ccm <> a:330 var
+R16645:16645 flows.ccm <> m:331 var
+R16656:16660 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R16661:16661 flows.ccm <> j:329 var
+R16655:16655 flows.ccm <> m:331 var
+R16692:16703 stdpp.base <> lookup_total def
+R16706:16723 flows.ccm <> nzmap_lookup_total inst
+R16771:16782 flows.ccm <> nzmap_insert def
+R16797:16802 stdpp.base <> decide def
+R16806:16808 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16797:16802 stdpp.base <> decide def
+R16806:16808 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16833:16854 stdpp.fin_maps <> lookup_total_delete_ne thm
+R16833:16854 stdpp.fin_maps <> lookup_total_delete_ne thm
+R16833:16854 stdpp.fin_maps <> lookup_total_delete_ne thm
+R16879:16900 stdpp.fin_maps <> lookup_total_insert_ne thm
+R16879:16900 stdpp.fin_maps <> lookup_total_insert_ne thm
+R16879:16900 stdpp.fin_maps <> lookup_total_insert_ne thm
+prf 16925:16947 <> nzmap_elem_of_dom_total
+R16951:16959 stdpp.countable <> Countable class
+binder 16961:16961 <> K:332
+binder 16951:16961 <> H:334
+R16966:16968 flows.ccm <> CCM class
+binder 16970:16970 <> A:335
+binder 16966:16970 <> H0:336
+R16978:16982 flows.ccm <> nzmap rec
+R16986:16986 flows.ccm <> A:335 var
+R16984:16984 flows.ccm <> K:332 var
+binder 16974:16974 <> m:337
+binder 16989:16989 <> i:338
+R17007:17011 Coq.Unicode.Utf8_core <> ::type_scope:x_'↔'_x not
+R16997:17001 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R16996:16996 flows.ccm <> i:338 var
+R17002:17004 stdpp.base <> dom def
+R17006:17006 flows.ccm <> m:337 var
+R17019:17022 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R17013:17017 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R17018:17018 flows.ccm <> i:338 var
+R17012:17012 flows.ccm <> m:337 var
+R17047:17057 flows.ccm <> nzmap_is_wf thm
+R17047:17057 flows.ccm <> nzmap_is_wf thm
+R17080:17091 stdpp.base <> lookup_total def
+R17094:17111 flows.ccm <> nzmap_lookup_total inst
+R17153:17169 flows.ccm <> nzmap_elem_of_dom thm
+R17153:17169 flows.ccm <> nzmap_elem_of_dom thm
+R17189:17195 stdpp.option <> is_Some def
+R17241:17252 stdpp.base <> lookup_total def
+R17255:17270 stdpp.fin_maps <> map_lookup_total inst
+R17315:17320 stdpp.base <> lookup def
+R17323:17334 flows.ccm <> nzmap_lookup inst
+R17377:17391 flows.ccm <> nzmap_lookup_wf thm
+R17377:17391 flows.ccm <> nzmap_lookup_wf thm
+R17460:17476 flows.ccm <> nzmap_elem_of_dom thm
+R17460:17476 flows.ccm <> nzmap_elem_of_dom thm
+R17460:17476 flows.ccm <> nzmap_elem_of_dom thm
+R17494:17497 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R17494:17497 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R17532:17543 stdpp.base <> lookup_total def
+R17546:17563 flows.ccm <> nzmap_lookup_total inst
+R17572:17587 stdpp.fin_maps <> map_lookup_total inst
+R17638:17643 stdpp.base <> lookup def
+R17646:17657 flows.ccm <> nzmap_lookup inst
+prf 17721:17744 <> nzmap_elem_of_dom_total2
+R17748:17756 stdpp.countable <> Countable class
+binder 17758:17758 <> K:339
+binder 17748:17758 <> H:341
+R17763:17765 flows.ccm <> CCM class
+binder 17767:17767 <> A:342
+binder 17763:17767 <> H0:343
+R17775:17779 flows.ccm <> nzmap rec
+R17783:17783 flows.ccm <> A:342 var
+R17781:17781 flows.ccm <> K:339 var
+binder 17771:17771 <> m:344
+binder 17786:17786 <> i:345
+R17804:17808 Coq.Unicode.Utf8_core <> ::type_scope:x_'↔'_x not
+R17794:17798 stdpp.base <> ::stdpp_scope:x_'∉'_x not
+R17793:17793 flows.ccm <> i:345 var
+R17799:17801 stdpp.base <> dom def
+R17803:17803 flows.ccm <> m:344 var
+R17816:17818 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17810:17814 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R17815:17815 flows.ccm <> i:345 var
+R17809:17809 flows.ccm <> m:344 var
+R17839:17861 flows.ccm <> nzmap_elem_of_dom_total thm
+R17839:17861 flows.ccm <> nzmap_elem_of_dom_total thm
+R17839:17861 flows.ccm <> nzmap_elem_of_dom_total thm
+R17887:17896 stdpp.decidable <> dec_stable thm
+R17887:17896 stdpp.decidable <> dec_stable thm
+prf 17968:17983 <> nzmap_dom_delete
+R17987:17995 stdpp.countable <> Countable class
+binder 17997:17997 <> K:346
+binder 17987:17997 <> H:348
+R18002:18004 flows.ccm <> CCM class
+binder 18006:18006 <> A:349
+binder 18002:18006 <> H0:350
+R18014:18014 flows.ccm <> K:346 var
+binder 18010:18010 <> i:351
+R18022:18026 flows.ccm <> nzmap rec
+R18030:18030 flows.ccm <> A:349 var
+R18028:18028 flows.ccm <> K:346 var
+binder 18018:18018 <> m:352
+R18059:18063 stdpp.base <> ::stdpp_scope:x_'≡'_x not
+R18037:18039 stdpp.base <> dom def
+R18042:18053 flows.ccm <> nzmap_delete def
+R18057:18057 flows.ccm <> m:352 var
+R18055:18055 flows.ccm <> i:351 var
+R18069:18073 stdpp.base <> ::stdpp_scope:x_'∖'_x not
+R18064:18066 stdpp.base <> dom def
+R18068:18068 flows.ccm <> m:352 var
+R18074:18075 stdpp.base <> ::stdpp_scope:'{['_x_']}' not
+R18077:18078 stdpp.base <> ::stdpp_scope:'{['_x_']}' not
+R18076:18076 flows.ccm <> i:351 var
+R18096:18104 stdpp.sets <> set_equiv thm
+R18096:18104 stdpp.sets <> set_equiv thm
+R18128:18145 stdpp.base <> elem_of_difference meth
+R18128:18145 stdpp.base <> elem_of_difference meth
+R18128:18145 stdpp.base <> elem_of_difference meth
+R18159:18181 flows.ccm <> nzmap_elem_of_dom_total thm
+R18159:18181 flows.ccm <> nzmap_elem_of_dom_total thm
+R18159:18181 flows.ccm <> nzmap_elem_of_dom_total thm
+R18159:18181 flows.ccm <> nzmap_elem_of_dom_total thm
+R18159:18181 flows.ccm <> nzmap_elem_of_dom_total thm
+R18198:18203 stdpp.base <> decide def
+R18207:18209 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18198:18203 stdpp.base <> decide def
+R18207:18209 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18260:18284 flows.ccm <> nzmap_lookup_total_delete thm
+R18260:18284 flows.ccm <> nzmap_lookup_total_delete thm
+R18260:18284 flows.ccm <> nzmap_lookup_total_delete thm
+R18407:18434 flows.ccm <> nzmap_lookup_total_delete_ne thm
+R18407:18434 flows.ccm <> nzmap_lookup_total_delete_ne thm
+R18407:18434 flows.ccm <> nzmap_lookup_total_delete_ne thm
+R18484:18511 flows.ccm <> nzmap_lookup_total_delete_ne thm
+R18484:18511 flows.ccm <> nzmap_lookup_total_delete_ne thm
+R18484:18511 flows.ccm <> nzmap_lookup_total_delete_ne thm
+prf 18541:18561 <> nzmap_dom_insert_zero
+R18565:18573 stdpp.countable <> Countable class
+binder 18575:18575 <> K:353
+binder 18565:18575 <> H:355
+R18580:18582 flows.ccm <> CCM class
+binder 18584:18584 <> A:356
+binder 18580:18584 <> H0:357
+R18597:18597 flows.ccm <> K:353 var
+binder 18593:18593 <> i:358
+R18604:18604 flows.ccm <> A:356 var
+binder 18601:18601 <> a:359
+R18612:18616 flows.ccm <> nzmap rec
+R18620:18620 flows.ccm <> A:356 var
+R18618:18618 flows.ccm <> K:353 var
+binder 18608:18608 <> m:360
+R18633:18637 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R18629:18631 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18628:18628 flows.ccm <> a:359 var
+R18656:18660 stdpp.base <> ::stdpp_scope:x_'≡'_x not
+R18638:18640 stdpp.base <> dom def
+R18643:18645 flows.ccm <> :::'<<['_x_':='_x_']>>'_x not
+R18647:18648 flows.ccm <> :::'<<['_x_':='_x_']>>'_x not
+R18650:18653 flows.ccm <> :::'<<['_x_':='_x_']>>'_x not
+R18646:18646 flows.ccm <> i:358 var
+R18649:18649 flows.ccm <> a:359 var
+R18654:18654 flows.ccm <> m:360 var
+R18668:18673 stdpp.base <> ::stdpp_scope:x_'∖'_x not
+R18661:18663 stdpp.base <> dom def
+R18666:18666 flows.ccm <> m:360 var
+R18674:18675 stdpp.base <> ::stdpp_scope:'{['_x_']}' not
+R18677:18678 stdpp.base <> ::stdpp_scope:'{['_x_']}' not
+R18676:18676 flows.ccm <> i:358 var
+R18708:18716 stdpp.sets <> set_equiv thm
+R18708:18716 stdpp.sets <> set_equiv thm
+R18740:18757 stdpp.base <> elem_of_difference meth
+R18740:18757 stdpp.base <> elem_of_difference meth
+R18740:18757 stdpp.base <> elem_of_difference meth
+R18772:18794 flows.ccm <> nzmap_elem_of_dom_total thm
+R18772:18794 flows.ccm <> nzmap_elem_of_dom_total thm
+R18772:18794 flows.ccm <> nzmap_elem_of_dom_total thm
+R18772:18794 flows.ccm <> nzmap_elem_of_dom_total thm
+R18772:18794 flows.ccm <> nzmap_elem_of_dom_total thm
+R18809:18814 stdpp.base <> decide def
+R18818:18820 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18809:18814 stdpp.base <> decide def
+R18818:18820 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18871:18895 flows.ccm <> nzmap_lookup_total_insert thm
+R18871:18895 flows.ccm <> nzmap_lookup_total_insert thm
+R18871:18895 flows.ccm <> nzmap_lookup_total_insert thm
+R18984:19011 flows.ccm <> nzmap_lookup_total_insert_ne thm
+R18984:19011 flows.ccm <> nzmap_lookup_total_insert_ne thm
+R18984:19011 flows.ccm <> nzmap_lookup_total_insert_ne thm
+R19107:19134 flows.ccm <> nzmap_lookup_total_insert_ne thm
+R19107:19134 flows.ccm <> nzmap_lookup_total_insert_ne thm
+R19107:19134 flows.ccm <> nzmap_lookup_total_insert_ne thm
+prf 19163:19186 <> nzmap_dom_insert_nonzero
+R19190:19198 stdpp.countable <> Countable class
+binder 19200:19200 <> K:361
+binder 19190:19200 <> H:363
+R19205:19207 flows.ccm <> CCM class
+binder 19209:19209 <> A:364
+binder 19205:19209 <> H0:365
+R19222:19222 flows.ccm <> K:361 var
+binder 19218:19218 <> i:366
+R19229:19229 flows.ccm <> A:364 var
+binder 19226:19226 <> a:367
+R19237:19241 flows.ccm <> nzmap rec
+R19245:19245 flows.ccm <> A:364 var
+R19243:19243 flows.ccm <> K:361 var
+binder 19233:19233 <> m:368
+R19262:19266 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R19256:19260 Coq.Unicode.Utf8_core <> ::type_scope:x_'≠'_x not
+R19255:19255 flows.ccm <> a:367 var
+R19285:19289 stdpp.base <> ::stdpp_scope:x_'≡'_x not
+R19267:19269 stdpp.base <> dom def
+R19272:19274 flows.ccm <> :::'<<['_x_':='_x_']>>'_x not
+R19276:19277 flows.ccm <> :::'<<['_x_':='_x_']>>'_x not
+R19279:19282 flows.ccm <> :::'<<['_x_':='_x_']>>'_x not
+R19275:19275 flows.ccm <> i:366 var
+R19278:19278 flows.ccm <> a:367 var
+R19283:19283 flows.ccm <> m:368 var
+R19295:19299 stdpp.base <> ::stdpp_scope:x_'∪'_x not
+R19290:19291 stdpp.base <> ::stdpp_scope:'{['_x_']}' not
+R19293:19294 stdpp.base <> ::stdpp_scope:'{['_x_']}' not
+R19292:19292 flows.ccm <> i:366 var
+R19300:19302 stdpp.base <> dom def
+R19305:19305 flows.ccm <> m:368 var
+R19335:19343 stdpp.sets <> set_equiv thm
+R19335:19343 stdpp.sets <> set_equiv thm
+R19364:19376 stdpp.base <> elem_of_union meth
+R19364:19376 stdpp.base <> elem_of_union meth
+R19364:19376 stdpp.base <> elem_of_union meth
+R19391:19413 flows.ccm <> nzmap_elem_of_dom_total thm
+R19391:19413 flows.ccm <> nzmap_elem_of_dom_total thm
+R19391:19413 flows.ccm <> nzmap_elem_of_dom_total thm
+R19391:19413 flows.ccm <> nzmap_elem_of_dom_total thm
+R19391:19413 flows.ccm <> nzmap_elem_of_dom_total thm
+R19428:19433 stdpp.base <> decide def
+R19437:19439 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19428:19433 stdpp.base <> decide def
+R19437:19439 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19516:19540 flows.ccm <> nzmap_lookup_total_insert thm
+R19516:19540 flows.ccm <> nzmap_lookup_total_insert thm
+R19516:19540 flows.ccm <> nzmap_lookup_total_insert thm
+R19584:19611 flows.ccm <> nzmap_lookup_total_insert_ne thm
+R19584:19611 flows.ccm <> nzmap_lookup_total_insert_ne thm
+R19584:19611 flows.ccm <> nzmap_lookup_total_insert_ne thm
+R19684:19686 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19684:19686 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19732:19759 flows.ccm <> nzmap_lookup_total_insert_ne thm
+R19732:19759 flows.ccm <> nzmap_lookup_total_insert_ne thm
+R19732:19759 flows.ccm <> nzmap_lookup_total_insert_ne thm
+prf 19785:19802 <> nzmap_empty_lookup
+R19806:19814 stdpp.countable <> Countable class
+binder 19816:19816 <> K:369
+binder 19806:19816 <> H:371
+R19821:19823 flows.ccm <> CCM class
+binder 19825:19825 <> A:372
+binder 19821:19825 <> H0:373
+R19832:19836 flows.ccm <> nzmap rec
+R19840:19840 flows.ccm <> A:372 var
+R19838:19838 flows.ccm <> K:369 var
+binder 19829:19829 <> m:374
+R19856:19860 Coq.Unicode.Utf8_core <> ::type_scope:x_'↔'_x not
+R19849:19852 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R19848:19848 flows.ccm <> m:374 var
+R19853:19855 stdpp.base <> ::stdpp_scope:'∅' not
+R19861:19864 Coq.Unicode.Utf8_core <> ::type_scope:'∃'_x_'..'_x_','_x not
+R19866:19867 Coq.Unicode.Utf8_core <> ::type_scope:'∃'_x_'..'_x_','_x not
+binder 19865:19865 <> i:375
+R19875:19878 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R19869:19873 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R19874:19874 flows.ccm <> i:375 var
+R19868:19868 flows.ccm <> m:374 var
+R19903:19913 flows.ccm <> nzmap_is_wf thm
+R19903:19913 flows.ccm <> nzmap_is_wf thm
+R19968:19980 flows.ccm <> nzmap_gmap_eq thm
+R19968:19980 flows.ccm <> nzmap_gmap_eq thm
+R19968:19980 flows.ccm <> nzmap_gmap_eq thm
+R20023:20027 stdpp.base <> empty def
+R20047:20057 flows.ccm <> nzmap_empty inst
+R20060:20069 flows.ccm <> nzmap_unit def
+R20105:20114 stdpp.fin_maps <> map_choose thm
+R20105:20114 stdpp.fin_maps <> map_choose thm
+R20170:20184 flows.ccm <> nzmap_lookup_wf thm
+R20170:20184 flows.ccm <> nzmap_lookup_wf thm
+R20247:20268 flows.ccm <> nzmap_lookup_total_alt thm
+R20247:20268 flows.ccm <> nzmap_lookup_total_alt thm
+R20247:20268 flows.ccm <> nzmap_lookup_total_alt thm
+R20282:20287 stdpp.base <> lookup def
+R20290:20301 flows.ccm <> nzmap_lookup inst
+prf 20375:20392 <> nzmap_lookup_empty
+R20396:20404 stdpp.countable <> Countable class
+binder 20406:20406 <> K:376
+binder 20396:20406 <> H:378
+R20411:20413 flows.ccm <> CCM class
+binder 20415:20415 <> A:379
+binder 20411:20415 <> H0:380
+binder 20418:20418 <> i:381
+R20445:20447 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20422:20422 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R20438:20443 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R20444:20444 flows.ccm <> i:381 var
+R20426:20428 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R20429:20433 flows.ccm <> nzmap rec
+R20437:20437 flows.ccm <> A:379 var
+R20435:20435 flows.ccm <> K:376 var
+R20423:20425 stdpp.base <> ::stdpp_scope:'∅' not
+R20467:20471 stdpp.base <> empty def
+R20474:20484 flows.ccm <> nzmap_empty inst
+R20487:20496 flows.ccm <> nzmap_unit def
+R20509:20530 flows.ccm <> nzmap_lookup_total_alt thm
+R20509:20530 flows.ccm <> nzmap_lookup_total_alt thm
+R20509:20530 flows.ccm <> nzmap_lookup_total_alt thm
+R20542:20547 stdpp.base <> lookup def
+R20550:20561 flows.ccm <> nzmap_lookup inst
+R20574:20585 stdpp.fin_maps <> lookup_empty meth
+R20574:20585 stdpp.fin_maps <> lookup_empty meth
+R20574:20585 stdpp.fin_maps <> lookup_empty meth
+ind 20608:20613 <> UnitId
+constr 20658:20664 <> unit_id
+rec 20608:20613 <> UnitId
+proj 20658:20664 <> unit_id
+binder 20615:20615 <> A:382
+R20619:20621 flows.ccm <> CCM class
+R20623:20623 flows.ccm <> A:382 var
+binder 20619:20623 <> H:383
+R20632:20636 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R20631:20631 flows.ccm <> A:382 var
+R20638:20642 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R20637:20637 flows.ccm <> A:382 var
+R20643:20643 flows.ccm <> A:382 var
+binder 20627:20627 <> f:384
+R20673:20675 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20668:20668 flows.ccm <> f:384 var
+inst 20696:20709 <> ccm_op_unit_id
+R20713:20715 flows.ccm <> CCM class
+binder 20717:20717 <> A:387
+binder 20713:20717 <> H:388
+R20722:20727 flows.ccm <> UnitId class
+R20733:20735 flows.ccm <> ::ccm_scope:'(+)' not
+R20729:20729 flows.ccm <> A:387 var
+R20754:20759 flows.ccm <> UnitId class
+R20777:20787 flows.ccm <> ccm_left_id meth
+R20777:20787 flows.ccm <> ccm_left_id meth
+R20777:20787 flows.ccm <> ccm_left_id meth
+inst 20816:20833 <> lift_opinv_unit_id
+R20837:20839 flows.ccm <> CCM class
+binder 20841:20841 <> A:389
+binder 20837:20841 <> H:390
+R20846:20851 flows.ccm <> UnitId class
+R20857:20859 flows.ccm <> ::ccm_scope:'(-)' not
+R20853:20853 flows.ccm <> A:389 var
+R20878:20883 flows.ccm <> UnitId class
+R20900:20911 flows.ccm <> ccm_right_id thm
+R20900:20911 flows.ccm <> ccm_right_id thm
+R20900:20911 flows.ccm <> ccm_right_id thm
+R20937:20944 flows.ccm <> ccm_pinv meth
+R20937:20944 flows.ccm <> ccm_pinv meth
+R20937:20944 flows.ccm <> ccm_pinv meth
+prf 20964:20981 <> nzmap_lookup_merge
+R20985:20993 stdpp.countable <> Countable class
+binder 20995:20995 <> K:391
+binder 20985:20995 <> H:393
+R21000:21005 flows.ccm <> UnitId class
+binder 21007:21007 <> A:394
+binder 21009:21009 <> f:396
+binder 21000:21009 <> H1:397
+R21021:21025 flows.ccm <> nzmap rec
+R21029:21029 flows.ccm <> A:394 var
+R21027:21027 flows.ccm <> K:391 var
+binder 21013:21014 <> m1:398
+binder 21016:21017 <> m2:399
+R21037:21037 flows.ccm <> K:391 var
+binder 21033:21033 <> k:400
+R21069:21071 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21063:21067 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R21068:21068 flows.ccm <> k:400 var
+R21044:21054 flows.ccm <> nzmap_merge def
+R21061:21062 flows.ccm <> m2:399 var
+R21058:21059 flows.ccm <> m1:398 var
+R21056:21056 flows.ccm <> f:396 var
+R21072:21072 flows.ccm <> f:396 var
+R21077:21081 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R21082:21082 flows.ccm <> k:400 var
+R21075:21076 flows.ccm <> m1:398 var
+R21088:21092 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R21093:21093 flows.ccm <> k:400 var
+R21086:21087 flows.ccm <> m2:399 var
+R21113:21123 flows.ccm <> nzmap_merge def
+R21126:21143 flows.ccm <> nzmap_lookup_total inst
+R21146:21151 stdpp.base <> lookup def
+R21154:21165 flows.ccm <> nzmap_lookup inst
+R21179:21200 flows.ccm <> nzmap_lookup_total_alt thm
+R21179:21200 flows.ccm <> nzmap_lookup_total_alt thm
+R21179:21200 flows.ccm <> nzmap_lookup_total_alt thm
+R21179:21200 flows.ccm <> nzmap_lookup_total_alt thm
+R21179:21200 flows.ccm <> nzmap_lookup_total_alt thm
+R21179:21200 flows.ccm <> nzmap_lookup_total_alt thm
+R21212:21217 stdpp.base <> lookup def
+R21220:21231 flows.ccm <> nzmap_lookup inst
+R21262:21275 flows.ccm <> nzmap_merge_op def
+R21288:21299 stdpp.fin_maps <> lookup_merge meth
+R21288:21299 stdpp.fin_maps <> lookup_merge meth
+R21288:21299 stdpp.fin_maps <> lookup_merge meth
+R21324:21327 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R21360:21363 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R21410:21415 stdpp.base <> decide def
+R21419:21421 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21324:21327 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R21360:21363 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R21360:21363 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R21410:21415 stdpp.base <> decide def
+R21419:21421 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21410:21415 stdpp.base <> decide def
+R21419:21421 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21410:21415 stdpp.base <> decide def
+R21419:21421 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21410:21415 stdpp.base <> decide def
+R21419:21421 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21490:21495 flows.ccm <> UnitId class
+prf 21545:21563 <> nzmap_lookup_imerge
+R21567:21575 stdpp.countable <> Countable class
+binder 21577:21577 <> K:401
+binder 21567:21577 <> H:403
+R21582:21584 flows.ccm <> CCM class
+binder 21586:21586 <> A:404
+binder 21582:21586 <> H0:405
+R21591:21594 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R21600:21601 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R21599:21599 flows.ccm <> K:401 var
+binder 21595:21595 <> k:406
+R21602:21607 flows.ccm <> UnitId class
+R21616:21616 flows.ccm <> k:406 var
+R21609:21609 flows.ccm <> A:404 var
+binder 21614:21614 <> f:407
+binder 21591:21617 <> H1:408
+R21632:21636 flows.ccm <> nzmap rec
+R21640:21640 flows.ccm <> A:404 var
+R21638:21638 flows.ccm <> K:401 var
+binder 21624:21625 <> m1:409
+binder 21627:21628 <> m2:410
+R21648:21648 flows.ccm <> K:401 var
+binder 21644:21644 <> k:411
+R21681:21683 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21675:21679 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R21680:21680 flows.ccm <> k:411 var
+R21655:21666 flows.ccm <> nzmap_imerge def
+R21673:21674 flows.ccm <> m2:410 var
+R21670:21671 flows.ccm <> m1:409 var
+R21668:21668 flows.ccm <> f:407 var
+R21684:21684 flows.ccm <> f:407 var
+R21686:21686 flows.ccm <> k:411 var
+R21691:21695 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R21696:21696 flows.ccm <> k:411 var
+R21689:21690 flows.ccm <> m1:409 var
+R21702:21706 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R21707:21707 flows.ccm <> k:411 var
+R21700:21701 flows.ccm <> m2:410 var
+R21727:21738 flows.ccm <> nzmap_imerge def
+R21741:21758 flows.ccm <> nzmap_lookup_total inst
+R21761:21766 stdpp.base <> lookup def
+R21769:21780 flows.ccm <> nzmap_lookup inst
+R21794:21815 flows.ccm <> nzmap_lookup_total_alt thm
+R21794:21815 flows.ccm <> nzmap_lookup_total_alt thm
+R21794:21815 flows.ccm <> nzmap_lookup_total_alt thm
+R21794:21815 flows.ccm <> nzmap_lookup_total_alt thm
+R21794:21815 flows.ccm <> nzmap_lookup_total_alt thm
+R21794:21815 flows.ccm <> nzmap_lookup_total_alt thm
+R21827:21832 stdpp.base <> lookup def
+R21835:21846 flows.ccm <> nzmap_lookup inst
+R21879:21893 flows.ccm <> nzmap_imerge_op def
+R21906:21923 flows.gmap_more <> gmap_imerge_lookup thm
+R21906:21923 flows.gmap_more <> gmap_imerge_lookup thm
+R21906:21923 flows.gmap_more <> gmap_imerge_lookup thm
+R21959:21962 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R21995:21998 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R22045:22050 stdpp.base <> decide def
+R22054:22056 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21959:21962 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R21995:21998 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R21995:21998 stdpp.base <> ::stdpp_scope:x_'!!'_x not
+R22045:22050 stdpp.base <> decide def
+R22054:22056 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22045:22050 stdpp.base <> decide def
+R22054:22056 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22045:22050 stdpp.base <> decide def
+R22054:22056 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22045:22050 stdpp.base <> decide def
+R22054:22056 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22125:22130 flows.ccm <> UnitId class
+prf 22180:22197 <> nzmap_imerge_empty
+binder 22200:22200 <> A:412
+R22205:22213 stdpp.countable <> Countable class
+binder 22215:22215 <> K:413
+binder 22205:22215 <> H:415
+R22220:22222 flows.ccm <> CCM class
+R22224:22224 flows.ccm <> A:412 var
+binder 22220:22224 <> H0:416
+R22229:22232 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R22238:22239 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R22237:22237 flows.ccm <> K:413 var
+binder 22233:22233 <> k:417
+R22240:22245 flows.ccm <> UnitId class
+R22254:22254 flows.ccm <> k:417 var
+R22247:22247 flows.ccm <> A:412 var
+binder 22252:22252 <> f:418
+binder 22229:22255 <> H1:419
+R22266:22266 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22287:22291 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22267:22270 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R22274:22275 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+binder 22271:22271 <> i:420
+binder 22273:22273 <> y:421
+R22283:22285 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22276:22276 flows.ccm <> f:418 var
+R22278:22278 flows.ccm <> i:420 var
+R22280:22280 flows.ccm <> y:421 var
+R22286:22286 flows.ccm <> y:421 var
+R22292:22295 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R22297:22298 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+binder 22296:22296 <> m:422
+R22319:22321 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22299:22310 flows.ccm <> nzmap_imerge def
+R22316:22318 stdpp.base <> ::stdpp_scope:'∅' not
+R22314:22314 flows.ccm <> m:422 var
+R22312:22312 flows.ccm <> f:418 var
+R22322:22322 flows.ccm <> m:422 var
+R22350:22357 flows.ccm <> nzmap_eq thm
+R22350:22357 flows.ccm <> nzmap_eq thm
+R22380:22398 flows.ccm <> nzmap_lookup_imerge thm
+R22380:22398 flows.ccm <> nzmap_lookup_imerge thm
+R22380:22398 flows.ccm <> nzmap_lookup_imerge thm
+R22410:22427 flows.ccm <> nzmap_lookup_total inst
+R22445:22462 flows.ccm <> nzmap_lookup_empty thm
+R22445:22462 flows.ccm <> nzmap_lookup_empty thm
+R22445:22462 flows.ccm <> nzmap_lookup_empty thm
+def 22492:22500 <> nzmap_map
+R22504:22512 stdpp.countable <> Countable class
+binder 22514:22514 <> K:423
+binder 22504:22514 <> H:425
+R22519:22521 flows.ccm <> CCM class
+binder 22523:22523 <> A:426
+binder 22519:22523 <> H0:427
+R22532:22535 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22531:22531 flows.ccm <> K:423 var
+R22537:22540 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22536:22536 flows.ccm <> A:426 var
+R22541:22541 flows.ccm <> A:426 var
+binder 22527:22527 <> f:428
+R22548:22548 flows.ccm <> K:423 var
+binder 22545:22545 <> k:429
+R22555:22559 flows.ccm <> nzmap rec
+R22563:22563 flows.ccm <> A:426 var
+R22561:22561 flows.ccm <> K:423 var
+binder 22552:22552 <> m:430
+R22568:22572 flows.ccm <> nzmap rec
+R22576:22576 flows.ccm <> A:426 var
+R22574:22574 flows.ccm <> K:423 var
+R22583:22586 flows.ccm <> :::'<<['_x_':='_x_']>>'_x not
+R22588:22591 flows.ccm <> :::'<<['_x_':='_x_']>>'_x not
+R22605:22609 flows.ccm <> :::'<<['_x_':='_x_']>>'_x not
+R22587:22587 flows.ccm <> k:429 var
+R22592:22592 flows.ccm <> f:428 var
+R22598:22602 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R22603:22603 flows.ccm <> k:429 var
+R22597:22597 flows.ccm <> m:430 var
+R22594:22594 flows.ccm <> k:429 var
+R22610:22610 flows.ccm <> m:430 var
+prf 22620:22641 <> nzmap_lookup_total_map
+R22645:22653 stdpp.countable <> Countable class
+binder 22655:22655 <> K:431
+binder 22645:22655 <> H:433
+R22660:22662 flows.ccm <> CCM class
+binder 22664:22664 <> A:434
+binder 22660:22664 <> H0:435
+binder 22667:22667 <> f:436
+binder 22669:22669 <> k:437
+R22675:22679 flows.ccm <> nzmap rec
+R22683:22683 flows.ccm <> A:434 var
+R22681:22681 flows.ccm <> K:431 var
+binder 22672:22672 <> m:438
+R22715:22717 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22709:22713 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R22714:22714 flows.ccm <> k:437 var
+R22694:22702 flows.ccm <> nzmap_map def
+R22708:22708 flows.ccm <> m:438 var
+R22706:22706 flows.ccm <> k:437 var
+R22704:22704 flows.ccm <> f:436 var
+R22718:22718 flows.ccm <> f:436 var
+R22720:22720 flows.ccm <> k:437 var
+R22724:22728 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R22729:22729 flows.ccm <> k:437 var
+R22723:22723 flows.ccm <> m:438 var
+R22749:22757 flows.ccm <> nzmap_map def
+R22770:22794 flows.ccm <> nzmap_lookup_total_insert thm
+R22770:22794 flows.ccm <> nzmap_lookup_total_insert thm
+R22770:22794 flows.ccm <> nzmap_lookup_total_insert thm
+def 22825:22837 <> nzmap_map_set
+R22841:22849 stdpp.countable <> Countable class
+binder 22851:22851 <> K:439
+binder 22841:22851 <> H:441
+R22856:22858 flows.ccm <> CCM class
+binder 22860:22860 <> A:442
+binder 22856:22860 <> H0:443
+binder 22863:22863 <> f:444
+R22869:22872 stdpp.gmap <> gset def
+R22874:22874 flows.ccm <> K:439 var
+binder 22866:22866 <> s:445
+R22882:22886 flows.ccm <> nzmap rec
+R22890:22890 flows.ccm <> A:442 var
+R22888:22888 flows.ccm <> K:439 var
+binder 22878:22878 <> m:446
+R22895:22899 flows.ccm <> nzmap rec
+R22903:22903 flows.ccm <> A:442 var
+R22901:22901 flows.ccm <> K:439 var
+R22919:22921 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R22926:22927 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+binder 22922:22922 <> k:447
+binder 22924:22925 <> m':448
+R22928:22936 flows.ccm <> nzmap_map def
+R22942:22943 flows.ccm <> m':448 var
+R22940:22940 flows.ccm <> k:447 var
+R22938:22938 flows.ccm <> f:444 var
+binder 22914:22914 <> g:449
+R22950:22957 stdpp.fin_sets <> set_fold def
+R22963:22963 flows.ccm <> s:445 var
+R22961:22961 flows.ccm <> m:446 var
+R22959:22959 flows.ccm <> g:449 var
+prf 22974:23003 <> nzmap_lookup_total_map_set_aux
+R23007:23015 stdpp.countable <> Countable class
+binder 23017:23017 <> K:450
+binder 23007:23017 <> H:452
+R23022:23024 flows.ccm <> CCM class
+binder 23026:23026 <> A:453
+binder 23022:23026 <> H0:454
+binder 23029:23029 <> f:455
+binder 23031:23031 <> s:456
+R23038:23042 flows.ccm <> nzmap rec
+R23046:23046 flows.ccm <> A:453 var
+R23044:23044 flows.ccm <> K:450 var
+binder 23034:23034 <> m:457
+R23057:23060 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R23062:23063 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+binder 23061:23061 <> k:458
+R23064:23064 Coq.Unicode.Utf8_core <> ::type_scope:x_'∧'_x not
+R23118:23133 Coq.Unicode.Utf8_core <> ::type_scope:x_'∧'_x not
+R23181:23181 Coq.Unicode.Utf8_core <> ::type_scope:x_'∧'_x not
+R23072:23076 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R23066:23070 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R23065:23065 flows.ccm <> k:458 var
+R23071:23071 flows.ccm <> s:456 var
+R23102:23104 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23096:23100 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R23101:23101 flows.ccm <> k:458 var
+R23077:23089 flows.ccm <> nzmap_map_set def
+R23095:23095 flows.ccm <> m:457 var
+R23093:23093 flows.ccm <> s:456 var
+R23091:23091 flows.ccm <> f:455 var
+R23105:23105 flows.ccm <> f:455 var
+R23107:23107 flows.ccm <> k:458 var
+R23111:23115 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R23116:23116 flows.ccm <> k:458 var
+R23110:23110 flows.ccm <> m:457 var
+R23141:23145 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R23135:23139 stdpp.base <> ::stdpp_scope:x_'∉'_x not
+R23134:23134 flows.ccm <> k:458 var
+R23140:23140 flows.ccm <> s:456 var
+R23171:23173 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23165:23169 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R23170:23170 flows.ccm <> k:458 var
+R23146:23158 flows.ccm <> nzmap_map_set def
+R23164:23164 flows.ccm <> m:457 var
+R23162:23162 flows.ccm <> s:456 var
+R23160:23160 flows.ccm <> f:455 var
+R23175:23179 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R23180:23180 flows.ccm <> k:458 var
+R23174:23174 flows.ccm <> m:457 var
+R23205:23208 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R23234:23256 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R23213:23217 flows.ccm <> nzmap rec
+binder 23209:23210 <> m':459
+R23228:23231 stdpp.gmap <> gset def
+binder 23225:23225 <> X:460
+R23257:23260 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R23262:23263 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+binder 23261:23261 <> x:461
+R23264:23264 Coq.Unicode.Utf8_core <> ::type_scope:x_'∧'_x not
+R23301:23330 Coq.Unicode.Utf8_core <> ::type_scope:x_'∧'_x not
+R23361:23361 Coq.Unicode.Utf8_core <> ::type_scope:x_'∧'_x not
+R23272:23276 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R23266:23270 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R23265:23265 flows.ccm <> x:461 var
+R23271:23271 flows.ccm <> X:460 var
+R23285:23287 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23279:23283 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R23284:23284 flows.ccm <> x:461 var
+R23277:23278 flows.ccm <> m':459 var
+R23290:23290 flows.ccm <> x:461 var
+R23294:23298 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R23299:23299 flows.ccm <> x:461 var
+R23338:23342 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R23332:23336 stdpp.base <> ::stdpp_scope:x_'∉'_x not
+R23331:23331 flows.ccm <> x:461 var
+R23337:23337 flows.ccm <> X:460 var
+R23351:23353 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23345:23349 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R23350:23350 flows.ccm <> x:461 var
+R23343:23344 flows.ccm <> m':459 var
+R23355:23359 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R23360:23360 flows.ccm <> x:461 var
+R23205:23208 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R23234:23256 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R23213:23217 flows.ccm <> nzmap rec
+binder 23209:23210 <> m':462
+R23228:23231 stdpp.gmap <> gset def
+binder 23225:23225 <> X:463
+R23257:23260 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R23262:23263 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+binder 23261:23261 <> x:464
+R23264:23264 Coq.Unicode.Utf8_core <> ::type_scope:x_'∧'_x not
+R23301:23330 Coq.Unicode.Utf8_core <> ::type_scope:x_'∧'_x not
+R23361:23361 Coq.Unicode.Utf8_core <> ::type_scope:x_'∧'_x not
+R23272:23276 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R23266:23270 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R23265:23265 flows.ccm <> x:464 var
+R23271:23271 flows.ccm <> X:463 var
+R23285:23287 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23279:23283 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R23284:23284 flows.ccm <> x:464 var
+R23277:23278 flows.ccm <> m':462 var
+R23290:23290 flows.ccm <> x:464 var
+R23294:23298 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R23299:23299 flows.ccm <> x:464 var
+R23338:23342 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R23332:23336 stdpp.base <> ::stdpp_scope:x_'∉'_x not
+R23331:23331 flows.ccm <> x:464 var
+R23337:23337 flows.ccm <> X:463 var
+R23351:23353 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23345:23349 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R23350:23350 flows.ccm <> x:464 var
+R23343:23344 flows.ccm <> m':462 var
+R23355:23359 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R23360:23360 flows.ccm <> x:464 var
+R23377:23390 stdpp.fin_sets <> set_fold_ind_L thm
+R23377:23390 stdpp.fin_sets <> set_fold_ind_L thm
+R23489:23494 stdpp.base <> decide def
+R23499:23501 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23489:23494 stdpp.base <> decide def
+R23499:23501 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23557:23581 flows.ccm <> nzmap_lookup_total_insert thm
+R23557:23581 flows.ccm <> nzmap_lookup_total_insert thm
+R23557:23581 flows.ccm <> nzmap_lookup_total_insert thm
+R23660:23664 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R23660:23664 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R23712:23716 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R23712:23716 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R23785:23812 flows.ccm <> nzmap_lookup_total_insert_ne thm
+R23785:23812 flows.ccm <> nzmap_lookup_total_insert_ne thm
+R23785:23812 flows.ccm <> nzmap_lookup_total_insert_ne thm
+R23849:23853 stdpp.base <> ::stdpp_scope:x_'∉'_x not
+R23849:23853 stdpp.base <> ::stdpp_scope:x_'∉'_x not
+R23924:23951 flows.ccm <> nzmap_lookup_total_insert_ne thm
+R23924:23951 flows.ccm <> nzmap_lookup_total_insert_ne thm
+R23924:23951 flows.ccm <> nzmap_lookup_total_insert_ne thm
+prf 23984:24009 <> nzmap_lookup_total_map_set
+R24013:24021 stdpp.countable <> Countable class
+binder 24023:24023 <> K:465
+binder 24013:24023 <> H:467
+R24028:24030 flows.ccm <> CCM class
+binder 24032:24032 <> A:468
+binder 24028:24032 <> H0:469
+binder 24035:24035 <> f:470
+binder 24037:24037 <> k:471
+binder 24039:24039 <> s:472
+R24046:24050 flows.ccm <> nzmap rec
+R24054:24054 flows.ccm <> A:468 var
+R24052:24052 flows.ccm <> K:465 var
+binder 24042:24042 <> m:473
+R24072:24076 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R24066:24070 stdpp.base <> ::stdpp_scope:x_'∈'_x not
+R24065:24065 flows.ccm <> k:471 var
+R24071:24071 flows.ccm <> s:472 var
+R24102:24104 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24096:24100 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R24101:24101 flows.ccm <> k:471 var
+R24077:24089 flows.ccm <> nzmap_map_set def
+R24095:24095 flows.ccm <> m:473 var
+R24093:24093 flows.ccm <> s:472 var
+R24091:24091 flows.ccm <> f:470 var
+R24105:24105 flows.ccm <> f:470 var
+R24107:24107 flows.ccm <> k:471 var
+R24111:24115 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R24116:24116 flows.ccm <> k:471 var
+R24110:24110 flows.ccm <> m:473 var
+R24135:24164 flows.ccm <> nzmap_lookup_total_map_set_aux thm
+R24135:24164 flows.ccm <> nzmap_lookup_total_map_set_aux thm
+prf 24179:24207 <> nzmap_lookup_total_map_set_ne
+R24211:24219 stdpp.countable <> Countable class
+binder 24221:24221 <> K:474
+binder 24211:24221 <> H:476
+R24226:24228 flows.ccm <> CCM class
+binder 24230:24230 <> A:477
+binder 24226:24230 <> H0:478
+binder 24233:24233 <> f:479
+binder 24235:24235 <> k:480
+binder 24237:24237 <> s:481
+R24244:24248 flows.ccm <> nzmap rec
+R24252:24252 flows.ccm <> A:477 var
+R24250:24250 flows.ccm <> K:474 var
+binder 24240:24240 <> m:482
+R24270:24274 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R24264:24268 stdpp.base <> ::stdpp_scope:x_'∉'_x not
+R24263:24263 flows.ccm <> k:480 var
+R24269:24269 flows.ccm <> s:481 var
+R24300:24302 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24294:24298 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R24299:24299 flows.ccm <> k:480 var
+R24275:24287 flows.ccm <> nzmap_map_set def
+R24293:24293 flows.ccm <> m:482 var
+R24291:24291 flows.ccm <> s:481 var
+R24289:24289 flows.ccm <> f:479 var
+R24304:24308 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R24309:24309 flows.ccm <> k:480 var
+R24303:24303 flows.ccm <> m:482 var
+R24327:24356 flows.ccm <> nzmap_lookup_total_map_set_aux thm
+R24327:24356 flows.ccm <> nzmap_lookup_total_map_set_aux thm
+sec 28760:28766 <> lifting
+binder 28779:28779 <> K:483
+R28783:28791 stdpp.countable <> Countable class
+R28793:28793 flows.ccm <> K:483 var
+binder 28783:28793 <> H:485
+binder 28796:28796 <> A:486
+R28800:28802 flows.ccm <> CCM class
+R28804:28804 flows.ccm <> A:486 var
+binder 28800:28804 <> H0:487
+inst 28981:28989 <> lift_unit
+R28993:28999 flows.ccm <> CcmUnit class
+R29002:29006 flows.ccm <> nzmap rec
+R29010:29010 flows.ccm <> lifting.A var
+R29008:29008 flows.ccm <> lifting.K var
+R29016:29025 flows.ccm <> nzmap_unit def
+inst 29104:29110 <> lift_op
+R29114:29118 flows.ccm <> CcmOp class
+R29121:29125 flows.ccm <> nzmap rec
+R29129:29129 flows.ccm <> lifting.A var
+R29127:29127 flows.ccm <> lifting.K var
+R29135:29137 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R29143:29148 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+binder 29138:29139 <> m1:488
+binder 29141:29142 <> m2:489
+R29149:29159 flows.ccm <> nzmap_merge def
+R29168:29169 flows.ccm <> m2:489 var
+R29165:29166 flows.ccm <> m1:488 var
+R29161:29163 flows.ccm <> ::ccm_scope:'(+)' not
+inst 29191:29200 <> lift_opinv
+R29204:29211 flows.ccm <> CcmOpInv class
+R29214:29218 flows.ccm <> nzmap rec
+R29222:29222 flows.ccm <> lifting.A var
+R29220:29220 flows.ccm <> lifting.K var
+R29228:29230 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+R29236:29241 Coq.Unicode.Utf8_core <> :::'λ'_x_'..'_x_','_x not
+binder 29231:29232 <> m1:490
+binder 29234:29235 <> m2:491
+R29242:29252 flows.ccm <> nzmap_merge def
+R29261:29262 flows.ccm <> m2:491 var
+R29258:29259 flows.ccm <> m1:490 var
+R29254:29256 flows.ccm <> ::ccm_scope:'(-)' not
+inst 29328:29336 <> lift_comm
+R29339:29342 stdpp.base <> Comm class
+R29348:29354 flows.ccm <> lift_op inst
+R29344:29346 stdpp.base <> ::stdpp_scope:'(=)' not
+R29377:29380 stdpp.base <> Comm class
+R29383:29389 flows.ccm <> lift_op inst
+R29414:29421 flows.ccm <> nzmap_eq thm
+R29414:29421 flows.ccm <> nzmap_eq thm
+R29455:29472 flows.ccm <> nzmap_lookup_merge thm
+R29455:29472 flows.ccm <> nzmap_lookup_merge thm
+R29455:29472 flows.ccm <> nzmap_lookup_merge thm
+R29455:29472 flows.ccm <> nzmap_lookup_merge thm
+R29455:29472 flows.ccm <> nzmap_lookup_merge thm
+R29455:29472 flows.ccm <> nzmap_lookup_merge thm
+R29455:29472 flows.ccm <> nzmap_lookup_merge thm
+R29485:29492 flows.ccm <> ccm_comm meth
+R29485:29492 flows.ccm <> ccm_comm meth
+inst 29521:29530 <> lift_assoc
+R29533:29537 stdpp.base <> Assoc class
+R29543:29549 flows.ccm <> lift_op inst
+R29539:29541 stdpp.base <> ::stdpp_scope:'(=)' not
+R29572:29576 stdpp.base <> Assoc class
+R29579:29585 flows.ccm <> lift_op inst
+R29610:29617 flows.ccm <> nzmap_eq thm
+R29610:29617 flows.ccm <> nzmap_eq thm
+R29651:29668 flows.ccm <> nzmap_lookup_merge thm
+R29651:29668 flows.ccm <> nzmap_lookup_merge thm
+R29651:29668 flows.ccm <> nzmap_lookup_merge thm
+R29651:29668 flows.ccm <> nzmap_lookup_merge thm
+R29651:29668 flows.ccm <> nzmap_lookup_merge thm
+R29651:29668 flows.ccm <> nzmap_lookup_merge thm
+R29651:29668 flows.ccm <> nzmap_lookup_merge thm
+R29651:29668 flows.ccm <> nzmap_lookup_merge thm
+R29651:29668 flows.ccm <> nzmap_lookup_merge thm
+R29651:29668 flows.ccm <> nzmap_lookup_merge thm
+R29651:29668 flows.ccm <> nzmap_lookup_merge thm
+R29681:29689 flows.ccm <> ccm_assoc meth
+R29681:29689 flows.ccm <> ccm_assoc meth
+inst 29724:29734 <> lift_leftid
+R29737:29742 stdpp.base <> LeftId class
+R29750:29756 flows.ccm <> lift_op inst
+R29744:29746 stdpp.base <> ::stdpp_scope:'(=)' not
+R29779:29784 stdpp.base <> LeftId class
+R29787:29793 flows.ccm <> lift_op inst
+R29820:29827 flows.ccm <> nzmap_eq thm
+R29820:29827 flows.ccm <> nzmap_eq thm
+R29820:29827 flows.ccm <> nzmap_eq thm
+R29854:29871 flows.ccm <> nzmap_lookup_merge thm
+R29854:29871 flows.ccm <> nzmap_lookup_merge thm
+R29854:29871 flows.ccm <> nzmap_lookup_merge thm
+R29884:29894 flows.ccm <> ccm_left_id meth
+R29884:29894 flows.ccm <> ccm_left_id meth
+inst 29927:29937 <> lift_cancel
+R29940:29950 flows.ccm <> Cancelative class
+R29956:29962 flows.ccm <> lift_op inst
+R29952:29954 stdpp.base <> ::stdpp_scope:'(=)' not
+R29985:29995 flows.ccm <> Cancelative class
+R29998:30004 flows.ccm <> lift_op inst
+R30029:30036 flows.ccm <> nzmap_eq thm
+R30029:30036 flows.ccm <> nzmap_eq thm
+R30063:30070 flows.ccm <> nzmap_eq thm
+R30063:30070 flows.ccm <> nzmap_eq thm
+R30063:30070 flows.ccm <> nzmap_eq thm
+R30135:30152 flows.ccm <> nzmap_lookup_merge thm
+R30135:30152 flows.ccm <> nzmap_lookup_merge thm
+R30135:30152 flows.ccm <> nzmap_lookup_merge thm
+R30135:30152 flows.ccm <> nzmap_lookup_merge thm
+R30135:30152 flows.ccm <> nzmap_lookup_merge thm
+R30135:30152 flows.ccm <> nzmap_lookup_merge thm
+R30135:30152 flows.ccm <> nzmap_lookup_merge thm
+R30171:30180 flows.ccm <> ccm_cancel meth
+R30171:30180 flows.ccm <> ccm_cancel meth
+inst 30232:30240 <> lift_pinv
+R30243:30252 flows.ccm <> PartialInv class
+R30266:30275 flows.ccm <> lift_opinv inst
+R30258:30264 flows.ccm <> lift_op inst
+R30254:30256 stdpp.base <> ::stdpp_scope:'(=)' not
+R30298:30307 flows.ccm <> PartialInv class
+R30332:30339 flows.ccm <> nzmap_eq thm
+R30332:30339 flows.ccm <> nzmap_eq thm
+R30373:30390 flows.ccm <> nzmap_lookup_merge thm
+R30373:30390 flows.ccm <> nzmap_lookup_merge thm
+R30373:30390 flows.ccm <> nzmap_lookup_merge thm
+R30373:30390 flows.ccm <> nzmap_lookup_merge thm
+R30373:30390 flows.ccm <> nzmap_lookup_merge thm
+R30373:30390 flows.ccm <> nzmap_lookup_merge thm
+R30373:30390 flows.ccm <> nzmap_lookup_merge thm
+R30403:30410 flows.ccm <> ccm_pinv meth
+R30403:30410 flows.ccm <> ccm_pinv meth
+inst 30453:30460 <> lift_ccm
+R30464:30466 flows.ccm <> CCM class
+R30469:30473 flows.ccm <> nzmap rec
+R30477:30477 flows.ccm <> lifting.A var
+R30475:30475 flows.ccm <> lifting.K var
+R30510:30514 flows.ccm <> nzmap rec
+R30518:30518 flows.ccm <> lifting.A var
+R30516:30516 flows.ccm <> lifting.K var
+prf 30586:30605 <> lookup_total_lifting
+binder 30607:30608 <> m1:492
+binder 30610:30611 <> m2:493
+binder 30613:30613 <> i:494
+R30632:30634 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30617:30617 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R30625:30630 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R30631:30631 flows.ccm <> i:494 var
+R30620:30622 flows.ccm <> ::ccm_scope:x_'+'_x not
+R30618:30619 flows.ccm <> m1:492 var
+R30623:30624 flows.ccm <> m2:493 var
+R30643:30645 flows.ccm <> ::ccm_scope:x_'+'_x not
+R30637:30641 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R30642:30642 flows.ccm <> i:494 var
+R30635:30636 flows.ccm <> m1:492 var
+R30648:30652 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R30653:30653 flows.ccm <> i:494 var
+R30646:30647 flows.ccm <> m2:493 var
+R30676:30681 flows.ccm <> ccm_op meth
+R30683:30687 flows.ccm <> ccmop def
+R30706:30712 flows.ccm <> lift_op inst
+R30725:30742 flows.ccm <> nzmap_lookup_merge thm
+R30725:30742 flows.ccm <> nzmap_lookup_merge thm
+prf 30761:30784 <> lookup_total_lifting_inv
+binder 30786:30787 <> m1:495
+binder 30789:30790 <> m2:496
+binder 30792:30792 <> i:497
+R30811:30813 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30796:30796 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R30804:30809 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R30810:30810 flows.ccm <> i:497 var
+R30799:30801 flows.ccm <> ::ccm_scope:x_'-'_x not
+R30797:30798 flows.ccm <> m1:495 var
+R30802:30803 flows.ccm <> m2:496 var
+R30822:30824 flows.ccm <> ::ccm_scope:x_'-'_x not
+R30816:30820 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R30821:30821 flows.ccm <> i:497 var
+R30814:30815 flows.ccm <> m1:495 var
+R30827:30831 stdpp.base <> ::stdpp_scope:x_'!!!'_x not
+R30832:30832 flows.ccm <> i:497 var
+R30825:30826 flows.ccm <> m2:496 var
+R30855:30863 flows.ccm <> ccm_opinv meth
+R30865:30873 flows.ccm <> ccmop_inv def
+R30892:30901 flows.ccm <> lift_opinv inst
+R30914:30931 flows.ccm <> nzmap_lookup_merge thm
+R30914:30931 flows.ccm <> nzmap_lookup_merge thm
+R30958:30968 flows.ccm <> nzmap_empty inst
+R30975:30981 flows.ccm lifting <> sec
+R30995:30999 flows.ccm <> NZMap constr
+R30995:30999 flows.ccm <> NZMap constr
+R31037:31045 flows.ccm <> nzmap_car proj
+R31037:31045 flows.ccm <> nzmap_car proj
+R31081:31098 flows.ccm <> nzmap_lookup_total inst
+R31081:31098 flows.ccm <> nzmap_lookup_total inst
