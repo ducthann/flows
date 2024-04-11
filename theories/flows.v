@@ -12,11 +12,10 @@
   (* From iris.heap_lang Require Export locations. *)
   Require Export flows.ccm flows.gmap_more.
   Require Import Coq.Setoids.Setoid.
-  Require Export compcert.common.Values.
+  From compcert Require Export common.Values. 
 
-  
   (* The set of nodes over which graphs are built. *)
-  Definition Node := val.
+  Definition Node := (prod val (prod val val)).
   
   Section flowint.
   
@@ -2094,7 +2093,7 @@ End flowint.
     (∀ n, n ∈ dom I_n'∖dom I_n → out_map Io !!! n = 0) →
     (● (I_n ⋅ Io) ⋅ ◯ I_n)  ~~>: (flowint_update_P (I_n ⋅ Io) I_n I_n').
   Proof.
-    intros Io In In' conteq Hintersect Hcond. apply cmra_discrete_updateP. 
+    intros Io In In' conteq Hintersect Hcond. apply cmra_discrete_total_updateP. 
     intros z Hv. assert (Hincl := Hv). apply cmra_valid_op_l in Hincl.
     assert (● (In ⋅ Io) ⋅ ◯ In = 
               View (Some (DfracOwn 1, to_agree (In ⋅ Io))) In) as Hdest.

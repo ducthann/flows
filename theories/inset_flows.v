@@ -41,7 +41,7 @@ Proof.
   destruct Hglob as [H1 [H2 H3]]. done.
 Qed.
 
-Lemma contextualLeq_impl_globalinv : ∀ I I' root,
+Lemma contextualLeq_impl_globalinv : ∀ (I I' : multiset_flowint_ur EqDecision1 H K) root,
     globalinv root I →
     contextualLeq K_multiset I I' →
     (∀ n, n ∈ dom I' ∖ dom I → inset _ _ K I' n = ∅) →
