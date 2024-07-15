@@ -15,7 +15,7 @@
   From compcert Require Export common.Values. 
 
   (* The set of nodes over which graphs are built. *)
-  Definition Node := (prod val (prod val val)).
+  Definition Node := val.
   
   Section flowint.
   
@@ -75,7 +75,7 @@ Global Instance int_eq_dec: EqDecision flowintT.
 Proof.
   unfold EqDecision.
   unfold Decision.
-  intros x y. 
+  intros x y.
   destruct x as [ [xI xO] | ]; destruct y as [ [yI yO] | ];
     try by right.
   - destruct (decide (xI = yI)) as [-> | ?].
@@ -112,6 +112,7 @@ Definition intComposable (I1: flowintT) (I2: flowintT) :=
   map_Forall (λ (n: Node) (m: flowdom), 
     m = out I1 n + (inf I2 n - out I1 n)) (inf_map I2).
 
+  
 Global Instance intComposable_dec (I1 I2: flowintT) : Decision (intComposable I1 I2).
 Proof.
   solve_decision.
@@ -166,6 +167,9 @@ Proof.
   auto.
 Qed.
 *)
+
+Check infComp_op _ _.
+Check inf_map _.
 
 Definition infComp I1 I2 := 
   gmap_imerge (infComp_op I1 I2) (inf_map I1) (inf_map I2).
@@ -861,6 +865,8 @@ Proof.
   trivial.
 Qed.
 
+Locate merge.
+
 (* Characterization of inflow of composed interfaces. *)
 Lemma intComp_inf_1 I1 I2 :
   ✓ (I1 ⋅ I2) → (∀ n, n ∈ dom I1 → inf (I1 ⋅ I2) n = inf I1 n - out I2 n).
@@ -883,6 +889,7 @@ Proof.
   reflexivity.
   try done.
 Qed.
+
 
 Lemma intComp_inf_2 I1 I2 :
   ✓ (I1 ⋅ I2) → (∀ n, n ∈ dom I2 → inf (I1 ⋅ I2) n = inf I2 n - out I1 n).
@@ -1477,7 +1484,6 @@ End flowint.
   Context (flowdom: Type) `{CCM flowdom} `{EqDecision Node} `{Countable Node}.
   
   Open Scope ccm_scope.
-  Print flowintT.
   
   (* The unital camera of flow interfaces. *)
   Canonical Structure flowintUR : ucmra := Ucmra flowintT flowint_ucmra_mixin.
@@ -1570,6 +1576,7 @@ End flowint.
     f_equal.
     apply map_eq.
     intros n.
+    
     assert (inf_map (I1 ⋅ I2) !! n = inf_map (I1 ⋅ I3) !! n) as Eqinf. 
     rewrite Eq. reflexivity.
     unfold op, cmra_op, ucmra_cmraR, flowintUR, ucmra_op, intComp, inf_map in Eqinf.
@@ -1913,7 +1920,7 @@ End flowint.
         + unfold dom, flowint_dom, In, inf_map in Hnm.
           simpl in Hnm. rewrite lookup_insert_ne  in Hnm; try done. }
     repeat split; try done.
-    - rewrite intComp_dom; try done. set_solver. 
+    - rewrite intComp_dom; try done. set_solver.
     - intros n' n'_in_I. rewrite (intComp_unfold_inf_1 I In); try done.
       unfold In at 2, out, out_map. simpl.
       rewrite nzmap_lookup_empty.
@@ -1922,9 +1929,9 @@ End flowint.
       unfold In, out at 3, out_map. simpl.
       rewrite nzmap_lookup_empty.
       by rewrite ccm_right_id.
-  Qed.      
-  
-  (* Adding a new node between I1 and n2 with all the flow redirected through the new node *)
+  Qed.
+
+   (* Adding a new node between I1 and n2 with all the flow redirected through the new node *)
   Lemma contextualLeq_insert_node (I1 I2 I1': flowintUR) (n1 n2: Node) :
     let m := out I1 n2 in
     let In1 := int {| infR := {[ n1 := m ]}; outR := <<[ n2 := m ]>> ∅ |} in 
@@ -1951,7 +1958,7 @@ End flowint.
     assert (dom In1 = {[n1]}) as Domm_In1.
     { set_solver. }
     assert (dom In1' = {[n1]}) as Domm_In1'.
-    { set_solver. }
+    { clear  -In1'. set_solver. }
     assert (✓ (I1 ⋅ In1')) as VI''.
     { by destruct Hcont as (_&?&_). }
     apply leibniz_equiv_iff in Domm_I1.
@@ -1973,10 +1980,12 @@ End flowint.
           rewrite elem_of_dom.
           rewrite Hnx; try done. }
         assert (out In1 n = 0) as ->.
-        { rewrite /In1 /out /=. rewrite nzmap_lookup_total_insert_ne.
-          by rewrite nzmap_lookup_empty. rewrite <-Domm_I1 in H'.
+        {
+          rewrite /In1 /out /=. rewrite nzmap_lookup_total_insert_ne.
+          by rewrite nzmap_lookup_empty. rewrite <- Domm_I1 in H'.
           clear -H' n2_in_I2 Domm_disj.
-          set_solver.  }
+          set_solver.
+        }
         rewrite ccm_pinv_unit.
         rewrite ccm_left_id.
         unfold inf. rewrite Hnx. by simpl.
@@ -2073,8 +2082,255 @@ End flowint.
             clear -Hn2; set_solver. }
     by rewrite H' in Hcont.
   Qed.    
-                     
+
+
+  Lemma contextualLeq_insert_node_1' (Ip I1 In': flowintUR) (new_node tp n': Node) m1:
+     let I_new := int {| infR := {[ new_node := inf Ip tp ]};
+                       outR := <<[ tp := m1 ]>>∅ |} in 
+    (* new_node ∉ dom Ip ∪ dom In' -> *)
+    n' ∈ dom In' ->
+    dom Ip = {[tp]} ->
+    new_node <> tp ->
+    new_node ≠ n' ->
+    tp ≠ n' ->
+    (* out Ip new_node = 0%CCM -> *)
+    dom (out_map Ip) = {[n']} ->
+    I1 = int {| infR := {[ tp := m1 ]}; outR := out_map Ip |} ->
+    (forall I0, ✓ (I0 ⋅ Ip) /\ out (I0 ⋅ Ip) new_node = 0 /\ (out I0 tp = inf Ip tp) /\
+             (dom I0 ## dom Ip) /\ (dom I0 ## dom I_new) /\ (dom I0 ## dom In') ->
+           let I0':= int {| infR := inf_map I0; outR := <<[ tp := 0%CCM]>> <<[ new_node := out I0 tp ]>>(out_map I0) |}
+           in contextualLeq (I0 ⋅ Ip) (I0' ⋅ I1 ⋅ I_new) /\
+              inf (I0' ⋅ I1 ⋅ I_new) new_node = 0).
+   Proof.
+     intros ? Hdom_n'_In' HdomIp Hne_new_tp Hne_new_n' Hne_tp_n' Hdom_out_Ip_n' HI1 I0 I0p_cond I0'.
+     assert (dom Ip = dom I1) as domIp_I1. set_solver.
+     assert (dom I_new = {[new_node]}) as Hnew_in_Inew. set_solver.
+     assert (dom I1 = {[tp]} ) as Htp_in_I1. set_solver.
+     assert (dom Ip = {[tp]}) as Htp_in_Ip. set_solver.
+     assert (✓ I1) as VI1. { rewrite HI1. repeat split; try done. set_solver. }
+     destruct I0p_cond as (VI0_p & (HoutI0_p & (HI0_p & (HdomI0_p & (HdomI0_new & HdomI0_n'))))).
+     pose proof (intComp_valid_proj1 I0 Ip) as VI0; auto.
+     pose proof (intComp_valid_proj2 I0 Ip) as VIp; auto.
+     specialize (VI0 VI0_p). specialize (VIp VI0_p).
+     rewrite intComp_unfold_out in HoutI0_p; auto.
+     2: { rewrite intComp_dom; try done. set_solver. }
   
+     assert (out Ip new_node = 0) as HoutIp_new. { apply nzmap_elem_of_dom_total2. set_solver. }
+     assert (out I0 new_node = 0) as HoutI0_new. { by rewrite HoutIp_new ccm_right_id in HoutI0_p. }
+     clear HoutI0_p.
+  
+     assert (✓ I_new) as VInew; auto.
+     {
+       rewrite intValid_unfold.
+       repeat split; auto.
+       rewrite /I_new nzmap_dom_insert_nonzero //=. set_solver.
+       2: { set_solver. }
+       admit. (* m1 = 0 *)
+     }
+
+     assert (✓ (I1 ⋅ I_new)) as VI1_new.
+     {
+       apply intValid_composable.
+       unfold intComposable.
+       split ; auto. split; auto.
+       repeat split; [|intros i x Hix; rewrite HI1 
+                      |intros i x Hix; rewrite HI1].
+       * rewrite HI1 /I_new /=.
+         rewrite / dom /flowint_dom /=. set_solver.
+       * assert (i = tp) as ->.
+         { apply flowint_contains in Hix; auto. set_solver. }
+         rewrite HI1 /inf_map lookup_insert /= in Hix.
+         rewrite /inf /=.
+         rewrite /I_new /out nzmap_lookup_total_insert lookup_insert /=.
+         rewrite ccm_pinv_inv ccm_right_id. by injection Hix.
+       * assert (i = new_node) as ->.
+         { apply flowint_contains in Hix; auto. set_solver. }
+         rewrite /I_new /inf_map lookup_insert /= in Hix.
+         rewrite /inf /out lookup_insert /=.
+         rewrite /out in HoutIp_new.
+         rewrite HoutIp_new.
+         rewrite ccm_comm ccm_pinv_unit ccm_right_id.
+         by injection Hix.
+      } (* finish assert (✓ (I1 ⋅ I_new)) as VI1. *)
+
+     assert (✓ I0') as VI0'.
+     {
+       apply intValid_unfold in VI0.
+       apply intValid_unfold.
+       repeat split; try done.
+       - rewrite /I0'. simpl.
+         rewrite nzmap_dom_insert_zero; auto.
+         destruct VI0 as (? & ? & ? ). 
+         admit.
+       - destruct VI0 as (? & ? & ?).
+         admit.
+     }
+
+     assert (✓ (I0' ⋅ I1)) as VI0'_I1.
+     {
+       apply intValid_composable.
+       split; auto. split; auto.
+       repeat split; try done.
+       - set_solver.
+       - intros x i Hx.
+         rewrite HI1 /I0' /inf /out /=.
+         assert (inf_map I0 = inf_map I0') as ->. set_solver.
+         rewrite Hx.
+         apply elem_of_dom_2 in Hx.
+         assert (out_map Ip !!! x = 0) as ->.
+         {
+           rewrite /I0' /= in Hx.
+           assert (x ∉ dom (inf_map Ip)). set_solver.
+           assert (x <> n') as Hne_x_n'. { destruct (decide (x = n')); try done. set_solver. }
+           apply nzmap_elem_of_dom_total2.
+           set_solver.
+         }
+         by rewrite ccm_pinv_unit ccm_comm ccm_right_id.
+       - intros x i Hx.
+         pose proof Hx as Hx'.
+         apply elem_of_dom_2 in Hx.
+         rewrite HI1 /= in Hx.
+         assert (x = tp) as ->. set_solver.
+         rewrite /out /inf.
+         assert (out_map I0' !!! tp = 0) as ->.
+         {
+           rewrite /I0' /=.
+           rewrite nzmap_lookup_total_insert; auto.
+         }
+         rewrite Hx' /=.
+         by rewrite ccm_pinv_unit ccm_comm ccm_right_id.
+     }
+     assert ( ✓ (I0' ⋅ (I1 ⋅ I_new))) as VI0'_I1_Inew.
+     {
+       apply intValid_composable.
+       unfold intComposable.
+       split; auto. split; auto.
+       repeat split; try done.
+       + rewrite intComp_dom; try done. set_solver.
+       + intros i x Hix.
+         pose proof Hix as Hix'.
+         apply elem_of_dom_2 in Hix.
+         assert (i ∈ dom I0') as Hdom_i_in_I0'. set_solver.
+         assert (i ∉ dom (I1 ⋅ I_new)) as Hdom_i_not_in_I1_Inew.
+         { rewrite intComp_dom; auto. set_solver. }
+         rewrite (intComp_unfold_out I1 I_new); try done.
+         rewrite HI1 /out /=. 
+         rewrite nzmap_lookup_total_insert_ne.
+         rewrite nzmap_lookup_empty.
+         rewrite ccm_right_id.
+         2:  { set_solver. }
+         assert (out_map Ip !!! i = 0) as ->.
+         { apply nzmap_elem_of_dom_total2. set_solver. }
+         by rewrite ccm_comm ccm_right_id ccm_pinv_unit /inf Hix'.
+       + intros i x Hix.
+         rewrite /I0'. rewrite /out /=.
+         destruct (decide (i ∈ dom I1 ∪ dom I_new)) as [Hx | Hy].
+         {
+           rewrite elem_of_union in Hx.
+           destruct Hx as [HDomI1 | HDomInew].
+           {
+             assert (i = tp) as ->. set_solver. 
+             by rewrite nzmap_lookup_total_insert ccm_pinv_unit ccm_comm ccm_right_id /inf Hix.
+           }
+           {
+             assert (i = new_node) as ->. set_solver.
+             rewrite /out in HI0_p.
+             rewrite HI0_p nzmap_lookup_total_insert_ne /=.
+             rewrite nzmap_lookup_total_insert.
+             assert (inf Ip tp = inf (I1 ⋅ I_new) new_node) as ->.
+             {
+               rewrite intComp_inf_2; auto.
+               rewrite /I_new HI1 /inf /out lookup_insert /=.
+               rewrite /out in HoutIp_new. rewrite HoutIp_new.
+               by rewrite ccm_pinv_unit.
+             }
+             rewrite ccm_pinv_inv ccm_right_id.
+             by rewrite /inf Hix.
+             set_solver.
+           }
+         }
+         { apply flowint_contains in Hix; auto. rewrite intComp_dom in Hix; auto. contradiction. }
+     }
+
+     (* inf (I0' ⋅ I1 ⋅ I_new) new_node = 0%CCM *)
+     assert (inf (I0' ⋅ I1 ⋅ I_new) new_node = 0%CCM) as ->.
+     {
+       rewrite <- intComp_assoc_valid; auto.
+       rewrite (intComp_inf_2 I0' (I1  ⋅ I_new)); auto.
+       2: { rewrite intComp_dom; auto. set_solver. }
+       rewrite (intComp_inf_2 I1 I_new); try done.
+       2 : { set_solver. } 
+       rewrite /I_new HI1 /I0' /inf /out lookup_insert nzmap_lookup_total_insert_ne; try done.
+       rewrite nzmap_lookup_total_insert; try done.
+       rewrite /out /inf in HI0_p.
+       rewrite HI0_p /=.
+       rewrite /out in HoutIp_new. rewrite HoutIp_new.
+       by rewrite ccm_pinv_unit ccm_pinv_inv.
+     }
+       
+     (* main result *)
+     unfold contextualLeq.
+     repeat split; try done.
+     - rewrite <- intComp_assoc_valid; auto.
+     - rewrite (intComp_dom (I0' ⋅ I1) I_new); auto.
+       rewrite (intComp_dom I0' I1); auto.
+       2: { rewrite <- intComp_assoc_valid; auto. }
+       rewrite (intComp_dom I0 Ip); auto.
+       set_solver.
+     - intros n Hdom.
+       rewrite intComp_dom in Hdom; try done.
+       rewrite elem_of_union in Hdom.
+       destruct Hdom as [Hn | Hn].
+       {
+         assert (dom I0 = dom I0') as domI00'. set_solver.
+         rewrite domI00' in Hn.
+         rewrite <- (intComp_assoc_valid I0' I1 I_new); try done.
+         rewrite (intComp_inf_1 I0' (I1  ⋅ I_new)); try done.
+         rewrite (intComp_inf_1 I0 Ip); try done.
+         rewrite (intComp_unfold_out I1 I_new); try done.
+         rewrite / I_new HI1 /out nzmap_lookup_total_insert_ne; try done.
+         rewrite nzmap_lookup_empty ccm_right_id.
+         assert (inf I0 = inf I0') as ->. set_solver. auto.
+         set_solver.
+         rewrite (intComp_dom I1 I_new); auto. set_solver.
+       }
+       {
+         assert (n = tp) as ->. set_solver.
+         rewrite <- (intComp_assoc_valid I0' I1 I_new); try done.
+         rewrite (intComp_inf_2 I0' (I1  ⋅ I_new)); try done.
+         2: { rewrite (intComp_dom I1 I_new); auto. set_solver. }
+         rewrite (intComp_inf_1 I1 I_new); try done.
+         2: { set_solver. }
+         rewrite (intComp_inf_2 I0 Ip); try done.
+         rewrite /I0' HI1 /inf /out lookup_insert !nzmap_lookup_total_insert /=.
+         rewrite /inf /out in HI0_p.
+         rewrite HI0_p.
+         by rewrite ! ccm_pinv_inv.
+     }
+     - intros n Hdom.
+       rewrite <- (intComp_assoc_valid I0' I1 I_new) in Hdom; try done.
+       pose proof Hdom as Hdom'.
+       rewrite (intComp_dom I0' (I1 ⋅ I_new)) in Hdom'; auto.
+       rewrite (intComp_dom I1 I_new) in Hdom'; auto.
+       rewrite <- (intComp_assoc_valid I0' I1 I_new); try done.
+       rewrite (intComp_unfold_out I0' (I1 ⋅ I_new)); try done.
+       rewrite (intComp_unfold_out I0 Ip); try done.
+       2: { rewrite (intComp_dom I0 Ip); auto. set_solver. }
+       rewrite (intComp_unfold_out I1 I_new); try done.
+       2: { rewrite (intComp_dom I1 I_new); auto. set_solver. }
+       assert (out I_new n = 0 %CCM) as ->.
+       { rewrite /I_new /out /out_map nzmap_lookup_total_insert_ne /=.
+         by rewrite nzmap_lookup_empty. set_solver.
+       }
+       assert (out I0 n = out I0' n) as ->.
+       {
+         rewrite /I0' /out /out_map ! nzmap_lookup_total_insert_ne; auto.
+         set_solver. set_solver.
+       }
+       assert (out Ip n = out I1 n) as ->. set_solver.
+       rewrite ccm_right_id. done.
+Admitted.
+     
   (* Frame-preserving updates of contextually-extended flow interfaces. *)
   Definition flowint_update_P (I I_n I_n': flowintUR) (x : authR flowintUR) :=
     match (view_auth_proj x) with
