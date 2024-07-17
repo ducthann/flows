@@ -2118,23 +2118,26 @@ End flowint.
      assert (out Ip new_node = 0) as HoutIp_new. { apply nzmap_elem_of_dom_total2. set_solver. }
      assert (out I0 new_node = 0) as HoutI0_new. { by rewrite HoutIp_new ccm_right_id in HoutI0_p. }
      clear HoutI0_p.
-  
      assert (✓ I_new) as VInew; auto.
      {
        rewrite intValid_unfold.
        repeat split; auto.
        rewrite /I_new nzmap_dom_insert_nonzero //=. set_solver.
        2: { set_solver. }
+       assert (out I_new tp = m1).
+       {
+         rewrite /I_new /out /out_map /=.
+         rewrite nzmap_lookup_total_insert. auto.
+       }
+       
        admit. (* m1 = 0 *)
      }
-
      assert (✓ (I1 ⋅ I_new)) as VI1_new.
      {
        apply intValid_composable.
        unfold intComposable.
        split ; auto. split; auto.
-       repeat split; [|intros i x Hix; rewrite HI1 
-                      |intros i x Hix; rewrite HI1].
+       repeat split; [|intros i x Hix; rewrite HI1 | intros i x Hix; rewrite HI1].
        * rewrite HI1 /I_new /=.
          rewrite / dom /flowint_dom /=. set_solver.
        * assert (i = tp) as ->.
@@ -2151,7 +2154,7 @@ End flowint.
          rewrite HoutIp_new.
          rewrite ccm_comm ccm_pinv_unit ccm_right_id.
          by injection Hix.
-      } (* finish assert (✓ (I1 ⋅ I_new)) as VI1. *)
+     } (* finish assert (✓ (I1 ⋅ I_new)) as VI1. *)
 
      assert (✓ I0') as VI0'.
      {
@@ -2160,12 +2163,26 @@ End flowint.
        repeat split; try done.
        - rewrite /I0'. simpl.
          rewrite nzmap_dom_insert_zero; auto.
-         destruct VI0 as (? & ? & ? ). 
-         admit.
+         destruct VI0 as (? & ? & ? ).
+         rewrite nzmap_dom_insert_nonzero; last first. admit.
+         rewrite /out in HI0_p.
+         apply disjoint_difference_r2.
+         apply disjoint_union_r.
+         split; try done.
+         set_solver.
        - destruct VI0 as (? & ? & ?).
-         admit.
+         intros HinfI0'.
+         rewrite /I0' /out /=.
+         assert (out_map I0 = ∅) as ->. set_solver.
+         rewrite nzmap_lookup_empty.
+         apply nzmap_eq.
+         intros.
+         rewrite nzmap_lookup_empty.
+         destruct (decide (tp = k)) as [-> | Hk]. rewrite nzmap_lookup_total_insert; auto.
+         rewrite nzmap_lookup_total_insert_ne; auto.
+         destruct (decide (new_node = k)) as [-> | Hnew]. rewrite nzmap_lookup_total_insert; auto.
+         rewrite nzmap_lookup_total_insert_ne. set_solver. auto.
      }
-
      assert (✓ (I0' ⋅ I1)) as VI0'_I1.
      {
        apply intValid_composable.
@@ -2267,7 +2284,6 @@ End flowint.
        rewrite /out in HoutIp_new. rewrite HoutIp_new.
        by rewrite ccm_pinv_unit ccm_pinv_inv.
      }
-       
      (* main result *)
      unfold contextualLeq.
      repeat split; try done.
